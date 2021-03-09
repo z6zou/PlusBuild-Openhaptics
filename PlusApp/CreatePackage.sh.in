@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# First we need to build a Release version
+${CMAKE_COMMAND} --build . --config Release
+
+# Build documentation
+if [ "${BUILD_DOCUMENTATION}" == "ON"]; then
+  ./CreateUserManual.sh
+  echo User manual generation DONE
+fi
+
+# Build the package
+"${CMAKE_CPACK_COMMAND}" --config ./CPackConfig.cmake
+if [ $? -ne 0 ]; then
+  echo Unable to complete package
+  exit 1
+fi
+
+echo Package generation is successfully completed.
+exit 0

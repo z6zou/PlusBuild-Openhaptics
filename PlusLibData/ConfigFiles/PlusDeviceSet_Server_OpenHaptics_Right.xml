@@ -1,0 +1,39 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: Open Haptics device tracking Right"
+      Description="Broadcasting  device stylyus tracking data through OpenIGTLink." />
+    <Device
+      Id="TrackerDeviceRight"
+      Type="OpenHaptics"
+      AcquisitionRate="10"
+      ToolReferenceFrame="BaseRight"
+      DeviceName="Right Device"  >
+      <DataSources>
+        <DataSource Type="Tool" Id="StylusRight"  PortName="Stylus" />
+        <DataSource Type="Tool" Id="ButtonsRight"  PortName="Buttons" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="NeedleStreamRight">
+          <DataSource Id="StylusRight" />
+          <DataSource Id="ButtonsRight" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="10"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18889"
+    OutputChannelId="NeedleStreamRight" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusRightToBaseRight" />
+        <Transform Name="ButtonsRightToBaseRight" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+</PlusConfiguration>

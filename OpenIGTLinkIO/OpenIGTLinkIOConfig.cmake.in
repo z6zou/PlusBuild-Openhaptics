@@ -1,0 +1,24 @@
+if(NOT OpenIGTLink_FOUND)
+  set(OpenIGTLink_DIR "@OpenIGTLink_DIR@")
+  find_package(OpenIGTLink REQUIRED NO_MODULE)
+else()
+  if(NOT "@OpenIGTLink_VERSION_MAJOR@.@OpenIGTLink_VERSION_MINOR@.@OpenIGTLink_VERSION_PATCH@" VERSION_EQUAL "${OpenIGTLink_VERSION_MAJOR}.${OpenIGTLink_VERSION_MINOR}.${OpenIGTLink_VERSION_PATCH}")
+    message(SEND_ERROR "Different versions in OpenIGTLinkIO (@OpenIGTLink_VERSION_MAJOR@.@OpenIGTLink_VERSION_MINOR@.@OpenIGTLink_VERSION_PATCH@) and referencing project (${OpenIGTLink_VERSION_MAJOR}.${OpenIGTLink_VERSION_MINOR}.${OpenIGTLink_VERSION_PATCH}). Issues may arise.")
+  endif()
+endif()
+
+if(EXISTS ${OpenIGTLink_USE_FILE})
+  include(${OpenIGTLink_USE_FILE})
+endif()
+
+@OpenIGTLinkIO_CONFIG_CODE@
+
+include("@OpenIGTLinkIO_LIBRARY_TARGETS_FILE@")
+
+# Enable support for old style include/linking
+# It is highly recommended to link to target names, thus 
+#    includes/linking are handled automatically
+SET(OpenIGTLinkIO_FOUND 1)
+SET(OpenIGTLinkIO_LIBRARIES "@OpenIGTLinkIO_LIBRARIES@")
+
+@OpenIGTLinkIO_Qt_CONFIG_CODE@

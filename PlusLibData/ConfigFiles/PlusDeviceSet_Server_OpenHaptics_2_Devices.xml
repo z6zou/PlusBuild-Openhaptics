@@ -1,0 +1,75 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: Open Haptics device tracking 2 Devices"
+      Description="Broadcasting  device stylyus tracking data through OpenIGTLink." />
+    <Device
+      Id="TrackerDeviceLeft"
+      Type="OpenHaptics"
+      AcquisitionRate="5"
+      ToolReferenceFrame="BaseLeft"
+      DeviceName="Left Device"  >
+      <DataSources>
+        <DataSource Type="Tool" Id="StylusLeft"  PortName="Stylus" />
+        <DataSource Type="Tool" Id="ButtonsLeft"  PortName="Buttons" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="NeedleStreamLeft">
+          <DataSource Id="StylusLeft" />
+          <DataSource Id="ButtonsLeft" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+
+    <Device
+      Id="TrackerDeviceRight"
+      Type="OpenHaptics"
+      AcquisitionRate="5"
+      ToolReferenceFrame="BaseRight"
+      DeviceName="Right Device"  >
+      <DataSources>
+        <DataSource Type="Tool" Id="StylusRight"  PortName="Stylus" />
+        <DataSource Type="Tool" Id="ButtonsRight"  PortName="Buttons" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="NeedleStreamRight">
+          <DataSource Id="StylusRight" />
+          <DataSource Id="ButtonsRight" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+
+  </DataCollection>
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true" 
+    OutputChannelId="NeedleStreamLeft" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusLeftToBaseLeft" />
+        <Transform Name="ButtonsLeftToBaseLeft" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18945"
+    SendValidTransformsOnly="true" 
+    OutputChannelId="NeedleStreamRight" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusRightToBaseRight" />
+        <Transform Name="ButtonsRightToBaseRight" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+</PlusConfiguration>

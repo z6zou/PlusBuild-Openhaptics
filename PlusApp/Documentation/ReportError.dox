@@ -1,0 +1,24 @@
+/**
+
+\page ReportError How to report an error
+
+# Software error
+
+If you encounter an error, please follow the following instructions to help us to find and fix it more quickly.
+- Try to reproduce the error and filter out what steps are really required for the error to occur  
+- <a href="https://github.com/PlusToolkit/PlusLib/issues/new">Create an issue on GitHub.</a>
+- Describe exactly what steps you made before the error occurred
+- Describe what is the unexpected behaviour
+- Attach the log file to the ticket
+  - It is located in the directory named Output inside the folder you executed the application
+  - It is named [date]_[time]_PlusLog.txt
+  - Choose the one that was created when you ran the application performing only the steps that really needed (see first step)
+- If needed for easier understanding, attach a screenshot. Use compressed format (like .png, .jpg, .gif).
+
+Thank you for helping to improve Plus!
+
+# Documentation error
+
+If you find a documentation error on the wiki then <a href="https://github.com/PlusToolkit/PlusLib/issues/new">create an issue on GitHub.</a>
+
+*/

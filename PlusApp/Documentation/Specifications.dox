@@ -1,0 +1,18 @@
+/**
+
+\page Specifications Specifications
+
+Commonly used specifications:
+- \subpage UltrasoundImageOrientation
+- \subpage CommonCoordinateSystems
+- \subpage ApplicationfCalCoordinateSystemDefinitions
+- \subpage TransformationMatrix
+- \subpage PlusServerCommands
+
+File formats:
+- \subpage FileDeviceSetConfiguration
+- \subpage FileApplicationConfiguration
+- \subpage FileSequenceFile
+- \subpage FileLog
+
+*/
