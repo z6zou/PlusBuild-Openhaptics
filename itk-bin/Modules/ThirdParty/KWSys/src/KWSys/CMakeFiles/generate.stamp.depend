@@ -1,11 +1,9 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/KWSYS_SYS_HAS_IFADDRS_H.c
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/Base64.h.in
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/CommandLineArguments.hxx.in
@@ -30,6 +28,4 @@ C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/hash_map.hxx.in
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/hash_set.hxx.in
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/hashtable.hxx.in
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTests.cmake
-C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsC.c
-C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/kwsysPrivate.h

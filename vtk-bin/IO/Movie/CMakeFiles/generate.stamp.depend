@@ -14,8 +14,6 @@ C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkutf8.cmake
 C:/Project/PlusB-bin/vtk/CMake/vtkModuleHeaders.cmake.in
 C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
 C:/Project/PlusB-bin/vtk/CMake/vtkTestVideoForWindows.cmake
-C:/Project/PlusB-bin/vtk/CMake/vtkTestvfw32.cxx
-C:/Project/PlusB-bin/vtk/CMake/vtkTestvfw32Capture.cxx
 C:/Project/PlusB-bin/vtk/CMake/vtkexportheader.cmake.in
 C:/Project/PlusB-bin/vtk/IO/Movie/CMakeLists.txt
 C:/Project/PlusB-bin/vtk/IO/Movie/module.cmake

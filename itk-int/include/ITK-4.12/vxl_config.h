@@ -208,7 +208,7 @@
 #define VXL_HAS_POSIX_MEMALIGN 0
 
 /* true if wchar_t overloading functions are supported on Windows */
-#define VXL_USE_WIN_WCHAR_T 0
+#define VXL_USE_WIN_WCHAR_T 1
 
 /* true if VXL is built shared */
 /* #undef VXL_BUILD_SHARED_LIBS */

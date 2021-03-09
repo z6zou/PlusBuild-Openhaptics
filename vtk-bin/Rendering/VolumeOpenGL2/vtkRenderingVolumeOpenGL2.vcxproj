@@ -570,6 +570,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Project\PlusB-bin\vtk\Rendering\VolumeOpenGL2\vtkOpenGLVolumeGradientOpacityTable.h" />
     <ClInclude Include="C:\Project\PlusB-bin\vtk\Rendering\VolumeOpenGL2\vtkOpenGLTransferFunction2D.h" />
     <ClInclude Include="C:\Project\PlusB-bin\vtk\Rendering\VolumeOpenGL2\vtkOpenGLUniforms.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\raycasterfs.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\raycastervs.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraVS.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraFS.h" />
     <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2ObjectFactory.h" />
     <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2Module.h" />
   </ItemGroup>

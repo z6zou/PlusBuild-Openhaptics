@@ -1,6 +1,4 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckFunctionExists.c
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
 C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonCore.cmake
@@ -13,4 +11,3 @@ C:/Project/PlusB-bin/vtk/CMake/vtkexportheader.cmake.in
 C:/Project/PlusB-bin/vtk/Common/System/CMakeLists.txt
 C:/Project/PlusB-bin/vtk/Common/System/module.cmake
 C:/Project/PlusB-bin/vtk/Common/System/vtkTestSocketFeatures.cmake
-C:/Project/PlusB-bin/vtk/Common/System/vtkTestSocklenT.cxx

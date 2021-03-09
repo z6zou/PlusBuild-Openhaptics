@@ -1,0 +1,568 @@
+﻿  Creating directories for 'PlusLib'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'PlusLib'
+  -- Avoiding repeated git clone, stamp file is up to date: 'C:/Project/PlusB-bin/PlusLib-prefix/src/PlusLib-stamp/PlusLib-gitclone-lastrun.txt'
+  Performing update step for 'PlusLib'
+  From https://github.com/PlusToolkit/PlusLib
+   * [new branch]        clarius_changes -> origin/clarius_changes
+     fbb91a42..36731083  master          -> origin/master
+  No patch step for 'PlusLib'
+  Performing configure step for 'PlusLib'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- Configuring PLUS toolkit version 2.8.0.
+  -- Detected platform: Win64.
+  -- Current git hash is 62873a16c3c0b326648e51f0665c2804d1b97bd8
+  CMake Deprecation Warning at C:/Project/PlusBuild/Modules/FindOpenHaptics.cmake:55 (cmake_minimum_required):
+    Compatibility with CMake < 2.8.12 will be removed from a future version of
+    CMake.
+  
+    Update the VERSION argument <min> value or use a ...<max> suffix to tell
+    CMake that the project does not need compatibility with older versions.
+  Call Stack (most recent call first):
+    src/PlusDataCollection/CMakeLists.txt:528 (FIND_PACKAGE)
+  
+  
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Project/PlusB-bin/PlusLib-bin
+  Performing build step for 'PlusLib'
+  Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusCommon.cxx
+    vtkPlusAccurateTimer.cxx
+    vtkPlusLogger.cxx
+    vtkPlusHTMLGenerator.cxx
+    vtkPlusConfig.cxx
+    PlusMath.cxx
+    vtkPlusTransformRepository.cxx
+    PlusVideoFrame.cxx
+    vtkPlusTrackedFrameList.cxx
+    PlusTrackedFrame.cxx
+    vtkPlusMetaImageSequenceIO.cxx
+    vtkPlusNrrdSequenceIO.cxx
+    vtkPlusSequenceIOBase.cxx
+    vtkPlusSequenceIO.cxx
+    vtkPlusRecursiveCriticalSection.cxx
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusCommon.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusCommon.exp
+    vtkPlusCommon.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusCommon.dll
+    vtkPlusCommon.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusCommon.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    AccurateTimerTest.cxx
+    Generating Code...
+    AccurateTimerTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\AccurateTimerTest.exe
+    AccurateTimerTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/AccurateTimerTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt
+    mocs_compilation.cpp
+    BrainLabTrackerSim.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/BrainLabTrackerSim.lib and object C:/Project/PlusB-bin/lib/Debug/BrainLabTrackerSim.exp
+    BrainLabTrackerSim.vcxproj -> C:\Project\PlusB-bin\bin\Debug\BrainLabTrackerSim.exe
+    BrainLabTrackerSim.vcxproj -> C:/Project/PlusB-bin/bin/Debug/BrainLabTrackerSim.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/CMakeLists.txt
+    mocs_compilation.cpp
+    CompareVolumes.cxx
+    vtkPlusCompareVolumes.cxx
+    Generating Code...
+    CompareVolumes.vcxproj -> C:\Project\PlusB-bin\bin\Debug\CompareVolumes.exe
+    CompareVolumes.vcxproj -> C:/Project/PlusB-bin/bin/Debug/CompareVolumes.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusRendering/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusPlotter.cxx
+    vtkPlusToolAxesActor.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusRendering.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusRendering.exp
+    vtkPlusRendering.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusRendering.dll
+    vtkPlusRendering.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusRendering.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusFidSegmentation.cxx
+    PlusFidLineFinder.cxx
+    PlusFidLabeling.cxx
+    PlusFidPatternRecognitionCommon.cxx
+    PlusFidPatternRecognition.cxx
+    PlusPatternLocResultFile.cxx
+    vtkPlusProbeCalibrationAlgo.cxx
+    vtkPlusProbeCalibrationOptimizerAlgo.cxx
+    vtkPlusPivotCalibrationAlgo.cxx
+    vtkPlusPhantomLandmarkRegistrationAlgo.cxx
+    vtkPlusLandmarkDetectionAlgo.cxx
+    vtkPlusReadTrackedSignals.cxx
+    vtkPlusPhantomLinearObjectRegistrationAlgo.cxx
+    vtkPlusSpacingCalibAlgo.cxx
+    vtkPlusCenterOfRotationCalibAlgo.cxx
+    vtkPlusBrachyStepperPhantomRegistrationAlgo.cxx
+    vtkPlusTemporalCalibrationAlgo.cxx
+    vtkPlusPrincipalMotionDetectionAlgo.cxx
+    vtkPlusLineSegmentationAlgo.cxx
+    Generating Code...
+    Compiling...
+    Line.cxx
+    LinearObject.cxx
+    LinearObjectBuffer.cxx
+    Point.cxx
+    Plane.cxx
+    Planes.cxx
+    PointObservation.cxx
+    PointObservationBuffer.cxx
+    Reference.cxx
+    References.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusCalibration.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusCalibration.exp
+    vtkPlusCalibration.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusCalibration.dll
+    vtkPlusCalibration.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusCalibration.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusTrackedFrameProcessor.cxx
+    vtkPlusBoneEnhancer.cxx
+    vtkPlusRfToBrightnessConvert.cxx
+    vtkPlusUsScanConvert.cxx
+    vtkPlusUsScanConvertLinear.cxx
+    vtkPlusUsScanConvertCurvilinear.cxx
+    vtkPlusRfProcessor.cxx
+    vtkPlusTransverseProcessEnhancer.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusImageProcessing.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusImageProcessing.exp
+    vtkPlusImageProcessing.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusImageProcessing.dll
+    vtkPlusImageProcessing.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusImageProcessing.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusOpenIGTLink/CMakeLists.txt
+    mocs_compilation.cpp
+    igtlPlusClientInfoMessage.cxx
+    igtlPlusUsMessage.cxx
+    igtlPlusTrackedFrameMessage.cxx
+    PlusIgtlClientInfo.cxx
+    vtkPlusIgtlMessageFactory.cxx
+    vtkPlusIgtlMessageCommon.cxx
+    vtkPlusIGTLMessageQueue.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusOpenIGTLink.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusOpenIGTLink.exp
+    vtkPlusOpenIGTLink.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusOpenIGTLink.dll
+    vtkPlusOpenIGTLink.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusOpenIGTLink.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusUsSimulatorAlgo.cxx
+    PlusSpatialModel.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusUsSimulator.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusUsSimulator.exp
+    vtkPlusUsSimulator.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusUsSimulator.dll
+    vtkPlusUsSimulator.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusUsSimulator.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusPasteSliceIntoVolume.cxx
+    vtkPlusVolumeReconstructor.cxx
+    vtkPlusFillHolesInVolume.cxx
+    vtkPlusFanAngleDetectorAlgo.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusVolumeReconstruction.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusVolumeReconstruction.exp
+    vtkPlusVolumeReconstruction.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusVolumeReconstruction.dll
+    vtkPlusVolumeReconstruction.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusVolumeReconstruction.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusDataCollector.cxx
+    vtkPlusDevice.cxx
+    vtkPlusUsDevice.cxx
+    vtkPlusChannel.cxx
+    vtkPlusDeviceFactory.cxx
+    vtkPlusDataSource.cxx
+    vtkPlusTimestampedCircularBuffer.cxx
+    PlusStreamBufferItem.cxx
+    vtkPlusGenericSerialDevice.cxx
+    PlusSerialLine.cxx
+    vtkFcsvReader.cxx
+    vtkFcsvWriter.cxx
+    vtkPlusBuffer.cxx
+    vtkPlusUsImagingParameters.cxx
+    vtkPlusVirtualMixer.cxx
+    vtkPlusVirtualSwitcher.cxx
+    vtkPlusVirtualCapture.cxx
+    vtkPlusVirtualVolumeReconstructor.cxx
+    vtkPlusFakeTracker.cxx
+    vtkPlusSavedDataSource.cxx
+    vtkPlusImageProcessorVideoSource.cxx
+    vtkPlusUsSimulatorVideoSource.cxx
+    vtkPlusOpenHapticsDevice.cxx
+    vtkPlusChRoboticsTracker.cxx
+    vtkPlusMicrochipTracker.cxx
+    vtkPlusOpenIGTLinkDevice.cxx
+    vtkPlusOpenIGTLinkTracker.cxx
+    vtkPlusOpenIGTLinkVideoSource.cxx
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusDataCollection.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusDataCollection.exp
+    vtkPlusDataCollection.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusDataCollection.dll
+    vtkPlusDataCollection.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusDataCollection.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/CMakeLists.txt
+    mocs_compilation.cpp
+    ConvertFcsvToXml.cxx
+    Generating Code...
+    ConvertFcsvToXml.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ConvertFcsvToXml.exe
+    ConvertFcsvToXml.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ConvertFcsvToXml.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/CMakeLists.txt
+    mocs_compilation.cpp
+    ConvertXmlToFcsv.cxx
+    Generating Code...
+    ConvertXmlToFcsv.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ConvertXmlToFcsv.exe
+    ConvertXmlToFcsv.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ConvertXmlToFcsv.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/CMakeLists.txt
+    mocs_compilation.cpp
+    CreateSliceModels.cxx
+    Generating Code...
+    CreateSliceModels.vcxproj -> C:\Project\PlusB-bin\bin\Debug\CreateSliceModels.exe
+    CreateSliceModels.vcxproj -> C:/Project/PlusB-bin/bin/Debug/CreateSliceModels.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/CMakeLists.txt
+    mocs_compilation.cpp
+    DrawClipRegion.cxx
+    Generating Code...
+    DrawClipRegion.vcxproj -> C:\Project\PlusB-bin\bin\Debug\DrawClipRegion.exe
+    DrawClipRegion.vcxproj -> C:/Project/PlusB-bin/bin/Debug/DrawClipRegion.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/CMakeLists.txt
+    mocs_compilation.cpp
+    DrawScanLines.cxx
+    Generating Code...
+    DrawScanLines.vcxproj -> C:\Project\PlusB-bin\bin\Debug\DrawScanLines.exe
+    DrawScanLines.vcxproj -> C:/Project/PlusB-bin/bin/Debug/DrawScanLines.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/CMakeLists.txt
+    mocs_compilation.cpp
+    EditSequenceFile.cxx
+    Generating Code...
+    EditSequenceFile.vcxproj -> C:\Project\PlusB-bin\bin\Debug\EditSequenceFile.exe
+    EditSequenceFile.vcxproj -> C:/Project/PlusB-bin/bin/Debug/EditSequenceFile.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/CMakeLists.txt
+    mocs_compilation.cpp
+    EnhanceUsTrpSequence.cxx
+    Generating Code...
+    EnhanceUsTrpSequence.vcxproj -> C:\Project\PlusB-bin\bin\Debug\EnhanceUsTrpSequence.exe
+    EnhanceUsTrpSequence.vcxproj -> C:/Project/PlusB-bin/bin/Debug/EnhanceUsTrpSequence.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/CMakeLists.txt
+    mocs_compilation.cpp
+    ExtractScanLines.cxx
+    Generating Code...
+    ExtractScanLines.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ExtractScanLines.exe
+    ExtractScanLines.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ExtractScanLines.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusRendering/CMakeLists.txt
+    mocs_compilation.cpp
+    ModelRenderer.cxx
+    Generating Code...
+    ModelRenderer.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ModelRenderer.exe
+    ModelRenderer.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ModelRenderer.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    PatternLocTest.cxx
+    Generating Code...
+    PatternLocTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PatternLocTest.exe
+    PatternLocTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PatternLocTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusCommonTest.cxx
+    Generating Code...
+    PlusCommonTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PlusCommonTest.exe
+    PlusCommonTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PlusCommonTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusMathTest.cxx
+    Generating Code...
+    PlusMathTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PlusMathTest.exe
+    PlusMathTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PlusMathTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusServer/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusOpenIGTLinkServer.cxx
+    vtkPlusOpenIGTLinkClient.cxx
+    vtkPlusCommandResponse.cxx
+    vtkPlusCommandProcessor.cxx
+    vtkPlusCommand.cxx
+    vtkPlusVersionCommand.cxx
+    vtkPlusReconstructVolumeCommand.cxx
+    vtkPlusStartStopRecordingCommand.cxx
+    vtkPlusRequestIdsCommand.cxx
+    vtkPlusUpdateTransformCommand.cxx
+    vtkPlusSaveConfigCommand.cxx
+    vtkPlusSendTextCommand.cxx
+    vtkPlusGetImageCommand.cxx
+    vtkPlusGetPolydataCommand.cxx
+    vtkPlusGetTransformCommand.cxx
+    vtkPlusSetUsParameterCommand.cxx
+    vtkPlusGetUsParameterCommand.cxx
+    vtkPlusAddRecordingDeviceCommand.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusServer.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusServer.exp
+    vtkPlusServer.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusServer.dll
+    vtkPlusServer.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusServer.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusServer/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusServer.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/PlusServer.lib and object C:/Project/PlusB-bin/lib/Debug/PlusServer.exp
+    PlusServer.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PlusServer.exe
+    PlusServer.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PlusServer.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusServer/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusServerRemoteControl.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/PlusServerRemoteControl.lib and object C:/Project/PlusB-bin/lib/Debug/PlusServerRemoteControl.exp
+    PlusServerRemoteControl.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PlusServerRemoteControl.exe
+    PlusServerRemoteControl.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PlusServerRemoteControl.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusVersion.cxx
+    Generating Code...
+    PlusVersion.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PlusVersion.exe
+    PlusVersion.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PlusVersion.pdb (Full PDB)
+    Automatic RCC for PlusWidgets.qrc
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusWidgets/CMakeLists.txt
+    mocs_compilation.cpp
+    QPlusDeviceSetSelectorWidget.cxx
+    QPlusStatusIcon.cxx
+    QPlusToolStateDisplayWidget.cxx
+    QPlusConfigFileSaverDialog.cxx
+    qrc_PlusWidgets.cpp
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/PlusWidgets.lib and object C:/Project/PlusB-bin/lib/Debug/PlusWidgets.exp
+    PlusWidgets.vcxproj -> C:\Project\PlusB-bin\bin\Debug\PlusWidgets.dll
+    PlusWidgets.vcxproj -> C:/Project/PlusB-bin/bin/Debug/PlusWidgets.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/CMakeLists.txt
+    mocs_compilation.cpp
+    ProbeCalibration.cxx
+    Generating Code...
+    ProbeCalibration.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ProbeCalibration.exe
+    ProbeCalibration.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ProbeCalibration.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    ReplayRecordedDataTest.cxx
+    Generating Code...
+    ReplayRecordedDataTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ReplayRecordedDataTest.exe
+    ReplayRecordedDataTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ReplayRecordedDataTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/CMakeLists.txt
+    mocs_compilation.cpp
+    RfProcessor.cxx
+    Generating Code...
+    RfProcessor.vcxproj -> C:\Project\PlusB-bin\bin\Debug\RfProcessor.exe
+    RfProcessor.vcxproj -> C:/Project/PlusB-bin/bin/Debug/RfProcessor.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/CMakeLists.txt
+    mocs_compilation.cpp
+    ScanConvert.cxx
+    Generating Code...
+    ScanConvert.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ScanConvert.exe
+    ScanConvert.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ScanConvert.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/CMakeLists.txt
+    mocs_compilation.cpp
+    TemporalCalibration.cxx
+    Generating Code...
+    TemporalCalibration.vcxproj -> C:\Project\PlusB-bin\bin\Debug\TemporalCalibration.exe
+    TemporalCalibration.vcxproj -> C:/Project/PlusB-bin/bin/Debug/TemporalCalibration.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    TimestampFilteringTest.cxx
+    Generating Code...
+    TimestampFilteringTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\TimestampFilteringTest.exe
+    TimestampFilteringTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/TimestampFilteringTest.pdb (Full PDB)
+    Automatic RCC for ../PlusWidgets.qrc
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusWidgets/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    ToolStateDisplayWidgetTest.cxx
+    qrc_PlusWidgets.cpp
+    Generating Code...
+    ToolStateDisplayWidgetTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ToolStateDisplayWidgetTest.exe
+    ToolStateDisplayWidgetTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ToolStateDisplayWidgetTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    TrackingTest.cxx
+    Generating Code...
+    TrackingTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\TrackingTest.exe
+    TrackingTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/TrackingTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    TransformInterpolationTest.cxx
+    Generating Code...
+    TransformInterpolationTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\TransformInterpolationTest.exe
+    TransformInterpolationTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/TransformInterpolationTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt
+    mocs_compilation.cpp
+    ViewSequenceFile.cxx
+    Generating Code...
+    ViewSequenceFile.vcxproj -> C:\Project\PlusB-bin\bin\Debug\ViewSequenceFile.exe
+    ViewSequenceFile.vcxproj -> C:/Project/PlusB-bin/bin/Debug/ViewSequenceFile.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/CMakeLists.txt
+    mocs_compilation.cpp
+    VolumeReconstructor.cxx
+    Generating Code...
+    VolumeReconstructor.vcxproj -> C:\Project\PlusB-bin\bin\Debug\VolumeReconstructor.exe
+    VolumeReconstructor.vcxproj -> C:/Project/PlusB-bin/bin/Debug/VolumeReconstructor.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac/CMakeLists.txt
+    mocs_compilation.cpp
+    planeEstimation.cxx
+    Generating Code...
+    planeEstimation.vcxproj -> C:\Project\PlusB-bin\bin\Debug\planeEstimation.exe
+    planeEstimation.vcxproj -> C:/Project/PlusB-bin/bin/Debug/planeEstimation.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac/CMakeLists.txt
+    mocs_compilation.cpp
+    sphereEstimation.cxx
+    Generating Code...
+    sphereEstimation.vcxproj -> C:\Project\PlusB-bin\bin\Debug\sphereEstimation.exe
+    sphereEstimation.vcxproj -> C:/Project/PlusB-bin/bin/Debug/sphereEstimation.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtk3DDataCollectorTest1.cxx
+    Generating Code...
+    vtk3DDataCollectorTest1.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtk3DDataCollectorTest1.exe
+    vtk3DDataCollectorTest1.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtk3DDataCollectorTest1.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkCenterOfRotationCalibAlgoTest.cxx
+    Generating Code...
+    vtkCenterOfRotationCalibAlgoTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkCenterOfRotationCalibAlgoTest.exe
+    vtkCenterOfRotationCalibAlgoTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkCenterOfRotationCalibAlgoTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkDataCollectorFileTest.cxx
+    Generating Code...
+    vtkDataCollectorFileTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkDataCollectorFileTest.exe
+    vtkDataCollectorFileTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkDataCollectorFileTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkDataCollectorTest1.cxx
+    Generating Code...
+    vtkDataCollectorTest1.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkDataCollectorTest1.exe
+    vtkDataCollectorTest1.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkDataCollectorTest1.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkDataCollectorTest2.cxx
+    Generating Code...
+    vtkDataCollectorTest2.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkDataCollectorTest2.exe
+    vtkDataCollectorTest2.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkDataCollectorTest2.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkDataCollectorVideoAcqTest.cxx
+    Generating Code...
+    vtkDataCollectorVideoAcqTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkDataCollectorVideoAcqTest.exe
+    vtkDataCollectorVideoAcqTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkDataCollectorVideoAcqTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkFcsvReaderTest1.cxx
+    Generating Code...
+    vtkFcsvReaderTest1.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkFcsvReaderTest1.exe
+    vtkFcsvReaderTest1.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkFcsvReaderTest1.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkFcsvWriterTest1.cxx
+    Generating Code...
+    vtkFcsvWriterTest1.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkFcsvWriterTest1.exe
+    vtkFcsvWriterTest1.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkFcsvWriterTest1.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkFreehandCalibrationStatisticalEvaluation.cxx
+    Generating Code...
+    vtkFreehandCalibrationStatisticalEvaluation.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkFreehandCalibrationStatisticalEvaluation.exe
+    vtkFreehandCalibrationStatisticalEvaluation.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkFreehandCalibrationStatisticalEvaluation.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkLineSegmentationAlgoTest.cxx
+    Generating Code...
+    vtkLineSegmentationAlgoTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkLineSegmentationAlgoTest.exe
+    vtkLineSegmentationAlgoTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkLineSegmentationAlgoTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkMetaImageSequenceIOTest.cxx
+    Generating Code...
+    vtkMetaImageSequenceIOTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkMetaImageSequenceIOTest.exe
+    vtkMetaImageSequenceIOTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkMetaImageSequenceIOTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkOpenHapticsDeviceTest.cxx
+    Generating Code...
+    vtkOpenHapticsDeviceTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkOpenHapticsDeviceTest.exe
+    vtkOpenHapticsDeviceTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkOpenHapticsDeviceTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkOpenIGTLinkTrackerTest.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkOpenIGTLinkTrackerTest.lib and object C:/Project/PlusB-bin/lib/Debug/vtkOpenIGTLinkTrackerTest.exp
+    vtkOpenIGTLinkTrackerTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkOpenIGTLinkTrackerTest.exe
+    vtkOpenIGTLinkTrackerTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkOpenIGTLinkTrackerTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPhantomRegistrationLandmarkDetectionTest.cxx
+    Generating Code...
+    vtkPhantomRegistrationLandmarkDetectionTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPhantomRegistrationLandmarkDetectionTest.exe
+    vtkPhantomRegistrationLandmarkDetectionTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPhantomRegistrationLandmarkDetectionTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPhantomRegistrationTest.cxx
+    Generating Code...
+    vtkPhantomRegistrationTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPhantomRegistrationTest.exe
+    vtkPhantomRegistrationTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPhantomRegistrationTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusDeviceFactoryTest.cxx
+    Generating Code...
+    vtkPlusDeviceFactoryTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusDeviceFactoryTest.exe
+    vtkPlusDeviceFactoryTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusDeviceFactoryTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Haptics/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusForceFeedback.cxx
+    vtkPlusHapticForce.cxx
+    vtkPlusImplicitSplineForce.cxx
+    vtkPlusPolydataForce.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusHaptics.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusHaptics.exp
+    vtkPlusHaptics.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusHaptics.dll
+    vtkPlusHaptics.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusHaptics.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusLoggerTest.cxx
+    Generating Code...
+    vtkPlusLoggerTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusLoggerTest.exe
+    vtkPlusLoggerTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusLoggerTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusServer/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusServerTest.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/vtkPlusServerTest.lib and object C:/Project/PlusB-bin/lib/Debug/vtkPlusServerTest.exp
+    vtkPlusServerTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusServerTest.exe
+    vtkPlusServerTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusServerTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkPlusTransverseProcessEnhancerTest.cxx
+    Generating Code...
+    vtkPlusTransverseProcessEnhancerTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusTransverseProcessEnhancerTest.exe
+    vtkPlusTransverseProcessEnhancerTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusTransverseProcessEnhancerTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkUsSimulatorAlgoTest.cxx
+    Generating Code...
+    vtkPlusUsSimulatorTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkPlusUsSimulatorTest.exe
+    vtkPlusUsSimulatorTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkPlusUsSimulatorTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkSegmentedWiresPositionsTest.cxx
+    Generating Code...
+    vtkSegmentedWiresPositionsTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkSegmentedWiresPositionsTest.exe
+    vtkSegmentedWiresPositionsTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkSegmentedWiresPositionsTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkSpacingCalibAlgoTest.cxx
+    Generating Code...
+    vtkSpacingCalibAlgoTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkSpacingCalibAlgoTest.exe
+    vtkSpacingCalibAlgoTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkSpacingCalibAlgoTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCalibration/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkStylusCalibrationTest.cxx
+    Generating Code...
+    vtkStylusCalibrationTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkStylusCalibrationTest.exe
+    vtkStylusCalibrationTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkStylusCalibrationTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusCommon/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    vtkTransformRepositoryTest.cxx
+    Generating Code...
+    vtkTransformRepositoryTest.vcxproj -> C:\Project\PlusB-bin\bin\Debug\vtkTransformRepositoryTest.exe
+    vtkTransformRepositoryTest.vcxproj -> C:/Project/PlusB-bin/bin/Debug/vtkTransformRepositoryTest.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/xio/CMakeLists.txt
+    mocs_compilation.cpp
+    MadgwickAhrsAlgo.cxx
+    MahonyAhrsAlgo.cxx
+    Generating Code...
+    vtkxio.vcxproj -> C:\Project\PlusB-bin\lib\Debug\vtkxio.lib
+    Building Custom Rule C:/Project/PlusB-bin/PlusLib/CMakeLists.txt
+  No install step for 'PlusLib'
+  Completed 'PlusLib'

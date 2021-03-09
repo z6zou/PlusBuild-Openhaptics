@@ -15,7 +15,7 @@
  * help@hdfgroup.org.                                                        *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
- * Created:		Nov  9, 2020
+ * Created:		Mar  9, 2021
  *			
  *
  * Purpose:		This machine-generated source code contains
@@ -38,7 +38,7 @@ char H5libhdf5_settings[]=
 	"General Information:\n"
 	"-------------------\n"
 	"                   HDF5 Version: 1.10.1\n"
-	"                  Configured on: 2020-11-09\n"
+	"                  Configured on: 2021-03-09\n"
 	"                  Configured by: Visual Studio 16 2019\n"
 	"                    Host system: Windows-10.0.18363\n"
 	"              Uname information: Windows\n"

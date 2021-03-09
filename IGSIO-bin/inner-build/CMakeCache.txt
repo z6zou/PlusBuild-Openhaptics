@@ -451,7 +451,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 COMPILER_HAS_DEPRECATED:INTERNAL=1
 //Test COMPILER_HAS_DEPRECATED_ATTR
 COMPILER_HAS_DEPRECATED_ATTR:INTERNAL=
-IGSIOLIB_DEPENDENCIES:INTERNAL=vtkVolumeReconstruction
+IGSIOLIB_DEPENDENCIES:INTERNAL=vtkVolumeReconstruction;vtkVolumeReconstruction
 //ADVANCED property for variable: IGSIO_USE_GPU
 IGSIO_USE_GPU-ADVANCED:INTERNAL=1
 vcProj_vtkVolumeReconstruction:INTERNAL=vtkVolumeReconstruction;/src/vtkVolumeReconstruction/vtkVolumeReconstruction.vcxproj;vtkIGSIOCommon;vtkIGSIODataCollection

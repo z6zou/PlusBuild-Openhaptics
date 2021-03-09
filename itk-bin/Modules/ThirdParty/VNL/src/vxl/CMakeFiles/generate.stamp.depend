@@ -1,5 +1,4 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeDependentOption.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CTest.cmake
@@ -8,35 +7,12 @@ C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSymbolExists.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckFunctionExists.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cxx.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/TestBigEndian.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/TestEndianess.c.in
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_DLFCN_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_FCNTL_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_HEADER_ASSERT_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_INTTYPES_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_LIMITS_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_MALLOC_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_MEMORY_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_SEARCH_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_STDINT_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_STDLIB_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_STRINGS_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_STRING_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_SYS_STAT_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_SYS_TIME_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_SYS_TYPES_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VCL_HAS_UNISTD_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VXL_HAS_PTHREAD_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/VXL_HAS_SEMAPHORE_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/CMakeLists.txt
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/Modules/CTestCustom.cmake
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/Modules/UseVXL.cmake
@@ -45,6 +21,5 @@ C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/Modules/VXL
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/CheckCXXExpressionCompiles.cmake
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/VXLIntrospectionConfig.cmake
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxlGetCXXCompilerVersion.cxx
-C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_utils.cmake
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/doxygen/doxygen.cmake

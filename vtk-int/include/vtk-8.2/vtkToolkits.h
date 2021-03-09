@@ -29,8 +29,8 @@
 /* Other Configuration Options                                              */
 
 /* Whether VTK is using vfw32 and if it supports video capture */
-/* #undef VTK_USE_VIDEO_FOR_WINDOWS */
-/* #undef VTK_VFW_SUPPORTS_CAPTURE */
+#define VTK_USE_VIDEO_FOR_WINDOWS
+#define VTK_VFW_SUPPORTS_CAPTURE
 
 /* Whether FFMPEG is found or not  */
 /* #undef VTK_USE_FFMPEG_ENCODER */

@@ -78,3 +78,21 @@ int main(int argc, char** argv)
   return 0;
 #endif
 }
+Determining if getsockname accepts socklen_t type  failed with the following output:
+Change Dir: C:/Project/PlusB-bin/OpenIGTLink-bin/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_93bfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24245 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W1 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_93bfc.dir\Debug\\" /Fd"cmTC_93bfc.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Project\PlusB-bin\OpenIGTLink\CMake\igtlTestSocklenT.cxx"
+  igtlTestSocklenT.cxx
+  
+C:\Project\PlusB-bin\OpenIGTLink\CMake\igtlTestSocklenT.cxx(11): error C2065: 'socklen_t': undeclared identifier [C:\Project\PlusB-bin\OpenIGTLink-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_93bfc.vcxproj]
+C:\Project\PlusB-bin\OpenIGTLink\CMake\igtlTestSocklenT.cxx(11): error C2059: syntax error: ')' [C:\Project\PlusB-bin\OpenIGTLink-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_93bfc.vcxproj]
+C:\Project\PlusB-bin\OpenIGTLink\CMake\igtlTestSocklenT.cxx(12): error C2065: 'socklen_t': undeclared identifier [C:\Project\PlusB-bin\OpenIGTLink-bin\CMakeTmp\SocklenT\CMakeFiles\CMakeTmp\cmTC_93bfc.vcxproj]
+
+
+

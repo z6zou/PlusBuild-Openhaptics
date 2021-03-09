@@ -1,5 +1,4 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmjpeg/CMakeLists.txt
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmjpeg/jconfig.h

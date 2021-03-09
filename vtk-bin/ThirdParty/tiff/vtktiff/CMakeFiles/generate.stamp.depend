@@ -1,22 +1,10 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/TestBigEndian.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/TestEndianess.c.in
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
-C:/Project/PlusB-bin/vtk-bin/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
 C:/Project/PlusB-bin/vtk/ThirdParty/tiff/vtktiff/CMakeLists.txt

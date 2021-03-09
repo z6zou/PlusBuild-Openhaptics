@@ -1,10 +1,7 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cxx.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
@@ -14,9 +11,6 @@ C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cm
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/TestBigEndian.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/TestEndianess.c.in
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_EMMINTRIN_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_FENV_H.c
 C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKDoubleConversion.cmake
 C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWIML.cmake
 C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWSys.cmake
@@ -25,7 +19,6 @@ C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKVNLInstantiation.cmak
 C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
 C:/Project/PlusB-bin/itk/CMake/exportheader.cmake.in
 C:/Project/PlusB-bin/itk/Modules/Core/Common/CMake/CheckCPPDirective.cmake
-C:/Project/PlusB-bin/itk/Modules/Core/Common/CMake/CheckCPPDirectiveExists.cxx.in
 C:/Project/PlusB-bin/itk/Modules/Core/Common/CMake/CheckSupportForSSERounding.cmake
 C:/Project/PlusB-bin/itk/Modules/Core/Common/CMake/itkCheckBuiltins.cmake
 C:/Project/PlusB-bin/itk/Modules/Core/Common/CMake/itkCheckCxx11StlTypeTraits.cxx

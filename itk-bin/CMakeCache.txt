@@ -1950,6 +1950,9 @@ VXL_UPDATE_CONFIGURATION:BOOL=OFF
 //Should VXL use Large File Support?
 VXL_USE_LFS:BOOL=OFF
 
+//Build overloading functions that accept Windows wide char strings?
+VXL_USE_WIN_WCHAR_T:BOOL=ON
+
 //Enable runtime warnings for deprecated functions?
 WARN_DEPRECATED:BOOL=ON
 
@@ -2396,7 +2399,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_EXPAT:INTERNAL=[ITKEXPAT][C:/Project/PlusB-bin/itk-
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[C:/Program Files/Git/cmd/git.exe][v2.29.2.windows.1()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/zhiling zou/AppData/Local/Programs/Python/Python39/python.exe][v3.9()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/zhiling zou/AppData/Local/Programs/Python/Python39/python.exe][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB

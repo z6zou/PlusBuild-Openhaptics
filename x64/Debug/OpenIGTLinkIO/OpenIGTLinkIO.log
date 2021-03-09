@@ -1,0 +1,74 @@
+﻿  Creating directories for 'OpenIGTLinkIO'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'OpenIGTLinkIO'
+  -- Avoiding repeated git clone, stamp file is up to date: 'C:/Project/PlusB-bin/OpenIGTLinkIO-prefix/src/OpenIGTLinkIO-stamp/OpenIGTLinkIO-gitclone-lastrun.txt'
+  Performing update step for 'OpenIGTLinkIO'
+  From https://github.com/IGSIO/OpenIGTLinkIO
+     2ebd97a..32feaaa  master     -> origin/master
+  No patch step for 'OpenIGTLinkIO'
+  Performing configure step for 'OpenIGTLinkIO'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Project/PlusB-bin/OpenIGTLinkIO-bin
+  Performing build step for 'OpenIGTLinkIO'
+  Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Converter/CMakeLists.txt
+    igtlioBaseConverter.cxx
+    igtlioCommandConverter.cxx
+    igtlioConverterUtilities.cxx
+    igtlioImageConverter.cxx
+    igtlioImageMetaConverter.cxx
+    igtlioLabelMetaConverter.cxx
+    igtlioPolyDataConverter.cxx
+    igtlioPointConverter.cxx
+    igtlioStatusConverter.cxx
+    igtlioStringConverter.cxx
+    igtlioTransformConverter.cxx
+    igtlioTrackingDataConverter.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/igtlioConverter.lib and object C:/Project/PlusB-bin/lib/Debug/igtlioConverter.exp
+    igtlioConverter.vcxproj -> C:\Project\PlusB-bin\bin\Debug\igtlioConverter.dll
+    igtlioConverter.vcxproj -> C:/Project/PlusB-bin/bin/Debug/igtlioConverter.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Devices/CMakeLists.txt
+    igtlioDevice.cxx
+    igtlioImageDevice.cxx
+    igtlioImageMetaDevice.cxx
+    igtlioLabelMetaDevice.cxx
+    igtlioPointDevice.cxx
+    igtlioPolyDataDevice.cxx
+    igtlioStatusDevice.cxx
+    igtlioStringDevice.cxx
+    igtlioTransformDevice.cxx
+    igtlioTrackingDataDevice.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/igtlioDevices.lib and object C:/Project/PlusB-bin/lib/Debug/igtlioDevices.exp
+    igtlioDevices.vcxproj -> C:\Project\PlusB-bin\bin\Debug\igtlioDevices.dll
+    igtlioDevices.vcxproj -> C:/Project/PlusB-bin/bin/Debug/igtlioDevices.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Logic/CMakeLists.txt
+    igtlioUtilities.cxx
+    igtlioObject.cxx
+    igtlioDeviceFactory.cxx
+    igtlioCircularBuffer.cxx
+    igtlioCircularSectionBuffer.cxx
+    igtlioConnector.cxx
+    igtlioSession.cxx
+    igtlioLogic.cxx
+    igtlioCommand.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/igtlioLogic.lib and object C:/Project/PlusB-bin/lib/Debug/igtlioLogic.exp
+    igtlioLogic.vcxproj -> C:\Project\PlusB-bin\bin\Debug\igtlioLogic.dll
+    igtlioLogic.vcxproj -> C:/Project/PlusB-bin/bin/Debug/igtlioLogic.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Tools/CMakeLists.txt
+    igtlioTranslator.cxx
+    igtlioCommandMessageCodec.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Debug/igtlioTools.lib and object C:/Project/PlusB-bin/lib/Debug/igtlioTools.exp
+    igtlioTools.vcxproj -> C:\Project\PlusB-bin\bin\Debug\igtlioTools.dll
+    igtlioTools.vcxproj -> C:/Project/PlusB-bin/bin/Debug/igtlioTools.pdb (Full PDB)
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/CMakeLists.txt
+  No install step for 'OpenIGTLinkIO'
+  Completed 'OpenIGTLinkIO'

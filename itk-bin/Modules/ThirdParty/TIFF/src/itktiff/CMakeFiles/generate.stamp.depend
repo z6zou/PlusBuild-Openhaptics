@@ -1,31 +1,11 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckFunctionExists.c
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckFunctionExists.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.c.in
 C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/TestBigEndian.cmake
-C:/Program Files/CMake/share/cmake-3.19/Modules/TestEndianess.c.in
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_ASSERT_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_FCNTL_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_LIMITS_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_SEARCH_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
-C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/src/itktiff/CMakeLists.txt
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/src/itktiff/tif_config.h.in
 C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/src/itktiff/tiffDllConfig.h.in

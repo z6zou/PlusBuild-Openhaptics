@@ -20,6 +20,7 @@ C:/Project/PlusB-bin/PlusLib/src/UsePlusLib.cmake.in
 C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/ITKConfig.cmake
 C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/ITKConfigVersion.cmake
 C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/ITKModuleAPI.cmake
+C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/ITKTargets-debug.cmake
 C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/ITKTargets-release.cmake
 C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/ITKTargets.cmake
 C:/Project/PlusB-bin/itk-int/lib/cmake/ITK-4.12/Modules/ITKAnisotropicSmoothing.cmake
@@ -285,6 +286,7 @@ C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/Modules/vtkzlib.cmake
 C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/UseVTK.cmake
 C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKConfig.cmake
 C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKConfigVersion.cmake
+C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKTargets-debug.cmake
 C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKTargets-release.cmake
 C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKTargets.cmake
 C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/vtkModuleAPI.cmake

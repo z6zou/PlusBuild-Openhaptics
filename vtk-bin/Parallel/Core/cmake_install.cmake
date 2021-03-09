@@ -76,6 +76,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_
     "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubCommunicator.h"
     "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubGroup.h"
     "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkFieldDataSerializer.h"
+    "C:/Project/PlusB-bin/vtk-bin/Parallel/Core/vtkSocketCommunicatorHash.h"
     "C:/Project/PlusB-bin/vtk-bin/Parallel/Core/vtkParallelCoreModule.h"
     )
 endif()

@@ -89,6 +89,18 @@
 			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLUniforms.h"
 		},
 		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/raycasterfs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/raycastervs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraVS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraFS.h"
+		},
+		{
 			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2ObjectFactory.h"
 		},
 		{

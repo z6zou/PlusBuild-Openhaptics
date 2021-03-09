@@ -617,6 +617,87 @@
 			"file" : "C:/Project/PlusB-bin/vtk/Rendering/OpenGL2/vtkDataTransferHelper.h"
 		},
 		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkDepthOfFieldPassFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkDepthPeelingPassFinalFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkDepthPeelingPassIntermediateFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkEDLBilateralFilterFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkEDLComposeFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkEDLShadeFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkFXAAFilterFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkGaussianBlurPassFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkGaussianBlurPassVS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkGlyph3DVS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkOrderIndependentTranslucentPassFinalFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPointGaussianVS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPointGaussianGS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPointFillPassFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPolyData2DFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPolyData2DVS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPolyDataFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPolyDataVS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkPolyDataWideLineGS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkSSAAPassFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkSimpleMotionBlurPassFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkSobelGradientMagnitudePass1FS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkSobelGradientMagnitudePass2FS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkSphereMapperGS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkStickMapperGS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkTextureObjectFS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/OpenGL2/vtkTextureObjectVS.h"
+		},
+		{
 			"file" : "C:/Project/PlusB-bin/vtk/Rendering/OpenGL2/vtkDummyGPUInfoList.h"
 		},
 		{

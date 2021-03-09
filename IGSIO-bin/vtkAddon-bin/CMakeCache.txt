@@ -233,6 +233,9 @@ vtkAddon_INSTALL_BIN_DIR:PATH=bin
 //No help, variable specified on the command line.
 vtkAddon_INSTALL_LIB_DIR:PATH=lib
 
+//Command for setting up environment and running executables
+vtkAddon_LAUNCH_COMMAND:STRING=
+
 //Value Computed by CMake
 vtkAddon_SOURCE_DIR:STATIC=C:/Project/PlusB-bin/IGSIO-bin/vtkAddon
 

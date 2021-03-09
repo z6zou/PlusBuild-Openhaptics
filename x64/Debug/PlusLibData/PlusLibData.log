@@ -1,0 +1,12 @@
+﻿  Creating directories for 'PlusLibData'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'PlusLibData'
+  -- Avoiding repeated git clone, stamp file is up to date: 'C:/Project/PlusB-bin/PlusLibData-prefix/src/PlusLibData-stamp/PlusLibData-gitclone-lastrun.txt'
+  Performing update step for 'PlusLibData'
+  From https://github.com/PlusToolkit/PlusLibData
+     29a69a9..fee8bc9  master     -> origin/master
+  No patch step for 'PlusLibData'
+  No configure step for 'PlusLibData'
+  No build step for 'PlusLibData'
+  No install step for 'PlusLibData'
+  Completed 'PlusLibData'

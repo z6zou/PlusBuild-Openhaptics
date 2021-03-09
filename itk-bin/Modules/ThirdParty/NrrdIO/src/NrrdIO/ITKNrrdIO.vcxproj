@@ -220,7 +220,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
@@ -233,7 +233,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
@@ -246,7 +246,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
@@ -259,7 +259,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>

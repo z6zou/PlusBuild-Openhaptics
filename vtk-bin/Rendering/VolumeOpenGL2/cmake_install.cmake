@@ -74,6 +74,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_
     "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeGradientOpacityTable.h"
     "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLTransferFunction2D.h"
     "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLUniforms.h"
+    "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/raycasterfs.h"
+    "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/raycastervs.h"
+    "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraVS.h"
+    "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraFS.h"
     "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2ObjectFactory.h"
     "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2Module.h"
     )

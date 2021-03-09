@@ -90,6 +90,18 @@
     <ClInclude Include="C:\Project\PlusB-bin\vtk\Rendering\VolumeOpenGL2\vtkOpenGLUniforms.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\raycasterfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\raycastervs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraVS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2ObjectFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
