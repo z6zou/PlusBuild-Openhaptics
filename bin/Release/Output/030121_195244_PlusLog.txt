@@ -1,0 +1,74 @@
+time|level|timeoffset|message|location
+030121_195244.806|INFO|000.003000| Software version: Plus-2.8.0.62873a16 - Win64| in vtkPlusLogger(188)
+030121_195244.806|INFO|000.003000| System start timestamp: 23749| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusAccurateTimer.cxx(51)
+030121_195244.889|INFO|000.086000|  Software version: Plus-2.8.0.62873a16 - Win64| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(122)
+030121_195244.889|INFO|000.086000| Logging at level 3 to file: C:/Project/PlusB-bin/bin/Release/Output/030121_195244_PlusLog.txt| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(123)
+030121_195244.890|INFO|000.087000| Supported devices: 
+  - ChRobotics (ver: Plus-2.8.0)
+  - FakeTracker (ver: Plus-2.8.0)
+  - GenericSerialDevice (ver: Plus-2.8.0)
+  - ImageProcessor (ver: Plus-2.8.0)
+  - Microchip (ver: Plus-2.8.0)
+  - NoiseVideo (ver: Plus-2.8.0)
+  - OpenHaptics (ver: 3.30.0)
+  - OpenIGTLinkTracker (ver: OpenIGTLink v3.1.0)
+  - OpenIGTLinkVideo (ver: OpenIGTLink v3.1.0)
+  - SavedDataSource (ver: Plus-2.8.0)
+  - UsSimulator (ver: Plus-2.8.0)
+  - VirtualBufferedCapture (ver: Plus-2.8.0)
+  - VirtualCapture (ver: Plus-2.8.0)
+  - VirtualDiscCapture (ver: Plus-2.8.0)
+  - VirtualMixer (ver: Plus-2.8.0)
+  - VirtualSwitcher (ver: Plus-2.8.0)
+  - VirtualVolumeReconstructor (ver: Plus-2.8.0)
+| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(127)
+030121_195244.902|INFO|000.099000| Server host name: RT4417W-GS| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(158)
+030121_195244.915|INFO|000.112000| Server host domain: sickkids.ca| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(161)
+030121_195244.919|INFO|000.116000| Server IP addresses: 169.254.34.243, 192.168.2.144, 127.0.0.1| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(178)
+030121_195244.919|INFO|000.116000| Start remote control server at port: 18904| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(187)
+030121_195308.949|INFO|024.146000| Connect using configuration file: C:\Project\PlusB-bin\PlusLibData\ConfigFiles\PlusDeviceSet_Server_OpenHaptics.xml| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(639)
+030121_195308.949|INFO|024.146000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="PlusDeviceSet_Server_OpenHaptics.xml" --verbose=3| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+030121_195309.617|INFO|024.814000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+030121_195310.328|INFO|025.525000|SERVER> System start timestamp: 23773
+030121_195310.328|INFO|025.525000|SERVER> Software version: Plus-2.8.0.62873a16 - Win64
+030121_195310.328|INFO|025.525000|SERVER> Logging at level 3 (INFO) to file: C:/Project/PlusB-bin/bin/Release/Output/030121_195309_PlusLog.txt
+030121_195310.328|INFO|025.525000|SERVER> No force input has been provided
+030121_195310.328|INFO|025.525000|SERVER> Server status: Reading configuration.
+030121_195310.328|INFO|025.525000|SERVER> Server status: Connecting to devices.
+030121_195310.329|INFO|025.526000|SERVER> Server status: Starting servers.
+030121_195310.333|INFO|025.530000|SERVER> Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18944
+030121_195310.379|INFO|025.576000|SERVER> Server status: Server(s) are running.
+030121_195310.379|INFO|025.576000|SERVER> Press Ctrl-C to quit.
+030121_195325.241|INFO|040.438000| Client connected.| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(1237)
+030121_195327.235|INFO|042.432000|SERVER> Received new client connection (client 1 at 127.0.0.1:18944). Number of connected clients: 1
+030121_195327.359|INFO|042.556000|SERVER> OpenIGTLink broadcasting started. No data was available between 0-15.3553sec, therefore no data were broadcasted during this time period.
+030121_195338.255|INFO|053.452000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Text.slicer.xml" --verbose=3| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+030121_195338.923|INFO|054.120000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+030121_195340.241|INFO|055.438000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+030121_195345.448|INFO|060.645000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+030121_195346.251|INFO|061.448000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Text.slicer.xml" --verbose=3| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+030121_195346.918|INFO|062.115000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+030121_195348.251|INFO|063.448000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+030121_195353.250|INFO|068.446000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+030121_195354.280|INFO|069.477000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Text.slicer.xml" --verbose=3| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+030121_195354.946|INFO|070.143000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+030121_195356.357|INFO|071.554000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+030121_195401.384|INFO|076.581000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+030121_195402.691|INFO|077.888000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Text.slicer.xml" --verbose=3| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+030121_195403.358|INFO|078.555000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+030121_195404.361|INFO|079.558000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+030121_195409.925|INFO|085.122000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+030121_195410.310|INFO|085.507000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Text.slicer.xml" --verbose=3| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+030121_195410.978|INFO|086.175000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+030121_195412.510|INFO|087.707000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+030121_195417.445|INFO|092.642000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+030121_195417.445|ERROR|092.642000| Unable to send command response to client: 000002400F400D20| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(614)
+030121_195417.464|ERROR|092.661000| Command received but response could not be sent.| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(1066)
+030121_195417.464|ERROR|092.661000| Unable to send command response to client: 000002400F3FF520| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(614)
+030121_195417.464|ERROR|092.661000| Command received but response could not be sent.| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(1066)
+030121_195417.464|INFO|092.661000| Client disconnected.| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(1237)
+030121_195417.469|INFO|092.666000|SERVER> Client disconnected - could not send TRANSFORM message to client (device name: StylusToBase  Timestamp: 1614646452.557229).
+030121_195417.469|INFO|092.666000|SERVER> Client disconnected (127.0.0.1:18944). Number of connected clients: 0
+030121_195434.667|INFO|109.864000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+030121_195435.278|INFO|110.475000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+030121_195435.278|INFO|110.475000| Disconnect request successful| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(632)

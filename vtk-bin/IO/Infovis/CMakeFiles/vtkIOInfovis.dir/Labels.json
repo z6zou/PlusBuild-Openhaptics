@@ -1,0 +1,112 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkBiomTableReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkChacoGraphReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDelimitedTextReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkFixedWidthTextReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkISIReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkMultiNewickTreeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkRISReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkTulipReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXGMLReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXMLTreeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkBiomTableReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkChacoGraphReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDelimitedTextReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkFixedWidthTextReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkISIReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkMultiNewickTreeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkRISReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkTulipReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXGMLReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXMLTreeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Infovis/vtkIOInfovisModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOInfovis"
+		],
+		"name" : "vtkIOInfovis"
+	}
+}

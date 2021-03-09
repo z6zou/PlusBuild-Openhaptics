@@ -1,0 +1,4 @@
+# Target labels
+ ITKTestKernel
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Core/TestKernel/src/itkTestDriver.cxx

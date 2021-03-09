@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkAdaptiveDataSetSurfaceFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkBSplineTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkDepthSortPolyData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkDSPFilterDefinition.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkDSPFilterGroup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkEarthSource.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkFacetReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkForceTime.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkGreedyTerrainDecimation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkGridTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkImageToPolyDataFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkImplicitModeller.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkPCAAnalysisFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkPolyDataSilhouette.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkProcrustesAlignmentFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkProjectedTerrainPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkRenderLargeImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalArrayOperatorFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalDataSetCache.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalFractal.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalInterpolator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalShiftScale.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalSnapToTimeStep.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTransformToGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkWeightedTransformFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkAdaptiveDataSetSurfaceFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkBSplineTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkDepthSortPolyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkDSPFilterDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkDSPFilterGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkEarthSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkFacetReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkForceTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkGreedyTerrainDecimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkGridTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkImageToPolyDataFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkImplicitModeller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkPCAAnalysisFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkPolyDataSilhouette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkProcrustesAlignmentFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkProjectedTerrainPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkRenderLargeImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalArrayOperatorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalDataSetCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalFractal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalShiftScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTemporalSnapToTimeStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkTransformToGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\vtkWeightedTransformFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid\vtkFiltersHybridModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\Filters\Hybrid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5EFC0CDA-0E69-39C3-B007-F41D1021B941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1B3F4E0-F2F7-328C-868D-BD3440C13773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

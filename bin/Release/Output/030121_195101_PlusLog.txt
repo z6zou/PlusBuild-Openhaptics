@@ -1,0 +1,13 @@
+time|level|timeoffset|message|location
+030121_195101.198|INFO|000.001000| System start timestamp: 23645| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusAccurateTimer.cxx(51)
+030121_195101.200|INFO|000.003000| Software version: Plus-2.8.0.62873a16 - Win64| in vtkPlusLogger(188)
+030121_195101.201|INFO|000.004000| Logging at level 3 (INFO) to file: C:/Project/PlusB-bin/bin/Release/Output/030121_195101_PlusLog.txt| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(81)
+030121_195101.204|INFO|000.007000| No force input has been provided| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+030121_195101.204|INFO|000.007000| Server status: Reading configuration.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(92)
+030121_195101.204|INFO|000.007000| Server status: Connecting to devices.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(103)
+030121_195107.422|INFO|006.225000| Server status: Starting servers.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(116)
+030121_195107.428|INFO|006.231000| Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18944| in c:\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+030121_195107.473|INFO|006.276000| Server status: Server(s) are running.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(147)
+030121_195107.473|INFO|006.276000| Press Ctrl-C to quit.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(148)
+030121_195108.109|INFO|006.912000| Plus OpenIGTLink server stopped.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(230)
+030121_195108.109|INFO|006.912000| Shutdown successful.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(180)

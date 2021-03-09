@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkConvertSelectionDomain.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkDataRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkEmptyRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkRenderViewBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkViewTheme.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkConvertSelectionDomain.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkDataRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkEmptyRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkRenderViewBase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Core/vtkViewTheme.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Core/vtkViewsCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkViewsCore"
+		],
+		"name" : "vtkViewsCore"
+	}
+}

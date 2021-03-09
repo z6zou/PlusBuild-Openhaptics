@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\bignum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\bignum-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\cached-powers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\diy-fp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\double-conversion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\fast-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\fixed-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\strtod.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\bignum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\cached-powers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\diy-fp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\double-conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\fast-dtoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\fixed-dtoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\ieee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\strtod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion\double-conversion-configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

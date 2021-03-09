@@ -1,0 +1,12 @@
+set(ITKPNG_LOADED 1)
+set(ITKPNG_ENABLE_SHARED "0")
+set(ITKPNG_DEPENDS "ITKZLIB")
+set(ITKPNG_PUBLIC_DEPENDS "ITKZLIB")
+set(ITKPNG_TRANSITIVE_DEPENDS "ITKZLIB")
+set(ITKPNG_PRIVATE_DEPENDS "")
+set(ITKPNG_LIBRARIES "itkpng")
+set(ITKPNG_INCLUDE_DIRS "C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/PNG/src;C:/Project/PlusB-bin/itk/Modules/ThirdParty/PNG/src")
+set(ITKPNG_LIBRARY_DIRS "")
+set(ITKPNG_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKPNG_TARGETS_FILE "")
+

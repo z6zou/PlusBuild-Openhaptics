@@ -1,0 +1,314 @@
+time|level|timeoffset|message|location
+022621_122410.246|INFO|000.003000| Software version: Plus-2.8.0.62873a16 - Win64| in vtkPlusLogger(188)
+022621_122410.246|INFO|000.003000| System start timestamp: 490| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusAccurateTimer.cxx(51)
+022621_122410.246|DEBUG|000.003000| AccurateTimer universal start time: 022621_122410.243| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusAccurateTimer.cxx(52)
+022621_122410.246|TRACE|000.003000| vtkPlusConfig::LoadApplicationConfiguration| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(256)
+022621_122410.246|TRACE|000.004000| DeviceSetSelectorWidget::SetConfigurationDirectory(C:/Project/PlusB-bin/PlusLibData/ConfigFiles)| in C:\Project\PlusB-bin\PlusLib\src\PlusWidgets\QPlusDeviceSetSelectorWidget.cxx(104)
+022621_122410.246|TRACE|000.004000| DeviceSetSelectorWidget::ParseDirectory(C:/Project/PlusB-bin/PlusLibData/ConfigFiles)| in C:\Project\PlusB-bin\PlusLib\src\PlusWidgets\QPlusDeviceSetSelectorWidget.cxx(310)
+022621_122410.249|DEBUG|000.006000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.269|DEBUG|000.026000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.269|DEBUG|000.027000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.269|DEBUG|000.027000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.269|DEBUG|000.028000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.271|DEBUG|000.028000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.272|DEBUG|000.029000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.273|DEBUG|000.031000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.275|DEBUG|000.032000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.276|DEBUG|000.034000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.276|DEBUG|000.034000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.278|DEBUG|000.035000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.278|DEBUG|000.035000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.279|DEBUG|000.036000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.279|DEBUG|000.036000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.279|DEBUG|000.037000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.279|DEBUG|000.037000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.282|DEBUG|000.039000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.282|DEBUG|000.039000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.282|DEBUG|000.040000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.282|DEBUG|000.040000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.283|DEBUG|000.041000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.283|DEBUG|000.041000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.285|DEBUG|000.042000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.285|DEBUG|000.042000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.285|DEBUG|000.042000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.286|DEBUG|000.043000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.286|DEBUG|000.043000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.286|DEBUG|000.044000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.286|DEBUG|000.044000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.289|DEBUG|000.047000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.294|DEBUG|000.051000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.295|DEBUG|000.052000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.296|DEBUG|000.053000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.299|DEBUG|000.057000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122410.299|TRACE|000.057000| DeviceSetSelectorWidget::DeviceSetSelected(31)| in C:\Project\PlusB-bin\PlusLib\src\PlusWidgets\QPlusDeviceSetSelectorWidget.cxx(214)
+022621_122410.306|TRACE|000.064000| vtkPlusConfig::SaveApplicationConfigurationToFile| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(521)
+022621_122410.306|TRACE|000.064000| vtkPlusConfig::WriteApplicationConfiguration| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(431)
+022621_122410.306|DEBUG|000.064000| Application configuration file 'C:/Project/PlusB-bin/bin/Release/PlusConfig.xml' saved| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(532)
+022621_122410.325|TRACE|000.083000| ToolStateDisplayWidget::ConstructMessageListWidget| in C:\Project\PlusB-bin\PlusLib\src\PlusWidgets\QPlusStatusIcon.cxx(196)
+022621_122410.328|INFO|000.085000|  Software version: Plus-2.8.0.62873a16 - Win64| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(122)
+022621_122410.328|INFO|000.085000| Logging at level 3 to file: C:/Project/PlusB-bin/bin/Release/Output/022621_122410_PlusLog.txt| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(123)
+022621_122410.328|INFO|000.086000| Supported devices: 
+  - ChRobotics (ver: Plus-2.8.0)
+  - FakeTracker (ver: Plus-2.8.0)
+  - GenericSerialDevice (ver: Plus-2.8.0)
+  - ImageProcessor (ver: Plus-2.8.0)
+  - Microchip (ver: Plus-2.8.0)
+  - NoiseVideo (ver: Plus-2.8.0)
+  - OpenHaptics (ver: 3.30.0)
+  - OpenIGTLinkTracker (ver: OpenIGTLink v3.1.0)
+  - OpenIGTLinkVideo (ver: OpenIGTLink v3.1.0)
+  - SavedDataSource (ver: Plus-2.8.0)
+  - UsSimulator (ver: Plus-2.8.0)
+  - VirtualBufferedCapture (ver: Plus-2.8.0)
+  - VirtualCapture (ver: Plus-2.8.0)
+  - VirtualDiscCapture (ver: Plus-2.8.0)
+  - VirtualMixer (ver: Plus-2.8.0)
+  - VirtualSwitcher (ver: Plus-2.8.0)
+  - VirtualVolumeReconstructor (ver: Plus-2.8.0)
+| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(127)
+022621_122410.339|INFO|000.097000| Server host name: RT4417W-GS| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(158)
+022621_122410.351|INFO|000.109000| Server host domain: sickkids.ca| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(161)
+022621_122410.355|INFO|000.113000| Server IP addresses: 169.254.34.243, 192.168.2.144, 127.0.0.1| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(178)
+022621_122410.355|INFO|000.113000| Start remote control server at port: 18904| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(187)
+022621_122424.026|DEBUG|013.783000| Application configuration file 'C:/Project/PlusB-bin/bin/Release/PlusConfig.xml' saved| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(532)
+022621_122424.026|INFO|013.784000| Connect using configuration file: C:\Project\PlusB-bin\PlusLibData\ConfigFiles\PlusDeviceSet_Server_OpenHaptics_2_Devices.xml| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(639)
+022621_122424.026|INFO|013.784000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="PlusDeviceSet_Server_OpenHaptics_2_Devices.xml" --verbose=4| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+022621_122424.575|INFO|014.332000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+022621_122424.578|INFO|014.336000|SERVER> System start timestamp: 504
+022621_122424.578|INFO|014.336000|SERVER> Software version: Plus-2.8.0.62873a16 - Win64| in tkPlusLogger(188)
+022621_122424.579|INFO|014.337000|SERVER> Logging at level 4 (DEBUG) to file: C:/Project/PlusB-bin/bin/Release/Output/022621_122424_PlusLog.txt| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(81)
+022621_122424.579|DEBUG|014.337000|SERVER> Device set configuration is read from file: PlusDeviceSet_Server_OpenHaptics_2_Devices.xml| in :\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(245)
+022621_122424.579|DEBUG|014.337000| Device set configuration file contents:
+022621_122424.579|INFO|014.337000|SERVER> <PlusConfiguration version="2.1">
+022621_122424.579|INFO|014.337000|SERVER> <DataCollection StartupDelaySec="1.0">
+022621_122424.579|INFO|014.337000|SERVER> <DeviceSet Name="PlusServer: Open Haptics device tracking 2 Devices" Description="Broadcasting  device stylyus tracking data through OpenIGTLink." />
+022621_122424.579|INFO|014.337000|SERVER> <Device Id="TrackerDeviceLeft" Type="OpenHaptics" AcquisitionRate="5" ToolReferenceFrame="BaseLeft" DeviceName="Left Device">
+022621_122424.579|INFO|014.337000|SERVER> <DataSources>
+022621_122424.579|INFO|014.337000|SERVER> <DataSource Type="Tool" Id="StylusLeft" PortName="Stylus" />
+022621_122424.579|INFO|014.337000|SERVER> <DataSource Type="Tool" Id="ButtonsLeft" PortName="Buttons" />
+022621_122424.579|INFO|014.337000|SERVER> </DataSources>
+022621_122424.579|INFO|014.337000|SERVER> <OutputChannels>
+022621_122424.581|INFO|014.338000|SERVER> <OutputChannel Id="NeedleStreamLeft">
+022621_122424.581|INFO|014.338000|SERVER> <DataSource Id="StylusLeft" />
+022621_122424.581|INFO|014.338000|SERVER> <DataSource Id="ButtonsLeft" />
+022621_122424.581|INFO|014.338000|SERVER> </OutputChannel>
+022621_122424.581|INFO|014.338000|SERVER> </OutputChannels>
+022621_122424.581|INFO|014.338000|SERVER> </Device>
+022621_122424.581|INFO|014.338000|SERVER> <Device Id="TrackerDeviceRight" Type="OpenHaptics" AcquisitionRate="5" ToolReferenceFrame="BaseRight" DeviceName="Right Device">
+022621_122424.581|INFO|014.338000|SERVER> <DataSources>
+022621_122424.581|INFO|014.338000|SERVER> <DataSource Type="Tool" Id="StylusRight" PortName="Stylus" />
+022621_122424.581|INFO|014.338000|SERVER> <DataSource Type="Tool" Id="ButtonsRight" PortName="Buttons" />
+022621_122424.581|INFO|014.338000|SERVER> </DataSources>
+022621_122424.581|INFO|014.338000|SERVER> <OutputChannels>
+022621_122424.581|INFO|014.338000|SERVER> <OutputChannel Id="NeedleStreamRight">
+022621_122424.581|INFO|014.338000|SERVER> <DataSource Id="StylusRight" />
+022621_122424.581|INFO|014.338000|SERVER> <DataSource Id="ButtonsRight" />
+022621_122424.582|INFO|014.339000|SERVER> </OutputChannel>
+022621_122424.582|INFO|014.339000|SERVER> </OutputChannels>
+022621_122424.582|INFO|014.339000|SERVER> </Device>
+022621_122424.582|INFO|014.339000|SERVER> </DataCollection>
+022621_122424.582|INFO|014.339000|SERVER> <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18944" SendValidTransformsOnly="true" OutputChannelId="NeedleStreamLeft">
+022621_122424.582|INFO|014.339000|SERVER> <DefaultClientInfo>
+022621_122424.582|INFO|014.339000|SERVER> <MessageTypes>
+022621_122424.582|INFO|014.339000|SERVER> <Message Type="TRANSFORM" />
+022621_122424.582|INFO|014.339000|SERVER> </MessageTypes>
+022621_122424.582|INFO|014.339000|SERVER> <TransformNames>
+022621_122424.582|INFO|014.339000|SERVER> <Transform Name="StylusLeftToBaseLeft" />
+022621_122424.582|INFO|014.339000|SERVER> <Transform Name="ButtonsLeftToBaseLeft" />
+022621_122424.582|INFO|014.339000|SERVER> </TransformNames>
+022621_122424.582|INFO|014.339000|SERVER> </DefaultClientInfo>
+022621_122424.582|INFO|014.339000|SERVER> </PlusOpenIGTLinkServer>
+022621_122424.582|INFO|014.340000|SERVER> <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18945" SendValidTransformsOnly="true" OutputChannelId="NeedleStreamRight">
+022621_122424.582|INFO|014.340000|SERVER> <DefaultClientInfo>
+022621_122424.582|INFO|014.340000|SERVER> <MessageTypes>
+022621_122424.582|INFO|014.340000|SERVER> <Message Type="TRANSFORM" />
+022621_122424.582|INFO|014.340000|SERVER> </MessageTypes>
+022621_122424.582|INFO|014.340000|SERVER> <TransformNames>
+022621_122424.582|INFO|014.340000|SERVER> <Transform Name="StylusRightToBaseRight" />
+022621_122424.582|INFO|014.340000|SERVER> <Transform Name="ButtonsRightToBaseRight" />
+022621_122424.582|INFO|014.340000|SERVER> </TransformNames>
+022621_122424.582|INFO|014.340000|SERVER> </DefaultClientInfo>
+022621_122424.582|INFO|014.340000|SERVER> </PlusOpenIGTLinkServer>
+022621_122424.582|INFO|014.340000|SERVER> </PlusConfiguration>
+022621_122424.582|DEBUG|014.340000|SERVER> StartupDelaySec: 1.000000| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(89)
+022621_122424.582|DEBUG|014.340000|SERVER> Buffer size is not defined in source element "StylusLeftToBaseLeft". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.584|DEBUG|014.341000|SERVER> AveragedItemsForFiltering is not defined in source element "StylusLeftToBaseLeft". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.584|DEBUG|014.341000|SERVER> Buffer size is not defined in source element "ButtonsLeftToBaseLeft". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.584|DEBUG|014.341000|SERVER> AveragedItemsForFiltering is not defined in source element "ButtonsLeftToBaseLeft". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.584|DEBUG|014.341000|SERVER> TrackerDeviceLeft: Local time offset was not defined in device configuration| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1053)
+022621_122424.584|DEBUG|014.341000|SERVER> Buffer size is not defined in source element "StylusRightToBaseRight". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.584|DEBUG|014.341000|SERVER> AveragedItemsForFiltering is not defined in source element "StylusRightToBaseRight". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.584|DEBUG|014.341000|SERVER> Buffer size is not defined in source element "ButtonsRightToBaseRight". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.584|DEBUG|014.341000|SERVER> AveragedItemsForFiltering is not defined in source element "ButtonsRightToBaseRight". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.584|DEBUG|014.341000|SERVER> TrackerDeviceRight: Local time offset was not defined in device configuration| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1053)
+022621_122424.584|INFO|014.341000|SERVER> No force input has been provided| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+022621_122424.584|INFO|014.341000|SERVER> No force input has been provided| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+022621_122424.585|INFO|014.342000|SERVER> Server status: Reading configuration.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(92)
+022621_122424.585|DEBUG|014.342000|SERVER> vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in :\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122424.585|INFO|014.342000|SERVER> Server status: Connecting to devices.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(103)
+022621_122424.585|DEBUG|014.342000|SERVER> TrackerDeviceLeft: vtkPlusDevice::Connect: TrackerDeviceLeft| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1134)
+022621_122424.585|DEBUG|014.342000|SERVER> Phantom initialized: Left Device| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(118)
+022621_122424.585|DEBUG|014.342000|SERVER> TrackerDeviceRight: vtkPlusDevice::Connect: TrackerDeviceRight| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1134)
+022621_122424.585|DEBUG|014.342000|SERVER> Phantom initialized: Right Device| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(118)
+022621_122424.585|DEBUG|014.342000|SERVER> No saved data source devices were found that use original timestamps, so synchronization of loop times is not performed| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(674)
+022621_122424.585|DEBUG|014.343000|SERVER> TrackerDeviceLeft: vtkPlusDevice::StartRecording| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1183)
+022621_122424.585|DEBUG|014.343000|SERVER> TrackerDeviceRight: vtkPlusDevice::StartRecording| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1183)
+022621_122424.585|DEBUG|014.343000|SERVER> vtkPlusDataCollector::Start -- wait 1.000000 sec for buffer init...| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(321)
+022621_122425.523|INFO|015.280000|SERVER> Server status: Starting servers.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(116)
+022621_122425.523|DEBUG|015.280000|SERVER> Initializing Plus OpenIGTLink server...| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(131)
+022621_122425.528|INFO|015.285000|SERVER> Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18944| in :\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+022621_122425.574|DEBUG|015.331000|SERVER> Data sent by default: IGTL version: 1Message types: TRANSFORM. TDATARequested: FALSE. LastTDATASentTimeStamp: -1. TDATAResolution: 0. . Transforms: StylusLeftToBaseLeft, ButtonsLeftToBaseLeft. Strings: (none). Images: (none)| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(190)
+022621_122425.574|DEBUG|015.331000|SERVER> Initializing Plus OpenIGTLink server...| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(131)
+022621_122425.575|INFO|015.333000|SERVER> Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18945| in :\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+022621_122425.624|DEBUG|015.381000|SERVER> Data sent by default: IGTL version: 1Message types: TRANSFORM. TDATARequested: FALSE. LastTDATASentTimeStamp: -1. TDATAResolution: 0. . Transforms: StylusRightToBaseRight, ButtonsRightToBaseRight. Strings: (none). Images: (none)| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(190)
+022621_122425.625|INFO|015.382000|SERVER> Server status: Server(s) are running.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(147)
+022621_122425.625|INFO|015.382000|SERVER> Press Ctrl-C to quit.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(148)
+022621_122439.957|INFO|029.714000|SERVER> Received new client connection (client 1 at 127.0.0.1:18944). Number of connected clients: 1| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(276)
+022621_122440.144|INFO|029.901000|SERVER> OpenIGTLink broadcasting started. No data was available between 0-0.423sec, therefore no data were broadcasted during this time period.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(427)
+022621_122442.937|INFO|032.695000|SERVER> Received new client connection (client 2 at 127.0.0.1:18945). Number of connected clients: 1| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(276)
+022621_122443.000|INFO|032.758000|SERVER> OpenIGTLink broadcasting started. No data was available between 0-0.424sec, therefore no data were broadcasted during this time period.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(427)
+022621_122453.184|INFO|042.942000|SERVER> Client disconnected - could not send TRANSFORM message to client (device name: StylusRightToBaseRight  Timestamp: 1614360292.684571).| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1038)
+022621_122453.190|INFO|042.948000|SERVER> Client disconnected - could not send TRANSFORM message to client (device name: StylusLeftToBaseLeft  Timestamp: 1614360292.686986).| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1038)
+022621_122453.391|INFO|043.149000|SERVER> Client disconnected (127.0.0.1:18945). Number of connected clients: 0| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1143)
+022621_122453.397|INFO|043.154000|SERVER> Client disconnected (127.0.0.1:18944). Number of connected clients: 0| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1143)
+022621_122453.755|DEBUG|043.512000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.776|DEBUG|043.534000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.776|DEBUG|043.534000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.778|DEBUG|043.535000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.778|DEBUG|043.535000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.779|DEBUG|043.536000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.779|DEBUG|043.537000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.781|DEBUG|043.538000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.782|DEBUG|043.540000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.785|DEBUG|043.542000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.786|DEBUG|043.543000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.786|DEBUG|043.543000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.786|DEBUG|043.544000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.788|DEBUG|043.545000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.788|DEBUG|043.545000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.789|DEBUG|043.546000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.789|DEBUG|043.546000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.792|DEBUG|043.549000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.792|DEBUG|043.549000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.792|DEBUG|043.550000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.792|DEBUG|043.550000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.794|DEBUG|043.551000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.794|DEBUG|043.551000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.795|DEBUG|043.552000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.795|DEBUG|043.552000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.796|DEBUG|043.553000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.796|DEBUG|043.553000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.796|DEBUG|043.554000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.799|DEBUG|043.556000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.799|DEBUG|043.557000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.802|DEBUG|043.559000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.806|DEBUG|043.564000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.808|DEBUG|043.565000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.809|DEBUG|043.566000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.812|DEBUG|043.570000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122453.816|INFO|043.574000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+022621_122500.689|INFO|050.446000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)
+022621_122500.690|INFO|050.447000| Disconnect request successful| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(632)
+022621_123054.802|DEBUG|404.559000| Application configuration file 'C:/Project/PlusB-bin/bin/Release/PlusConfig.xml' saved| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(532)
+022621_123054.802|INFO|404.560000| Connect using configuration file: C:\Project\PlusB-bin\PlusLibData\ConfigFiles\PlusDeviceSet_Server_OpenHaptics_2_Devices.xml| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(639)
+022621_123054.802|INFO|404.560000| Server process command line: "C:/Project/PlusB-bin/bin/Release/PlusServer.exe" --config-file="PlusDeviceSet_Server_OpenHaptics_2_Devices.xml" --verbose=4| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(320)
+022621_123055.329|INFO|405.087000| Server process started successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(329)
+022621_123055.331|INFO|405.088000|SERVER> System start timestamp: 895
+022621_123055.331|INFO|405.088000|SERVER> Software version: Plus-2.8.0.62873a16 - Win64| in tkPlusLogger(188)
+022621_123055.331|INFO|405.088000|SERVER> Logging at level 4 (DEBUG) to file: C:/Project/PlusB-bin/bin/Release/Output/022621_123054_PlusLog.txt| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(81)
+022621_123055.331|DEBUG|405.088000|SERVER> Device set configuration is read from file: PlusDeviceSet_Server_OpenHaptics_2_Devices.xml| in :\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(245)
+022621_123055.331|DEBUG|405.088000| Device set configuration file contents:
+022621_123055.331|INFO|405.088000|SERVER> <PlusConfiguration version="2.1">
+022621_123055.331|INFO|405.088000|SERVER> <DataCollection StartupDelaySec="1.0">
+022621_123055.331|INFO|405.088000|SERVER> <DeviceSet Name="PlusServer: Open Haptics device tracking 2 Devices" Description="Broadcasting  device stylyus tracking data through OpenIGTLink." />
+022621_123055.332|INFO|405.089000|SERVER> <Device Id="TrackerDeviceLeft" Type="OpenHaptics" AcquisitionRate="5" ToolReferenceFrame="BaseLeft" DeviceName="Left Device">
+022621_123055.332|INFO|405.089000|SERVER> <DataSources>
+022621_123055.332|INFO|405.089000|SERVER> <DataSource Type="Tool" Id="StylusLeft" PortName="Stylus" />
+022621_123055.332|INFO|405.089000|SERVER> <DataSource Type="Tool" Id="ButtonsLeft" PortName="Buttons" />
+022621_123055.332|INFO|405.089000|SERVER> </DataSources>
+022621_123055.332|INFO|405.089000|SERVER> <OutputChannels>
+022621_123055.332|INFO|405.089000|SERVER> <OutputChannel Id="NeedleStreamLeft">
+022621_123055.332|INFO|405.089000|SERVER> <DataSource Id="StylusLeft" />
+022621_123055.332|INFO|405.089000|SERVER> <DataSource Id="ButtonsLeft" />
+022621_123055.332|INFO|405.089000|SERVER> </OutputChannel>
+022621_123055.332|INFO|405.089000|SERVER> </OutputChannels>
+022621_123055.332|INFO|405.089000|SERVER> </Device>
+022621_123055.332|INFO|405.089000|SERVER> <Device Id="TrackerDeviceRight" Type="OpenHaptics" AcquisitionRate="5" ToolReferenceFrame="BaseRight" DeviceName="Right Device">
+022621_123055.332|INFO|405.089000|SERVER> <DataSources>
+022621_123055.332|INFO|405.089000|SERVER> <DataSource Type="Tool" Id="StylusRight" PortName="Stylus" />
+022621_123055.332|INFO|405.090000|SERVER> <DataSource Type="Tool" Id="ButtonsRight" PortName="Buttons" />
+022621_123055.332|INFO|405.090000|SERVER> </DataSources>
+022621_123055.332|INFO|405.090000|SERVER> <OutputChannels>
+022621_123055.332|INFO|405.090000|SERVER> <OutputChannel Id="NeedleStreamRight">
+022621_123055.332|INFO|405.090000|SERVER> <DataSource Id="StylusRight" />
+022621_123055.332|INFO|405.090000|SERVER> <DataSource Id="ButtonsRight" />
+022621_123055.332|INFO|405.090000|SERVER> </OutputChannel>
+022621_123055.332|INFO|405.090000|SERVER> </OutputChannels>
+022621_123055.332|INFO|405.090000|SERVER> </Device>
+022621_123055.332|INFO|405.090000|SERVER> </DataCollection>
+022621_123055.332|INFO|405.090000|SERVER> <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18944" SendValidTransformsOnly="true" OutputChannelId="NeedleStreamLeft">
+022621_123055.332|INFO|405.090000|SERVER> <DefaultClientInfo>
+022621_123055.332|INFO|405.090000|SERVER> <MessageTypes>
+022621_123055.332|INFO|405.090000|SERVER> <Message Type="TRANSFORM" />
+022621_123055.332|INFO|405.090000|SERVER> </MessageTypes>
+022621_123055.334|INFO|405.091000|SERVER> <TransformNames>
+022621_123055.334|INFO|405.091000|SERVER> <Transform Name="StylusLeftToBaseLeft" />
+022621_123055.334|INFO|405.091000|SERVER> <Transform Name="ButtonsLeftToBaseLeft" />
+022621_123055.334|INFO|405.091000|SERVER> </TransformNames>
+022621_123055.334|INFO|405.091000|SERVER> </DefaultClientInfo>
+022621_123055.334|INFO|405.091000|SERVER> </PlusOpenIGTLinkServer>
+022621_123055.334|INFO|405.091000|SERVER> <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18945" SendValidTransformsOnly="true" OutputChannelId="NeedleStreamRight">
+022621_123055.334|INFO|405.091000|SERVER> <DefaultClientInfo>
+022621_123055.334|INFO|405.091000|SERVER> <MessageTypes>
+022621_123055.334|INFO|405.091000|SERVER> <Message Type="TRANSFORM" />
+022621_123055.334|INFO|405.091000|SERVER> </MessageTypes>
+022621_123055.334|INFO|405.091000|SERVER> <TransformNames>
+022621_123055.334|INFO|405.091000|SERVER> <Transform Name="StylusRightToBaseRight" />
+022621_123055.334|INFO|405.091000|SERVER> <Transform Name="ButtonsRightToBaseRight" />
+022621_123055.335|INFO|405.092000|SERVER> </TransformNames>
+022621_123055.335|INFO|405.092000|SERVER> </DefaultClientInfo>
+022621_123055.335|INFO|405.092000|SERVER> </PlusOpenIGTLinkServer>
+022621_123055.335|INFO|405.092000|SERVER> </PlusConfiguration>
+022621_123055.335|DEBUG|405.092000|SERVER> StartupDelaySec: 1.000000| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(89)
+022621_123055.335|DEBUG|405.092000|SERVER> Buffer size is not defined in source element "StylusLeftToBaseLeft". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_123055.335|DEBUG|405.092000|SERVER> AveragedItemsForFiltering is not defined in source element "StylusLeftToBaseLeft". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_123055.335|DEBUG|405.092000|SERVER> Buffer size is not defined in source element "ButtonsLeftToBaseLeft". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_123055.335|DEBUG|405.092000|SERVER> AveragedItemsForFiltering is not defined in source element "ButtonsLeftToBaseLeft". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_123055.335|DEBUG|405.092000|SERVER> TrackerDeviceLeft: Local time offset was not defined in device configuration| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1053)
+022621_123055.335|DEBUG|405.092000|SERVER> Buffer size is not defined in source element "StylusRightToBaseRight". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_123055.335|DEBUG|405.092000|SERVER> AveragedItemsForFiltering is not defined in source element "StylusRightToBaseRight". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_123055.335|DEBUG|405.093000|SERVER> Buffer size is not defined in source element "ButtonsRightToBaseRight". Using default buffer size: 150| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_123055.335|DEBUG|405.093000|SERVER> AveragedItemsForFiltering is not defined in source element "ButtonsRightToBaseRight". Using default value: 20| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_123055.335|DEBUG|405.093000|SERVER> TrackerDeviceRight: Local time offset was not defined in device configuration| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1053)
+022621_123055.335|INFO|405.093000|SERVER> No force input has been provided| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+022621_123055.335|INFO|405.093000|SERVER> No force input has been provided| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+022621_123055.335|INFO|405.093000|SERVER> Server status: Reading configuration.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(92)
+022621_123055.335|DEBUG|405.093000|SERVER> vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in :\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_123055.337|INFO|405.094000|SERVER> Server status: Connecting to devices.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(103)
+022621_123055.337|DEBUG|405.094000|SERVER> TrackerDeviceLeft: vtkPlusDevice::Connect: TrackerDeviceLeft| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1134)
+022621_123055.337|DEBUG|405.094000|SERVER> Phantom initialized: Left Device| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(118)
+022621_123055.337|DEBUG|405.094000|SERVER> TrackerDeviceRight: vtkPlusDevice::Connect: TrackerDeviceRight| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1134)
+022621_123055.337|DEBUG|405.094000|SERVER> Phantom initialized: Right Device| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(118)
+022621_123055.337|DEBUG|405.094000|SERVER> No saved data source devices were found that use original timestamps, so synchronization of loop times is not performed| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(674)
+022621_123055.337|DEBUG|405.094000|SERVER> TrackerDeviceLeft: vtkPlusDevice::StartRecording| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1183)
+022621_123055.337|DEBUG|405.094000|SERVER> TrackerDeviceRight: vtkPlusDevice::StartRecording| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1183)
+022621_123055.337|DEBUG|405.094000|SERVER> vtkPlusDataCollector::Start -- wait 1.000000 sec for buffer init...| in :\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(321)
+022621_123056.338|INFO|406.095000|SERVER> Server status: Starting servers.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(116)
+022621_123056.338|DEBUG|406.095000|SERVER> Initializing Plus OpenIGTLink server...| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(131)
+022621_123056.342|INFO|406.100000|SERVER> Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18944| in :\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+022621_123056.388|DEBUG|406.146000|SERVER> Data sent by default: IGTL version: 1Message types: TRANSFORM. TDATARequested: FALSE. LastTDATASentTimeStamp: -1. TDATAResolution: 0. . Transforms: StylusLeftToBaseLeft, ButtonsLeftToBaseLeft. Strings: (none). Images: (none)| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(190)
+022621_123056.388|DEBUG|406.146000|SERVER> Initializing Plus OpenIGTLink server...| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(131)
+022621_123056.391|INFO|406.148000|SERVER> Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18945| in :\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+022621_123056.439|DEBUG|406.196000|SERVER> Data sent by default: IGTL version: 1Message types: TRANSFORM. TDATARequested: FALSE. LastTDATASentTimeStamp: -1. TDATAResolution: 0. . Transforms: StylusRightToBaseRight, ButtonsRightToBaseRight. Strings: (none). Images: (none)| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(190)
+022621_123056.439|INFO|406.196000|SERVER> Server status: Server(s) are running.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(147)
+022621_123056.439|INFO|406.196000|SERVER> Press Ctrl-C to quit.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(148)
+022621_123113.085|INFO|422.842000|SERVER> Received new client connection (client 1 at 127.0.0.1:18944). Number of connected clients: 1| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(276)
+022621_123113.161|INFO|422.919000|SERVER> OpenIGTLink broadcasting started. No data was available between 0-0.423sec, therefore no data were broadcasted during this time period.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(427)
+022621_123118.074|INFO|427.831000|SERVER> Received new client connection (client 2 at 127.0.0.1:18945). Number of connected clients: 1| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(276)
+022621_123118.220|INFO|427.977000|SERVER> OpenIGTLink broadcasting started. No data was available between 0-0.424sec, therefore no data were broadcasted during this time period.| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(427)
+022621_123152.045|INFO|461.802000|SERVER> Client disconnected - could not send TRANSFORM message to client (device name: StylusLeftToBaseLeft  Timestamp: 1614360711.540900).| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1038)
+022621_123152.049|INFO|461.807000|SERVER> Client disconnected - could not send TRANSFORM message to client (device name: StylusRightToBaseRight  Timestamp: 1614360711.545957).| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1038)
+022621_123152.253|INFO|462.011000|SERVER> Client disconnected (127.0.0.1:18944). Number of connected clients: 0| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1143)
+022621_123152.256|INFO|462.014000|SERVER> Client disconnected (127.0.0.1:18945). Number of connected clients: 0| in :\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1143)
+022621_123155.312|INFO|465.070000| Server process stop request sent successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(512)
+022621_123157.493|INFO|467.251000| Server process stopped successfully| in C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx(531)

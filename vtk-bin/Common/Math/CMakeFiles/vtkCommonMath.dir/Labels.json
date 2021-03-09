@@ -1,0 +1,85 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkAmoebaMinimizer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkFunctionSet.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkInitialValueProblemSolver.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkMatrix3x3.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkMatrix4x4.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkPolynomialSolversUnivariate.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkQuaternionInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkRungeKutta2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkRungeKutta4.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkRungeKutta45.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkQuaternion.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkTuple.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkQuaternion.txx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkAmoebaMinimizer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkFunctionSet.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkInitialValueProblemSolver.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkMatrix3x3.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkMatrix4x4.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkPolynomialSolversUnivariate.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkQuaternionInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkRungeKutta2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkRungeKutta4.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Math/vtkRungeKutta45.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Common/Math/vtkCommonMathModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkCommonMath"
+		],
+		"name" : "vtkCommonMath"
+	}
+}

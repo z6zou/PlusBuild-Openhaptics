@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\src\itkTestDriver.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkDifferenceImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkFilterWatcher.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkPipelineMonitorImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkPipelineMonitorImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkRandomImageSource.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkRandomImageSource.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestDriverInclude.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestDriverIncludeBuiltInIOFactories.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestDriverIncludeRequiredIOFactories.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingComparisonImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingComparisonImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingExtractSliceImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingExtractSliceImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingHashImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingHashImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingMacros.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingStretchIntensityImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include\itkTestingStretchIntensityImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

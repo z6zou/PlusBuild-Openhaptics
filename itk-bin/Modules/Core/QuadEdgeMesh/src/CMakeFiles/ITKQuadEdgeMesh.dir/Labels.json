@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/QuadEdgeMesh/src/itkQuadEdge.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKQuadEdgeMesh"
+		],
+		"name" : "ITKQuadEdgeMesh"
+	}
+}

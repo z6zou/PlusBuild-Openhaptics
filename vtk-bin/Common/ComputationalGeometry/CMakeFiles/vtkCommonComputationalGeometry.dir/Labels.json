@@ -1,0 +1,166 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkCardinalSpline.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkKochanekSpline.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricBoy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricConicSpiral.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricCrossCap.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricDini.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricEllipsoid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricEnneper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricFigure8Klein.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricFunction.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricKlein.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricMobius.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricRandomHills.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricRoman.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricSpline.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricSuperEllipsoid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricSuperToroid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricTorus.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricKuen.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricPseudosphere.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricBohemianDome.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricHenneberg.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricCatalanMinimal.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricBour.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricPluckerConoid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkCardinalSpline.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkKochanekSpline.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricBoy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricConicSpiral.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricCrossCap.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricDini.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricEllipsoid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricEnneper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricFigure8Klein.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricFunction.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricKlein.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricMobius.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricRandomHills.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricRoman.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricSpline.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricSuperEllipsoid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricSuperToroid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricTorus.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricKuen.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricPseudosphere.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricBohemianDome.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricHenneberg.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricCatalanMinimal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricBour.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/ComputationalGeometry/vtkParametricPluckerConoid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Common/ComputationalGeometry/vtkCommonComputationalGeometryModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkCommonComputationalGeometry"
+		],
+		"name" : "vtkCommonComputationalGeometry"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/PlusLib"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/PlusLib.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/PlusLib-complete.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-install.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-download.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-update.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-patch.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-configure.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PlusLib"
+		],
+		"name" : "PlusLib"
+	}
+}

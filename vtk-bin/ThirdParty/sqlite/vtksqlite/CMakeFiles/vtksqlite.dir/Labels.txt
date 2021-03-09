@@ -1,0 +1,7 @@
+# Target labels
+ vtksqlite
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/sqlite/vtksqlite/sqlite3.c
+C:/Project/PlusB-bin/vtk/ThirdParty/sqlite/vtksqlite/sqlite3.h
+C:/Project/PlusB-bin/vtk/ThirdParty/sqlite/vtksqlite/vtk_sqlite_mangle.h
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/sqlite/vtksqlite/vtksqlite_export.h

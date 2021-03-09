@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/IPL/src/itkIPLCommonImageIO.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/IPL/src/itkIPLFileNameList.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOIPL"
+		],
+		"name" : "ITKIOIPL"
+	}
+}

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\d1c8c312dfa6bbbfa5065bd238547389\PlusApp-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\e06f7cc6f0034d655c2e7bfd889ac92d\PlusApp-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\a84f51d16c6c875de36b0ed18553db04\PlusApp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusBuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\CMakeFiles\PlusApp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{961EA806-C879-3167-B264-CB46DA3E06C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

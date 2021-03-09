@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DFF728E9-08FF-30FA-9EC3-4F85A4414665}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtknetcdf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtknetcdf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkNetCDF-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtknetcdf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkNetCDF-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtknetcdf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkNetCDF-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtknetcdf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkNetCDF-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkhdf5_hl-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkhdf5-8.2D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkNetCDF-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkNetCDF-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkhdf5-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkNetCDF-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkNetCDF-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkhdf5-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkNetCDF-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkNetCDF-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\hl\src;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk\ThirdParty\hdf5;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src;C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkhdf5-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkNetCDF-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkNetCDF-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/netcdf/vtknetcdf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONGLONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_SSIZE_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UCHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UINT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_USHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT_INT.c;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\config.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/netcdf/vtknetcdf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONGLONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_SSIZE_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UCHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UINT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_USHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT_INT.c;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\config.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/netcdf/vtknetcdf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONGLONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_SSIZE_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UCHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UINT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_USHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT_INT.c;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\config.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/netcdf/vtknetcdf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONGLONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_SSIZE_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UCHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_UINT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\HAVE_USHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT_INT.c;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\config.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\datt.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dattget.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dattinq.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dattput.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dcompound.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dcopy.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\ddim.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\ddispatch.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\denum.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\derror.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dfile.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dgroup.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dinternal.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\doffsets.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dopaque.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dparallel.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\drc.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dstring.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dtype.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dutf8.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dvar.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dvarget.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dvarinq.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dvarput.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dvlen.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\dwinpath.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\nc.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\ncaux.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\ncbytes.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\nchashmap.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\nclist.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\nclistmgr.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\nclog.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\nctime.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\ncuri.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libdispatch\utf8proc.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\liblib\nc_initialize.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\attr.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\dim.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\lookup3.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\memio.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\nc3dispatch.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\nc3internal.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\nc_hashmap.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\ncio.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\ncx.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\posixio.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\putget.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\v1hpg.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc\var.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\error4.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4attr.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4dim.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4dispatch.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4file.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4grp.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4hdf.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4info.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4internal.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4printer.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4type.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4var.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\libsrc4\ncfunc.c" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include\netcdf.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\ThirdParty\netcdf\vtknetcdf\include\vtk_netcdf_mangle.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{E9509DD1-5314-3A10-8F04-9E8A73231ADC}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{E243A985-0E61-3FFA-82FC-14FD7326723D}</Project>
+      <Name>vtkhdf5_src</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

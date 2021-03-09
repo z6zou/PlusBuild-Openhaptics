@@ -1,0 +1,40 @@
+# Target labels
+ vtkIOExport
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Export/vtkExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkGL2PSExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkIVExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkOBJExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkOOGLExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkPOVExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBLight.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBProperty.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGContextDevice2D.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkSingleVTPExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkVRMLExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3D.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterFIWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterXMLWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Export/vtkExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkGL2PSExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkIVExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkOBJExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkOOGLExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkPOVExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBLight.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBProperty.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGContextDevice2D.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkSingleVTPExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkVRMLExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3D.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterFIWriter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterWriter.h
+C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterXMLWriter.h
+C:/Project/PlusB-bin/vtk-bin/IO/Export/vtkIOExportModule.h

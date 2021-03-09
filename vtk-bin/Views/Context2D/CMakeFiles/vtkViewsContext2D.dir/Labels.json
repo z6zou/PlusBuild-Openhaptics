@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextInteractorStyle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Context2D/vtkViewsContext2DModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkViewsContext2D"
+		],
+		"name" : "vtkViewsContext2D"
+	}
+}

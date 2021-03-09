@@ -1,0 +1,1311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0989E9A5-9F81-38C2-8C08-33EE1691C30C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ITKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\itk\CMake\CTestCustom.cmake.in;C:\Project\PlusB-bin\itk\CMake\CppcheckTargets.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData_config.cmake.in;C:\Project\PlusB-bin\itk\CMake\FindKWStyle.cmake;C:\Project\PlusB-bin\itk\CMake\Findcppcheck.cmake;C:\Project\PlusB-bin\itk\CMake\GenerateExportHeader.cmake;C:\Project\PlusB-bin\itk\CMake\ITKConfig.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKConfigVersion.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKDownloadSetup.cmake;C:\Project\PlusB-bin\itk\CMake\ITKExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ITKGroups.cmake;C:\Project\PlusB-bin\itk\CMake\ITKInitializeBuildType.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleCPPCheckTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleDoxygen.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleEnablement.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleHeaderTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleKWStyleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleMacros.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKSetStandardCompilerFlags.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCXXCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInBuildInstalls.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInSourceBuilds.cmake;C:\Project\PlusB-bin\itk\CMake\TopologicalSort.cmake;C:\Project\PlusB-bin\itk\CMake\itkCheckSourceTree.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cxx;C:\Project\PlusB-bin\itk\Modules\Bridge\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Bridge\VtkGlue\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\Deprecated\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\V3Compatibility\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUFiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Transform\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AntiAlias\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BiasCorrection\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Colormap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Convolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Deconvolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Denoising\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DiffusionTensorImage\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUAnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageNoise\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\SpatialFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BMP\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BioRad\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\CSV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GE\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\IPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\LSM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MRC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Meta\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PhilipsREC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\RAW\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Siemens\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Stimulate\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformFactory\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformHDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformInsightLegacy\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMatlab\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\XML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\IntegratedTest\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Eigen\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NeuralNetworks\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Polynomials\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUPDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Metricsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\PDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\RegistrationMethodsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\BioCell\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Classifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\DeformableMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\KLMRegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LabelVoting\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4Visualization\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\MarkovRandomFieldsClassifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\RegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Watersheds\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DICOMParser\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Netlib\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\OpenJPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeOpenCV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeVXL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Core\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Filtering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\IO\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;C:\Project\PlusB-bin\itk\Utilities\KWStyle\KWStyle.cmake;C:\Project\PlusB-bin\itk\Utilities\Maintenance\doSingleKWStyleUncrustifyFix.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ITKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\itk\CMake\CTestCustom.cmake.in;C:\Project\PlusB-bin\itk\CMake\CppcheckTargets.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData_config.cmake.in;C:\Project\PlusB-bin\itk\CMake\FindKWStyle.cmake;C:\Project\PlusB-bin\itk\CMake\Findcppcheck.cmake;C:\Project\PlusB-bin\itk\CMake\GenerateExportHeader.cmake;C:\Project\PlusB-bin\itk\CMake\ITKConfig.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKConfigVersion.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKDownloadSetup.cmake;C:\Project\PlusB-bin\itk\CMake\ITKExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ITKGroups.cmake;C:\Project\PlusB-bin\itk\CMake\ITKInitializeBuildType.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleCPPCheckTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleDoxygen.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleEnablement.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleHeaderTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleKWStyleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleMacros.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKSetStandardCompilerFlags.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCXXCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInBuildInstalls.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInSourceBuilds.cmake;C:\Project\PlusB-bin\itk\CMake\TopologicalSort.cmake;C:\Project\PlusB-bin\itk\CMake\itkCheckSourceTree.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cxx;C:\Project\PlusB-bin\itk\Modules\Bridge\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Bridge\VtkGlue\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\Deprecated\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\V3Compatibility\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUFiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Transform\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AntiAlias\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BiasCorrection\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Colormap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Convolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Deconvolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Denoising\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DiffusionTensorImage\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUAnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageNoise\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\SpatialFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BMP\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BioRad\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\CSV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GE\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\IPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\LSM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MRC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Meta\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PhilipsREC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\RAW\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Siemens\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Stimulate\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformFactory\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformHDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformInsightLegacy\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMatlab\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\XML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\IntegratedTest\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Eigen\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NeuralNetworks\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Polynomials\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUPDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Metricsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\PDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\RegistrationMethodsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\BioCell\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Classifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\DeformableMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\KLMRegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LabelVoting\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4Visualization\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\MarkovRandomFieldsClassifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\RegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Watersheds\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DICOMParser\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Netlib\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\OpenJPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeOpenCV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeVXL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Core\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Filtering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\IO\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;C:\Project\PlusB-bin\itk\Utilities\KWStyle\KWStyle.cmake;C:\Project\PlusB-bin\itk\Utilities\Maintenance\doSingleKWStyleUncrustifyFix.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ITKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\itk\CMake\CTestCustom.cmake.in;C:\Project\PlusB-bin\itk\CMake\CppcheckTargets.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData_config.cmake.in;C:\Project\PlusB-bin\itk\CMake\FindKWStyle.cmake;C:\Project\PlusB-bin\itk\CMake\Findcppcheck.cmake;C:\Project\PlusB-bin\itk\CMake\GenerateExportHeader.cmake;C:\Project\PlusB-bin\itk\CMake\ITKConfig.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKConfigVersion.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKDownloadSetup.cmake;C:\Project\PlusB-bin\itk\CMake\ITKExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ITKGroups.cmake;C:\Project\PlusB-bin\itk\CMake\ITKInitializeBuildType.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleCPPCheckTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleDoxygen.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleEnablement.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleHeaderTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleKWStyleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleMacros.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKSetStandardCompilerFlags.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCXXCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInBuildInstalls.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInSourceBuilds.cmake;C:\Project\PlusB-bin\itk\CMake\TopologicalSort.cmake;C:\Project\PlusB-bin\itk\CMake\itkCheckSourceTree.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cxx;C:\Project\PlusB-bin\itk\Modules\Bridge\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Bridge\VtkGlue\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\Deprecated\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\V3Compatibility\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUFiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Transform\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AntiAlias\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BiasCorrection\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Colormap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Convolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Deconvolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Denoising\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DiffusionTensorImage\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUAnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageNoise\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\SpatialFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BMP\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BioRad\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\CSV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GE\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\IPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\LSM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MRC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Meta\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PhilipsREC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\RAW\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Siemens\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Stimulate\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformFactory\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformHDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformInsightLegacy\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMatlab\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\XML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\IntegratedTest\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Eigen\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NeuralNetworks\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Polynomials\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUPDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Metricsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\PDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\RegistrationMethodsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\BioCell\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Classifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\DeformableMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\KLMRegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LabelVoting\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4Visualization\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\MarkovRandomFieldsClassifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\RegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Watersheds\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DICOMParser\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Netlib\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\OpenJPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeOpenCV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeVXL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Core\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Filtering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\IO\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;C:\Project\PlusB-bin\itk\Utilities\KWStyle\KWStyle.cmake;C:\Project\PlusB-bin\itk\Utilities\Maintenance\doSingleKWStyleUncrustifyFix.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ITKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\itk\CMake\CTestCustom.cmake.in;C:\Project\PlusB-bin\itk\CMake\CppcheckTargets.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ExternalData_config.cmake.in;C:\Project\PlusB-bin\itk\CMake\FindKWStyle.cmake;C:\Project\PlusB-bin\itk\CMake\Findcppcheck.cmake;C:\Project\PlusB-bin\itk\CMake\GenerateExportHeader.cmake;C:\Project\PlusB-bin\itk\CMake\ITKConfig.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKConfigVersion.cmake.in;C:\Project\PlusB-bin\itk\CMake\ITKDownloadSetup.cmake;C:\Project\PlusB-bin\itk\CMake\ITKExternalData.cmake;C:\Project\PlusB-bin\itk\CMake\ITKGroups.cmake;C:\Project\PlusB-bin\itk\CMake\ITKInitializeBuildType.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleCPPCheckTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleDoxygen.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleEnablement.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleHeaderTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleKWStyleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleMacros.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleTest.cmake;C:\Project\PlusB-bin\itk\CMake\ITKSetStandardCompilerFlags.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\ITK_CheckCXXCompilerFlag.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInBuildInstalls.cmake;C:\Project\PlusB-bin\itk\CMake\PreventInSourceBuilds.cmake;C:\Project\PlusB-bin\itk\CMake\TopologicalSort.cmake;C:\Project\PlusB-bin\itk\CMake\itkCheckSourceTree.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cmake;C:\Project\PlusB-bin\itk\CMake\itkTestFriendTemplatedFunction.cxx;C:\Project\PlusB-bin\itk\Modules\Bridge\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Bridge\VtkGlue\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\Deprecated\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Compatibility\V3Compatibility\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\GPUFiniteDifference\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Core\Transform\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\AntiAlias\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BiasCorrection\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Colormap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Convolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Deconvolution\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Denoising\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DiffusionTensorImage\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUAnisotropicSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUSmoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageNoise\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\SpatialFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BMP\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\BioRad\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\CSV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GE\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\IPL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\LSM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\MRC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Mesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Meta\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\PhilipsREC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\RAW\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Siemens\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\Stimulate\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformBase\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformFactory\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformHDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformInsightLegacy\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\TransformMatlab\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\VTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\IO\XML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\IntegratedTest\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Eigen\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\NeuralNetworks\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Polynomials\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Common\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\FEM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUCommon\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\GPUPDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\Metricsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\PDEDeformable\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Registration\RegistrationMethodsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\BioCell\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Classifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\DeformableMesh\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\KLMRegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LabelVoting\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSetsv4Visualization\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\MarkovRandomFieldsClassifiers\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\RegionGrowing\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Segmentation\Watersheds\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DCMTK\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DICOMParser\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\JPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module-init.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MINC\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Netlib\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NrrdIO\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\OpenJPEG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\PNG\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\TIFF\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeOpenCV\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\BridgeVXL\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Core\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\Filtering\itk-module.cmake;C:\Project\PlusB-bin\itk\Modules\Video\IO\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;C:\Project\PlusB-bin\itk\Utilities\KWStyle\KWStyle.cmake;C:\Project\PlusB-bin\itk\Utilities\Maintenance\doSingleKWStyleUncrustifyFix.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\AnisotropicSmoothing\ITKAnisotropicSmoothing-all.vcxproj">
+      <Project>{C2B80C00-9F17-3EFF-899C-EB79C136B927}</Project>
+      <Name>ITKAnisotropicSmoothing-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\AntiAlias\ITKAntiAlias-all.vcxproj">
+      <Project>{C6CD8538-74FE-33A9-BFD8-BDAEA7B4A556}</Project>
+      <Name>ITKAntiAlias-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\BiasCorrection\src\ITKBiasCorrection.vcxproj">
+      <Project>{08C2F9C9-3FD0-3650-8BA4-477A1ACE7308}</Project>
+      <Name>ITKBiasCorrection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\BiasCorrection\ITKBiasCorrection-all.vcxproj">
+      <Project>{C3AB7F0D-ED8F-3973-8A19-07E03DAB5C25}</Project>
+      <Name>ITKBiasCorrection-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\BinaryMathematicalMorphology\ITKBinaryMathematicalMorphology-all.vcxproj">
+      <Project>{69D1F1AF-5FC8-31D7-A204-9BD3401321E3}</Project>
+      <Name>ITKBinaryMathematicalMorphology-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\BioCell\src\ITKBioCell.vcxproj">
+      <Project>{7CF888DD-2746-301A-9655-63B7363A1C1A}</Project>
+      <Name>ITKBioCell</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\BioCell\ITKBioCell-all.vcxproj">
+      <Project>{CB6D09CA-A797-3116-B5D9-EB2E60C9A1E4}</Project>
+      <Name>ITKBioCell-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\Classifiers\ITKClassifiers-all.vcxproj">
+      <Project>{D3CAFAA5-4531-387D-90B9-11555BABA35B}</Project>
+      <Name>ITKClassifiers-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Colormap\ITKColormap-all.vcxproj">
+      <Project>{2C59E7F8-C7C0-333E-8AB3-90C18F689B80}</Project>
+      <Name>ITKColormap-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\ITKCommon.vcxproj">
+      <Project>{11627940-BB28-32AF-BDAE-22F131CA16B0}</Project>
+      <Name>ITKCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\ITKCommon-all.vcxproj">
+      <Project>{355A5F54-45C2-3DDA-88F6-C0CAA53EE025}</Project>
+      <Name>ITKCommon-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\ConnectedComponents\ITKConnectedComponents-all.vcxproj">
+      <Project>{4D3F3290-DC5D-3E19-981C-918A9AB83AAF}</Project>
+      <Name>ITKConnectedComponents-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Convolution\ITKConvolution-all.vcxproj">
+      <Project>{12BA26BE-8A7E-3416-9F38-79EA9FD4E48C}</Project>
+      <Name>ITKConvolution-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\CurvatureFlow\ITKCurvatureFlow-all.vcxproj">
+      <Project>{8854A56F-5F97-3C03-8BE3-A1D123798E98}</Project>
+      <Name>ITKCurvatureFlow-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DICOMParser\src\DICOMParser\ITKDICOMParser.vcxproj">
+      <Project>{1B6A2937-6176-3094-9ED0-C93527D83230}</Project>
+      <Name>ITKDICOMParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DICOMParser\ITKDICOMParser-all.vcxproj">
+      <Project>{1A5D7D43-7E15-3662-BCAA-DDACB5B3400D}</Project>
+      <Name>ITKDICOMParser-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ITKData.vcxproj">
+      <Project>{854E4216-7B0B-3CEE-B7C2-B4EE000BB7DC}</Project>
+      <Name>ITKData</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Deconvolution\ITKDeconvolution-all.vcxproj">
+      <Project>{1A7D9E86-854E-34E6-A139-BD454D194F7B}</Project>
+      <Name>ITKDeconvolution-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\DeformableMesh\ITKDeformableMesh-all.vcxproj">
+      <Project>{3512B1C4-1469-32CA-98A8-6A3DD871E537}</Project>
+      <Name>ITKDeformableMesh-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Denoising\ITKDenoising-all.vcxproj">
+      <Project>{FA6E4E40-340A-3133-B75C-0CE0CA7DC6DE}</Project>
+      <Name>ITKDenoising-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\DiffusionTensorImage\ITKDiffusionTensorImage-all.vcxproj">
+      <Project>{8389F5B3-6025-3213-92E5-B02A98BB9D72}</Project>
+      <Name>ITKDiffusionTensorImage-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\DisplacementField\ITKDisplacementField-all.vcxproj">
+      <Project>{3C6192D6-4543-393A-B250-EFA5EC852998}</Project>
+      <Name>ITKDisplacementField-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\DistanceMap\ITKDistanceMap-all.vcxproj">
+      <Project>{73E9AED2-8349-30DA-B65E-FB9743222473}</Project>
+      <Name>ITKDistanceMap-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\ITKDoubleConversion-all.vcxproj">
+      <Project>{7184BCCD-B1FE-3B0F-90A8-E75F1072CE4E}</Project>
+      <Name>ITKDoubleConversion-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat\ITKEXPAT.vcxproj">
+      <Project>{633BE3AB-DCBB-355C-A252-7592AF8FC82B}</Project>
+      <Name>ITKEXPAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Eigen\ITKEigen-all.vcxproj">
+      <Project>{8EECF657-60FE-3365-BB47-65854BE461CA}</Project>
+      <Name>ITKEigen-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\ITKExpat-all.vcxproj">
+      <Project>{E2C5E5C9-9D03-3F01-A3C0-C232F1DE8FEF}</Project>
+      <Name>ITKExpat-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\FEM\src\ITKFEM.vcxproj">
+      <Project>{FC1A698F-540C-3EE5-B491-667EAC1E5103}</Project>
+      <Name>ITKFEM</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\FEM\ITKFEM-all.vcxproj">
+      <Project>{B721C3AE-A68A-311D-BB6C-6D298ECEDA4D}</Project>
+      <Name>ITKFEM-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\FEM\ITKFEMRegistration-all.vcxproj">
+      <Project>{85626D46-3336-3901-BE41-5E61B9E60D62}</Project>
+      <Name>ITKFEMRegistration-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\FFT\ITKFFT-all.vcxproj">
+      <Project>{F2144099-8811-31E1-B5C0-0E435B246D31}</Project>
+      <Name>ITKFFT-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\FastMarching\ITKFastMarching-all.vcxproj">
+      <Project>{57A5D357-A26B-38D6-90C2-D424F46DFDC3}</Project>
+      <Name>ITKFastMarching-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\FiniteDifference\ITKFiniteDifference-all.vcxproj">
+      <Project>{3CE879CB-B373-309A-89CB-8F6D5D9C6F79}</Project>
+      <Name>ITKFiniteDifference-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\ITKGDCM-all.vcxproj">
+      <Project>{A25D7625-636B-3804-833F-CB652235A59A}</Project>
+      <Name>ITKGDCM-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GIFTI\ITKGIFTI-all.vcxproj">
+      <Project>{721AF2E0-BF0C-3C59-A3EA-2F8B2C76D8A9}</Project>
+      <Name>ITKGIFTI-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\GPUAnisotropicSmoothing\ITKGPUAnisotropicSmoothing-all.vcxproj">
+      <Project>{80CECF63-425E-3850-9100-0055092CF0EB}</Project>
+      <Name>ITKGPUAnisotropicSmoothing-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\GPUCommon\ITKGPUCommon-all.vcxproj">
+      <Project>{C41F2596-FA22-3D6A-B65F-1B7499378BDB}</Project>
+      <Name>ITKGPUCommon-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\GPUFiniteDifference\ITKGPUFiniteDifference-all.vcxproj">
+      <Project>{4C98A4BA-1FB3-3AE3-9684-12681949FD77}</Project>
+      <Name>ITKGPUFiniteDifference-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\GPUImageFilterBase\ITKGPUImageFilterBase-all.vcxproj">
+      <Project>{AC596B88-5B39-3805-8AC5-32191ED7C3B9}</Project>
+      <Name>ITKGPUImageFilterBase-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\GPUPDEDeformable\ITKGPUPDEDeformableRegistration-all.vcxproj">
+      <Project>{1C938576-FC2E-3C7C-AE49-14B9ACDA90E3}</Project>
+      <Name>ITKGPUPDEDeformableRegistration-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\GPUCommon\ITKGPURegistrationCommon-all.vcxproj">
+      <Project>{8AFB605C-1E62-342C-AAB5-7486B844A09B}</Project>
+      <Name>ITKGPURegistrationCommon-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\GPUSmoothing\ITKGPUSmoothing-all.vcxproj">
+      <Project>{866A8574-8811-3658-8A65-BCDD3485D44D}</Project>
+      <Name>ITKGPUSmoothing-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\GPUThresholding\ITKGPUThresholding-all.vcxproj">
+      <Project>{89F4C7EF-98C3-3978-B13A-ED5FECB18C3C}</Project>
+      <Name>ITKGPUThresholding-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\ITKHDF5-all.vcxproj">
+      <Project>{41D0A5ED-01DB-34BF-9797-145CEBEA7874}</Project>
+      <Name>ITKHDF5-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\BMP\src\ITKIOBMP.vcxproj">
+      <Project>{ED802888-7E24-3878-BC70-8ABCED4AED2E}</Project>
+      <Name>ITKIOBMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\BMP\ITKIOBMP-all.vcxproj">
+      <Project>{C3CFDFBB-4ABF-3F85-A9FB-04FD20C8A076}</Project>
+      <Name>ITKIOBMP-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\BioRad\src\ITKIOBioRad.vcxproj">
+      <Project>{85FA1B76-6E68-3260-BE45-4F59CA562E9D}</Project>
+      <Name>ITKIOBioRad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\BioRad\ITKIOBioRad-all.vcxproj">
+      <Project>{C24DA53F-783B-3FC6-BFE5-984481F44F5E}</Project>
+      <Name>ITKIOBioRad-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\CSV\src\ITKIOCSV.vcxproj">
+      <Project>{CEEF76E8-6B71-30C5-9F1F-D653EB5D4238}</Project>
+      <Name>ITKIOCSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\CSV\ITKIOCSV-all.vcxproj">
+      <Project>{9D6CC657-AC23-3E30-B5A6-2AD1DB26B120}</Project>
+      <Name>ITKIOCSV-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GDCM\src\ITKIOGDCM.vcxproj">
+      <Project>{7988A370-8B3A-33C4-825A-A5CEA2086DD3}</Project>
+      <Name>ITKIOGDCM</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GDCM\ITKIOGDCM-all.vcxproj">
+      <Project>{8C224874-DADC-39DE-994B-F57F4A5959B2}</Project>
+      <Name>ITKIOGDCM-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GE\src\ITKIOGE.vcxproj">
+      <Project>{1B8BC2FA-D440-3ED0-B6A6-2CAA06AC2B4F}</Project>
+      <Name>ITKIOGE</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GE\ITKIOGE-all.vcxproj">
+      <Project>{1D32AD85-7C52-3C77-A5EA-9E9AD0BBEFB5}</Project>
+      <Name>ITKIOGE-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GIPL\src\ITKIOGIPL.vcxproj">
+      <Project>{189FFECB-E5EB-34B2-957E-B86F469F80C6}</Project>
+      <Name>ITKIOGIPL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GIPL\ITKIOGIPL-all.vcxproj">
+      <Project>{B889A379-3053-3C2A-9475-F26937BD7D28}</Project>
+      <Name>ITKIOGIPL-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\HDF5\src\ITKIOHDF5.vcxproj">
+      <Project>{2C503DBA-4BB7-359B-B61C-2B1FB90DEE26}</Project>
+      <Name>ITKIOHDF5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\HDF5\ITKIOHDF5-all.vcxproj">
+      <Project>{06FBA7A3-2133-34CE-BF7A-3BE5A5E97518}</Project>
+      <Name>ITKIOHDF5-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\IPL\src\ITKIOIPL.vcxproj">
+      <Project>{C8731B1F-13FE-3AA4-A2A0-4525B796E25A}</Project>
+      <Name>ITKIOIPL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\IPL\ITKIOIPL-all.vcxproj">
+      <Project>{B73E81C5-41FD-3834-B160-A9DF81658D93}</Project>
+      <Name>ITKIOIPL-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase\src\ITKIOImageBase.vcxproj">
+      <Project>{64082105-D3BD-3C40-B787-0CF6731214A7}</Project>
+      <Name>ITKIOImageBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase\ITKIOImageBase-all.vcxproj">
+      <Project>{F6516120-3CB9-321F-A3A5-8DA62ADA5459}</Project>
+      <Name>ITKIOImageBase-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\JPEG\src\ITKIOJPEG.vcxproj">
+      <Project>{790D2321-9BFC-3BE9-99A9-57D22698974D}</Project>
+      <Name>ITKIOJPEG</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\JPEG\ITKIOJPEG-all.vcxproj">
+      <Project>{273A1618-EDCB-34C0-8A87-48C31F297B28}</Project>
+      <Name>ITKIOJPEG-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\LSM\src\ITKIOLSM.vcxproj">
+      <Project>{F15D9BAA-C31D-3C07-8DEF-92587901187D}</Project>
+      <Name>ITKIOLSM</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\LSM\ITKIOLSM-all.vcxproj">
+      <Project>{7B61B039-AFD4-3365-B580-D9BCF474860A}</Project>
+      <Name>ITKIOLSM-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\MRC\src\ITKIOMRC.vcxproj">
+      <Project>{F58FE4EC-5C1F-3786-BBFA-E4E01E705150}</Project>
+      <Name>ITKIOMRC</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\MRC\ITKIOMRC-all.vcxproj">
+      <Project>{27ADE2FD-A28B-3927-8048-AC38BF8291D9}</Project>
+      <Name>ITKIOMRC-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Mesh\src\ITKIOMesh.vcxproj">
+      <Project>{C71ECA78-7890-34C6-8837-2EFB6EC30C2D}</Project>
+      <Name>ITKIOMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Mesh\ITKIOMesh-all.vcxproj">
+      <Project>{3D6C55FF-0619-32B2-9BB7-840565ABCC2D}</Project>
+      <Name>ITKIOMesh-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Meta\src\ITKIOMeta.vcxproj">
+      <Project>{99A476C3-6BA5-31C2-905E-4216790C525E}</Project>
+      <Name>ITKIOMeta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Meta\ITKIOMeta-all.vcxproj">
+      <Project>{76E1AC16-0A8C-3FDF-A023-FFE3A6CD36F4}</Project>
+      <Name>ITKIOMeta-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\NIFTI\src\ITKIONIFTI.vcxproj">
+      <Project>{06470350-FD9B-38D3-AA4E-CBFEB7D16233}</Project>
+      <Name>ITKIONIFTI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\NIFTI\ITKIONIFTI-all.vcxproj">
+      <Project>{AE084A87-A7A4-3264-A446-A996DCF98274}</Project>
+      <Name>ITKIONIFTI-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\NRRD\src\ITKIONRRD.vcxproj">
+      <Project>{0CB602CC-7687-39F6-8C5E-E74429C5BC2C}</Project>
+      <Name>ITKIONRRD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\NRRD\ITKIONRRD-all.vcxproj">
+      <Project>{A9F9BA6D-4880-3193-9125-750A1B200E3D}</Project>
+      <Name>ITKIONRRD-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\PNG\src\ITKIOPNG.vcxproj">
+      <Project>{8284F875-1370-302F-9CFB-88F04AED91AC}</Project>
+      <Name>ITKIOPNG</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\PNG\ITKIOPNG-all.vcxproj">
+      <Project>{94034DFC-7892-3654-A2F0-589E4073DACA}</Project>
+      <Name>ITKIOPNG-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\RAW\ITKIORAW-all.vcxproj">
+      <Project>{55F66106-589C-320F-81DF-66CF0B06F273}</Project>
+      <Name>ITKIORAW-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Siemens\src\ITKIOSiemens.vcxproj">
+      <Project>{A3BAE48F-3A2E-393C-AEF3-50D7DCF963BA}</Project>
+      <Name>ITKIOSiemens</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Siemens\ITKIOSiemens-all.vcxproj">
+      <Project>{DBFFEE40-B081-322A-B910-6D9C41036782}</Project>
+      <Name>ITKIOSiemens-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\SpatialObjects\src\ITKIOSpatialObjects.vcxproj">
+      <Project>{F4B78EBF-BEB5-343F-9862-B91D3052EB66}</Project>
+      <Name>ITKIOSpatialObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\SpatialObjects\ITKIOSpatialObjects-all.vcxproj">
+      <Project>{BE5FB508-F1A5-33BB-BE24-CD961CCE67A9}</Project>
+      <Name>ITKIOSpatialObjects-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Stimulate\src\ITKIOStimulate.vcxproj">
+      <Project>{5E59C281-B85E-3D1C-87DD-840211D57893}</Project>
+      <Name>ITKIOStimulate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Stimulate\ITKIOStimulate-all.vcxproj">
+      <Project>{97F7A52F-FC8D-3773-9C53-B00F746BD9B1}</Project>
+      <Name>ITKIOStimulate-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TIFF\src\ITKIOTIFF.vcxproj">
+      <Project>{F05B6F2A-764C-3F36-B2BA-9C8C89637959}</Project>
+      <Name>ITKIOTIFF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TIFF\ITKIOTIFF-all.vcxproj">
+      <Project>{680C1754-453A-3E98-B9CE-534827E3A3D3}</Project>
+      <Name>ITKIOTIFF-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformBase\src\ITKIOTransformBase.vcxproj">
+      <Project>{19547605-0516-3718-B04E-C041FC3C5435}</Project>
+      <Name>ITKIOTransformBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformBase\ITKIOTransformBase-all.vcxproj">
+      <Project>{0794F645-8296-367E-878B-5FAE7A26D7CE}</Project>
+      <Name>ITKIOTransformBase-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformHDF5\src\ITKIOTransformHDF5.vcxproj">
+      <Project>{083BB8E2-975F-346D-9962-AA34FDFAE92A}</Project>
+      <Name>ITKIOTransformHDF5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformHDF5\ITKIOTransformHDF5-all.vcxproj">
+      <Project>{E116AFD9-704C-3087-B756-DB421E5451C8}</Project>
+      <Name>ITKIOTransformHDF5-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformInsightLegacy\src\ITKIOTransformInsightLegacy.vcxproj">
+      <Project>{7274960E-B7A8-3CE0-9198-7E284E7F08D3}</Project>
+      <Name>ITKIOTransformInsightLegacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformInsightLegacy\ITKIOTransformInsightLegacy-all.vcxproj">
+      <Project>{F1DBD2C0-430D-3455-8B2E-BCAE8152889D}</Project>
+      <Name>ITKIOTransformInsightLegacy-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformMatlab\src\ITKIOTransformMatlab.vcxproj">
+      <Project>{08CC6D06-8DEA-3235-AC75-B20A75C884E9}</Project>
+      <Name>ITKIOTransformMatlab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformMatlab\ITKIOTransformMatlab-all.vcxproj">
+      <Project>{EC7DD6FE-B210-3724-A329-AC998318A2BB}</Project>
+      <Name>ITKIOTransformMatlab-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\VTK\src\ITKIOVTK.vcxproj">
+      <Project>{B9058507-9590-38C6-89C8-114E4CA63762}</Project>
+      <Name>ITKIOVTK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\VTK\ITKIOVTK-all.vcxproj">
+      <Project>{D5397FC3-CED9-3ED2-8850-E089F48DD00C}</Project>
+      <Name>ITKIOVTK-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\XML\src\ITKIOXML.vcxproj">
+      <Project>{6A7867B5-E72C-3E13-B8C9-54DE168C5E84}</Project>
+      <Name>ITKIOXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\XML\ITKIOXML-all.vcxproj">
+      <Project>{B1AC960F-B3A1-38D9-A9A7-6B740E0EC24A}</Project>
+      <Name>ITKIOXML-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\ImageAdaptors\ITKImageAdaptors-all.vcxproj">
+      <Project>{51CD2E13-1E52-36EC-B25E-7DB773DC1243}</Project>
+      <Name>ITKImageAdaptors-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageCompare\ITKImageCompare-all.vcxproj">
+      <Project>{5C2C8B57-0E05-3F14-BFB5-776F9B0490ED}</Project>
+      <Name>ITKImageCompare-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageCompose\ITKImageCompose-all.vcxproj">
+      <Project>{B8C95BC4-DE64-3988-8629-80EECCE1F27E}</Project>
+      <Name>ITKImageCompose-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageFeature\ITKImageFeature-all.vcxproj">
+      <Project>{28D7AC26-6A9C-37DC-A3E8-52552FF9AC76}</Project>
+      <Name>ITKImageFeature-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageFilterBase\ITKImageFilterBase-all.vcxproj">
+      <Project>{BE18C9A1-146F-345A-AB17-B01E278FB85F}</Project>
+      <Name>ITKImageFilterBase-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\ImageFunction\ITKImageFunction-all.vcxproj">
+      <Project>{8E94EDAE-232B-3476-93CD-33C02F30F397}</Project>
+      <Name>ITKImageFunction-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageFusion\ITKImageFusion-all.vcxproj">
+      <Project>{49DE157F-38F3-37D2-AF44-4D24DFC41E77}</Project>
+      <Name>ITKImageFusion-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageGradient\ITKImageGradient-all.vcxproj">
+      <Project>{5D1F58BF-935F-3C24-BE5A-9C62C3C410BB}</Project>
+      <Name>ITKImageGradient-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageGrid\ITKImageGrid-all.vcxproj">
+      <Project>{F27005C4-1842-315B-BA13-56C750CE1F46}</Project>
+      <Name>ITKImageGrid-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageIntensity\ITKImageIntensity-all.vcxproj">
+      <Project>{0ABA39E5-98A7-3B41-867C-E25A83027286}</Project>
+      <Name>ITKImageIntensity-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageLabel\ITKImageLabel-all.vcxproj">
+      <Project>{3219C7DD-C8CD-3B5F-9DC3-684F39755ADE}</Project>
+      <Name>ITKImageLabel-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageNoise\ITKImageNoise-all.vcxproj">
+      <Project>{43E8F40D-CF67-3D95-8E52-D8518D6A4DB9}</Project>
+      <Name>ITKImageNoise-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageSources\ITKImageSources-all.vcxproj">
+      <Project>{959E298A-2D00-35A0-94FE-EE7FEB41C26B}</Project>
+      <Name>ITKImageSources-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageStatistics\ITKImageStatistics-all.vcxproj">
+      <Project>{C8972B01-2C4B-3DC0-A9C8-70032E653754}</Project>
+      <Name>ITKImageStatistics-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Nonunit\IntegratedTest\ITKIntegratedTest-all.vcxproj">
+      <Project>{EBC98BE5-22FD-3DF0-8C5F-F1406E8F3FC9}</Project>
+      <Name>ITKIntegratedTest-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\JPEG\ITKJPEG-all.vcxproj">
+      <Project>{763DCD0F-1C3C-391C-82F4-48458A50D2D7}</Project>
+      <Name>ITKJPEG-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\KLMRegionGrowing\src\ITKKLMRegionGrowing.vcxproj">
+      <Project>{71F71080-F884-3584-9FD9-8F23F0AA9F2C}</Project>
+      <Name>ITKKLMRegionGrowing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\KLMRegionGrowing\ITKKLMRegionGrowing-all.vcxproj">
+      <Project>{2F919701-F3AD-34AC-9171-F893D08702F8}</Project>
+      <Name>ITKKLMRegionGrowing-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\ITKKWIML-all.vcxproj">
+      <Project>{C3C4AE8F-D89D-33B4-82C1-3A01472A4F87}</Project>
+      <Name>ITKKWIML-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\ITKKWSys-all.vcxproj">
+      <Project>{BA952827-733C-3987-B72D-1B3D8963CCED}</Project>
+      <Name>ITKKWSys-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\src\ITKLabelMap.vcxproj">
+      <Project>{7E0BC2C0-1FE2-374C-A54D-DAF655B26981}</Project>
+      <Name>ITKLabelMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\ITKLabelMap-all.vcxproj">
+      <Project>{1BC3647E-2DD9-3D99-9E7A-5CB04C21E7C1}</Project>
+      <Name>ITKLabelMap-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LabelVoting\ITKLabelVoting-all.vcxproj">
+      <Project>{24BE53D6-8CF8-33AF-9A66-C3A01C254E0B}</Project>
+      <Name>ITKLabelVoting-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LevelSets\ITKLevelSets-all.vcxproj">
+      <Project>{0224BD48-160E-33B0-B5F1-2C9860E0A5AE}</Project>
+      <Name>ITKLevelSets-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LevelSetsv4\ITKLevelSetsv4-all.vcxproj">
+      <Project>{D6C44E22-8FF1-32CF-ADF3-8F1359CFA503}</Project>
+      <Name>ITKLevelSetsv4-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\MarkovRandomFieldsClassifiers\ITKMarkovRandomFieldsClassifiers-all.vcxproj">
+      <Project>{D24A298C-B0B3-357A-A3BC-4481F5C4D530}</Project>
+      <Name>ITKMarkovRandomFieldsClassifiers-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\MathematicalMorphology\ITKMathematicalMorphology-all.vcxproj">
+      <Project>{6B28ECB0-D680-36A2-9568-DFDA7A7654D5}</Project>
+      <Name>ITKMathematicalMorphology-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Mesh\src\ITKMesh.vcxproj">
+      <Project>{702ADA5A-2C76-350D-BAEE-CAE655450D72}</Project>
+      <Name>ITKMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Mesh\ITKMesh-all.vcxproj">
+      <Project>{81502B19-F01F-3FE1-9EA9-8330FD18F0F7}</Project>
+      <Name>ITKMesh-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src\ITKMetaIO.vcxproj">
+      <Project>{CCC453D3-944E-30F7-B441-5C384AAFB01E}</Project>
+      <Name>ITKMetaIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\ITKMetaIO-all.vcxproj">
+      <Project>{F2D8FB71-DEA9-3332-A268-D6AE8A1B583C}</Project>
+      <Name>ITKMetaIO-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\Metricsv4\ITKMetricsv4-all.vcxproj">
+      <Project>{90D10FC2-C6CF-3487-BFA0-E4C69CED753F}</Project>
+      <Name>ITKMetricsv4-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NIFTI\ITKNIFTI-all.vcxproj">
+      <Project>{4836884C-8AD4-30D2-9DD7-B38D1EE857EC}</Project>
+      <Name>ITKNIFTI-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\NarrowBand\ITKNarrowBand-all.vcxproj">
+      <Project>{0ED56ADD-8332-31B2-9BEE-BE60FED397F9}</Project>
+      <Name>ITKNarrowBand-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib\ITKNetlib-all.vcxproj">
+      <Project>{78397E9D-0C26-350F-AF3B-649333ED9F2F}</Project>
+      <Name>ITKNetlib-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\NeuralNetworks\ITKNeuralNetworks-all.vcxproj">
+      <Project>{125CEC87-40DE-3BFE-BF8A-3A3995BB62BF}</Project>
+      <Name>ITKNeuralNetworks-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NrrdIO\src\NrrdIO\ITKNrrdIO.vcxproj">
+      <Project>{46199B3E-1433-3F6A-97E0-CA1D042B4AFE}</Project>
+      <Name>ITKNrrdIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NrrdIO\ITKNrrdIO-all.vcxproj">
+      <Project>{7B3289A0-0D0E-32DE-8282-097C29A636B2}</Project>
+      <Name>ITKNrrdIO-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\OpenJPEG\ITKOpenJPEG-all.vcxproj">
+      <Project>{0558A4E3-D1E4-353E-BA68-92FB3A78580A}</Project>
+      <Name>ITKOpenJPEG-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Optimizers\src\ITKOptimizers.vcxproj">
+      <Project>{9E8C0855-08DE-3FCB-B363-844AA15D8141}</Project>
+      <Name>ITKOptimizers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Optimizers\ITKOptimizers-all.vcxproj">
+      <Project>{34D190FD-B852-300C-9352-09883D1635A6}</Project>
+      <Name>ITKOptimizers-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Optimizersv4\src\ITKOptimizersv4.vcxproj">
+      <Project>{81110ADD-9B9E-3E35-BAB2-B5DB81338C02}</Project>
+      <Name>ITKOptimizersv4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Optimizersv4\ITKOptimizersv4-all.vcxproj">
+      <Project>{4ACE935D-00B2-37AA-A2E7-1F78FACE07F5}</Project>
+      <Name>ITKOptimizersv4-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\PDEDeformable\ITKPDEDeformableRegistration-all.vcxproj">
+      <Project>{D3788000-A9EB-3667-AA5C-A11838D79BDA}</Project>
+      <Name>ITKPDEDeformableRegistration-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\PNG\ITKPNG-all.vcxproj">
+      <Project>{6B83F523-0A80-3C93-A125-185899E62DAE}</Project>
+      <Name>ITKPNG-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Path\src\ITKPath.vcxproj">
+      <Project>{D4998ED6-2922-384B-9A13-2B82C7CAD8B7}</Project>
+      <Name>ITKPath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Path\ITKPath-all.vcxproj">
+      <Project>{366043B6-C6F6-3EBF-B91F-117BFA30D3B9}</Project>
+      <Name>ITKPath-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Polynomials\src\ITKPolynomials.vcxproj">
+      <Project>{4F35B805-B67D-3737-A747-6A244C3E5EB4}</Project>
+      <Name>ITKPolynomials</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Polynomials\ITKPolynomials-all.vcxproj">
+      <Project>{EBD0D197-EA3A-327D-99E1-294AC541A03C}</Project>
+      <Name>ITKPolynomials-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\QuadEdgeMesh\src\ITKQuadEdgeMesh.vcxproj">
+      <Project>{A074071E-0D85-3867-A260-1D719B2FCEB2}</Project>
+      <Name>ITKQuadEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\QuadEdgeMesh\ITKQuadEdgeMesh-all.vcxproj">
+      <Project>{4785EFBA-F0B6-3EAC-BB32-8B4426AA0378}</Project>
+      <Name>ITKQuadEdgeMesh-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\QuadEdgeMeshFiltering\ITKQuadEdgeMeshFiltering-all.vcxproj">
+      <Project>{D303984E-5543-3F52-8148-4466B48E2D2B}</Project>
+      <Name>ITKQuadEdgeMeshFiltering-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\RegionGrowing\ITKRegionGrowing-all.vcxproj">
+      <Project>{9F8AF706-B95A-3274-856B-81DE0F83636F}</Project>
+      <Name>ITKRegionGrowing-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\Common\ITKRegistrationCommon-all.vcxproj">
+      <Project>{D53EF2C3-DD8D-3110-AE3A-2967D1DBC3CC}</Project>
+      <Name>ITKRegistrationCommon-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Registration\RegistrationMethodsv4\ITKRegistrationMethodsv4-all.vcxproj">
+      <Project>{38BE9BFE-E634-3849-87B7-F798DC53FC45}</Project>
+      <Name>ITKRegistrationMethodsv4-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Nonunit\Review\src\ITKReview.vcxproj">
+      <Project>{3C0BE4D1-0E55-3D2E-8F6C-4734C6014329}</Project>
+      <Name>ITKReview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Nonunit\Review\ITKReview-all.vcxproj">
+      <Project>{7C94AB4F-4880-3F71-BC5B-34DE8C21BC90}</Project>
+      <Name>ITKReview-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\SignedDistanceFunction\ITKSignedDistanceFunction-all.vcxproj">
+      <Project>{A3E26DBA-1589-3F9C-ABBF-0B54F611FB5F}</Project>
+      <Name>ITKSignedDistanceFunction-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Smoothing\ITKSmoothing-all.vcxproj">
+      <Project>{F6BEDD1C-5519-3267-A9B6-96B16CDB9A2E}</Project>
+      <Name>ITKSmoothing-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\SpatialFunction\ITKSpatialFunction-all.vcxproj">
+      <Project>{FEA7200F-61E9-3241-8EED-9A2207D55642}</Project>
+      <Name>ITKSpatialFunction-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\SpatialObjects\src\ITKSpatialObjects.vcxproj">
+      <Project>{DA9EE7A2-9366-3EF8-A43B-39F7DFDD3070}</Project>
+      <Name>ITKSpatialObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\SpatialObjects\ITKSpatialObjects-all.vcxproj">
+      <Project>{2C5E1CCF-5315-3FC0-A2FB-C78FD95DDA61}</Project>
+      <Name>ITKSpatialObjects-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Statistics\src\ITKStatistics.vcxproj">
+      <Project>{33E1948A-EEE6-395D-AD18-3FA5BA6D8CB0}</Project>
+      <Name>ITKStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Statistics\ITKStatistics-all.vcxproj">
+      <Project>{D9C57989-63B5-358C-9C71-A22AF3CE0B6D}</Project>
+      <Name>ITKStatistics-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\TIFF\ITKTIFF-all.vcxproj">
+      <Project>{2381CFB4-1726-3636-B027-12935250535E}</Project>
+      <Name>ITKTIFF-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\TestKernel\ITKTestKernel-all.vcxproj">
+      <Project>{B4B718EA-D68E-3EF0-A622-CA450631EB78}</Project>
+      <Name>ITKTestKernel-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Thresholding\ITKThresholding-all.vcxproj">
+      <Project>{20C1EE05-32E8-3D58-8CA6-47BFCF91F26B}</Project>
+      <Name>ITKThresholding-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Transform\src\ITKTransform.vcxproj">
+      <Project>{6EF5E5F6-FA2E-3AE3-8EFB-91AF885FE6F6}</Project>
+      <Name>ITKTransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Transform\ITKTransform-all.vcxproj">
+      <Project>{533C52CB-3FD3-320C-B799-E6B2B57E25BD}</Project>
+      <Name>ITKTransform-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformFactory\src\ITKTransformFactory.vcxproj">
+      <Project>{B0C89C58-9C8C-3380-BDB7-A64113B903DF}</Project>
+      <Name>ITKTransformFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TransformFactory\ITKTransformFactory-all.vcxproj">
+      <Project>{71BCBF74-F154-33C5-ADFC-F41E4EA0F5AA}</Project>
+      <Name>ITKTransformFactory-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\ITKVNL-all.vcxproj">
+      <Project>{11493644-E593-3F3E-8AD5-130B75ECAD90}</Project>
+      <Name>ITKVNL-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNLInstantiation\src\ITKVNLInstantiation.vcxproj">
+      <Project>{7E9FE007-91CB-3BBC-BD4A-E439D3ACBDF8}</Project>
+      <Name>ITKVNLInstantiation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNLInstantiation\ITKVNLInstantiation-all.vcxproj">
+      <Project>{2B8404A8-4C62-3FE2-AC64-3B72296E4FE0}</Project>
+      <Name>ITKVNLInstantiation-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Bridge\VTK\src\ITKVTK.vcxproj">
+      <Project>{AF82170A-BDAB-3988-A4CC-9A80B3BAD518}</Project>
+      <Name>ITKVTK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Bridge\VTK\ITKVTK-all.vcxproj">
+      <Project>{E42139D4-DB09-310B-8EB6-D9A5CCC2E3C6}</Project>
+      <Name>ITKVTK-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Video\Core\src\ITKVideoCore.vcxproj">
+      <Project>{5DCE69C4-D086-3854-9A8E-2F558AEB4BFD}</Project>
+      <Name>ITKVideoCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Video\Core\ITKVideoCore-all.vcxproj">
+      <Project>{9E5B88FD-7EF0-3A77-9188-123D8DDFE15F}</Project>
+      <Name>ITKVideoCore-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Video\Filtering\ITKVideoFiltering-all.vcxproj">
+      <Project>{FD691911-A807-3160-AC79-EA19E69447D7}</Project>
+      <Name>ITKVideoFiltering-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Video\IO\src\ITKVideoIO.vcxproj">
+      <Project>{66BB4E9B-645D-3462-B86A-A80B76D89AA7}</Project>
+      <Name>ITKVideoIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Video\IO\ITKVideoIO-all.vcxproj">
+      <Project>{9C1A7C6D-6C32-3260-A46B-E1BB70E0BBA9}</Project>
+      <Name>ITKVideoIO-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\Voronoi\ITKVoronoi-all.vcxproj">
+      <Project>{B9463F3E-61D5-38C2-85F8-4102EB5BBD96}</Project>
+      <Name>ITKVoronoi-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\Watersheds\src\ITKWatersheds.vcxproj">
+      <Project>{66D85BFB-6759-372D-AF95-7FFD3C3CBE31}</Project>
+      <Name>ITKWatersheds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\Watersheds\ITKWatersheds-all.vcxproj">
+      <Project>{AADA6C8A-F788-37AF-BE4D-203757B81F08}</Project>
+      <Name>ITKWatersheds-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\ITKZLIB-all.vcxproj">
+      <Project>{4CD899A3-1CE9-3194-80B7-D7C97F3E1293}</Project>
+      <Name>ITKZLIB-all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\src\ITK_bld_internal_H5detect.vcxproj">
+      <Project>{9E25A42E-2A44-3950-B80B-126F033D340D}</Project>
+      <Name>ITK_bld_internal_H5detect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\src\ITK_bld_internal_H5make_libsettings.vcxproj">
+      <Project>{CEC126E9-6273-37C7-B55F-18D9DD9517E6}</Project>
+      <Name>ITK_bld_internal_H5make_libsettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GIFTI\src\gifticlib\ITKgiftiio.vcxproj">
+      <Project>{295BDD8B-ED09-3149-9814-34FB8FFF4AE3}</Project>
+      <Name>ITKgiftiio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NIFTI\src\nifti\niftilib\ITKniftiio.vcxproj">
+      <Project>{12308DCC-B16B-30AF-94AC-85BD23399B76}</Project>
+      <Name>ITKniftiio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NIFTI\src\nifti\znzlib\ITKznz.vcxproj">
+      <Project>{AF6DD88A-40CF-380B-A65C-D957DDC8906E}</Project>
+      <Name>ITKznz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common\gdcmCommon.vcxproj">
+      <Project>{F156D2E9-6BDE-3CEF-86E2-FA1751C2CA2A}</Project>
+      <Name>gdcmCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary\gdcmDICT.vcxproj">
+      <Project>{6EF507FD-D545-3729-A9E8-A28D1311130F}</Project>
+      <Name>gdcmDICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition\gdcmDSED.vcxproj">
+      <Project>{DF0B4D03-B019-3716-99FB-E6984088DCE1}</Project>
+      <Name>gdcmDSED</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition\gdcmIOD.vcxproj">
+      <Project>{330935E3-255C-3A24-8C2C-63D06E6CF6C8}</Project>
+      <Name>gdcmIOD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition\gdcmMEXD.vcxproj">
+      <Project>{8FCC0396-B177-3B17-B553-E3A9599CA9D4}</Project>
+      <Name>gdcmMEXD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmMSFF.vcxproj">
+      <Project>{A86465B9-6919-3196-85F2-7068091C4608}</Project>
+      <Name>gdcmMSFF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls\gdcmcharls.vcxproj">
+      <Project>{58DD4757-46E1-3B8F-B068-26F571E746D4}</Project>
+      <Name>gdcmcharls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\12\gdcmjpeg12.vcxproj">
+      <Project>{EACE3F76-5CC8-319F-ACFD-5267CC5701E8}</Project>
+      <Name>gdcmjpeg12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\16\gdcmjpeg16.vcxproj">
+      <Project>{744225A8-1882-3AC1-A750-3AFC64673598}</Project>
+      <Name>gdcmjpeg16</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\8\gdcmjpeg8.vcxproj">
+      <Project>{5788668E-D341-3141-9DE4-6F007A1D8162}</Project>
+      <Name>gdcmjpeg8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2\libopenjpeg\gdcmopenjpeg.vcxproj">
+      <Project>{7187AC91-DE8D-3A64-8F22-7237FA58F615}</Project>
+      <Name>gdcmopenjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\socketxx\socket++\gdcmsocketxx.vcxproj">
+      <Project>{96BBB36F-9C1D-3F11-855D-4AA0F61CE2BA}</Project>
+      <Name>gdcmsocketxx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\src\hdf5-static.vcxproj">
+      <Project>{4BAD1D41-CFED-3AF7-96F4-9E458783269E}</Project>
+      <Name>hdf5-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\c++\src\hdf5_cpp-static.vcxproj">
+      <Project>{20A74F5A-5B39-3CDA-9457-E66A377F0878}</Project>
+      <Name>hdf5_cpp-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib\src\netlib\slatec\itkNetlibSlatec.vcxproj">
+      <Project>{69AE4AA1-1DA6-3AB1-90D4-DB8312CCB96C}</Project>
+      <Name>itkNetlibSlatec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\TestKernel\src\itkTestDriver.vcxproj">
+      <Project>{F518EC6E-4652-346A-81B3-95454494AFC1}</Project>
+      <Name>itkTestDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion\itkdouble-conversion.vcxproj">
+      <Project>{199369DB-AD62-3561-8449-550316F0C2AC}</Project>
+      <Name>itkdouble-conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\JPEG\src\itkjpeg\itkjpeg.vcxproj">
+      <Project>{B6696E99-F9DF-3577-8B97-7C72DA193439}</Project>
+      <Name>itkjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itknetlib.vcxproj">
+      <Project>{924CBEAF-C4E2-3631-9E4E-96424B82F639}</Project>
+      <Name>itknetlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\OpenJPEG\src\openjpeg\itkopenjpeg.vcxproj">
+      <Project>{AC1470EC-E589-37BA-8A8D-E33BEFD1ED7D}</Project>
+      <Name>itkopenjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\PNG\src\itkpng\itkpng.vcxproj">
+      <Project>{73F7F4E7-0820-3A8B-A5F8-AFB1EAA58F0E}</Project>
+      <Name>itkpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\itksys.vcxproj">
+      <Project>{B6124A39-02D4-35C2-9A3C-2655D555A492}</Project>
+      <Name>itksys</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\testlib\itktestlib.vcxproj">
+      <Project>{8969A5DE-FE64-3435-A016-288BF255D244}</Project>
+      <Name>itktestlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\TIFF\src\itktiff\itktiff.vcxproj">
+      <Project>{A3FA8012-3C39-3561-8728-BF22061434D3}</Project>
+      <Name>itktiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itkv3p_netlib.vcxproj">
+      <Project>{1742AAAF-EF41-3D5E-9A1C-F24239DB4774}</Project>
+      <Name>itkv3p_netlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl\itkvcl.vcxproj">
+      <Project>{5FCE8653-DFD1-376C-9993-0BA2D05313F9}</Project>
+      <Name>itkvcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\itkvnl.vcxproj">
+      <Project>{4DA7C123-B60C-3CA7-8954-17974A9646A0}</Project>
+      <Name>itkvnl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo\itkvnl_algo.vcxproj">
+      <Project>{F4817124-7057-3565-861C-36660C74F819}</Project>
+      <Name>itkvnl_algo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src\itkzlib\itkzlib.vcxproj">
+      <Project>{D420C9D2-8C71-3AE5-B572-90620285D6AB}</Project>
+      <Name>itkzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

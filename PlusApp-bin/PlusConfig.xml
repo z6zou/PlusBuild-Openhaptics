@@ -1,0 +1,9 @@
+<PlusConfig
+  LogLevel="3"
+  DeviceSetConfigurationDirectory="../config"
+  ImageDirectory="../data"
+  ModelDirectory="../config"
+  ScriptsDirectory="../scripts"
+  OutputDirectory="../data"
+  >
+</PlusConfig>

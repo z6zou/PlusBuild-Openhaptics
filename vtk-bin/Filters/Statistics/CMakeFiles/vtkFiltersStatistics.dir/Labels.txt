@@ -1,0 +1,38 @@
+# Target labels
+ vtkFiltersStatistics
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkAutoCorrelativeStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkBivariateLinearTableThreshold.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkComputeQuartiles.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkContingencyStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkCorrelativeStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkDescriptiveStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkHighestDensityRegionsStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkExtractFunctionalBagPlot.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctor.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkMultiCorrelativeStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkOrderStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkPCAStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStatisticsAlgorithm.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStrahlerMetric.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStreamingStatistics.cxx
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkAutoCorrelativeStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkBivariateLinearTableThreshold.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkComputeQuartiles.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkContingencyStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkCorrelativeStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkDescriptiveStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkHighestDensityRegionsStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkExtractFunctionalBagPlot.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctor.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkMultiCorrelativeStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkOrderStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkPCAStatistics.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStatisticsAlgorithm.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStrahlerMetric.h
+C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStreamingStatistics.h
+C:/Project/PlusB-bin/vtk-bin/Filters/Statistics/vtkFiltersStatisticsModule.h

@@ -1,0 +1,9 @@
+# Target labels
+ ITKOptimizersv4
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Numerics/Optimizersv4/src/itkObjectToObjectOptimizerBase.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Optimizersv4/src/itkSingleValuedNonLinearVnlOptimizerv4.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Optimizersv4/src/itkSingleValuedVnlCostFunctionAdaptorv4.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Optimizersv4/src/itkLBFGSOptimizerv4.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Optimizersv4/src/itkLBFGSBOptimizerv4.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Optimizersv4/src/itkAmoebaOptimizerv4.cxx

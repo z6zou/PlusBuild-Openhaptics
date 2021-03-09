@@ -1,0 +1,124 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkGL2PSExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkIVExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkOBJExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkOOGLExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkPOVExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBLight.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBProperty.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGContextDevice2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkSingleVTPExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkVRMLExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterFIWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterXMLWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkGL2PSExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkIVExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkOBJExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkOOGLExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkPOVExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBLight.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkRIBProperty.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGContextDevice2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkSVGExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkSingleVTPExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkVRMLExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterFIWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Export/vtkX3DExporterXMLWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Export/vtkIOExportModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExport"
+		],
+		"name" : "vtkIOExport"
+	}
+}

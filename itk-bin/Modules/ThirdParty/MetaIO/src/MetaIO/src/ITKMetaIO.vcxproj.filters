@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaUtils.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaArrow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaBlob.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaContour.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaDTITube.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaEllipse.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaGroup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaGaussian.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaImageUtils.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaLandmark.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaLine.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaMesh.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaOutput.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaScene.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaSurface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaTube.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaVesselTube.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaTubeGraph.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaForm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaArray.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaFEMObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaContour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\metaFEMObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

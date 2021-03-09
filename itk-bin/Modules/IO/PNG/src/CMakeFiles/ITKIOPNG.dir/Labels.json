@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/PNG/src/itkPNGImageIOFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/PNG/src/itkPNGImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOPNG"
+		],
+		"name" : "ITKIOPNG"
+	}
+}

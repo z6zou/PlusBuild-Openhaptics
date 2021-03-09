@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\include\itkGPUBinaryThresholdImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\GPUThresholding\include\itkGPUBinaryThresholdImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

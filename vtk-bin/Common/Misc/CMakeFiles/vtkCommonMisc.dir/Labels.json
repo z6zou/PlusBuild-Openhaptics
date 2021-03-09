@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkContourValues.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkErrorCode.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkFunctionParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkHeap.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkPolygonBuilder.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkResourceFileLocator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkContourValues.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkErrorCode.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkFunctionParser.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkHeap.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkPolygonBuilder.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/Misc/vtkResourceFileLocator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Common/Misc/vtkCommonMiscModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkCommonMisc"
+		],
+		"name" : "vtkCommonMisc"
+	}
+}

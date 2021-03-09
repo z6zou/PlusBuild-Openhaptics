@@ -1,0 +1,88 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkDatabaseToTableReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQuery.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQueryToTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseSchema.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseTableSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLQuery.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToDatabaseWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteDatabase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteQuery.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteToTableReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToSQLiteWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkDatabaseToTableReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQuery.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQueryToTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseSchema.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseTableSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLQuery.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToDatabaseWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteDatabase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteQuery.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteToTableReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToSQLiteWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/SQL/vtkIOSQLModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOSQL"
+		],
+		"name" : "vtkIOSQL"
+	}
+}

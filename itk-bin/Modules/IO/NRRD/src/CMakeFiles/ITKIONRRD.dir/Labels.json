@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/NRRD/src/itkNrrdImageIOFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/NRRD/src/itkNrrdImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIONRRD"
+		],
+		"name" : "ITKIONRRD"
+	}
+}

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp-bin\PlusServerLauncher\PlusServerLauncher_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp-bin\PlusServerLauncher\PlusServerLauncher_autogen\EWIEGA46WW\qrc_PlusServerLauncher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp-bin\PlusServerLauncher\PlusServerLauncher_autogen\EBCO66FFML\qrc_PlusWidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusApp-bin\CMakeFiles\a4740c0283929f20f98cedc26b032af4\qrc_PlusServerLauncher.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusApp-bin\CMakeFiles\f275434197525dc3ff7e3bccf9ce358d\qrc_PlusWidgets.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncherMainWindow.ui" />
+    <None Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncher.qrc" />
+    <None Include="C:\Project\PlusB-bin\PlusLib\src\PlusWidgets\PlusWidgets.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Project\PlusB-bin\PlusApp\PlusServerLauncher\PlusServerLauncher.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4A5DD7E0-9B62-3117-A4F7-0FC67C408560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A4188FBD-1933-3B14-B39A-CB0A4DF36886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{339AC517-3CC7-3F59-B1D1-C125E1CC1102}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

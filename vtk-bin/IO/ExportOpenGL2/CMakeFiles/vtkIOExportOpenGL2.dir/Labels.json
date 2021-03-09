@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ExportOpenGL2/vtkIOExportOpenGL2Module.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExportOpenGL2"
+		],
+		"name" : "vtkIOExportOpenGL2"
+	}
+}

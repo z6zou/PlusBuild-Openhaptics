@@ -1,0 +1,29 @@
+# Target labels
+ vtkfreetype
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftbase.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftbbox.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftbitmap.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftglyph.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftinit.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftmm.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/bdf/bdf.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/cache/ftcache.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/cff/cff.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/cid/type1cid.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/gzip/ftgzip.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/lzw/ftlzw.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/pcf/pcf.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/pfr/pfr.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/psaux/psaux.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/pshinter/pshinter.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/psnames/psmodule.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/raster/raster.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/sfnt/sfnt.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/smooth/smooth.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/truetype/truetype.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/type1/type1.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/type42/type42.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/winfonts/winfnt.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/builds/win32/ftdebug.c
+C:/Project/PlusB-bin/vtk/ThirdParty/freetype/vtkfreetype/src/base/ftsystem.c

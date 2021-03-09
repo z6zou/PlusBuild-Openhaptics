@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOGIPL
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/GIPL/src/itkGiplImageIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/GIPL/src/itkGiplImageIO.cxx

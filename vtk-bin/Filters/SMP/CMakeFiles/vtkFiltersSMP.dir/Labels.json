@@ -1,0 +1,64 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePolyDataHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGridManyPieces.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplates3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplatesCutter3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPTransform.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPWarpVector.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePolyDataHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGridManyPieces.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplates3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplatesCutter3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPTransform.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPWarpVector.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/SMP/vtkFiltersSMPModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersSMP"
+		],
+		"name" : "vtkFiltersSMP"
+	}
+}

@@ -1,0 +1,16 @@
+# Target labels
+ vtkRenderingContextOpenGL2
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextActor.cxx
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.cxx
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.cxx
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.cxx
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLPropItem.cxx
+C:/Project/PlusB-bin/vtk-bin/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2ObjectFactory.cxx
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextActor.h
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.h
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.h
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.h
+C:/Project/PlusB-bin/vtk/Rendering/ContextOpenGL2/vtkOpenGLPropItem.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2ObjectFactory.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2Module.h

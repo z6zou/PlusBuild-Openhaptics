@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/GenerateExportHeader.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/CMakeLists.txt

@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageAttributes.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINC.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageAttributes.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/MINC/vtkIOMINCModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOMINC"
+		],
+		"name" : "vtkIOMINC"
+	}
+}

@@ -1,0 +1,34 @@
+# Target labels
+ vtktheora
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/analyze.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/encapiwrapper.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/encfrag.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/encinfo.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/encode.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/enquant.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/fdct.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/huffenc.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/mathops.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/mcenc.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/rate.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/tokenize.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/bitpack.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/decapiwrapper.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/decinfo.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/decode.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/dequant.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/huffdec.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/info.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/apiwrapper.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/fragment.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/idct.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/internal.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/quant.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/lib/state.c
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/include/theora/codec.h
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/include/theora/theora.h
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/include/theora/theoradec.h
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/include/theora/theoraenc.h
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtktheora/include/theora/vtk_theora_mangle.h
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/theora/vtktheora/include/vtktheora_export.h

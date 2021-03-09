@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC1A698F-540C-3EE5-B491-667EAC1E5103}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ITKFEM</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ITKFEM.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ITKFEM-4.12D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ITKFEM.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ITKFEM-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ITKFEM.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ITKFEM-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ITKFEM.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ITKFEM-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\ITKSpatialObjects-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKPath-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKMesh-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKOptimizers-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKMetaIO-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKTransform-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKStatistics-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKCommon-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itksys-4.12D.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\Debug\ITKVNLInstantiation-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvnl_algo-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvnl-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itknetlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvcl-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkNetlibSlatec-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkv3p_netlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkzlib-4.12D.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/ITKFEM-4.12D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/ITKFEM-4.12D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\ITKSpatialObjects-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKPath-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKMesh-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKOptimizers-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKMetaIO-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKTransform-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKStatistics-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKCommon-4.12.lib;C:\Project\PlusB-bin\lib\Release\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\Release\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\Release\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvcl-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkNetlibSlatec-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkzlib-4.12.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/ITKFEM-4.12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/ITKFEM-4.12.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\ITKSpatialObjects-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKPath-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKMesh-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKOptimizers-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKMetaIO-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKTransform-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKStatistics-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKCommon-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvcl-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkNetlibSlatec-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkzlib-4.12.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/ITKFEM-4.12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/ITKFEM-4.12.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";ITKFEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\IO\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DisplacementField\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Registration\Common\include;C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKSpatialObjects-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKPath-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKMesh-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKOptimizers-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKMetaIO-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKTransform-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKStatistics-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKCommon-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvcl-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkNetlibSlatec-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkzlib-4.12.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/ITKFEM-4.12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/ITKFEM-4.12.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Numerics/FEM/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Numerics/FEM/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Numerics\FEM\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Numerics/FEM/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Numerics/FEM/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Numerics\FEM\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Numerics/FEM/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Numerics/FEM/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Numerics\FEM\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Numerics/FEM/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Numerics/FEM/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Numerics\FEM\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMSolution.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearLine.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearLineStress.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateral.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateralMembrane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateralStrain.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateralStress.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangular.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangularMembrane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangularStrain.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangularStress.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0QuadraticTriangular.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0QuadraticTriangularStrain.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC0QuadraticTriangularStress.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement2DC1Beam.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearHexahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearHexahedronMembrane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearHexahedronStrain.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTetrahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTetrahedronMembrane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTetrahedronStrain.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTriangular.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTriangularLaplaceBeltrami.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTriangularMembrane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMElementBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMException.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMFactoryBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMItpackSparseMatrix.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLightObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapperDenseVNL.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapperItpack.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapperVNL.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadBC.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadBCMFC.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadEdge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadElementBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadGrav.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadLandmark.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadNoisyLandmark.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadNode.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMLoadPoint.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMMaterialBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMMaterialLinearElasticity.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\itkFEMUtility.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\FEM\src\dsrc2c.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\ITKCommon.vcxproj">
+      <Project>{11627940-BB28-32AF-BDAE-22F131CA16B0}</Project>
+      <Name>ITKCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Mesh\src\ITKMesh.vcxproj">
+      <Project>{702ADA5A-2C76-350D-BAEE-CAE655450D72}</Project>
+      <Name>ITKMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src\ITKMetaIO.vcxproj">
+      <Project>{CCC453D3-944E-30F7-B441-5C384AAFB01E}</Project>
+      <Name>ITKMetaIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Optimizers\src\ITKOptimizers.vcxproj">
+      <Project>{9E8C0855-08DE-3FCB-B363-844AA15D8141}</Project>
+      <Name>ITKOptimizers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\Path\src\ITKPath.vcxproj">
+      <Project>{D4998ED6-2922-384B-9A13-2B82C7CAD8B7}</Project>
+      <Name>ITKPath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\SpatialObjects\src\ITKSpatialObjects.vcxproj">
+      <Project>{DA9EE7A2-9366-3EF8-A43B-39F7DFDD3070}</Project>
+      <Name>ITKSpatialObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Numerics\Statistics\src\ITKStatistics.vcxproj">
+      <Project>{33E1948A-EEE6-395D-AD18-3FA5BA6D8CB0}</Project>
+      <Name>ITKStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Transform\src\ITKTransform.vcxproj">
+      <Project>{6EF5E5F6-FA2E-3AE3-8EFB-91AF885FE6F6}</Project>
+      <Name>ITKTransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNLInstantiation\src\ITKVNLInstantiation.vcxproj">
+      <Project>{7E9FE007-91CB-3BBC-BD4A-E439D3ACBDF8}</Project>
+      <Name>ITKVNLInstantiation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib\src\netlib\slatec\itkNetlibSlatec.vcxproj">
+      <Project>{69AE4AA1-1DA6-3AB1-90D4-DB8312CCB96C}</Project>
+      <Name>itkNetlibSlatec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itknetlib.vcxproj">
+      <Project>{924CBEAF-C4E2-3631-9E4E-96424B82F639}</Project>
+      <Name>itknetlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\itksys.vcxproj">
+      <Project>{B6124A39-02D4-35C2-9A3C-2655D555A492}</Project>
+      <Name>itksys</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itkv3p_netlib.vcxproj">
+      <Project>{1742AAAF-EF41-3D5E-9A1C-F24239DB4774}</Project>
+      <Name>itkv3p_netlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl\itkvcl.vcxproj">
+      <Project>{5FCE8653-DFD1-376C-9993-0BA2D05313F9}</Project>
+      <Name>itkvcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\itkvnl.vcxproj">
+      <Project>{4DA7C123-B60C-3CA7-8954-17974A9646A0}</Project>
+      <Name>itkvnl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo\itkvnl_algo.vcxproj">
+      <Project>{F4817124-7057-3565-861C-36660C74F819}</Project>
+      <Name>itkvnl_algo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src\itkzlib\itkzlib.vcxproj">
+      <Project>{D420C9D2-8C71-3AE5-B572-90620285D6AB}</Project>
+      <Name>itkzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

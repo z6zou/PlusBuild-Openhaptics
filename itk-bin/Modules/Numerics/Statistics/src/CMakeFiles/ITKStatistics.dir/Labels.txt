@@ -1,0 +1,14 @@
+# Target labels
+ ITKStatistics
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkProbabilityDistribution.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkDenseFrequencyContainer2.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkSparseFrequencyContainer2.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkChiSquareDistribution.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkGaussianDistribution.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkTDistribution.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkNormalVariateGenerator.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkDecisionRule.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkMaximumDecisionRule.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkMaximumRatioDecisionRule.cxx
+C:/Project/PlusB-bin/itk/Modules/Numerics/Statistics/src/itkMinimumDecisionRule.cxx

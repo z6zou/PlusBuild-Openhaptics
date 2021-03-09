@@ -1,0 +1,14 @@
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/INSTALL.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/ZERO_CHECK.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/Codecs/CMakeFiles/INSTALL.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/Codecs/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/IGSIOCommon/CMakeFiles/vtkIGSIOCommon.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/IGSIOCommon/CMakeFiles/INSTALL.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/IGSIOCommon/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/vtkSequenceIO.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/INSTALL.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/VolumeReconstruction/CMakeFiles/vtkVolumeReconstruction.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/VolumeReconstruction/CMakeFiles/INSTALL.dir
+C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/VolumeReconstruction/CMakeFiles/ALL_BUILD.dir

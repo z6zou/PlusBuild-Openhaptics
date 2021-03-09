@@ -1,0 +1,4 @@
+# Target labels
+ ITKIOSpatialObjects
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/SpatialObjects/src/itkPolygonGroupSpatialObjectXMLFile.cxx

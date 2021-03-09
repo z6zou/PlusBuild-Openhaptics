@@ -1,0 +1,226 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkBMPReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkBMPWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkDEMReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkDICOMImageReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkGESignaReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageExport.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageImport.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageImportExecutive.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader2Collection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader2Factory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkJPEGReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkJPEGWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkJSONImageWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMedicalImageProperties.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMedicalImageReader2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMetaImageReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMetaImageWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMRCReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNIFTIImageHeader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNIFTIImageReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNIFTIImageWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNrrdReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNGReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNGWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNMReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNMWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPostScriptWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkSLCReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkTIFFReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkTIFFWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkVolume16Reader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkVolumeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkBMPReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkBMPWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkDEMReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkDICOMImageReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkGESignaReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageExport.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageImport.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageImportExecutive.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader2Collection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageReader2Factory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkImageWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkJPEGReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkJPEGWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkJSONImageWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMedicalImageProperties.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMedicalImageReader2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMetaImageReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMetaImageWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkMRCReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNIFTIImageHeader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNIFTIImageReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNIFTIImageWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkNrrdReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNGReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNGWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNMReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPNMWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkPostScriptWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkSLCReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkTIFFReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkTIFFWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkVolume16Reader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Image/vtkVolumeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Image/vtkIOImageModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOImage"
+		],
+		"name" : "vtkIOImage"
+	}
+}

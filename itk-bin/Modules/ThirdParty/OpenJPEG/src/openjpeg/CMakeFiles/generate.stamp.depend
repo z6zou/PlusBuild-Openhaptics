@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/openjpegDllConfig.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/openjpeg_mangle.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/opj_configure.h.in

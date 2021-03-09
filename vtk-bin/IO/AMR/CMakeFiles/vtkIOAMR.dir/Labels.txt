@@ -1,0 +1,24 @@
+# Target labels
+ vtkIOAMR
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseParticlesReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRDataSetCache.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoParticlesReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReaderInternal.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMReXParticlesReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashParticlesReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReader.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReaderInternal.cxx
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseParticlesReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRDataSetCache.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoParticlesReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReaderInternal.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMReXParticlesReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashParticlesReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReader.h
+C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReaderInternal.h
+C:/Project/PlusB-bin/vtk-bin/IO/AMR/vtkIOAMRModule.h

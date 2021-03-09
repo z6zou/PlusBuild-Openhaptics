@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKCommon.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKDoubleConversion.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKExpat.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKGIFTI.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKIOImageBase.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWIML.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWSys.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKMesh.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKNIFTI.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKVNL.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKVNLInstantiation.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKZLIB.cmake
+C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
+C:/Project/PlusB-bin/itk/CMake/exportheader.cmake.in
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/itk-module.cmake
+C:/Project/PlusB-bin/itk/Utilities/Doxygen/Module.dox.in

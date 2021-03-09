@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelMapContourOverlayImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelMapContourOverlayImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelMapOverlayImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelMapOverlayImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelMapToRGBImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelMapToRGBImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelOverlayFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelOverlayImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelOverlayImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelToRGBFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelToRGBImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkLabelToRGBImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkScalarToRGBPixelFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFusion\include\itkScalarToRGBPixelFunctor.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

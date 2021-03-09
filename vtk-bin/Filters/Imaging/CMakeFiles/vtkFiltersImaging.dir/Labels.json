@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Imaging/vtkPairwiseExtractHistogram2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Imaging/vtkExtractHistogram2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Imaging/vtkComputeHistogram2DOutliers.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Imaging/vtkPairwiseExtractHistogram2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Imaging/vtkExtractHistogram2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Imaging/vtkComputeHistogram2DOutliers.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Imaging/vtkFiltersImagingModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersImaging"
+		],
+		"name" : "vtkFiltersImaging"
+	}
+}

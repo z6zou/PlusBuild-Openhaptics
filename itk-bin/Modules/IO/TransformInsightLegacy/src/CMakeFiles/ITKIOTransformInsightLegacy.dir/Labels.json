@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformInsightLegacy/src/itkTxtTransformIO.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformInsightLegacy/src/itkTxtTransformIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOTransformInsightLegacy"
+		],
+		"name" : "ITKIOTransformInsightLegacy"
+	}
+}

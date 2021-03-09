@@ -1,0 +1,190 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkAdaptiveSubdivisionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkBandedPolyDataContourFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkButterflySubdivisionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkContourLoopExtraction.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkCookieCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkDijkstraGraphGeodesicPath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkDijkstraImageGeodesicPath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkFitToHeightMapFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkFillHolesFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkGeodesicPath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkGraphGeodesicPath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkLinearExtrusionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkLinearSubdivisionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkLoopSubdivisionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkOutlineFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkPolyDataPointSampler.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkProjectedTexture.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkQuadRotationalExtrusionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkRibbonFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkRotationalExtrusionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkRuledSurfaceFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSectorSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSelectEnclosedPoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSelectPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSpherePuzzleArrows.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSpherePuzzle.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSubdivideTetra.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkTrimmedExtrusionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkVolumeOfRevolutionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkAdaptiveSubdivisionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkBandedPolyDataContourFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkButterflySubdivisionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkContourLoopExtraction.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkCookieCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkDijkstraGraphGeodesicPath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkDijkstraImageGeodesicPath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkFitToHeightMapFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkFillHolesFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkGeodesicPath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkGraphGeodesicPath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkLinearExtrusionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkLinearSubdivisionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkLoopSubdivisionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkOutlineFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkPolyDataPointSampler.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkProjectedTexture.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkQuadRotationalExtrusionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkRibbonFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkRotationalExtrusionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkRuledSurfaceFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSectorSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSelectEnclosedPoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSelectPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSpherePuzzleArrows.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSpherePuzzle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkSubdivideTetra.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkTrimmedExtrusionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Modeling/vtkVolumeOfRevolutionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Modeling/vtkFiltersModelingModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersModeling"
+		],
+		"name" : "vtkFiltersModeling"
+	}
+}

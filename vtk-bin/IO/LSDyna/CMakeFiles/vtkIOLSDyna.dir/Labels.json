@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaPart.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaPartCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaSummaryParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/LSDynaMetaData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/LSDynaFamily.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaPart.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaPartCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/vtkLSDynaSummaryParser.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/LSDynaMetaData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/LSDyna/LSDynaFamily.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/LSDyna/vtkIOLSDynaModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOLSDyna"
+		],
+		"name" : "vtkIOLSDyna"
+	}
+}

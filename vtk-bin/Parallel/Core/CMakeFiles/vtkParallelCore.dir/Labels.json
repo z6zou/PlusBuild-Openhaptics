@@ -1,0 +1,106 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkCommunicator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyCommunicator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyController.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessController.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessStream.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPDirectory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcess.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcessGroup.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPSystemTools.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketCommunicator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketController.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubCommunicator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubGroup.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkFieldDataSerializer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Parallel/Core/vtkSocketCommunicatorHash.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkCommunicator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyCommunicator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyController.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessController.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessStream.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPDirectory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcess.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcessGroup.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPSystemTools.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketCommunicator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketController.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubCommunicator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubGroup.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Parallel/Core/vtkFieldDataSerializer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Parallel/Core/vtkParallelCoreModule.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/48d4cca3cd698e0f5d14f8c8e05d2bf7/vtkSocketCommunicatorHash.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkParallelCore"
+		],
+		"name" : "vtkParallelCore"
+	}
+}

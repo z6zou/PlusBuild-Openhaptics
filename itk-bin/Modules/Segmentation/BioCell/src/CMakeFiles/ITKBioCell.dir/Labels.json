@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioGenome.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioGene.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioGeneNetwork.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioCellBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioCellularAggregateBase.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKBioCell"
+		],
+		"name" : "ITKBioCell"
+	}
+}

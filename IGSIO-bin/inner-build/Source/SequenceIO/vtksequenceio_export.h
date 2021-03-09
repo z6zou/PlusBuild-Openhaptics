@@ -1,0 +1,42 @@
+
+#ifndef VTKSEQUENCEIO_EXPORT_H
+#define VTKSEQUENCEIO_EXPORT_H
+
+#ifdef VTKSEQUENCEIO_STATIC_DEFINE
+#  define VTKSEQUENCEIO_EXPORT
+#  define VTKSEQUENCEIO_NO_EXPORT
+#else
+#  ifndef VTKSEQUENCEIO_EXPORT
+#    ifdef vtkSequenceIO_EXPORTS
+        /* We are building this library */
+#      define VTKSEQUENCEIO_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define VTKSEQUENCEIO_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef VTKSEQUENCEIO_NO_EXPORT
+#    define VTKSEQUENCEIO_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef VTKSEQUENCEIO_DEPRECATED
+#  define VTKSEQUENCEIO_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef VTKSEQUENCEIO_DEPRECATED_EXPORT
+#  define VTKSEQUENCEIO_DEPRECATED_EXPORT VTKSEQUENCEIO_EXPORT VTKSEQUENCEIO_DEPRECATED
+#endif
+
+#ifndef VTKSEQUENCEIO_DEPRECATED_NO_EXPORT
+#  define VTKSEQUENCEIO_DEPRECATED_NO_EXPORT VTKSEQUENCEIO_NO_EXPORT VTKSEQUENCEIO_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef VTKSEQUENCEIO_NO_DEPRECATED
+#    define VTKSEQUENCEIO_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* VTKSEQUENCEIO_EXPORT_H */

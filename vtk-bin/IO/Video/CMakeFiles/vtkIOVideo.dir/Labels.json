@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Video/vtkVideoSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Video/vtkWin32VideoSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Video/vtkVideoSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Video/vtkWin32VideoSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Video/vtkIOVideoModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOVideo"
+		],
+		"name" : "vtkIOVideo"
+	}
+}

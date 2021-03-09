@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/VTK/src/itkVTKImageIOFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/VTK/src/itkVTKImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOVTK"
+		],
+		"name" : "ITKIOVTK"
+	}
+}

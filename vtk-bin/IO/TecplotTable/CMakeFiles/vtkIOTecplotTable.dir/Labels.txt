@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOTecplotTable
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/TecplotTable/vtkTecplotTableReader.cxx
+C:/Project/PlusB-bin/vtk/IO/TecplotTable/vtkTecplotTableReader.h
+C:/Project/PlusB-bin/vtk-bin/IO/TecplotTable/vtkIOTecplotTableModule.h

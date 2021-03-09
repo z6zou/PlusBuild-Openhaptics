@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKJPEG.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWIML.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKZLIB.cmake
+C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/itk-module.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/src/itk_tiff.h.in
+C:/Project/PlusB-bin/itk/Utilities/Doxygen/Module.dox.in

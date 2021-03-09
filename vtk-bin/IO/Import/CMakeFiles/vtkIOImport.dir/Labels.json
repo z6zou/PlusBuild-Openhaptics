@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtk3DSImporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkImporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkVRMLImporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporterInternals.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtk3DS.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtk3DSImporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkImporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkVRMLImporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporterInternals.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Import/vtkIOImportModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOImport"
+		],
+		"name" : "vtkIOImport"
+	}
+}

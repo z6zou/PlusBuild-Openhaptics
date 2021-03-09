@@ -1,0 +1,142 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tcd.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/bio.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/cio.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/dwt.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/event.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/image.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k_lib.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jp2.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jpt.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mqc.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/openjpeg.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/pi.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/raw.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t1.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tgt.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/profile.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/invert.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/function_list.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t2.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/bio.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/cio.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/dwt.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/event.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/image.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k_lib.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jp2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jpt.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mct.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mqc.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/openjpeg.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/pi.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/int.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/raw.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t1.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tcd.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tgt.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/profile.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/invert.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/function_list.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKOpenJPEG"
+		],
+		"name" : "itkopenjpeg"
+	}
+}

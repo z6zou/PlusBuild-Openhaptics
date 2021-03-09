@@ -1,0 +1,64 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDivergence.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDotProduct.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogarithmicScale.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMagnitude.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMaskBits.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMathematics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageWeightedSum.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDivergence.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDotProduct.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogarithmicScale.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogic.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMagnitude.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMaskBits.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMathematics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageWeightedSum.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Imaging/Math/vtkImagingMathModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingMath"
+		],
+		"name" : "vtkImagingMath"
+	}
+}

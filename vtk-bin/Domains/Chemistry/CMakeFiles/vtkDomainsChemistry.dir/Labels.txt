@@ -1,0 +1,39 @@
+# Target labels
+ vtkDomainsChemistry
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskData.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskDataInternal.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskDataParser.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkCMLMoleculeReader.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkGaussianCubeReader2.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeMapper.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToAtomBallFilter.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToBondStickFilter.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToLinesFilter.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToPolyDataFilter.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPeriodicTable.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPointSetToMoleculeFilter.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProgrammableElectronicData.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProteinRibbonFilter.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkSimpleBondPerceiver.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPAnimationReader.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPTessellationReader.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkXYZMolReader2.cxx
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskData.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskDataParser.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkCMLMoleculeReader.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkGaussianCubeReader2.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeMapper.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToBondStickFilter.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToLinesFilter.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPeriodicTable.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPointSetToMoleculeFilter.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProgrammableElectronicData.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProteinRibbonFilter.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkSimpleBondPerceiver.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPAnimationReader.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPTessellationReader.h
+C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkXYZMolReader2.h
+C:/Project/PlusB-bin/vtk-bin/Domains/Chemistry/vtkDomainsChemistryModule.h

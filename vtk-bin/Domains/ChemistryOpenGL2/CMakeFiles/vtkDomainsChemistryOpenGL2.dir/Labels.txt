@@ -1,0 +1,8 @@
+# Target labels
+ vtkDomainsChemistryOpenGL2
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Domains/ChemistryOpenGL2/vtkOpenGLMoleculeMapper.cxx
+C:/Project/PlusB-bin/vtk-bin/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2ObjectFactory.cxx
+C:/Project/PlusB-bin/vtk/Domains/ChemistryOpenGL2/vtkOpenGLMoleculeMapper.h
+C:/Project/PlusB-bin/vtk-bin/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2ObjectFactory.h
+C:/Project/PlusB-bin/vtk-bin/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2Module.h

@@ -1,0 +1,70 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthHighPass.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthLowPass.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFFT.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierCenter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealHighPass.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealLowPass.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageRFFT.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkTableFFT.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthHighPass.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthLowPass.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFFT.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierCenter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealHighPass.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealLowPass.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageRFFT.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkTableFFT.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Imaging/Fourier/vtkImagingFourierModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingFourier"
+		],
+		"name" : "vtkImagingFourier"
+	}
+}

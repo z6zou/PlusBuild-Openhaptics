@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88DC406D-FE6E-3E0C-9AC2-9189ABBA7AE3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;C:\Project\PlusBuild\Modules\FindOpenHaptics.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;C:\Project\PlusBuild\Modules\FindOpenHaptics.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;C:\Project\PlusBuild\Modules\FindOpenHaptics.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;C:\Project\PlusBuild\Modules\FindOpenHaptics.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\ZERO_CHECK.vcxproj">
+      <Project>{0B8BD3DE-788D-3D2A-A7B7-E8263F7282F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\BrainLabTrackerSim.vcxproj">
+      <Project>{35D9284F-96EA-37A7-B66F-3CCB663A5888}</Project>
+      <Name>BrainLabTrackerSim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\PlusVersion.vcxproj">
+      <Project>{99188582-9EC3-36D5-8CB9-E3BAE5572AA1}</Project>
+      <Name>PlusVersion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\ReplayRecordedDataTest.vcxproj">
+      <Project>{1EA17C84-0345-3570-9799-A1648C330DFA}</Project>
+      <Name>ReplayRecordedDataTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\TimestampFilteringTest.vcxproj">
+      <Project>{E74CB8AE-6A65-3CD7-BFF6-CDC15C31CA44}</Project>
+      <Name>TimestampFilteringTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\TrackingTest.vcxproj">
+      <Project>{6F1B09EF-EB87-34BC-89FF-87225EC19AA4}</Project>
+      <Name>TrackingTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\TransformInterpolationTest.vcxproj">
+      <Project>{BFE4707B-9F74-32B1-967C-2CE0BC96516A}</Project>
+      <Name>TransformInterpolationTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\ViewSequenceFile.vcxproj">
+      <Project>{D691CE8C-0017-3313-9C4E-76B97BC26BF4}</Project>
+      <Name>ViewSequenceFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtk3DDataCollectorTest1.vcxproj">
+      <Project>{7655EB52-E439-3F95-AB21-9F0F49926ACA}</Project>
+      <Name>vtk3DDataCollectorTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorFileTest.vcxproj">
+      <Project>{521AD6E6-FC7F-37F9-AA89-63289701B491}</Project>
+      <Name>vtkDataCollectorFileTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorTest1.vcxproj">
+      <Project>{308165C3-8391-3D0B-AFE9-E01A21BC53FA}</Project>
+      <Name>vtkDataCollectorTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorTest2.vcxproj">
+      <Project>{250DAE7C-13BB-390F-9EFA-6D52A2D6D9CE}</Project>
+      <Name>vtkDataCollectorTest2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorVideoAcqTest.vcxproj">
+      <Project>{D82E6450-B412-36F8-B5F1-95F20BEA330B}</Project>
+      <Name>vtkDataCollectorVideoAcqTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkFcsvReaderTest1.vcxproj">
+      <Project>{09F16243-66F0-3144-9AFA-436AFE2E6E91}</Project>
+      <Name>vtkFcsvReaderTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkFcsvWriterTest1.vcxproj">
+      <Project>{40378ED9-EA8A-3B74-A352-C8BB970E3B20}</Project>
+      <Name>vtkFcsvWriterTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkMetaImageSequenceIOTest.vcxproj">
+      <Project>{752C0E2D-5F15-38B2-95CC-C125EB54EB44}</Project>
+      <Name>vtkMetaImageSequenceIOTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkOpenHapticsDeviceTest.vcxproj">
+      <Project>{57A9B1FA-3548-30D6-892D-9A14142484ED}</Project>
+      <Name>vtkOpenHapticsDeviceTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkOpenIGTLinkTrackerTest.vcxproj">
+      <Project>{1275D681-2B72-3265-85E1-7FF3A2E660D6}</Project>
+      <Name>vtkOpenIGTLinkTrackerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\vtkPlusDataCollection.vcxproj">
+      <Project>{6D1A96D1-966B-36E3-921C-7B031F30FDE3}</Project>
+      <Name>vtkPlusDataCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkPlusDeviceFactoryTest.vcxproj">
+      <Project>{15DBAAED-3D24-3695-8B0F-53A2D4C8F889}</Project>
+      <Name>vtkPlusDeviceFactoryTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics.vcxproj">
+      <Project>{632C0833-267C-3C3D-BC47-FA776842719C}</Project>
+      <Name>vtkPlusHaptics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

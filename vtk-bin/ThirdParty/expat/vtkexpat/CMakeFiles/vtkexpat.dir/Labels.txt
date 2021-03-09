@@ -1,0 +1,12 @@
+# Target labels
+ vtkexpat
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/loadlibrary.c
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/xmlparse.c
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/xmlrole.c
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/xmltok.c
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/xmltok_impl.c
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/xmltok_ns.c
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/expat.h
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/expat_external.h
+C:/Project/PlusB-bin/vtk/ThirdParty/expat/vtkexpat/lib/vtk_expat_mangle.h

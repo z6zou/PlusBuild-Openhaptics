@@ -1,0 +1,214 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QFilterTreeProxyModel.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKApplication.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKInteractorAdapter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKInteractor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkEventQtSlotConnect.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtAbstractModelAdapter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtAnnotationLayersModelAdapter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtConnection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtDebugLeaksModel.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtDebugLeaksView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtTableModelAdapter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtTreeModelAdapter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKOpenGLNativeWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKOpenGLWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKOpenGLWindow.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKPaintEngine.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKPaintEngine.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QFilterTreeProxyModel.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKApplication.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKInteractorAdapter.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKInteractorInternal.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtAbstractModelAdapter.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtAnnotationLayersModelAdapter.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtConnection.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtDebugLeaksModel.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtDebugLeaksView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtTableModelAdapter.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_vtkQtTreeModelAdapter.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKOpenGLNativeWidget.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKOpenGLWidget.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKOpenGLWindow.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/moc_QVTKWidget.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKWin32Header.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkEventQtSlotConnect.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKInteractor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QFilterTreeProxyModel.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKApplication.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKInteractorAdapter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKInteractorInternal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtAbstractModelAdapter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtAnnotationLayersModelAdapter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtConnection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtDebugLeaksModel.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtDebugLeaksView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtTableModelAdapter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/vtkQtTreeModelAdapter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKOpenGLNativeWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKOpenGLWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKOpenGLWindow.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/GUISupport/Qt/QVTKWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/GUISupport/Qt/vtkGUISupportQtModule.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QFilterTreeProxyModel.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKApplication.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKInteractorAdapter.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKInteractorInternal.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtAbstractModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtAnnotationLayersModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtConnection.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtDebugLeaksModel.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtDebugLeaksView.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtTableModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_vtkQtTreeModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKOpenGLNativeWidget.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKOpenGLWidget.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKOpenGLWindow.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/e981eaff5eded4f6148e865bf75200fe/moc_QVTKWidget.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkGUISupportQt"
+		],
+		"name" : "vtkGUISupportQt"
+	}
+}

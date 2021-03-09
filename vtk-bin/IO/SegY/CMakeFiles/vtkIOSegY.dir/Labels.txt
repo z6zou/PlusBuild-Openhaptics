@@ -1,0 +1,12 @@
+# Target labels
+ vtkIOSegY
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReader.cxx
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYIOUtils.cxx
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReaderInternal.cxx
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYTraceReader.cxx
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReader.h
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYIOUtils.h
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReaderInternal.h
+C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYTraceReader.h
+C:/Project/PlusB-bin/vtk-bin/IO/SegY/vtkIOSegYModule.h

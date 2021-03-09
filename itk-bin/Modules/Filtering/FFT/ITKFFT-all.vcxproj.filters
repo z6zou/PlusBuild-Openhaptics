@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\src\itkFFTWGlobalConfiguration.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkComplexToComplexFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkComplexToComplexFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTPadImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTPadImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTShiftImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTShiftImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWCommon.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWComplexToComplexFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWComplexToComplexFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWForwardFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWForwardFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWGlobalConfiguration.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWHalfHermitianToRealInverseFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWHalfHermitianToRealInverseFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWInverseFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWInverseFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWRealToHalfHermitianForwardFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFFTWRealToHalfHermitianForwardFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkForwardFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkForwardFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFullToHalfHermitianImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkFullToHalfHermitianImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkHalfHermitianToRealInverseFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkHalfHermitianToRealInverseFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkHalfToFullHermitianImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkHalfToFullHermitianImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkInverseFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkInverseFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkRealToHalfHermitianForwardFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkRealToHalfHermitianForwardFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlComplexToComplexFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlComplexToComplexFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlFFTCommon.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlFFTCommon.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlForwardFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlForwardFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlHalfHermitianToRealInverseFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlHalfHermitianToRealInverseFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlInverseFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlInverseFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlRealToHalfHermitianForwardFFTImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\FFT\include\itkVnlRealToHalfHermitianForwardFFTImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

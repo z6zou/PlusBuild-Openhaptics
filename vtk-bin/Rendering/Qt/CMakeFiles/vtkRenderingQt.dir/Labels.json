@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQImageToImageSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtInitialization.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtLabelRenderStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtStringToImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtTreeRingLabelMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQImageToImageSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtInitialization.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtLabelRenderStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtStringToImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtTreeRingLabelMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/Qt/vtkRenderingQtModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingQt"
+		],
+		"name" : "vtkRenderingQt"
+	}
+}

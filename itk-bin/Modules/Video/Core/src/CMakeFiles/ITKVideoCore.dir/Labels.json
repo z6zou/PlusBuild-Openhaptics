@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Video/Core/src/itkTemporalRegion.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Video/Core/src/itkTemporalDataObject.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Video/Core/src/itkTemporalProcessObject.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVideoCore"
+		],
+		"name" : "ITKVideoCore"
+	}
+}

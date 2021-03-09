@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewerMeasurements.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewerMeasurements.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Interaction/Image/vtkInteractionImageModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInteractionImage"
+		],
+		"name" : "vtkInteractionImage"
+	}
+}

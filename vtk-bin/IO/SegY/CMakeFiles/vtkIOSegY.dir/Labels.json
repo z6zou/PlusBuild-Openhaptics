@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYIOUtils.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReaderInternal.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYTraceReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYIOUtils.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYReaderInternal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/SegY/vtkSegYTraceReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/SegY/vtkIOSegYModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOSegY"
+		],
+		"name" : "vtkIOSegY"
+	}
+}

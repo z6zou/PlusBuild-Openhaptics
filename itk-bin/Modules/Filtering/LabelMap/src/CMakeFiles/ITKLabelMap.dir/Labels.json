@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Filtering/LabelMap/src/itkGeometryUtilities.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKLabelMap"
+		],
+		"name" : "ITKLabelMap"
+	}
+}

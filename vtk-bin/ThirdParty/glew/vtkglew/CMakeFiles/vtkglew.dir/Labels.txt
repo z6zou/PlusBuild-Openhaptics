@@ -1,0 +1,8 @@
+# Target labels
+ vtkglew
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/glew/vtkglew/src/glew.c
+C:/Project/PlusB-bin/vtk/ThirdParty/glew/vtkglew/include/GL/glew.h
+C:/Project/PlusB-bin/vtk/ThirdParty/glew/vtkglew/include/GL/glxew.h
+C:/Project/PlusB-bin/vtk/ThirdParty/glew/vtkglew/include/GL/vtk_glew_mangle.h
+C:/Project/PlusB-bin/vtk/ThirdParty/glew/vtkglew/include/GL/wglew.h

@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkMPASReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFCAMReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFCFReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFPOPReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkSLACParticleReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkSLACReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkMPASReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFCAMReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFCFReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFPOPReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkNetCDFReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkSLACParticleReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/NetCDF/vtkSLACReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/NetCDF/vtkIONetCDFModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIONetCDF"
+		],
+		"name" : "vtkIONetCDF"
+	}
+}

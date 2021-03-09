@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiDiagram2D.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiDiagram2D.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiDiagram2DGenerator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiDiagram2DGenerator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiPartitioningImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiPartitioningImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiSegmentationImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiSegmentationImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiSegmentationImageFilterBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiSegmentationImageFilterBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiSegmentationRGBImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\Voronoi\include\itkVoronoiSegmentationRGBImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

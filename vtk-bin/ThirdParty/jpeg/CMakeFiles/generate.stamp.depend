@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/module.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtk_jpeg.h.in

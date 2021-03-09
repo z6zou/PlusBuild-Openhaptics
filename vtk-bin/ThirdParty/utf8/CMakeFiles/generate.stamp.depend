@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/ThirdParty/utf8/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/ThirdParty/utf8/module.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/utf8/vtk_utf8.h.in

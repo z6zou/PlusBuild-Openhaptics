@@ -1,0 +1,8 @@
+# Target labels
+ vtkIOVideo
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Video/vtkVideoSource.cxx
+C:/Project/PlusB-bin/vtk/IO/Video/vtkWin32VideoSource.cxx
+C:/Project/PlusB-bin/vtk/IO/Video/vtkVideoSource.h
+C:/Project/PlusB-bin/vtk/IO/Video/vtkWin32VideoSource.h
+C:/Project/PlusB-bin/vtk-bin/IO/Video/vtkIOVideoModule.h

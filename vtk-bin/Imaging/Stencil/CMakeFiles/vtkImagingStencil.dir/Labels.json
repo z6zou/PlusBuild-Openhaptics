@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencil.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencilToImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageToImageStencil.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImplicitFunctionToImageStencil.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkLassoStencilSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkPolyDataToImageStencil.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkROIStencilSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencil.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencilToImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageToImageStencil.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkLassoStencilSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkPolyDataToImageStencil.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkROIStencilSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Imaging/Stencil/vtkImagingStencilModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingStencil"
+		],
+		"name" : "vtkImagingStencil"
+	}
+}

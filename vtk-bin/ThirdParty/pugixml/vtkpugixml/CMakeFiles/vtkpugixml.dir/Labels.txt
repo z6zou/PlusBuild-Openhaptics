@@ -1,0 +1,7 @@
+# Target labels
+ vtkpugixml
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/pugixml/vtkpugixml/src/pugixml.cpp
+C:/Project/PlusB-bin/vtk/ThirdParty/pugixml/vtkpugixml/src/pugixml.hpp
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/pugixml/vtkpugixml/pugiconfig.hpp
+C:/Project/PlusB-bin/vtk/ThirdParty/pugixml/vtkpugixml/src/vtk_pugixml_mangle.h

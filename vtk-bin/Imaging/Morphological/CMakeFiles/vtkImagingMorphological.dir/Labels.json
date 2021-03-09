@@ -1,0 +1,82 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnector.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnectivityFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousDilate3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousErode3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageDilateErode3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageIslandRemoval2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageNonMaximumSuppression.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageOpenClose3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSeedConnectivity.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSkeleton2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageThresholdConnectivity.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnector.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnectivityFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousDilate3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousErode3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageDilateErode3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageIslandRemoval2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageNonMaximumSuppression.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageOpenClose3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSeedConnectivity.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSkeleton2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageThresholdConnectivity.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Imaging/Morphological/vtkImagingMorphologicalModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingMorphological"
+		],
+		"name" : "vtkImagingMorphological"
+	}
+}

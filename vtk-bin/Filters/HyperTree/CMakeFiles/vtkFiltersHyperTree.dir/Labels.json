@@ -1,0 +1,76 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridAxisClip.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridAxisCut.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridAxisReflection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridCellCenters.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridContour.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridDepthLimiter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridGeometry.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridPlaneCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridThreshold.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridToUnstructuredGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridAxisClip.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridAxisCut.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridAxisReflection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridCellCenters.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridContour.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridDepthLimiter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridGeometry.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridPlaneCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridThreshold.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/HyperTree/vtkHyperTreeGridToUnstructuredGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/HyperTree/vtkFiltersHyperTreeModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersHyperTree"
+		],
+		"name" : "vtkFiltersHyperTree"
+	}
+}

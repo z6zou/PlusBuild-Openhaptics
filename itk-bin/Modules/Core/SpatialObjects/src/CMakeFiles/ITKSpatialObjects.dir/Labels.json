@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkMetaEvent.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkCylinderSpatialObject.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkSpatialObjectFactoryBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkArrowSpatialObject.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKSpatialObjects"
+		],
+		"name" : "ITKSpatialObjects"
+	}
+}

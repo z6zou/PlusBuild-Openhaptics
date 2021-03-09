@@ -1,0 +1,13 @@
+# Target labels
+ ITKIOImageBase
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkImageSeriesWriter.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkImageFileReaderException.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkImageFileWriter.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkArchetypeSeriesFileNames.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkImageIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkIOCommon.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkNumericSeriesFileNames.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkImageIOBase.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkRegularExpressionSeriesFileNames.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/ImageBase/src/itkStreamingImageIOBase.cxx

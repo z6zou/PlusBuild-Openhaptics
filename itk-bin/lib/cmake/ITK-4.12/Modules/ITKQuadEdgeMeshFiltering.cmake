@@ -1,0 +1,12 @@
+set(ITKQuadEdgeMeshFiltering_LOADED 1)
+set(ITKQuadEdgeMeshFiltering_ENABLE_SHARED "0")
+set(ITKQuadEdgeMeshFiltering_DEPENDS "ITKMesh;ITKQuadEdgeMesh")
+set(ITKQuadEdgeMeshFiltering_PUBLIC_DEPENDS "ITKMesh")
+set(ITKQuadEdgeMeshFiltering_TRANSITIVE_DEPENDS "ITKMesh;ITKQuadEdgeMesh")
+set(ITKQuadEdgeMeshFiltering_PRIVATE_DEPENDS "")
+set(ITKQuadEdgeMeshFiltering_LIBRARIES "ITKMesh;ITKQuadEdgeMesh")
+set(ITKQuadEdgeMeshFiltering_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/Filtering/QuadEdgeMeshFiltering/include")
+set(ITKQuadEdgeMeshFiltering_LIBRARY_DIRS "")
+set(ITKQuadEdgeMeshFiltering_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKQuadEdgeMeshFiltering_TARGETS_FILE "")
+

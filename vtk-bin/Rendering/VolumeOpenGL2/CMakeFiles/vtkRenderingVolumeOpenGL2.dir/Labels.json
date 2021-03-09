@@ -1,0 +1,118 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkMultiBlockVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLGPUVolumeRayCastMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLProjectedTetrahedraMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLRayCastImageDisplayHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkSmartVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkVolumeTexture.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkVolumeInputHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeRGBTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeOpacityTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeGradientOpacityTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLTransferFunction2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLUniforms.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/raycasterfs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/raycastervs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraVS.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraFS.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkMultiBlockVolumeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLGPUVolumeRayCastMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLProjectedTetrahedraMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLRayCastImageDisplayHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkSmartVolumeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkVolumeTexture.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkVolumeInputHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeRGBTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeOpacityTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLVolumeGradientOpacityTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLTransferFunction2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/VolumeOpenGL2/vtkOpenGLUniforms.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2Module.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/eb04b6661d55e48930bbd2edb4feedca/raycasterfs.h.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/eb04b6661d55e48930bbd2edb4feedca/raycastervs.h.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/eb04b6661d55e48930bbd2edb4feedca/vtkglProjectedTetrahedraVS.h.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/eb04b6661d55e48930bbd2edb4feedca/vtkglProjectedTetrahedraFS.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingVolumeOpenGL2"
+		],
+		"name" : "vtkRenderingVolumeOpenGL2"
+	}
+}

@@ -1,0 +1,12 @@
+set(ITKKWSys_LOADED 1)
+set(ITKKWSys_ENABLE_SHARED "0")
+set(ITKKWSys_DEPENDS "")
+set(ITKKWSys_PUBLIC_DEPENDS "")
+set(ITKKWSys_TRANSITIVE_DEPENDS "")
+set(ITKKWSys_PRIVATE_DEPENDS "")
+set(ITKKWSys_LIBRARIES "itksys")
+set(ITKKWSys_INCLUDE_DIRS "C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/KWSys/src")
+set(ITKKWSys_LIBRARY_DIRS "")
+set(ITKKWSys_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKKWSys_TARGETS_FILE "")
+

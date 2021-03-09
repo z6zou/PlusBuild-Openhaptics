@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54969D3B-BA18-35D3-9C02-D82E8C65FABA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkCommonDataModel</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkCommonDataModel.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkCommonDataModel-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkCommonDataModel.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkCommonDataModel-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkCommonDataModel.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkCommonDataModel-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkCommonDataModel.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkCommonDataModel-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkCommonTransforms-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMisc-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonSystem-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMath-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtksys-8.2D.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkCommonDataModel-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkCommonDataModel-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkCommonDataModel-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkCommonDataModel-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkCommonDataModel-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkCommonDataModel-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkCommonDataModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkCommonDataModel-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkCommonDataModel-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\Common\DataModel\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/DataModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/DataModel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\DataModel\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Common\DataModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/DataModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/DataModel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\DataModel\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Common\DataModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/DataModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/DataModel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\DataModel\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Common\DataModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/DataModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/DataModel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\DataModel\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Common\DataModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractCellLinks.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractCellLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractPointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAdjacentVertexIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRBox.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRUtilities.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAngularPeriodicDataArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAnimationScene.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAnnotation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAnnotationLayers.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkArrayData.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkArrayListTemplate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAttributesErrorMetric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticQuad.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticQuadraticHexahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticQuadraticWedge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticTriangle.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBox.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBSPCuts.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBSPIntersections.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCell3D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCell.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellLinks.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellTypes.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCompositeDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCompositeDataIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCone.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkConvexPointSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCubicLine.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCylinder.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetCellIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectTypes.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectTree.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectTreeIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetAttributes.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetAttributesFieldList.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDirectedAcyclicGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDirectedGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDistributedGraphHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkEdgeListIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkEdgeTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkEmptyCell.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkExtractStructuredGridHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkFieldData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericAdaptorCell.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericAttributeCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericAttribute.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericCell.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericCellIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericCellTessellator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericEdgeTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericInterpolatedVelocityField.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericPointIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericSubdivisionErrorMetric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGeometricErrorMetric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGraphEdge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGraphInternals.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHexagonalPrism.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHexahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHierarchicalBoxDataIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHierarchicalBoxDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTree.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTreeCursor.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTreeGrid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTreeGridCursor.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImageData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImageIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitBoolean.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitFunctionCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitFunction.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitHalo.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitSelectionLoop.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitSum.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitVolume.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitWindowFunction.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIncrementalOctreeNode.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIncrementalOctreePointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIncrementalPointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkInEdgeIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkInformationQuadratureSchemeDefinitionVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIterativeClosestPointTransform.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkKdNode.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkKdTree.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkKdTreePointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeCurve.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeHexahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeInterpolation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeQuadrilateral.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeTetra.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeTriangle.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeWedge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLine.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLocator.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMappedUnstructuredGrid.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMappedUnstructuredGridCellIterator.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMarchingSquaresLineCases.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMarchingCubesTriangleCases.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMeanValueCoordinatesInterpolator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMergePoints.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMultiBlockDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMultiPieceDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMutableDirectedGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMutableUndirectedGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkNonLinearCell.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkNonMergingPointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOctreePointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOctreePointLocatorNode.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOrderedTriangulator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOutEdgeIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPartitionedDataSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPartitionedDataSetCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPath.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPentagonalPrism.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPeriodicDataArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPerlinNoise.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPiecewiseFunction.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPixelExtent.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPixelTransfer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlaneCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlanes.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlanesIntersection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointSet.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointSetCellIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointsProjectedHull.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyDataCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolygon.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyhedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyLine.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyPlane.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyVertex.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPyramid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuad.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticEdge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticHexahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticLinearQuad.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticLinearWedge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticPolygon.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticPyramid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticQuad.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticTetra.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticTriangle.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticWedge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadratureSchemeDefinition.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkRectilinearGrid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkReebGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkReebGraphSimplificationMetric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSelection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSelectionNode.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSimpleCellTessellator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSmoothErrorMetric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSortFieldData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSphere.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSpheres.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSpline.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticCellLinks.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticCellLinksTemplate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticCellLocator.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticEdgeLocatorTemplate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticPointLocator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticPointLocator2D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredData.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredExtent.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredGrid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredPointsCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredPoints.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSuperquadric.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTetra.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTreeBFSIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTree.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTreeDFSIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTriangle.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTriangleStrip.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTriQuadraticHexahedron.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUndirectedGraph.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUniformGrid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUnstructuredGrid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUnstructuredGridBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUnstructuredGridCellIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVertex.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVertexListIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVoxel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkWedge.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkXMLDataElement.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTreeIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBoundingBox.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAtom.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBond.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMolecule.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractElectronicData.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellType.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkColor.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataArrayDispatcher.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDispatcher.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDispatcher_Private.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDoubleDispatcher.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIntersectionCounter.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkRect.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVector.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVectorOperators.h" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkNonOverlappingAMR.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOverlappingAMR.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRInformation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRDataInternals.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUniformGridAMR.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUniformGridAMRDataIterator.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAngularPeriodicDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkArrayListTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMappedUnstructuredGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMappedUnstructuredGridCellIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPeriodicDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticCellLinksTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticEdgeLocatorTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractCellLinks.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractCellLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractPointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAdjacentVertexIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRBox.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRUtilities.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAnimationScene.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAnnotation.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAnnotationLayers.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkArrayData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAttributesErrorMetric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticQuad.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticQuadraticHexahedron.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticQuadraticWedge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBiQuadraticTriangle.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBox.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBSPCuts.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBSPIntersections.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCell3D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCell.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellLinks.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCellTypes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCompositeDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCompositeDataIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCone.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkConvexPointSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCubicLine.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkCylinder.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetCellIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObject.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectTypes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectTree.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataObjectTreeIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetAttributes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetAttributesFieldList.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSetCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDirectedAcyclicGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDirectedGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkDistributedGraphHelper.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkEdgeListIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkEdgeTable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkEmptyCell.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkExtractStructuredGridHelper.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkFieldData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericAdaptorCell.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericAttributeCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericAttribute.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericCell.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericCellIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericCellTessellator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericEdgeTable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericInterpolatedVelocityField.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericPointIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGenericSubdivisionErrorMetric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGeometricErrorMetric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGraphEdge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkGraphInternals.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHexagonalPrism.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHexahedron.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHierarchicalBoxDataIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHierarchicalBoxDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTree.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTreeCursor.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTreeGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkHyperTreeGridCursor.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImageData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImageIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitBoolean.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitFunctionCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitFunction.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitHalo.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitSelectionLoop.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitSum.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitVolume.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkImplicitWindowFunction.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIncrementalOctreeNode.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIncrementalOctreePointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIncrementalPointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkInEdgeIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkInformationQuadratureSchemeDefinitionVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkIterativeClosestPointTransform.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkKdNode.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkKdTree.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkKdTreePointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeCurve.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeHexahedron.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeInterpolation.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeQuadrilateral.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeTetra.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeTriangle.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLagrangeWedge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLine.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMarchingSquaresLineCases.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMarchingCubesTriangleCases.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMeanValueCoordinatesInterpolator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMergePoints.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMultiBlockDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMultiPieceDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMutableDirectedGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMutableUndirectedGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkNonLinearCell.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkNonMergingPointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOctreePointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOctreePointLocatorNode.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOrderedTriangulator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOutEdgeIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPartitionedDataSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPartitionedDataSetCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPath.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPentagonalPrism.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPerlinNoise.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPiecewiseFunction.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPixel.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPixelExtent.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPixelTransfer.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlaneCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlane.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlanes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPlanesIntersection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointSet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointSetCellIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPointsProjectedHull.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyDataCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolygon.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyhedron.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyLine.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyPlane.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPolyVertex.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkPyramid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuad.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticEdge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticHexahedron.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticLinearQuad.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticLinearWedge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticPolygon.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticPyramid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticQuad.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticTetra.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticTriangle.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadraticWedge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadratureSchemeDefinition.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkQuadric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkRectilinearGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkReebGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkReebGraphSimplificationMetric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSelection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSelectionNode.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSimpleCellTessellator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSmoothErrorMetric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSortFieldData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSphere.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSpheres.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSpline.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticCellLinks.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticCellLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticPointLocator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStaticPointLocator2D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredExtent.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredPointsCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkStructuredPoints.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkSuperquadric.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTetra.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTreeBFSIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTree.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTreeDFSIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTriangle.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTriangleStrip.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTriQuadraticHexahedron.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUndirectedGraph.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUniformGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUnstructuredGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUnstructuredGridBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUnstructuredGridCellIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVertex.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVertexListIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkVoxel.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkWedge.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkXMLDataElement.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkTreeIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBoundingBox.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAtom.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkBond.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkMolecule.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAbstractElectronicData.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkNonOverlappingAMR.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkOverlappingAMR.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRInformation.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkAMRDataInternals.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUniformGridAMR.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\DataModel\vtkUniformGridAMRDataIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\DataModel\vtkCommonDataModelModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{A705ED78-6956-3442-9A32-30BE071E0CA5}</Project>
+      <Name>vtkCommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{127ADF66-2F79-3992-A6F4-44EC49CB4124}</Project>
+      <Name>vtkCommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{DBFD1BF2-33B9-32B9-9FA7-9B91A03D8A4A}</Project>
+      <Name>vtkCommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{7A1BBBF1-8E8A-349A-8F22-69192121D3CB}</Project>
+      <Name>vtkCommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{BA4BB5B1-CB84-3CA7-B749-DECD1D281249}</Project>
+      <Name>vtkCommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{1D6657F1-C494-32A7-BAF0-70BB6AA5375B}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

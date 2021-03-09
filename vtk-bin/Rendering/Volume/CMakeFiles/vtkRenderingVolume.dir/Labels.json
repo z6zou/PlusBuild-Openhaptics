@@ -1,0 +1,220 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkDirectionEncoder.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkEncodedGradientEstimator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkEncodedGradientShader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFiniteDifferenceGradientEstimator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointRayCastImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeGOHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeGOShadeHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeShadeHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastMIPHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkGPUVolumeRayCastMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkMultiVolume.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkOSPRayVolumeInterface.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkProjectedTetrahedraMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkRayCastImageDisplayHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkRecursiveSphereDirectionEncoder.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkSphericalDirectionEncoder.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridBunykRayCastFunction.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridHomogeneousRayIntegrator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridLinearRayIntegrator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridPartialPreIntegration.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridPreIntegration.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayCastFunction.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayCastIterator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayCastMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayIntegrator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeZSweepMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumeOutlineSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumePicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumeRayCastSpaceLeapingImageFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkDirectionEncoder.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkEncodedGradientEstimator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkEncodedGradientShader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFiniteDifferenceGradientEstimator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointRayCastImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeGOHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeGOShadeHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastCompositeShadeHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastMIPHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkFixedPointVolumeRayCastMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkGPUVolumeRayCastMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkMultiVolume.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkOSPRayVolumeInterface.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkProjectedTetrahedraMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkRayCastImageDisplayHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkRecursiveSphereDirectionEncoder.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkSphericalDirectionEncoder.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridBunykRayCastFunction.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridHomogeneousRayIntegrator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridLinearRayIntegrator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridPartialPreIntegration.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridPreIntegration.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayCastFunction.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayCastIterator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayCastMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeRayIntegrator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkUnstructuredGridVolumeZSweepMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumeOutlineSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumePicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Volume/vtkVolumeRayCastSpaceLeapingImageFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/Volume/vtkRenderingVolumeModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingVolume"
+		],
+		"name" : "vtkRenderingVolume"
+	}
+}

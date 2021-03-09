@@ -1,0 +1,7 @@
+# Target labels
+ ITKSpatialObjects
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkMetaEvent.cxx
+C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkCylinderSpatialObject.cxx
+C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkSpatialObjectFactoryBase.cxx
+C:/Project/PlusB-bin/itk/Modules/Core/SpatialObjects/src/itkArrowSpatialObject.cxx

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Expat/src/expat/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Expat/src/expat/expatConfig.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Expat/src/expat/expatDllConfig.h.in

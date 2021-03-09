@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ExportPDF/vtkPDFContextDevice2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ExportPDF/vtkPDFExporter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ExportPDF/vtkIOExportPDFObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ExportPDF/vtkPDFContextDevice2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ExportPDF/vtkPDFExporter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ExportPDF/vtkIOExportPDFObjectFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ExportPDF/vtkIOExportPDFModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExportPDF"
+		],
+		"name" : "vtkIOExportPDF"
+	}
+}

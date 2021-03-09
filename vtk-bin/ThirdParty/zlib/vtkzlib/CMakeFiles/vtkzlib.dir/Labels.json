@@ -1,0 +1,91 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/adler32.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/compress.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/crc32.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/deflate.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/gzclose.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/gzlib.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/gzread.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/gzwrite.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inflate.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/infback.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inftrees.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inffast.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/trees.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/uncompr.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/zutil.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/ThirdParty/zlib/vtkzlib/zconf.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/zlib.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/crc32.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/deflate.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/gzguts.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inffast.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inffixed.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inflate.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/inftrees.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/trees.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtkzlib/zutil.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkzlib"
+		],
+		"name" : "vtkzlib"
+	}
+}

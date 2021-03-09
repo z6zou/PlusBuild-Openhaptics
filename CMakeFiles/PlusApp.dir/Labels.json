@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/PlusApp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/PlusApp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/PlusApp-complete.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-install.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-download.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-update.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-patch.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-configure.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d1c8c312dfa6bbbfa5065bd238547389/PlusApp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PlusApp"
+		],
+		"name" : "PlusApp"
+	}
+}

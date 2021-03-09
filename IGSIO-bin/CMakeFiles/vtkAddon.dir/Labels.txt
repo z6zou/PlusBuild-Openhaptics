@@ -1,0 +1,13 @@
+# Target labels
+ vtkAddon
+# Source files and their labels
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/vtkAddon
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/23a583dac001fb9ebe70039dfbbd5b4c/vtkAddon.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/eefeff210755f524db8291a1d43cad68/vtkAddon-complete.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-install.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-mkdir.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-download.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-update.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-patch.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-configure.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/7fcfe1914d57a06694a0e25939c644b4/vtkAddon-build.rule

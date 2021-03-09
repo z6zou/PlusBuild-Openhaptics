@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\vtkPlusDataCollection_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusUsDevice.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusChannel.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDeviceFactory.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusTimestampedCircularBuffer.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\PlusStreamBufferItem.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusGenericSerialDevice.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\PlusSerialLine.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkFcsvReader.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkFcsvWriter.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusBuffer.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusUsImagingParameters.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualMixer.cxx">
+      <Filter>VirtualDevices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualSwitcher.cxx">
+      <Filter>VirtualDevices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualCapture.cxx">
+      <Filter>VirtualDevices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualVolumeReconstructor.cxx">
+      <Filter>VirtualDevices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\FakeTracking\vtkPlusFakeTracker.cxx">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\SavedDataSource\vtkPlusSavedDataSource.cxx">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\ImageProcessor\vtkPlusImageProcessorVideoSource.cxx">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\UsSimulatorVideo\vtkPlusUsSimulatorVideoSource.cxx">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx">
+      <Filter>OpenHaptics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\ChRobotics\vtkPlusChRoboticsTracker.cxx">
+      <Filter>ChRobotics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\MicrochipTracking\vtkPlusMicrochipTracker.cxx">
+      <Filter>MicrochipMARG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenIGTLink\vtkPlusOpenIGTLinkDevice.cxx">
+      <Filter>OpenIGTLink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenIGTLink\vtkPlusOpenIGTLinkTracker.cxx">
+      <Filter>OpenIGTLink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenIGTLink\vtkPlusOpenIGTLinkVideoSource.cxx">
+      <Filter>OpenIGTLink</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusUsDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusChannel.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDeviceFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusTimestampedCircularBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\PlusStreamBufferItem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusGenericSerialDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\PlusSerialLine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkFcsvReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkFcsvWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusUsImagingParameters.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualMixer.h">
+      <Filter>VirtualDevices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualSwitcher.h">
+      <Filter>VirtualDevices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualCapture.h">
+      <Filter>VirtualDevices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\VirtualDevices\vtkPlusVirtualVolumeReconstructor.h">
+      <Filter>VirtualDevices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\FakeTracking\vtkPlusFakeTracker.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\SavedDataSource\vtkPlusSavedDataSource.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\ImageProcessor\vtkPlusImageProcessorVideoSource.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\UsSimulatorVideo\vtkPlusUsSimulatorVideoSource.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.h">
+      <Filter>OpenHaptics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\ChRobotics\vtkPlusChRoboticsTracker.h">
+      <Filter>ChRobotics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\MicrochipTracking\vtkPlusMicrochipTracker.h">
+      <Filter>MicrochipMARG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenIGTLink\vtkPlusOpenIGTLinkDevice.h">
+      <Filter>OpenIGTLink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenIGTLink\vtkPlusOpenIGTLinkTracker.h">
+      <Filter>OpenIGTLink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenIGTLink\vtkPlusOpenIGTLinkVideoSource.h">
+      <Filter>OpenIGTLink</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\vtkPlusDataCollectionMSVCVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ChRobotics">
+      <UniqueIdentifier>{4DD91CD5-C5E9-38C4-9D8D-1C25DDC69CBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{298F335C-C70A-3B8A-9C4A-1037DCB428A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MicrochipMARG">
+      <UniqueIdentifier>{34C90BFA-2D39-3D7B-A677-7DC8BA4F5DF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{3C09312F-98AD-328C-AA2B-27F232A01F76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenHaptics">
+      <UniqueIdentifier>{7EFCA261-695E-37D6-BFD0-55E5592D8EAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenIGTLink">
+      <UniqueIdentifier>{FCFBAD34-C46E-3C48-908E-FA05C71D2896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{35C44177-7B34-37D9-B4C6-B3A11C52EDCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DCD5C405-FE65-3AA4-AF41-8D3AD8FE32FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualDevices">
+      <UniqueIdentifier>{02C5F8DC-9C88-3FA3-974E-55007F66CF34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

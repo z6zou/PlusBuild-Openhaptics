@@ -1,0 +1,12 @@
+# Target labels
+ vtkInteractionImage
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer2.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewer.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewerMeasurements.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer2.h
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkImageViewer.h
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewer.h
+C:/Project/PlusB-bin/vtk/Interaction/Image/vtkResliceImageViewerMeasurements.h
+C:/Project/PlusB-bin/vtk-bin/Interaction/Image/vtkInteractionImageModule.h

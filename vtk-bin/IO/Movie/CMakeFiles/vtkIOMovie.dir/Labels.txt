@@ -1,0 +1,11 @@
+# Target labels
+ vtkIOMovie
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Movie/vtkGenericMovieWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Movie/vtkOggTheoraWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Movie/vtkAVIWriter.cxx
+C:/Project/PlusB-bin/vtk-bin/IO/Movie/vtkIOMovieConfigure.h
+C:/Project/PlusB-bin/vtk/IO/Movie/vtkGenericMovieWriter.h
+C:/Project/PlusB-bin/vtk/IO/Movie/vtkOggTheoraWriter.h
+C:/Project/PlusB-bin/vtk/IO/Movie/vtkAVIWriter.h
+C:/Project/PlusB-bin/vtk-bin/IO/Movie/vtkIOMovieModule.h

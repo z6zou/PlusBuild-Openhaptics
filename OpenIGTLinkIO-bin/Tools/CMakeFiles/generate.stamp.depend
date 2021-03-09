@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeImportBuildSettings.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/exportheader.cmake.in
+C:/Project/PlusB-bin/OpenIGTLink-bin/OpenIGTLinkConfig.cmake
+C:/Project/PlusB-bin/OpenIGTLink-bin/OpenIGTLinkConfigVersion.cmake
+C:/Project/PlusB-bin/OpenIGTLink-bin/OpenIGTLinkTargets.cmake
+C:/Project/PlusB-bin/OpenIGTLink-bin/UseOpenIGTLink.cmake
+C:/Project/PlusB-bin/OpenIGTLinkIO/Tools/CMakeLists.txt
+C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/UseVTK.cmake
+C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKConfig.cmake
+C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/VTKConfigVersion.cmake
+C:/Project/PlusB-bin/vtk-int/lib/cmake/vtk-8.2/vtkModuleAPI.cmake

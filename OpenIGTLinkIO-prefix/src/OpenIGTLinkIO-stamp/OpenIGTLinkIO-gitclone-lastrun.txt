@@ -1,0 +1,3 @@
+repository='https://github.com/IGSIO/OpenIGTLinkIO.git'
+module=''
+tag='origin'

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkBorderQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkBorderQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkCleanQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkCleanQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDecimationQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDelaunayConformingQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDelaunayConformingQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteCurvatureQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteCurvatureTensorQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteGaussianCurvatureQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteMaximumCurvatureQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteMeanCurvatureQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteMinimumCurvatureQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscretePrincipalCurvaturesQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkEdgeDecimationQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkEdgeDecimationQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithHardConstraints.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithHardConstraints.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithSoftConstraints.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithSoftConstraints.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkNormalQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkNormalQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkParameterizationQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkParameterizationQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadEdgeMeshDecimationCriteria.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadEdgeMeshDecimationQuadricElementHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadEdgeMeshParamMatrixCoefficients.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadricDecimationQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadricDecimationQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSmoothingQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSmoothingQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSquaredEdgeLengthDecimationQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSquaredEdgeLengthDecimationQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

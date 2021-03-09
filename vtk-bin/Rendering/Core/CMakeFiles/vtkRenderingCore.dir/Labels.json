@@ -1,0 +1,802 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractMapper3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActor2DCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActor2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActorCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssembly.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkBackgroundColorMonitor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkBillboardTextActor3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCameraActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCameraInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCellCenterDepthSort.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCIEDE2000.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkColorTransferFunction.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCompositeDataDisplayAttributes.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCompositeDataDisplayAttributesLegacy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCompositePolyDataMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCoordinate.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCullerCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCuller.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkDataSetMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkDiscretizableColorTransferFunction.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkDistanceToCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFollower.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFrameBufferObjectBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFrustumCoverageCuller.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFXAAOptions.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGenericRenderWindowInteractor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGenericVertexAttributeMapping.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGlyph3DMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGPUInfo.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGPUInfoList.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGraphicsFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGraphMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGraphToGlyphs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkHardwareSelector.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkHierarchicalPolyDataMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageMapper3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageProperty.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageSlice.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageSliceMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorEventRecorder.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorObserver.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLabeledContourMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLightActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLightCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLight.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLightKit.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLogLookupTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLookupTableWithEnabling.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapArrayValues.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapper2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapperCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkObserverMediator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPointGaussianMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPolyDataMapper2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPolyDataMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp3DCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp3DFollower.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPropAssembly.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPropCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProperty2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProperty.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRendererCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRendererDelegate.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRendererSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderPass.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderState.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderTimerLog.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindowCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindow.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindowInteractor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindowInteractor3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkSelectVisiblePoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkShaderDeviceAdapter2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkSkybox.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextActor3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTexture.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTexturedActor2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTransformCoordinateSystems.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTransformInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTupleInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkViewDependentErrorMetric.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkViewport.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVisibilitySort.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVolumeCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVolume.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVolumeProperty.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkWindowLevelLookupTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkWindowToImageFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssemblyNode.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssemblyPath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssemblyPaths.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAreaPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractPropPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPropPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPickingManager.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLODProp3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkWorldPointPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCellPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPointPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderedAreaPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkScenePicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorStyleSwitchBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorStyle3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxInteractorStyleCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxInteractorStyleSettings.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkStringToImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextProperty.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextPropertyCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextRenderer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractInteractionDevice.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractRenderDevice.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGPUInfoListArray.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkNoise200x200.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPythagoreanQuadruples.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRayCastStructures.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderingCoreEnums.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxMotionEventInfo.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractMapper3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractVolumeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActor2DCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActor2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActorCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssembly.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkBackgroundColorMonitor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkBillboardTextActor3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCameraActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCameraInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCellCenterDepthSort.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCIEDE2000.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkColorTransferFunction.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCompositeDataDisplayAttributes.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCompositeDataDisplayAttributesLegacy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCompositePolyDataMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCoordinate.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCullerCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCuller.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkDataSetMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkDiscretizableColorTransferFunction.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkDistanceToCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFollower.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFrameBufferObjectBase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFrustumCoverageCuller.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkFXAAOptions.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGenericRenderWindowInteractor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGenericVertexAttributeMapping.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGlyph3DMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGPUInfo.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGPUInfoList.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGraphicsFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGraphMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkGraphToGlyphs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkHardwareSelector.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkHierarchicalPolyDataMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageMapper3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageProperty.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageSlice.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkImageSliceMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorEventRecorder.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorObserver.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLabeledContourMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLightActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLightCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLight.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLightKit.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLogLookupTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLookupTableWithEnabling.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapArrayValues.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapper2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapperCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkObserverMediator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPointGaussianMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPolyDataMapper2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPolyDataMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp3DCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp3DFollower.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPropAssembly.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPropCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProp.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProperty2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkProperty.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRendererCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRendererDelegate.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRendererSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderPass.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderState.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderTimerLog.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindowCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindow.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindowInteractor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWindowInteractor3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkSelectVisiblePoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkShaderDeviceAdapter2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkSkybox.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextActor3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTexture.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTexturedActor2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTransformCoordinateSystems.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTransformInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTupleInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkViewDependentErrorMetric.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkViewport.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVisibilitySort.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVolumeCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVolume.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkVolumeProperty.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkWindowLevelLookupTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkWindowToImageFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssemblyNode.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssemblyPath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAssemblyPaths.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAreaPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractPropPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPropPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPickingManager.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkLODProp3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkWorldPointPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkCellPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkPointPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderedAreaPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkScenePicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorStyle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorStyleSwitchBase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkInteractorStyle3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxInteractorStyle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxInteractorStyleCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTDxInteractorStyleSettings.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkStringToImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextProperty.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextPropertyCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkTextRenderer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractInteractionDevice.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkAbstractRenderDevice.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Core/vtkRenderWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/Core/vtkRenderingCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingCore"
+		],
+		"name" : "vtkRenderingCore"
+	}
+}

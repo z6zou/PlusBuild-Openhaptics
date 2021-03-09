@@ -1,0 +1,23 @@
+# Target labels
+ vtkIOExodus
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIIElementBlock.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIIInSituReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.txx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.txx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIICache.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIReaderParser.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIReaderVariableCheck.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkModelMetadata.cxx
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIIElementBlock.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkCPExodusIIInSituReader.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIICache.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIReader.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIReaderParser.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkExodusIIWriter.h
+C:/Project/PlusB-bin/vtk/IO/Exodus/vtkModelMetadata.h
+C:/Project/PlusB-bin/vtk-bin/IO/Exodus/vtkIOExodusModule.h

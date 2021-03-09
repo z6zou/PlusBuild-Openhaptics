@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/SelectLibraryConfigurations.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/Modules/FindZLIB.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/v3p/CMakeLists.txt

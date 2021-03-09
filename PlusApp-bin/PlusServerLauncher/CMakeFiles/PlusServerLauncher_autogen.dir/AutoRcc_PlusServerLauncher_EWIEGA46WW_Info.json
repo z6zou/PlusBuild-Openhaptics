@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/PlusServerLauncher_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Project/PlusB-bin/PlusApp-bin",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Project/PlusB-bin/PlusApp/PlusServerLauncher",
+	"CMAKE_SOURCE_DIR" : "C:/Project/PlusB-bin/PlusApp",
+	"INCLUDE_DIR" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/PlusServerLauncher_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/PlusServerLauncher_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/PlusServerLauncher_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/PlusServerLauncher_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/PlusServerLauncher_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"C:/Project/PlusB-bin/PlusApp/PlusServerLauncher/Resources/icon_ConnectLarge.ico"
+	],
+	"LOCK_FILE" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/CMakeFiles/PlusServerLauncher_autogen.dir/AutoRcc_PlusServerLauncher_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "PlusServerLauncher" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_PlusServerLauncher.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/Qt5.7.1/5.7/msvc2015_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/CMakeFiles/PlusServerLauncher_autogen.dir/AutoRcc_PlusServerLauncher_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/CMakeFiles/PlusServerLauncher_autogen.dir/AutoRcc_PlusServerLauncher_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/CMakeFiles/PlusServerLauncher_autogen.dir/AutoRcc_PlusServerLauncher_EWIEGA46WW_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/CMakeFiles/PlusServerLauncher_autogen.dir/AutoRcc_PlusServerLauncher_EWIEGA46WW_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Project/PlusB-bin/PlusApp-bin/PlusServerLauncher/CMakeFiles/PlusServerLauncher_autogen.dir/AutoRcc_PlusServerLauncher_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "C:/Project/PlusB-bin/PlusApp/PlusServerLauncher/PlusServerLauncher.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/module.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/vtk_ogg.h.in

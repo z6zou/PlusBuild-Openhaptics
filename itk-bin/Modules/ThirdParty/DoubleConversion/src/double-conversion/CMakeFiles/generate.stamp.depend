@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/DoubleConversion/src/double-conversion/CMakeFiles/double-correction-needed.cc
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DoubleConversion/src/double-conversion/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion-configure.h.in

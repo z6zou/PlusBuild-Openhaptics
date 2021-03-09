@@ -1,0 +1,94 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledDataMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledTreeMapDataMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyAlgorithm.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyCompositeIterator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyIterator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacementMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelRenderStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelSizeCalculator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkFreeTypeLabelRenderStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkDynamic2DLabelMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkPointSetToLabelHierarchy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledDataMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledTreeMapDataMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyAlgorithm.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyCompositeIterator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyIterator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacementMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelRenderStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelSizeCalculator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkFreeTypeLabelRenderStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkDynamic2DLabelMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Label/vtkPointSetToLabelHierarchy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/Label/vtkRenderingLabelModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingLabel"
+		],
+		"name" : "vtkRenderingLabel"
+	}
+}

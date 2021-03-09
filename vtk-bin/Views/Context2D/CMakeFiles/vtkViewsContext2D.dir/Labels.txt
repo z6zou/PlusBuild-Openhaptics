@@ -1,0 +1,8 @@
+# Target labels
+ vtkViewsContext2D
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextView.cxx
+C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextInteractorStyle.cxx
+C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextView.h
+C:/Project/PlusB-bin/vtk/Views/Context2D/vtkContextInteractorStyle.h
+C:/Project/PlusB-bin/vtk-bin/Views/Context2D/vtkViewsContext2DModule.h

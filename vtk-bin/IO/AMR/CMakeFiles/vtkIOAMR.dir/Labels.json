@@ -1,0 +1,76 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseParticlesReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRDataSetCache.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoParticlesReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReaderInternal.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMReXParticlesReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashParticlesReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReaderInternal.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseParticlesReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRBaseReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRDataSetCache.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoParticlesReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMREnzoReaderInternal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMReXParticlesReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashParticlesReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/AMR/vtkAMRFlashReaderInternal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/AMR/vtkIOAMRModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOAMR"
+		],
+		"name" : "vtkIOAMR"
+	}
+}

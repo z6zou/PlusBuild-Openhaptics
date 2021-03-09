@@ -1,0 +1,13 @@
+# Target labels
+ inner-build
+# Source files and their labels
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/inner-build
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/23a583dac001fb9ebe70039dfbbd5b4c/inner-build.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/eefeff210755f524db8291a1d43cad68/inner-build-complete.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-install.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-mkdir.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-download.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-update.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-patch.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-configure.rule
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-build.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/inner-build"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/23a583dac001fb9ebe70039dfbbd5b4c/inner-build.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/eefeff210755f524db8291a1d43cad68/inner-build-complete.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-install.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-download.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-update.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-patch.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-configure.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/4467e270171ea0d5fd201ab38bdd4220/inner-build-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"inner-build"
+		],
+		"name" : "inner-build"
+	}
+}

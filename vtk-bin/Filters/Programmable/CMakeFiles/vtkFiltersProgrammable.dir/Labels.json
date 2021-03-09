@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Programmable/vtkProgrammableAttributeDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Programmable/vtkProgrammableFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Programmable/vtkProgrammableGlyphFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Programmable/vtkProgrammableAttributeDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Programmable/vtkProgrammableFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Programmable/vtkProgrammableGlyphFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Programmable/vtkFiltersProgrammableModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersProgrammable"
+		],
+		"name" : "vtkFiltersProgrammable"
+	}
+}

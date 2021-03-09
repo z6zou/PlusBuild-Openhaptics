@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/config/cmake/Modules/vxlexportheader.cmake.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/core/vnl/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_config.h.in

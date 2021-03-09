@@ -1,0 +1,172 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkAVSucdReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkBYUReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkBYUWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkChacoReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkFacetWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkFLUENTReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkGAMBITReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkGaussianCubeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkHoudiniPolyDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkIVWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMCubesReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMCubesWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMFIXReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMoleculeReaderBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkOBJReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkOBJWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkOpenFOAMReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkParticleReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkPDBReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkProStarReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkPTSReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkSTLReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkSTLWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkTecplotReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkWindBladeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkXYZMolReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkAVSucdReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkBYUReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkBYUWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkChacoReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkFacetWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkFLUENTReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkGAMBITReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkGaussianCubeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkHoudiniPolyDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkIVWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMCubesReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMCubesWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMFIXReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkMoleculeReaderBase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkOBJReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkOBJWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkOpenFOAMReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkParticleReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkPDBReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkProStarReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkPTSReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkSTLReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkSTLWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkTecplotReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkWindBladeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Geometry/vtkXYZMolReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Geometry/vtkIOGeometryModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOGeometry"
+		],
+		"name" : "vtkIOGeometry"
+	}
+}

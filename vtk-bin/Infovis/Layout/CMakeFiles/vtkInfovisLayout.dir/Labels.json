@@ -1,0 +1,280 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkArcParallelEdgeStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAreaLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAreaLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAssignCoordinates.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkBoxLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackToPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCircularLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkClustering2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCommunity2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkConeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkConstrained2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCosmicTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkEdgeLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkEdgeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkFast2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkForceDirectedLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGeoEdgeStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGeoMath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGraphLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGraphLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkIncrementalForceLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkPassThroughEdgeStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkPassThroughLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkPerturbCoincidentVertices.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkRandomLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSimple2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSimple3DCirclesStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSliceAndDiceLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSpanTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSplineGraphEdges.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSquarifyLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkStackedTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeMapLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeMapLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeMapToPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeOrbitLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeRingToPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkKCoreLayout.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkArcParallelEdgeStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAreaLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAreaLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAssignCoordinates.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkBoxLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCirclePackToPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCircularLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkClustering2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCommunity2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkConeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkConstrained2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkCosmicTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkEdgeLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkEdgeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkFast2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkForceDirectedLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGeoEdgeStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGeoMath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGraphLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkGraphLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkIncrementalForceLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkPassThroughEdgeStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkPassThroughLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkPerturbCoincidentVertices.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkRandomLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSimple2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSimple3DCirclesStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSliceAndDiceLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSpanTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSplineGraphEdges.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkSquarifyLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkStackedTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeMapLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeMapLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeMapToPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeOrbitLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkTreeRingToPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Layout/vtkKCoreLayout.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Infovis/Layout/vtkInfovisLayoutModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInfovisLayout"
+		],
+		"name" : "vtkInfovisLayout"
+	}
+}

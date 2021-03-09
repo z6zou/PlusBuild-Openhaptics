@@ -1,0 +1,7 @@
+# Target labels
+ ITKIOMeta
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/Meta/src/itkMetaArrayWriter.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Meta/src/itkMetaImageIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Meta/src/itkMetaArrayReader.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Meta/src/itkMetaImageIOFactory.cxx

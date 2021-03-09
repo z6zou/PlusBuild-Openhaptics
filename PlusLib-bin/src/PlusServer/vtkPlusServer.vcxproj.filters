@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusServer\vtkPlusServer_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkClient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusCommandResponse.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusCommandProcessor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusVersionCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusReconstructVolumeCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusStartStopRecordingCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusRequestIdsCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusUpdateTransformCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusSaveConfigCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusSendTextCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetImageCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetPolydataCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetTransformCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusSetUsParameterCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetUsParameterCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusAddRecordingDeviceCommand.cxx">
+      <Filter>Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusCommandResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusCommandProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusVersionCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusReconstructVolumeCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusStartStopRecordingCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusRequestIdsCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusUpdateTransformCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusSaveConfigCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusSendTextCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetImageCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetPolydataCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetTransformCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusSetUsParameterCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusGetUsParameterCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\Commands\vtkPlusAddRecordingDeviceCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusLib\src\PlusServer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusServer\vtkPlusServerMSVCVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{A525FE2A-A340-3BFA-BC3F-9F6C24C2C478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{551AD086-1084-3352-A04A-1F5F3B2D2918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{35C44177-7B34-37D9-B4C6-B3A11C52EDCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DCD5C405-FE65-3AA4-AF41-8D3AD8FE32FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

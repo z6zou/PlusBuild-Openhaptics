@@ -1,0 +1,14 @@
+# CMake generated Testfile for 
+# Source directory: C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing
+# Build directory: C:/Project/PlusB-bin/PlusLib-bin/src/PlusUsSimulator/Testing
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(vtkPlusUsSimulatorRunTestLinear "C:/Project/PlusB-bin/bin/vtkPlusUsSimulatorTest" "--config-file=C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_UsSimulatorAlgoTestLinear.xml" "--transforms-seq-file=C:/Project/PlusB-bin/PlusLibData/TestImages/SpinePhantom2Freehand.igs.mha" "--output-us-img-file=simulatorOutputLinear.igs.mha" "--use-compression=false")
+set_tests_properties(vtkPlusUsSimulatorRunTestLinear PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING" _BACKTRACE_TRIPLES "C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;8;ADD_TEST;C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;0;")
+add_test(vtkPlusUsSimulatorCompareToBaselineTestLinear "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/Project/PlusB-bin/bin/Release/Output/simulatorOutputLinear.igs.mha" "C:/Project/PlusB-bin/PlusLibData/TestImages/UsSimulatorOutputSpinePhantom2LinearBaseline.igs.mha")
+set_tests_properties(vtkPlusUsSimulatorCompareToBaselineTestLinear PROPERTIES  DEPENDS "vtkPlusUsSimulatorRunTestLinear" _BACKTRACE_TRIPLES "C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;17;ADD_TEST;C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;0;")
+add_test(vtkPlusUsSimulatorRunTestCurvilinear "C:/Project/PlusB-bin/bin/vtkPlusUsSimulatorTest" "--config-file=C:/Project/PlusB-bin/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_UsSimulatorAlgoTestCurvilinear.xml" "--transforms-seq-file=C:/Project/PlusB-bin/PlusLibData/TestImages/SpinePhantom2Freehand.igs.mha" "--output-us-img-file=simulatorOutputCurvilinear.igs.mha" "--use-compression=false")
+set_tests_properties(vtkPlusUsSimulatorRunTestCurvilinear PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING" _BACKTRACE_TRIPLES "C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;24;ADD_TEST;C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;0;")
+add_test(vtkPlusUsSimulatorCompareToBaselineTestCurvilinear "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/Project/PlusB-bin/bin/Release/Output/simulatorOutputCurvilinear.igs.mha" "C:/Project/PlusB-bin/PlusLibData/TestImages/UsSimulatorOutputSpinePhantom2CurvilinearBaseline.igs.mha")
+set_tests_properties(vtkPlusUsSimulatorCompareToBaselineTestCurvilinear PROPERTIES  DEPENDS "vtkPlusUsSimulatorRunTestCurvilinear" _BACKTRACE_TRIPLES "C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;33;ADD_TEST;C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator/Testing/CMakeLists.txt;0;")

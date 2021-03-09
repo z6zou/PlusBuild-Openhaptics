@@ -1,0 +1,23 @@
+# Target labels
+ ITKNetlib
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d1mach.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgmc.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9gmit.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgic.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgit.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dbetai.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dcsevl.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgami.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamit.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamlm.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamma.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamr.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlbeta.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlgams.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlngam.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlnrel.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/initds.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/xermsg.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d_int.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d_mod.c

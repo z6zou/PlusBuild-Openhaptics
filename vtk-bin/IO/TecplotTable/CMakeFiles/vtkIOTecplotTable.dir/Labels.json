@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/TecplotTable/vtkTecplotTableReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/TecplotTable/vtkTecplotTableReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/TecplotTable/vtkIOTecplotTableModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOTecplotTable"
+		],
+		"name" : "vtkIOTecplotTable"
+	}
+}

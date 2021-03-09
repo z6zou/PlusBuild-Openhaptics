@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKCommon.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKCurvatureFlow.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKFiniteDifference.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKImageAdaptors.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKImageFilterBase.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKImageFunction.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKImageGrid.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWIML.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKKWSys.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKNetlib.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKStatistics.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKTransform.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKVNL.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKVNLInstantiation.cmake
+C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
+C:/Project/PlusB-bin/itk/Modules/Filtering/AnisotropicSmoothing/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/Filtering/AnisotropicSmoothing/itk-module.cmake
+C:/Project/PlusB-bin/itk/Utilities/Doxygen/Module.dox.in

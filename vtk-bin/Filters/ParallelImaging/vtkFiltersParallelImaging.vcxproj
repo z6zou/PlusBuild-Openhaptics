@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D8C26D9F-C27B-3E85-9A35-AB1F90C1F039}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkFiltersParallelImaging</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkFiltersParallelImaging.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkFiltersParallelImaging-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkFiltersParallelImaging.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkFiltersParallelImaging-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkFiltersParallelImaging.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkFiltersParallelImaging-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkFiltersParallelImaging.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkFiltersParallelImaging-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkFiltersImaging-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersParallel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersExtraction-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersStatistics-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkImagingGeneral-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkParallelCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkImagingCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersModeling-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersGeometry-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersSources-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersGeneral-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonExecutionModel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonDataModel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonSystem-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonTransforms-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMisc-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMath-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonCore-8.2D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkFiltersParallelImaging-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkFiltersParallelImaging-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonCore-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkFiltersParallelImaging-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkFiltersParallelImaging-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonCore-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkFiltersParallelImaging-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkFiltersParallelImaging-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkFiltersParallelImaging_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Parallel;C:\Project\PlusB-bin\vtk\Filters\Parallel;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\IO\Legacy;C:\Project\PlusB-bin\vtk\IO\Legacy;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\Parallel\Core;C:\Project\PlusB-bin\vtk\Parallel\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonCore-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkFiltersParallelImaging-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkFiltersParallelImaging-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Filters/ParallelImaging/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Filters/ParallelImaging/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersParallel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkParallelCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Filters/ParallelImaging/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Filters/ParallelImaging/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersParallel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkParallelCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Filters/ParallelImaging/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Filters/ParallelImaging/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersParallel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkParallelCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Filters/ParallelImaging/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Filters/ParallelImaging/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersParallel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkParallelCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkPComputeHistogram2DOutliers.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkPExtractHistogram2D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkPPairwiseExtractHistogram2D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkExtractPiece.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkMemoryLimitImageDataStreamer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkTransmitImageDataPiece.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkPComputeHistogram2DOutliers.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkPExtractHistogram2D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkPPairwiseExtractHistogram2D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkExtractPiece.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkMemoryLimitImageDataStreamer.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Filters\ParallelImaging\vtkTransmitImageDataPiece.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Filters\ParallelImaging\vtkFiltersParallelImagingModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{A705ED78-6956-3442-9A32-30BE071E0CA5}</Project>
+      <Name>vtkCommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{54969D3B-BA18-35D3-9C02-D82E8C65FABA}</Project>
+      <Name>vtkCommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{82C6FF31-F53B-3EB0-A391-1E2BE6237D28}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{127ADF66-2F79-3992-A6F4-44EC49CB4124}</Project>
+      <Name>vtkCommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{DBFD1BF2-33B9-32B9-9FA7-9B91A03D8A4A}</Project>
+      <Name>vtkCommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{7A1BBBF1-8E8A-349A-8F22-69192121D3CB}</Project>
+      <Name>vtkCommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{BA4BB5B1-CB84-3CA7-B749-DECD1D281249}</Project>
+      <Name>vtkCommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{B5478572-EA27-3CF7-AE05-8AA30061D6FD}</Project>
+      <Name>vtkFiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Extraction\vtkFiltersExtraction.vcxproj">
+      <Project>{ECC328E3-FB84-32A3-A713-78421F726377}</Project>
+      <Name>vtkFiltersExtraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\General\vtkFiltersGeneral.vcxproj">
+      <Project>{35662F51-D349-334E-843C-AA288350F653}</Project>
+      <Name>vtkFiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Geometry\vtkFiltersGeometry.vcxproj">
+      <Project>{3A22CA52-D590-3444-8B0A-994A19DB3C2F}</Project>
+      <Name>vtkFiltersGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Imaging\vtkFiltersImaging.vcxproj">
+      <Project>{544564B9-C94B-3734-B5E3-FCC014BC96AE}</Project>
+      <Name>vtkFiltersImaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Modeling\vtkFiltersModeling.vcxproj">
+      <Project>{202023E6-3601-3F86-B118-BC1BA993D52C}</Project>
+      <Name>vtkFiltersModeling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Parallel\vtkFiltersParallel.vcxproj">
+      <Project>{E58DDDB5-3C24-3DA6-90B7-D69CA6DF6CB4}</Project>
+      <Name>vtkFiltersParallel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Sources\vtkFiltersSources.vcxproj">
+      <Project>{3B94592D-9011-387F-8834-AD779E0C3D1B}</Project>
+      <Name>vtkFiltersSources</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Statistics\vtkFiltersStatistics.vcxproj">
+      <Project>{DC4E96B7-32EC-3800-B69C-E19999E4580D}</Project>
+      <Name>vtkFiltersStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Imaging\Core\vtkImagingCore.vcxproj">
+      <Project>{D320A9BB-A89D-3F08-B4A6-5526206CD9A3}</Project>
+      <Name>vtkImagingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Imaging\General\vtkImagingGeneral.vcxproj">
+      <Project>{100B48FA-01A6-3F21-99F1-93262666C933}</Project>
+      <Name>vtkImagingGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Parallel\Core\vtkParallelCore.vcxproj">
+      <Project>{97D5A25B-C7DA-3E9A-884D-6D18C45F0440}</Project>
+      <Name>vtkParallelCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

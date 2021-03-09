@@ -1,0 +1,18 @@
+# Target labels
+ vtkIOEnSight
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6BinaryReader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6Reader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldBinaryReader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldReader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightMasterServerReader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightReader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkGenericEnSightReader.cxx
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6BinaryReader.h
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6Reader.h
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldBinaryReader.h
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldReader.h
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightMasterServerReader.h
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightReader.h
+C:/Project/PlusB-bin/vtk/IO/EnSight/vtkGenericEnSightReader.h
+C:/Project/PlusB-bin/vtk-bin/IO/EnSight/vtkIOEnSightModule.h

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\src\itkAmoebaOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\src\itkLBFGSBOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\src\itkLBFGSOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\src\itkObjectToObjectOptimizerBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\src\itkSingleValuedNonLinearVnlOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\src\itkSingleValuedVnlCostFunctionAdaptorv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkAmoebaOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkConjugateGradientLineSearchOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkConjugateGradientLineSearchOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkConvergenceMonitoringFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkExhaustiveOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkExhaustiveOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentLineSearchOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentLineSearchOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByLearningRateThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByLearningRateThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByScalesThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByScalesThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkLBFGSBOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkLBFGSOptimizerBasev4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkLBFGSOptimizerBasev4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkLBFGSOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkMultiGradientOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkMultiGradientOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkMultiStartOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkMultiStartOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetric.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetric.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetricBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetricBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkObjectToObjectOptimizerBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkObjectToObjectOptimizerBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkOnePlusOneEvolutionaryOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkOnePlusOneEvolutionaryOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkOptimizerParameterScalesEstimator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkPowellOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkPowellOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4EstimateNewtonStepThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4EstimateNewtonStepThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesEstimator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesEstimator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromIndexShift.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromIndexShift.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromJacobian.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromJacobian.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromPhysicalShift.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromPhysicalShift.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromShiftBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromShiftBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegularStepGradientDescentOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkRegularStepGradientDescentOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkSingleValuedCostFunctionv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkSingleValuedNonLinearVnlOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkSingleValuedVnlCostFunctionAdaptorv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkWindowConvergenceMonitoringFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizersv4\include\itkWindowConvergenceMonitoringFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

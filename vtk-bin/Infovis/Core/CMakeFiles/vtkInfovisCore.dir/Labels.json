@@ -1,0 +1,280 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkAddMembershipArray.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkAdjacencyMatrixToEdgeTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkArrayNorm.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkArrayToTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkCollapseGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkCollapseVerticesByArray.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkContinuousScatterplot.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkDataObjectToTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkDotProductSimilarity.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkExtractSelectedTree.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkEdgeCenters.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkExpandSelectedGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkExtractSelectedGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkGenerateIndexArray.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkGraphHierarchicalBundleEdges.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkGroupLeafVertices.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMergeColumns.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMergeGraphs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMergeTables.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMutableGraphHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkNetworkHierarchy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkPipelineGraphSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkPruneTreeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkRandomGraphSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkReduceTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkRemoveIsolatedVertices.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkSparseArrayToTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkStreamGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkStringToCategory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkStringToNumeric.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToArray.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToSparseArray.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToTreeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkThresholdGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkThresholdTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTransferAttributes.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTransposeMatrix.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTreeFieldAggregator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTreeDifferenceFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTreeLevelsFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkVertexDegree.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkRemoveHiddenData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkKCoreDecomposition.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkAddMembershipArray.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkAdjacencyMatrixToEdgeTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkArrayNorm.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkArrayToTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkCollapseGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkCollapseVerticesByArray.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkContinuousScatterplot.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkDataObjectToTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkDotProductSimilarity.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkExtractSelectedTree.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkEdgeCenters.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkExpandSelectedGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkExtractSelectedGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkGenerateIndexArray.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkGraphHierarchicalBundleEdges.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkGroupLeafVertices.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMergeColumns.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMergeGraphs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMergeTables.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkMutableGraphHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkNetworkHierarchy.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkPipelineGraphSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkPruneTreeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkRandomGraphSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkReduceTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkRemoveIsolatedVertices.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkSparseArrayToTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkStreamGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkStringToCategory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkStringToNumeric.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToArray.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToSparseArray.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTableToTreeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkThresholdGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkThresholdTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTransferAttributes.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTransposeMatrix.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTreeFieldAggregator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTreeDifferenceFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkTreeLevelsFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkVertexDegree.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkRemoveHiddenData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Infovis/Core/vtkKCoreDecomposition.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Infovis/Core/vtkInfovisCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInfovisCore"
+		],
+		"name" : "vtkInfovisCore"
+	}
+}

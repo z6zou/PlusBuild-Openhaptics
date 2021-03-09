@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Utilities/DICOMParser/DICOMFile.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Utilities/DICOMParser/DICOMParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Utilities/DICOMParser/DICOMAppHelper.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkDICOMParser"
+		],
+		"name" : "vtkDICOMParser"
+	}
+}

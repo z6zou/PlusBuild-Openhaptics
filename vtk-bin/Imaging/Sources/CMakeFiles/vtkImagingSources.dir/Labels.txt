@@ -1,0 +1,18 @@
+# Target labels
+ vtkImagingSources
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageCanvasSource2D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageEllipsoidSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGaussianSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGridSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageMandelbrotSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageNoiseSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageSinusoidSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageCanvasSource2D.h
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageEllipsoidSource.h
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGaussianSource.h
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGridSource.h
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageMandelbrotSource.h
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageNoiseSource.h
+C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageSinusoidSource.h
+C:/Project/PlusB-bin/vtk-bin/Imaging/Sources/vtkImagingSourcesModule.h

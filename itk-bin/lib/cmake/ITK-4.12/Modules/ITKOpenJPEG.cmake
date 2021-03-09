@@ -1,0 +1,12 @@
+set(ITKOpenJPEG_LOADED 1)
+set(ITKOpenJPEG_ENABLE_SHARED "0")
+set(ITKOpenJPEG_DEPENDS "")
+set(ITKOpenJPEG_PUBLIC_DEPENDS "")
+set(ITKOpenJPEG_TRANSITIVE_DEPENDS "")
+set(ITKOpenJPEG_PRIVATE_DEPENDS "")
+set(ITKOpenJPEG_LIBRARIES "itkopenjpeg")
+set(ITKOpenJPEG_INCLUDE_DIRS "C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/OpenJPEG/src/openjpeg;C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg")
+set(ITKOpenJPEG_LIBRARY_DIRS "")
+set(ITKOpenJPEG_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKOpenJPEG_TARGETS_FILE "")
+

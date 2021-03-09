@@ -1,0 +1,181 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcapimin.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcapistd.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jccoefct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jccolor.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcdctmgr.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jchuff.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcinit.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcmainct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcmarker.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcmaster.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcomapi.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcparam.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcphuff.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcprepct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcsample.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jctrans.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdapimin.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdapistd.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdatadst.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdatasrc.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdcoefct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdcolor.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jddctmgr.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdhuff.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdinput.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdmainct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdmarker.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdmaster.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdmerge.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdphuff.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdpostct.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdsample.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdtrans.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jerror.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jfdctflt.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jfdctfst.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jfdctint.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jidctflt.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jidctfst.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jidctint.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jidctred.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jmemmgr.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jmemnobs.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jquant1.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jquant2.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jutils.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jaricom.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jcarith.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jdarith.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jsimd_none.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jerror.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jmorecfg.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/jpeglib.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jpeg/vtkjpeg/vtk_jpeg_mangle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/ThirdParty/jpeg/vtkjpeg/jconfig.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/ThirdParty/jpeg/vtkjpeg/jconfigint.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkjpeg"
+		],
+		"name" : "vtkjpeg"
+	}
+}

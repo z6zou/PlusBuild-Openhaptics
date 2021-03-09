@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\src\itkBruker2DSEQImageIO.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\src\itkBruker2DSEQImageIOFactory.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\src\itkJPEG2000ImageIO.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\src\itkJPEG2000ImageIOFactory.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\src\itkVoxBoCUBImageIO.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\src\itkVoxBoCUBImageIOFactory.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkAreaClosingImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkAreaOpeningImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkAttributeMorphologyBaseImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkAttributeMorphologyBaseImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkBruker2DSEQImageIO.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkBruker2DSEQImageIOFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkComplexBSplineInterpolateImageFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkComplexBSplineInterpolateImageFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkConformalFlatteningMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkConformalFlatteningMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkConstrainedRegionBasedLevelSetFunctionSharedData.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkContourExtractor2DImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkContourExtractor2DImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiffeomorphicDemonsRegistrationFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiffeomorphicDemonsRegistrationFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDirectFourierReconstructionImageToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDirectFourierReconstructionImageToImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteGaussianDerivativeImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteGaussianDerivativeImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteGaussianDerivativeImageFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteGaussianDerivativeImageFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteGradientMagnitudeGaussianImageFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteGradientMagnitudeGaussianImageFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteHessianGaussianImageFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkDiscreteHessianGaussianImageFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkESMDemonsRegistrationFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkESMDemonsRegistrationFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkFastApproximateRankImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkFastSymmetricForcesDemonsRegistrationFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkFastSymmetricForcesDemonsRegistrationFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkGridForwardWarpImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkGridForwardWarpImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkJPEG2000ImageIO.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkJPEG2000ImageIOFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkLabelGeometryImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkLabelGeometryImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMaskedMovingHistogramImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMaskedMovingHistogramImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMaskedRankImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMaskedRankImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMiniPipelineSeparableImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMiniPipelineSeparableImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiScaleHessianBasedMeasureImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiScaleHessianBasedMeasureImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiphaseDenseFiniteDifferenceImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiphaseDenseFiniteDifferenceImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiphaseFiniteDifferenceImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiphaseFiniteDifferenceImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiphaseSparseFiniteDifferenceImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkMultiphaseSparseFiniteDifferenceImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkNeuralNetworkFileReader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkNeuralNetworkFileReader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkNeuralNetworkFileWriter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkNeuralNetworkFileWriter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRankHistogram.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRankImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRankImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRegionBasedLevelSetFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRegionBasedLevelSetFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRegionBasedLevelSetFunctionData.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRegionBasedLevelSetFunctionData.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRegionBasedLevelSetFunctionSharedData.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRobustAutomaticThresholdCalculator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRobustAutomaticThresholdCalculator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRobustAutomaticThresholdImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkRobustAutomaticThresholdImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseDenseLevelSetImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseDenseLevelSetImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseLevelSetFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseLevelSetFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseLevelSetFunctionData.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseSparseLevelSetImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarChanAndVeseSparseLevelSetImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarRegionBasedLevelSetFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkScalarRegionBasedLevelSetFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkStochasticFractalDimensionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkStochasticFractalDimensionImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkUnconstrainedRegionBasedLevelSetFunctionSharedData.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkVectorCentralDifferenceImageFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkVectorCentralDifferenceImageFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkVoxBoCUBImageIO.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkVoxBoCUBImageIOFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkWarpHarmonicEnergyCalculator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Nonunit\Review\include\itkWarpHarmonicEnergyCalculator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

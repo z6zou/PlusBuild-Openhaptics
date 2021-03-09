@@ -1,0 +1,12 @@
+set(ITKHDF5_LOADED 1)
+set(ITKHDF5_ENABLE_SHARED "0")
+set(ITKHDF5_DEPENDS "ITKZLIB")
+set(ITKHDF5_PUBLIC_DEPENDS "ITKZLIB")
+set(ITKHDF5_TRANSITIVE_DEPENDS "ITKZLIB")
+set(ITKHDF5_PRIVATE_DEPENDS "")
+set(ITKHDF5_LIBRARIES "hdf5_cpp-static;hdf5-static")
+set(ITKHDF5_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/ThirdParty/HDF5/src;C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/HDF5/src")
+set(ITKHDF5_LIBRARY_DIRS "")
+set(ITKHDF5_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKHDF5_TARGETS_FILE "")
+

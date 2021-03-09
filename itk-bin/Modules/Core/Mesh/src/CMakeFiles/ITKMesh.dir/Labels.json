@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/Mesh/src/itkMeshRegion.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Core/Mesh/src/itkSimplexMeshGeometry.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKMesh"
+		],
+		"name" : "ITKMesh"
+	}
+}

@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43048487-0FD8-3387-87DE-D8772F037198}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>OpenIGTLink</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenIGTLink.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenIGTLink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenIGTLink.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenIGTLink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenIGTLink.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenIGTLink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenIGTLink.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenIGTLink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/OpenIGTLink.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/OpenIGTLink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/OpenIGTLink.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/OpenIGTLink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/OpenIGTLink.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/OpenIGTLink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";OpenIGTLink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/OpenIGTLink.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/OpenIGTLink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\OpenIGTLink\Source\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLink -BC:/Project/PlusB-bin/OpenIGTLink-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLink-bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\OpenIGTLink-bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLink -BC:/Project/PlusB-bin/OpenIGTLink-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLink-bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\OpenIGTLink-bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLink -BC:/Project/PlusB-bin/OpenIGTLink-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLink-bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\OpenIGTLink-bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLink -BC:/Project/PlusB-bin/OpenIGTLink-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLink-bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\OpenIGTLink-bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_header.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_image.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_transform.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_status.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_util.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_position.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_capability.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlClientSocket.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlCapabilityMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlConditionVariable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlFastMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlImageMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlImageMessage2.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlLightObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMath.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageFactory.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMultiThreader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlOSUtil.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlObjectFactoryBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlPositionMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlServerSocket.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSessionManager.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSimpleFastMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSocket.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlStatusMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTimeStamp.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTransformMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_colortable.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_imgmeta.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_lbmeta.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_point.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_tdata.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_qtdata.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_trajectory.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_unit.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_sensor.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_string.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_ndarray.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_bind.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_qtrans.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_polydata.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlColorTableMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlImageMetaMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlLabelMetaMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlPointMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTrackingDataMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlPolyDataMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTrajectoryMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlStringMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlUnit.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSensorMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlBindMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlNDArrayMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlCommandMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlQueryMessage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_command.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_query.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageRTPWrapper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlGeneralSocket.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlUDPClientSocket.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlUDPServerSocket.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_header.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_image.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_position.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_transform.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_types.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_util.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_capability.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_win32header.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageHandler.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageHandlerMacro.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlCapabilityMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlClientSocket.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlConditionVariable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlCreateObjectFunction.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlFastMutexLock.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlImageMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlImageMessage2.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlLightObject.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMacro.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMath.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageFactory.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageHeader.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMultiThreader.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMutexLock.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlObjectFactory.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlOSUtil.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlObject.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlObjectFactoryBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlPositionMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlServerSocket.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSessionManager.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSimpleFastMutexLock.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSmartPointer.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSocket.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlStatusMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTimeStamp.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTransformMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTypes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlWin32Header.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlWindows.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlCommon.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_colortable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_imgmeta.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_lbmeta.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_point.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_tdata.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_qtdata.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_trajectory.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_unit.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_sensor.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_string.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_ndarray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_bind.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_qtrans.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_polydata.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlColorTableMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlImageMetaMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlLabelMetaMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlPointMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTrackingDataMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlPolyDataMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlTrajectoryMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlStringMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlUnit.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlSensorMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlBindMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlNDArrayMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlCommandMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlQueryMessage.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_command.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil\igtl_query.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlMessageRTPWrapper.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlGeneralSocket.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlUDPClientSocket.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\OpenIGTLink\Source\igtlUDPServerSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\OpenIGTLink-bin\ZERO_CHECK.vcxproj">
+      <Project>{1399B2FE-13B7-3160-8CCA-764C35DCFEB1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

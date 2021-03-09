@@ -1,0 +1,10 @@
+# Target labels
+ vtkImagingStatistics
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Imaging/Statistics/vtkImageAccumulate.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Statistics/vtkImageHistogram.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Statistics/vtkImageHistogramStatistics.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Statistics/vtkImageAccumulate.h
+C:/Project/PlusB-bin/vtk/Imaging/Statistics/vtkImageHistogram.h
+C:/Project/PlusB-bin/vtk/Imaging/Statistics/vtkImageHistogramStatistics.h
+C:/Project/PlusB-bin/vtk-bin/Imaging/Statistics/vtkImagingStatisticsModule.h

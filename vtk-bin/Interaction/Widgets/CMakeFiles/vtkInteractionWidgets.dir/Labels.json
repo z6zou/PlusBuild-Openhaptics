@@ -1,0 +1,850 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtk3DWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAbstractWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAffineRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAffineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAffineWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAxesTransformRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAxesTransformWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBalloonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBalloonWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBezierContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBiDimensionalRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBiDimensionalRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBiDimensionalWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBorderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBorderWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoundedPlanePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoxRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoxWidget2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoxWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBrokenLineWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkButtonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkButtonWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCameraRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCameraWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCaptionRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCaptionWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCellCentersPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCenteredSliderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCenteredSliderWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCheckerboardRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCheckerboardWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkClosedSurfacePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkConstrainedPointHandleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContinuousValueWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContinuousValueWidgetRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContourWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCurveRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkEvent.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFinitePlaneRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFinitePlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFocalPlaneContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFocalPlanePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkHandleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkHandleWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkHoverWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageActorPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageCroppingRegionsWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageOrthoPlanes.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImagePlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageTracerWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitCylinderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitCylinderWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitPlaneRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitPlaneWidget2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitPlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLinearContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLineWidget2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLineWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLogoRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLogoWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientationMarkerWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientedGlyphContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkParallelopipedRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkParallelopipedWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPlaybackRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPlaybackWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointHandleRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyDataContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyDataPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyDataSourceWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyLineWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolygonalHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolygonalSurfacePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkProgressBarRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkProgressBarWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkProp3DButtonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkRectilinearWipeRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkRectilinearWipeWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkScalarBarRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkScalarBarWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSeedRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSeedWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereHandleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereWidget2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSplineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSplineWidget2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSplineWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTensorProbeRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTensorProbeWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTerrainContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTerrainDataPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTextRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTexturedButtonRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTexturedButtonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTextWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetCallbackMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetEvent.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetEventTranslator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetSet.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkXYPlotWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorThickLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorPicker.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtk3DWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAbstractWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAffineRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAffineRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAffineWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAngleWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAxesTransformRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkAxesTransformWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBalloonRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBalloonWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBezierContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBiDimensionalRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBiDimensionalRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBiDimensionalWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBorderRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBorderWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoundedPlanePointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoxRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoxWidget2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBoxWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkBrokenLineWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkButtonRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkButtonWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCameraRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCameraWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCaptionRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCaptionWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCellCentersPointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCenteredSliderRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCenteredSliderWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCheckerboardRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCheckerboardWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkClosedSurfacePointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkConstrainedPointHandleRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContinuousValueWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContinuousValueWidgetRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContourRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkContourWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkCurveRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkDistanceWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkEvent.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFinitePlaneRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFinitePlaneWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFocalPlaneContourRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkFocalPlanePointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkHandleRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkHandleWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkHoverWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageActorPointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageCroppingRegionsWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageOrthoPlanes.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImagePlaneWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImageTracerWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitCylinderRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitCylinderWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitPlaneRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitPlaneWidget2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkImplicitPlaneWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLinearContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLineRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLineWidget2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLineWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLogoRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkLogoWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientationMarkerWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientedGlyphContourRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkParallelopipedRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkParallelopipedWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPlaneWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPlaybackRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPlaybackWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointHandleRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPointWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyDataContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyDataPointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyDataSourceWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyLineRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolyLineWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolygonalHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkPolygonalSurfacePointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkProgressBarRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkProgressBarWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkProp3DButtonRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkRectilinearWipeRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkRectilinearWipeWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkScalarBarRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkScalarBarWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSeedRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSeedWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderRepresentation3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSliderWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereHandleRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereWidget2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSphereWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSplineRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSplineWidget2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkSplineWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTensorProbeRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTensorProbeWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTerrainContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTerrainDataPointPlacer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTextRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTexturedButtonRepresentation2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTexturedButtonRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkTextWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetCallbackMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetEvent.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetEventTranslator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkWidgetSet.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkXYPlotWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorLineRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorThickLineRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorPicker.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Interaction/Widgets/vtkInteractionWidgetsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInteractionWidgets"
+		],
+		"name" : "vtkInteractionWidgets"
+	}
+}

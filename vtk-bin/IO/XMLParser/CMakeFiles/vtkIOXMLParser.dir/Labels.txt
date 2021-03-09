@@ -1,0 +1,10 @@
+# Target labels
+ vtkIOXMLParser
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLDataParser.cxx
+C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLParser.cxx
+C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLUtilities.cxx
+C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLDataParser.h
+C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLParser.h
+C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLUtilities.h
+C:/Project/PlusB-bin/vtk-bin/IO/XMLParser/vtkIOXMLParserModule.h

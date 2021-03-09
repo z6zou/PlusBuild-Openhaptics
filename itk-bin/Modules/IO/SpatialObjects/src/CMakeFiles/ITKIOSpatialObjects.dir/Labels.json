@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/SpatialObjects/src/itkPolygonGroupSpatialObjectXMLFile.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOSpatialObjects"
+		],
+		"name" : "ITKIOSpatialObjects"
+	}
+}

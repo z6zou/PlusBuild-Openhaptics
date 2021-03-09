@@ -1,0 +1,26 @@
+# Target labels
+ vtkImagingMorphological
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnector.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnectivityFilter.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousDilate3D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousErode3D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageDilateErode3D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageIslandRemoval2D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageNonMaximumSuppression.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageOpenClose3D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSeedConnectivity.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSkeleton2D.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageThresholdConnectivity.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnector.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageConnectivityFilter.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousDilate3D.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageContinuousErode3D.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageDilateErode3D.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageIslandRemoval2D.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageNonMaximumSuppression.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageOpenClose3D.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSeedConnectivity.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageSkeleton2D.h
+C:/Project/PlusB-bin/vtk/Imaging/Morphological/vtkImageThresholdConnectivity.h
+C:/Project/PlusB-bin/vtk-bin/Imaging/Morphological/vtkImagingMorphologicalModule.h

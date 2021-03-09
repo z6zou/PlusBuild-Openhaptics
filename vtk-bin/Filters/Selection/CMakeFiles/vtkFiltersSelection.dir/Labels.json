@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Selection/vtkKdTreeSelector.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Selection/vtkLinearSelector.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Selection/vtkCellDistanceSelector.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Selection/vtkKdTreeSelector.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Selection/vtkLinearSelector.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Selection/vtkCellDistanceSelector.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Selection/vtkFiltersSelectionModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersSelection"
+		],
+		"name" : "vtkFiltersSelection"
+	}
+}

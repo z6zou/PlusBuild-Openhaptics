@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0224BD48-160E-33B0-B5F1-2C9860E0A5AE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ITKLevelSets-all</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\include;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\include;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\include;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\include;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\include;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\include;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\Core\FiniteDifference\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\CurvatureFlow\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\AnisotropicSmoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Thresholding\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\ConnectedComponents\include;C:\Project\PlusB-bin\itk\Modules\Filtering\MathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\BinaryMathematicalMorphology\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageLabel\include;C:\Project\PlusB-bin\itk\Modules\Numerics\NarrowBand\include;C:\Project\PlusB-bin\itk\Modules\Filtering\DistanceMap\include;C:\Project\PlusB-bin\itk\Modules\Core\Mesh\include;C:\Project\PlusB-bin\itk\Modules\Core\QuadEdgeMesh\include;C:\Project\PlusB-bin\itk\Modules\Filtering\FastMarching\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompare\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Smoothing\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGradient\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageSources\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFeature\include;C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\SignedDistanceFunction\include;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Segmentation/LevelSets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Segmentation/LevelSets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKAnisotropicSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKBinaryMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKConnectedComponents.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCurvatureFlow.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKDistanceMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFastMarching.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFiniteDifference.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKIOImageBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompare.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFeature.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGradient.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageIntensity.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageLabel.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageSources.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKLabelMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNarrowBand.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKOptimizers.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKQuadEdgeMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSignedDistanceFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKThresholding.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LevelSets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Segmentation/LevelSets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Segmentation/LevelSets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKAnisotropicSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKBinaryMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKConnectedComponents.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCurvatureFlow.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKDistanceMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFastMarching.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFiniteDifference.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKIOImageBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompare.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFeature.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGradient.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageIntensity.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageLabel.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageSources.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKLabelMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNarrowBand.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKOptimizers.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKQuadEdgeMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSignedDistanceFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKThresholding.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LevelSets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Segmentation/LevelSets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Segmentation/LevelSets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKAnisotropicSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKBinaryMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKConnectedComponents.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCurvatureFlow.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKDistanceMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFastMarching.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFiniteDifference.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKIOImageBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompare.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFeature.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGradient.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageIntensity.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageLabel.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageSources.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKLabelMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNarrowBand.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKOptimizers.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKQuadEdgeMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSignedDistanceFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKThresholding.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LevelSets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Segmentation/LevelSets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Segmentation/LevelSets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKAnisotropicSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKBinaryMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKConnectedComponents.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCurvatureFlow.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKDistanceMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFastMarching.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKFiniteDifference.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKIOImageBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompare.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFeature.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGradient.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageIntensity.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageLabel.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageSources.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKLabelMap.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMathematicalMorphology.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNarrowBand.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKOptimizers.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKQuadEdgeMesh.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSignedDistanceFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSmoothing.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKThresholding.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Segmentation\LevelSets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkAnisotropicFourthOrderLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkAnisotropicFourthOrderLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkBinaryMaskToNarrowBandPointSetFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkBinaryMaskToNarrowBandPointSetFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCannySegmentationLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCannySegmentationLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCannySegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCannySegmentationLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCollidingFrontsImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCollidingFrontsImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCurvesLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCurvesLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCurvesLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkCurvesLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkExtensionVelocitiesImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkExtensionVelocitiesImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourShapePriorLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourShapePriorLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourShapePriorLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkGeodesicActiveContourShapePriorLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkImplicitManifoldNormalVectorFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkImplicitManifoldNormalVectorFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkIsotropicFourthOrderLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkIsotropicFourthOrderLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLaplacianSegmentationLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLaplacianSegmentationLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLaplacianSegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLaplacianSegmentationLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetFunctionWithRefitTerm.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetFunctionWithRefitTerm.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetNeighborhoodExtractor.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetNeighborhoodExtractor.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetVelocityNeighborhoodExtractor.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkLevelSetVelocityNeighborhoodExtractor.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNarrowBandCurvesLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNarrowBandCurvesLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNarrowBandLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNarrowBandLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNarrowBandThresholdSegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNarrowBandThresholdSegmentationLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNormalVectorDiffusionFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNormalVectorDiffusionFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNormalVectorFunctionBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkNormalVectorFunctionBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkParallelSparseFieldLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkParallelSparseFieldLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkReinitializeLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkReinitializeLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSegmentationLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSegmentationLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSegmentationLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapeDetectionLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapeDetectionLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapeDetectionLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapeDetectionLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorMAPCostFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorMAPCostFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorMAPCostFunctionBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorMAPCostFunctionBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorSegmentationLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorSegmentationLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorSegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkShapePriorSegmentationLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSparseFieldFourthOrderLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSparseFieldFourthOrderLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSparseFieldLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkSparseFieldLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkThresholdSegmentationLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkThresholdSegmentationLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkThresholdSegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkThresholdSegmentationLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkUnsharpMaskLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkUnsharpMaskLevelSetImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkVectorThresholdSegmentationLevelSetFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkVectorThresholdSegmentationLevelSetFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkVectorThresholdSegmentationLevelSetImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Segmentation\LevelSets\include\itkVectorThresholdSegmentationLevelSetImageFilter.hxx">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

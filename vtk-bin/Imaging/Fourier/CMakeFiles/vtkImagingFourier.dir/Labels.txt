@@ -1,0 +1,22 @@
+# Target labels
+ vtkImagingFourier
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthHighPass.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthLowPass.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFFT.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierCenter.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierFilter.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealHighPass.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealLowPass.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageRFFT.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkTableFFT.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthHighPass.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageButterworthLowPass.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFFT.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierCenter.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageFourierFilter.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealHighPass.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageIdealLowPass.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkImageRFFT.h
+C:/Project/PlusB-bin/vtk/Imaging/Fourier/vtkTableFFT.h
+C:/Project/PlusB-bin/vtk-bin/Imaging/Fourier/vtkImagingFourierModule.h

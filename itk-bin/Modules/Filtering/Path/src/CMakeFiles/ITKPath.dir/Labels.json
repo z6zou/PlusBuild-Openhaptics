@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Filtering/Path/src/itkChainCodePath2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Filtering/Path/src/itkOrthogonallyCorrected2DParametricPath.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKPath"
+		],
+		"name" : "ITKPath"
+	}
+}

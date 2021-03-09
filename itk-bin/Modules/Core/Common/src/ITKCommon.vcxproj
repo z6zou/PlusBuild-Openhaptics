@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11627940-BB28-32AF-BDAE-22F131CA16B0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ITKCommon</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ITKCommon.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ITKCommon-4.12D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ITKCommon.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ITKCommon-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ITKCommon.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ITKCommon-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ITKCommon.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ITKCommon-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\itkdouble-conversion-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itksys-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKVNLInstantiation-4.12D.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\Debug\itkvnl_algo-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvnl-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkv3p_netlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itknetlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvcl-4.12D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/ITKCommon-4.12D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/ITKCommon-4.12D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\itkdouble-conversion-4.12.lib;C:\Project\PlusB-bin\lib\Release\itksys-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKVNLInstantiation-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\Release\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvcl-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/ITKCommon-4.12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/ITKCommon-4.12.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\itkdouble-conversion-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itksys-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKVNLInstantiation-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvcl-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/ITKCommon-4.12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/ITKCommon-4.12.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";ITKCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\itkdouble-conversion-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itksys-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKVNLInstantiation-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvcl-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/ITKCommon-4.12.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/ITKCommon-4.12.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/Common/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/Common/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/Common/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/Common/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/Common/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/Common/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/Common/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/Common/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMemoryProbesCollectorBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkCreateObjectFunction.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLogger.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLogOutput.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLoggerOutput.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkProgressAccumulator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraits.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkHexahedronCellTopology.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkIndent.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkEventObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkFileOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkSimpleFilterWatcher.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsVectorPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkQuadrilateralCellTopology.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkIterationReporter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMemoryProbe.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkTextOutput.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsTensorPixel2.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsFixedArrayPixel2.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkConditionVariable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkProcessObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkBarrier.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkSpatialOrientationAdapter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkRealTimeInterval.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkOctreeNode.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsFixedArrayPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMultiThreader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMetaDataObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMetaDataDictionary.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkDataObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkThreadLogger.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsTensorPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkCommand.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsPointPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLightObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkStdStreamLogOutput.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLightProcessObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkRegion.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageIORegion.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageSourceCommon.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageToImageFilterCommon.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageRegionSplitterBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageRegionSplitterSlowDimension.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageRegionSplitterDirection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkImageRegionSplitterMultidimensional.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkFastMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkVersion.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsRGBAPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkRealTimeClock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMetaDataObjectBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkCovariantVector.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMemoryUsageObserver.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMersenneTwisterRandomVariateGenerator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLoggerBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsCovariantVectorPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkProgressReporter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkExceptionObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMultipleLogOutput.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkQuadraticTriangleCellTopology.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkTimeProbesCollectorBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkSmapsFileParser.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkTriangleCellTopology.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkVector.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkRealTimeStamp.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkDirectory.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkLoggerManager.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkTimeProbe.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsRGBPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkTimeStamp.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkTetrahedronCellTopology.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkThreadedIndexedContainerPartitioner.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkObjectFactoryBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkFloatingPointExceptions.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkSimpleFastMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumericTraitsDiffusionTensor3DPixel.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkEquivalencyTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkXMLFileOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkXMLFilterWatcher.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkStoppingCriterionBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkCompensatedSummation.cxx">
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precise</FloatingPointModel>
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precise</FloatingPointModel>
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Precise</FloatingPointModel>
+      <FloatingPointModel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precise</FloatingPointModel>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkArrayOutputSpecialization.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkNumberToString.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkSmartPointerForwardReferenceProcessObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkThreadPool.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkRandomVariateGeneratorBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkAtomicInt.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkMath.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkWin32OutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkWinThreadPool.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\Common\src\itkDynamicLoader.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNLInstantiation\src\ITKVNLInstantiation.vcxproj">
+      <Project>{7E9FE007-91CB-3BBC-BD4A-E439D3ACBDF8}</Project>
+      <Name>ITKVNLInstantiation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion\itkdouble-conversion.vcxproj">
+      <Project>{199369DB-AD62-3561-8449-550316F0C2AC}</Project>
+      <Name>itkdouble-conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itknetlib.vcxproj">
+      <Project>{924CBEAF-C4E2-3631-9E4E-96424B82F639}</Project>
+      <Name>itknetlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\itksys.vcxproj">
+      <Project>{B6124A39-02D4-35C2-9A3C-2655D555A492}</Project>
+      <Name>itksys</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itkv3p_netlib.vcxproj">
+      <Project>{1742AAAF-EF41-3D5E-9A1C-F24239DB4774}</Project>
+      <Name>itkv3p_netlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl\itkvcl.vcxproj">
+      <Project>{5FCE8653-DFD1-376C-9993-0BA2D05313F9}</Project>
+      <Name>itkvcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\itkvnl.vcxproj">
+      <Project>{4DA7C123-B60C-3CA7-8954-17974A9646A0}</Project>
+      <Name>itkvnl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo\itkvnl_algo.vcxproj">
+      <Project>{F4817124-7057-3565-861C-36660C74F819}</Project>
+      <Name>itkvnl_algo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

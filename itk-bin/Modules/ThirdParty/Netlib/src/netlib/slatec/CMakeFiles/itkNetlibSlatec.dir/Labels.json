@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d1mach.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgmc.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9gmit.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgic.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgit.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dbetai.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dcsevl.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgami.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamit.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamlm.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamma.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamr.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlbeta.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlgams.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlngam.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/dlnrel.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/initds.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/xermsg.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d_int.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/Netlib/src/netlib/slatec/d_mod.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNetlib"
+		],
+		"name" : "itkNetlibSlatec"
+	}
+}

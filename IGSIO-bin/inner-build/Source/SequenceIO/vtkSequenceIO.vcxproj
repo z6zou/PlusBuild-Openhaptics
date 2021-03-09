@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7F3CB0E2-648A-3CBD-A37F-2E78D2F8DD52}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkSequenceIO</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkSequenceIO.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkSequenceIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkSequenceIO.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkSequenceIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkSequenceIO.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkSequenceIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkSequenceIO.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkSequenceIO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkIGSIOCommon.lib;C:\Project\PlusB-bin\lib\Debug\vtkAddon.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistryOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersFlowPaths-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneric-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHyperTree-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallelImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersPoints-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersProgrammable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSMP-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSelection-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTopology-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersVerdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkverdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQtSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksqlite-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Sqld.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGeovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkproj-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAsynchronous-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCityGML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpugixml-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOEnSight-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExodus-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportPDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingGL2PSOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkgl2ps-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibharu-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibxml2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLSDyna-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMINC-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMovie-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktheora-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkogg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOPLY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexodusII-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIONetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkNetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjsoncpp-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallelXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLegacy-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSegY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOTecplotTable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVeraOut-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVideo-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMorphological-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStencil-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContextOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLOD-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTexture-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolumeOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkglew-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkChartsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisLayout-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingFourier-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingAnnotation-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolume-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXMLParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexpat-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkdoubleconversion-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklz4-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklzma-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLabel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingFreeType-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonComputationalGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkfreetype-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgetsd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Guid.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Cored.lib;opengl32.lib;glu32.lib;Winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkSequenceIO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkSequenceIO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkIGSIOCommon.lib;C:\Project\PlusB-bin\lib\Release\vtkAddon.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistryOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersFlowPaths-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneric-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHyperTree-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallelImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersPoints-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersProgrammable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSMP-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSelection-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTopology-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersVerdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkverdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQtSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksqlite-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Sql.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGeovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkproj-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAsynchronous-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCityGML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpugixml-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOEnSight-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExodus-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportPDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingGL2PSOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkgl2ps-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibharu-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibxml2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLSDyna-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMINC-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMovie-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktheora-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkogg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOPLY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexodusII-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIONetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkNetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjsoncpp-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallelXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLegacy-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSegY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOTecplotTable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVeraOut-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVideo-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMorphological-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStencil-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContextOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLOD-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTexture-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolumeOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkglew-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkChartsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisLayout-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingFourier-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingAnnotation-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolume-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXMLParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexpat-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkdoubleconversion-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklz4-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklzma-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLabel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingFreeType-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonComputationalGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkfreetype-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;opengl32.lib;glu32.lib;Winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkSequenceIO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkSequenceIO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkIGSIOCommon.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkAddon.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistryOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersFlowPaths-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneric-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHyperTree-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallelImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersPoints-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersProgrammable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSMP-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSelection-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTopology-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersVerdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkverdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQtSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksqlite-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Sql.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGeovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkproj-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAsynchronous-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCityGML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpugixml-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOEnSight-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExodus-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportPDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingGL2PSOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkgl2ps-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibharu-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibxml2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLSDyna-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMINC-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMovie-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktheora-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkogg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOPLY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexodusII-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIONetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkNetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjsoncpp-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallelXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLegacy-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSegY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOTecplotTable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVeraOut-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVideo-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMorphological-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStencil-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContextOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLOD-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTexture-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolumeOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkglew-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkChartsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisLayout-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingFourier-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingAnnotation-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolume-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXMLParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexpat-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkdoubleconversion-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklz4-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklzma-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLabel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingFreeType-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonComputationalGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkfreetype-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;opengl32.lib;glu32.lib;Winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkSequenceIO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkSequenceIO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);IGSIO_USE_VERSION_HELPER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/IGSIO-bin/inner-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";vtkSequenceIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\IGSIO\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO;C:\Project\PlusB-bin\IGSIO\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon;C:\Project\PlusB-bin\IGSIO-bin\inner-build;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon;C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtSql;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2\vtkogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkIGSIOCommon.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkAddon.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistryOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDomainsChemistry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersFlowPaths-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneric-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHyperTree-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallelImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersPoints-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersProgrammable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSMP-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSelection-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTopology-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersVerdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkverdict-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQtSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSQL-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksqlite-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Sql.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGeovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkproj-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersAMR-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOAsynchronous-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCityGML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpugixml-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOEnSight-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExodus-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExportPDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOExport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingGL2PSOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkgl2ps-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibharu-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImport-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklibxml2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLSDyna-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMINC-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOMovie-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktheora-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkogg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOPLY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersParallel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexodusII-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIONetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkNetCDF-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjsoncpp-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOParallelXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkParallelCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOLegacy-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOSegY-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOTecplotTable-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVeraOut-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5_hl-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkhdf5-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOVideo-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMorphological-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingStencil-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContextOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLOD-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersTexture-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolumeOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingOpenGL2-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkglew-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsInfovis-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkChartsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersImaging-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisLayout-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersModeling-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersStatistics-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingFourier-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingHybrid-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingAnnotation-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingVolume-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXML-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOXMLParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkexpat-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkdoubleconversion-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklz4-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtklzma-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingLabel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingFreeType-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonComputationalGeometry-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkfreetype-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;opengl32.lib;glu32.lib;Winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkSequenceIO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkSequenceIO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/SequenceIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/IGSIO -BC:/Project/PlusB-bin/IGSIO-bin/inner-build --check-stamp-file C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/SequenceIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/IGSIO -BC:/Project/PlusB-bin/IGSIO-bin/inner-build --check-stamp-file C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/SequenceIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/IGSIO -BC:/Project/PlusB-bin/IGSIO-bin/inner-build --check-stamp-file C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/SequenceIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/IGSIO -BC:/Project/PlusB-bin/IGSIO-bin/inner-build --check-stamp-file C:/Project/PlusB-bin/IGSIO-bin/inner-build/Source/SequenceIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\SequenceIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIOSequenceIO.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIOSequenceIOBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIOMetaImageSequenceIO.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIONrrdSequenceIO.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIOSequenceIO.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIOSequenceIOBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIOMetaImageSequenceIO.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\IGSIO\Source\SequenceIO\vtkIGSIONrrdSequenceIO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\IGSIO-bin\inner-build\ZERO_CHECK.vcxproj">
+      <Project>{2FE2BBC6-40C6-3F08-B674-7A08878F9E8D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\IGSIO-bin\inner-build\Source\IGSIOCommon\vtkIGSIOCommon.vcxproj">
+      <Project>{F96C537A-263B-3B0C-999A-255EA3983A22}</Project>
+      <Name>vtkIGSIOCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

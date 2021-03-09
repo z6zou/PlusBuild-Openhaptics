@@ -1,0 +1,36 @@
+# Target labels
+ vtkCommonTransforms
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkAbstractTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkCylindricalTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkGeneralTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkHomogeneousTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkIdentityTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkLinearTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkMatrixToHomogeneousTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkMatrixToLinearTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkPerspectiveTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkSphericalTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkThinPlateSplineTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkTransform2D.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkTransformCollection.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkWarpTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkLandmarkTransform.cxx
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkAbstractTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkCylindricalTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkGeneralTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkHomogeneousTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkIdentityTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkLinearTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkMatrixToHomogeneousTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkMatrixToLinearTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkPerspectiveTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkSphericalTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkThinPlateSplineTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkTransform2D.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkTransformCollection.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkWarpTransform.h
+C:/Project/PlusB-bin/vtk/Common/Transforms/vtkLandmarkTransform.h
+C:/Project/PlusB-bin/vtk-bin/Common/Transforms/vtkCommonTransformsModule.h

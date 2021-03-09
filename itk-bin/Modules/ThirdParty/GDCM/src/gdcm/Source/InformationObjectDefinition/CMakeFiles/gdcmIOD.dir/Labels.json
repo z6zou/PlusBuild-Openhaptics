@@ -1,0 +1,64 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmModule.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmMacro.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmModules.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmMacros.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmNestedModuleEntries.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmIODEntry.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmTableReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmSeries.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmDefs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmDefinedTerms.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmEnumeratedValues.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmStudy.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmPatient.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmType.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmUsage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition/gdcmIOD.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKGDCM"
+		],
+		"name" : "gdcmIOD"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/LOD/vtkLODActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/LOD/vtkQuadricLODActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/LOD/vtkLODActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/LOD/vtkQuadricLODActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/LOD/vtkRenderingLODModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingLOD"
+		],
+		"name" : "vtkRenderingLOD"
+	}
+}

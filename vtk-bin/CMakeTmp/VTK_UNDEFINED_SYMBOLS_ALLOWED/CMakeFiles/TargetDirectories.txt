@@ -1,0 +1,3 @@
+C:/Project/PlusB-bin/vtk-bin/CMakeTmp/VTK_UNDEFINED_SYMBOLS_ALLOWED/CMakeFiles/foo.dir
+C:/Project/PlusB-bin/vtk-bin/CMakeTmp/VTK_UNDEFINED_SYMBOLS_ALLOWED/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/vtk-bin/CMakeTmp/VTK_UNDEFINED_SYMBOLS_ALLOWED/CMakeFiles/ZERO_CHECK.dir

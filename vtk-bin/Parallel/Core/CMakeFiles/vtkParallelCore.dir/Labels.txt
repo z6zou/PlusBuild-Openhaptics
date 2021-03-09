@@ -1,0 +1,34 @@
+# Target labels
+ vtkParallelCore
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkCommunicator.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyCommunicator.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyController.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessController.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessStream.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPDirectory.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcess.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcessGroup.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPSystemTools.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketCommunicator.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketController.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubCommunicator.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubGroup.cxx
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkFieldDataSerializer.cxx
+C:/Project/PlusB-bin/vtk-bin/Parallel/Core/vtkSocketCommunicatorHash.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkCommunicator.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyCommunicator.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkDummyController.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessController.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkMultiProcessStream.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPDirectory.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcess.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkProcessGroup.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkPSystemTools.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketCommunicator.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSocketController.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubCommunicator.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkSubGroup.h
+C:/Project/PlusB-bin/vtk/Parallel/Core/vtkFieldDataSerializer.h
+C:/Project/PlusB-bin/vtk-bin/Parallel/Core/vtkParallelCoreModule.h
+C:/Project/PlusB-bin/vtk-bin/CMakeFiles/48d4cca3cd698e0f5d14f8c8e05d2bf7/vtkSocketCommunicatorHash.h.rule

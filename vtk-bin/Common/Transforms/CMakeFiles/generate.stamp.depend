@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonCore.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonMath.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkkwiml.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtksys.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkutf8.cmake
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleHeaders.cmake.in
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/CMake/vtkexportheader.cmake.in
+C:/Project/PlusB-bin/vtk/Common/Transforms/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/Common/Transforms/module.cmake

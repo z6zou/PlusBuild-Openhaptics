@@ -1,0 +1,12 @@
+# Target labels
+ vtkRenderingImage
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkDepthImageToPointCloud.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageResliceMapper.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageSliceCollection.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageStack.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkDepthImageToPointCloud.h
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageResliceMapper.h
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageSliceCollection.h
+C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageStack.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/Image/vtkRenderingImageModule.h

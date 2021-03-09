@@ -1,0 +1,11 @@
+<PlusConfig
+  LogLevel="3"
+  DeviceSetConfigurationDirectory="C:/Project/PlusB-bin/PlusLibData/ConfigFiles"
+  ImageDirectory="C:/Project/PlusB-bin/PlusLibData/TestImages"
+  ModelDirectory="C:/Project/PlusB-bin/PlusLibData/CADModels"
+  ScriptsDirectory="C:/Project/PlusB-bin/PlusLib/src/scripts"
+  Date="2021.03.01 22:32:22"
+  EditorApplicationExecutable="notepad.exe"
+  OutputDirectory="./Output"
+  LastDeviceSetConfigurationFileName="C:\Project\PlusB-bin\PlusLibData\ConfigFiles\PlusDeviceSet_Server_OpenHaptics.xml"
+  CurrentTab="0" />

@@ -1,0 +1,7 @@
+# Target labels
+ ITKKLMRegionGrowing
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Segmentation/KLMRegionGrowing/src/itkSegmentationRegion.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/KLMRegionGrowing/src/itkKLMSegmentationRegion.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/KLMRegionGrowing/src/itkSegmentationBorder.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/KLMRegionGrowing/src/itkKLMSegmentationBorder.cxx

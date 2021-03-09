@@ -1,0 +1,121 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskDataInternal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskDataParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkCMLMoleculeReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkGaussianCubeReader2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToAtomBallFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToBondStickFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToLinesFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToPolyDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPeriodicTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPointSetToMoleculeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProgrammableElectronicData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProteinRibbonFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkSimpleBondPerceiver.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPAnimationReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPTessellationReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkXYZMolReader2.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkBlueObeliskDataParser.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkCMLMoleculeReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkGaussianCubeReader2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToBondStickFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToLinesFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPeriodicTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkPointSetToMoleculeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProgrammableElectronicData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkProteinRibbonFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkSimpleBondPerceiver.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPAnimationReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkVASPTessellationReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/Chemistry/vtkXYZMolReader2.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Domains/Chemistry/vtkDomainsChemistryModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkDomainsChemistry"
+		],
+		"name" : "vtkDomainsChemistry"
+	}
+}

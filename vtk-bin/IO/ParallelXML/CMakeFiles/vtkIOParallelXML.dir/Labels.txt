@@ -1,0 +1,32 @@
+# Target labels
+ vtkIOParallelXML
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataSetWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataObjectWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPImageDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPPolyDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPRectilinearGridWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredGridWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPTableWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataSetWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataObjectWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPImageDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPPolyDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPRectilinearGridWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredGridWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPTableWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.h
+C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.h
+C:/Project/PlusB-bin/vtk-bin/IO/ParallelXML/vtkIOParallelXMLModule.h

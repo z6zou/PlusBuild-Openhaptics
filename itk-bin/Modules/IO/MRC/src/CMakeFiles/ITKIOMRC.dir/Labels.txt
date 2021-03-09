@@ -1,0 +1,6 @@
+# Target labels
+ ITKIOMRC
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/MRC/src/itkMRCHeaderObject.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/MRC/src/itkMRCImageIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/MRC/src/itkMRCImageIOFactory.cxx

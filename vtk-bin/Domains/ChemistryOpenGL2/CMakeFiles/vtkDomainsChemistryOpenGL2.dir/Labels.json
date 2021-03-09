@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/ChemistryOpenGL2/vtkOpenGLMoleculeMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Domains/ChemistryOpenGL2/vtkOpenGLMoleculeMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2Module.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkDomainsChemistryOpenGL2"
+		],
+		"name" : "vtkDomainsChemistryOpenGL2"
+	}
+}

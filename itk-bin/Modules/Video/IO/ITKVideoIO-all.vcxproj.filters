@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\src\itkFileListVideoIO.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\src\itkFileListVideoIOFactory.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\src\itkVideoIOBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\src\itkVideoIOFactory.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkFileListVideoIO.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkFileListVideoIOFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkVideoFileReader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkVideoFileReader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkVideoFileWriter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkVideoFileWriter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkVideoIOBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Video\IO\include\itkVideoIOFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

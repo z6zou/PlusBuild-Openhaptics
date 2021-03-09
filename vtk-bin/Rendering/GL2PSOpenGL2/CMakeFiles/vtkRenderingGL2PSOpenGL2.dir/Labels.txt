@@ -1,0 +1,8 @@
+# Target labels
+ vtkRenderingGL2PSOpenGL2
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Rendering/GL2PSOpenGL2/vtkOpenGLGL2PSHelperImpl.cxx
+C:/Project/PlusB-bin/vtk-bin/Rendering/GL2PSOpenGL2/vtkRenderingGL2PSOpenGL2ObjectFactory.cxx
+C:/Project/PlusB-bin/vtk/Rendering/GL2PSOpenGL2/vtkOpenGLGL2PSHelperImpl.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/GL2PSOpenGL2/vtkRenderingGL2PSOpenGL2ObjectFactory.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/GL2PSOpenGL2/vtkRenderingGL2PSOpenGL2Module.h

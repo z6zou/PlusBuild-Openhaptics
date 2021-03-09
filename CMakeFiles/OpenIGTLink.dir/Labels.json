@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/OpenIGTLink"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/OpenIGTLink.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/OpenIGTLink-complete.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-install.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-download.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-update.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-patch.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-configure.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"OpenIGTLink"
+		],
+		"name" : "OpenIGTLink"
+	}
+}

@@ -1,0 +1,16 @@
+# Target labels
+ vtkViewsCore
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Views/Core/vtkConvertSelectionDomain.cxx
+C:/Project/PlusB-bin/vtk/Views/Core/vtkDataRepresentation.cxx
+C:/Project/PlusB-bin/vtk/Views/Core/vtkEmptyRepresentation.cxx
+C:/Project/PlusB-bin/vtk/Views/Core/vtkRenderViewBase.cxx
+C:/Project/PlusB-bin/vtk/Views/Core/vtkView.cxx
+C:/Project/PlusB-bin/vtk/Views/Core/vtkViewTheme.cxx
+C:/Project/PlusB-bin/vtk/Views/Core/vtkConvertSelectionDomain.h
+C:/Project/PlusB-bin/vtk/Views/Core/vtkDataRepresentation.h
+C:/Project/PlusB-bin/vtk/Views/Core/vtkEmptyRepresentation.h
+C:/Project/PlusB-bin/vtk/Views/Core/vtkRenderViewBase.h
+C:/Project/PlusB-bin/vtk/Views/Core/vtkView.h
+C:/Project/PlusB-bin/vtk/Views/Core/vtkViewTheme.h
+C:/Project/PlusB-bin/vtk-bin/Views/Core/vtkViewsCoreModule.h

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\4467e270171ea0d5fd201ab38bdd4220\inner-build-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\eefeff210755f524db8291a1d43cad68\inner-build-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\23a583dac001fb9ebe70039dfbbd5b4c\inner-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\IGSIO\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\IGSIO-bin\CMakeFiles\inner-build" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A81ADF0E-B0F5-3E66-BEB4-110014EA2985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+# Target labels
+ vtkFiltersAMR
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRCutPlane.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRGaussianPulseSource.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRResampleFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRSliceFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRToMultiBlockFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkImageToAMR.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkParallelAMRUtilities.cxx
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRCutPlane.h
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRGaussianPulseSource.h
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRResampleFilter.h
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRSliceFilter.h
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRToMultiBlockFilter.h
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkImageToAMR.h
+C:/Project/PlusB-bin/vtk/Filters/AMR/vtkParallelAMRUtilities.h
+C:/Project/PlusB-bin/vtk-bin/Filters/AMR/vtkFiltersAMRModule.h

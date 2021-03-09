@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKExpat.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKNIFTI.cmake
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKZLIB.cmake
+C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GIFTI/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GIFTI/itk-module.cmake
+C:/Project/PlusB-bin/itk/Utilities/Doxygen/Module.dox.in

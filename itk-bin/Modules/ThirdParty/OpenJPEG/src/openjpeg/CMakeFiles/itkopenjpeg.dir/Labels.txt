@@ -1,0 +1,46 @@
+# Target labels
+ ITKOpenJPEG
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tcd.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/bio.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/cio.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/dwt.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/event.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/image.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k_lib.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jp2.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jpt.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mct.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mqc.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/openjpeg.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/pi.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/raw.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t1.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tgt.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/profile.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/invert.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/function_list.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t2.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/bio.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/cio.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/dwt.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/event.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/image.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/j2k_lib.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jp2.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/jpt.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mct.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/mqc.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/openjpeg.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/pi.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/int.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/raw.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t1.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/t2.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tcd.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/tgt.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/profile.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/invert.h
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/OpenJPEG/src/openjpeg/function_list.h

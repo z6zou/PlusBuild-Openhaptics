@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F518EC6E-4652-346A-81B3-95454494AFC1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>itkTestDriver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">itkTestDriver.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">itkTestDriver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">itkTestDriver.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">itkTestDriver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">itkTestDriver.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">itkTestDriver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">itkTestDriver.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">itkTestDriver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\ITKIOBMP-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOGDCM-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOGIPL-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOJPEG-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOMeta-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIONIFTI-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIONRRD-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOPNG-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOTIFF-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOVTK-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmMSFF-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmDICT-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmIOD-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmDSED-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmCommon-4.12D.lib;crypt32.lib;C:\Project\PlusB-bin\lib\Debug\ITKEXPAT-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmjpeg8-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmjpeg12-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmjpeg16-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmopenjpeg-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkgdcmcharls-4.12D.lib;rpcrt4.lib;C:\Project\PlusB-bin\lib\Debug\ITKMetaIO-4.12D.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\lib\Debug\ITKniftiio-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKznz-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkzlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKIOImageBase-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\ITKCommon-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itksys-4.12D.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\Debug\ITKVNLInstantiation-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvnl_algo-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvnl-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkv3p_netlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itknetlib-4.12D.lib;C:\Project\PlusB-bin\lib\Debug\itkvcl-4.12D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/itkTestDriver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/itkTestDriver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\ITKIOBMP-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOGDCM-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOGIPL-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOJPEG-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOMeta-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIONIFTI-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIONRRD-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOPNG-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOTIFF-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOVTK-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmMSFF-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmDICT-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmIOD-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmDSED-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Project\PlusB-bin\lib\Release\ITKEXPAT-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmjpeg8-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmjpeg12-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmjpeg16-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmopenjpeg-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Project\PlusB-bin\lib\Release\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\lib\Release\ITKniftiio-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKznz-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkzlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKIOImageBase-4.12.lib;C:\Project\PlusB-bin\lib\Release\ITKCommon-4.12.lib;C:\Project\PlusB-bin\lib\Release\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\Release\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\Release\itkvcl-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/itkTestDriver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/itkTestDriver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOBMP-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOGDCM-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOGIPL-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOJPEG-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOMeta-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIONIFTI-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIONRRD-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOPNG-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOTIFF-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOVTK-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmMSFF-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmDICT-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmIOD-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmDSED-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKEXPAT-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmjpeg8-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmjpeg12-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmjpeg16-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmopenjpeg-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKniftiio-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKznz-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkzlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKIOImageBase-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKCommon-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\MinSizeRel\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\MinSizeRel\itkvcl-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/itkTestDriver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/itkTestDriver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\DoubleConversion\src\double-conversion;C:\Project\PlusB-bin\itk\Modules\IO\BMP\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\IO\GDCM\include;C:\Project\PlusB-bin\itk\Modules\IO\GIPL\include;C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase;C:\Project\PlusB-bin\itk\Modules\IO\ImageBase\include;C:\Project\PlusB-bin\itk\Modules\IO\JPEG\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\IO\Meta\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\niftilib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\NIFTI\src\nifti\znzlib;C:\Project\PlusB-bin\itk\Modules\IO\NIFTI\include;C:\Project\PlusB-bin\itk\Modules\IO\NRRD\include;C:\Project\PlusB-bin\itk\Modules\IO\PNG\include;C:\Project\PlusB-bin\itk\Modules\IO\TIFF\include;C:\Project\PlusB-bin\itk\Modules\IO\VTK\include;C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\include;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core\vnl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOBMP-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOGDCM-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOGIPL-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOJPEG-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOMeta-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIONIFTI-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIONRRD-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOPNG-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOTIFF-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOVTK-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmMSFF-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmDICT-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmIOD-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmDSED-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKEXPAT-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmjpeg8-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmjpeg12-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmjpeg16-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmopenjpeg-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKniftiio-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKznz-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkzlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKIOImageBase-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKCommon-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvnl-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkv3p_netlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itknetlib-4.12.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\itkvcl-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/itkTestDriver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/itkTestDriver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\src\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/TestKernel/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/TestKernel/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\TestKernel\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/TestKernel/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/TestKernel/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\TestKernel\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/TestKernel/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/TestKernel/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\TestKernel\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Core/TestKernel/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Core/TestKernel/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Core\TestKernel\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Core\TestKernel\src\itkTestDriver.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Core\Common\src\ITKCommon.vcxproj">
+      <Project>{11627940-BB28-32AF-BDAE-22F131CA16B0}</Project>
+      <Name>ITKCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat\ITKEXPAT.vcxproj">
+      <Project>{633BE3AB-DCBB-355C-A252-7592AF8FC82B}</Project>
+      <Name>ITKEXPAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\BMP\src\ITKIOBMP.vcxproj">
+      <Project>{ED802888-7E24-3878-BC70-8ABCED4AED2E}</Project>
+      <Name>ITKIOBMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GDCM\src\ITKIOGDCM.vcxproj">
+      <Project>{7988A370-8B3A-33C4-825A-A5CEA2086DD3}</Project>
+      <Name>ITKIOGDCM</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\GIPL\src\ITKIOGIPL.vcxproj">
+      <Project>{189FFECB-E5EB-34B2-957E-B86F469F80C6}</Project>
+      <Name>ITKIOGIPL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\ImageBase\src\ITKIOImageBase.vcxproj">
+      <Project>{64082105-D3BD-3C40-B787-0CF6731214A7}</Project>
+      <Name>ITKIOImageBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\JPEG\src\ITKIOJPEG.vcxproj">
+      <Project>{790D2321-9BFC-3BE9-99A9-57D22698974D}</Project>
+      <Name>ITKIOJPEG</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\Meta\src\ITKIOMeta.vcxproj">
+      <Project>{99A476C3-6BA5-31C2-905E-4216790C525E}</Project>
+      <Name>ITKIOMeta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\NIFTI\src\ITKIONIFTI.vcxproj">
+      <Project>{06470350-FD9B-38D3-AA4E-CBFEB7D16233}</Project>
+      <Name>ITKIONIFTI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\NRRD\src\ITKIONRRD.vcxproj">
+      <Project>{0CB602CC-7687-39F6-8C5E-E74429C5BC2C}</Project>
+      <Name>ITKIONRRD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\PNG\src\ITKIOPNG.vcxproj">
+      <Project>{8284F875-1370-302F-9CFB-88F04AED91AC}</Project>
+      <Name>ITKIOPNG</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\TIFF\src\ITKIOTIFF.vcxproj">
+      <Project>{F05B6F2A-764C-3F36-B2BA-9C8C89637959}</Project>
+      <Name>ITKIOTIFF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\IO\VTK\src\ITKIOVTK.vcxproj">
+      <Project>{B9058507-9590-38C6-89C8-114E4CA63762}</Project>
+      <Name>ITKIOVTK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src\ITKMetaIO.vcxproj">
+      <Project>{CCC453D3-944E-30F7-B441-5C384AAFB01E}</Project>
+      <Name>ITKMetaIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNLInstantiation\src\ITKVNLInstantiation.vcxproj">
+      <Project>{7E9FE007-91CB-3BBC-BD4A-E439D3ACBDF8}</Project>
+      <Name>ITKVNLInstantiation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NIFTI\src\nifti\niftilib\ITKniftiio.vcxproj">
+      <Project>{12308DCC-B16B-30AF-94AC-85BD23399B76}</Project>
+      <Name>ITKniftiio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\NIFTI\src\nifti\znzlib\ITKznz.vcxproj">
+      <Project>{AF6DD88A-40CF-380B-A65C-D957DDC8906E}</Project>
+      <Name>ITKznz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common\gdcmCommon.vcxproj">
+      <Project>{F156D2E9-6BDE-3CEF-86E2-FA1751C2CA2A}</Project>
+      <Name>gdcmCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary\gdcmDICT.vcxproj">
+      <Project>{6EF507FD-D545-3729-A9E8-A28D1311130F}</Project>
+      <Name>gdcmDICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition\gdcmDSED.vcxproj">
+      <Project>{DF0B4D03-B019-3716-99FB-E6984088DCE1}</Project>
+      <Name>gdcmDSED</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition\gdcmIOD.vcxproj">
+      <Project>{330935E3-255C-3A24-8C2C-63D06E6CF6C8}</Project>
+      <Name>gdcmIOD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmMSFF.vcxproj">
+      <Project>{A86465B9-6919-3196-85F2-7068091C4608}</Project>
+      <Name>gdcmMSFF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls\gdcmcharls.vcxproj">
+      <Project>{58DD4757-46E1-3B8F-B068-26F571E746D4}</Project>
+      <Name>gdcmcharls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\12\gdcmjpeg12.vcxproj">
+      <Project>{EACE3F76-5CC8-319F-ACFD-5267CC5701E8}</Project>
+      <Name>gdcmjpeg12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\16\gdcmjpeg16.vcxproj">
+      <Project>{744225A8-1882-3AC1-A750-3AFC64673598}</Project>
+      <Name>gdcmjpeg16</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\8\gdcmjpeg8.vcxproj">
+      <Project>{5788668E-D341-3141-9DE4-6F007A1D8162}</Project>
+      <Name>gdcmjpeg8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2\libopenjpeg\gdcmopenjpeg.vcxproj">
+      <Project>{7187AC91-DE8D-3A64-8F22-7237FA58F615}</Project>
+      <Name>gdcmopenjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itknetlib.vcxproj">
+      <Project>{924CBEAF-C4E2-3631-9E4E-96424B82F639}</Project>
+      <Name>itknetlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\itksys.vcxproj">
+      <Project>{B6124A39-02D4-35C2-9A3C-2655D555A492}</Project>
+      <Name>itksys</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib\itkv3p_netlib.vcxproj">
+      <Project>{1742AAAF-EF41-3D5E-9A1C-F24239DB4774}</Project>
+      <Name>itkv3p_netlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl\itkvcl.vcxproj">
+      <Project>{5FCE8653-DFD1-376C-9993-0BA2D05313F9}</Project>
+      <Name>itkvcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\itkvnl.vcxproj">
+      <Project>{4DA7C123-B60C-3CA7-8954-17974A9646A0}</Project>
+      <Name>itkvnl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core\vnl\algo\itkvnl_algo.vcxproj">
+      <Project>{F4817124-7057-3565-861C-36660C74F819}</Project>
+      <Name>itkvnl_algo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src\itkzlib\itkzlib.vcxproj">
+      <Project>{D420C9D2-8C71-3AE5-B572-90620285D6AB}</Project>
+      <Name>itkzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

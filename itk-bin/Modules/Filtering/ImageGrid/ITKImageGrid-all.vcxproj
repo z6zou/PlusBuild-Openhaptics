@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F27005C4-1842-315B-BA13-56C750CE1F46}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ITKImageGrid-all</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageGrid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageGrid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageGrid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageGrid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageGrid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageGrid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageGrid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageGrid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageGrid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageGrid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageGrid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageGrid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineCenteredL2ResampleImageFilterBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineCenteredL2ResampleImageFilterBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineCenteredResampleImageFilterBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineCenteredResampleImageFilterBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineControlPointImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineControlPointImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineControlPointImageFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineControlPointImageFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineDownsampleImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineDownsampleImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineL2ResampleImageFilterBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineL2ResampleImageFilterBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineResampleImageFilterBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineResampleImageFilterBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineScatteredDataPointSetToImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineScatteredDataPointSetToImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineUpsampleImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBSplineUpsampleImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBinShrinkImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkBinShrinkImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkChangeInformationImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkChangeInformationImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkConstantPadImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkConstantPadImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkCoxDeBoorBSplineKernelFunction.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkCoxDeBoorBSplineKernelFunction.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkCropImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkCropImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkCyclicShiftImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkCyclicShiftImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkExpandImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkExpandImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkFlipImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkFlipImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkInterpolateImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkInterpolateImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkInterpolateImagePointsFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkInterpolateImagePointsFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkMirrorPadImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkMirrorPadImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkOrientImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkOrientImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPadImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPadImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPadImageFilterBase.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPadImageFilterBase.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPasteImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPasteImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPermuteAxesImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkPermuteAxesImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkRegionOfInterestImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkRegionOfInterestImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkResampleImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkResampleImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkShrinkImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkShrinkImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkSliceBySliceImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkSliceBySliceImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkTileImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkTileImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkVectorResampleImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkVectorResampleImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkWarpImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkWarpImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkWarpVectorImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkWarpVectorImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkWrapPadImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkWrapPadImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkZeroFluxNeumannPadImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include\itkZeroFluxNeumannPadImageFilter.hxx">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

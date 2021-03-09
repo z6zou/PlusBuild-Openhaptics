@@ -1,0 +1,118 @@
+{
+	"BUILD_DIR" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Project/PlusB-bin/PlusLib-bin",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/CMakeLists.txt",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusExport.h.in",
+		"C:/Project/PlusB-bin/PlusLib/CMake/MSVCVersion.rc.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Project/PlusB-bin/PlusLib",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/Tools/vtkPlusCompareVolumes.h",
+			"MU",
+			"WKHKOO7AB7/moc_vtkPlusCompareVolumes.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ITK_IO_FACTORY_REGISTER_MANAGER",
+		"WIN32",
+		"vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)",
+		"vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\"",
+		"vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)",
+		"vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\"",
+		"vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)",
+		"vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Project/PlusB-bin/PlusLib-bin/src/ITKIOFactoryRegistration",
+		"C:/Project/PlusB-bin/PlusLib/src",
+		"C:/Project/PlusB-bin/PlusLib-bin/src",
+		"C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac",
+		"C:/Project/PlusB-bin/PlusLib/src/Utilities/xio",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusCommon",
+		"C:/Project/PlusB-bin/PlusLib-bin",
+		"C:/Project/PlusB-bin/PlusLib-bin/src/PlusCommon",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusCommon/IO",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusRendering",
+		"C:/Project/PlusB-bin/PlusLib-bin/src/PlusRendering",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusOpenIGTLink",
+		"C:/Project/PlusB-bin/PlusLib-bin/src/PlusOpenIGTLink",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusImageProcessing",
+		"C:/Project/PlusB-bin/PlusLib-bin/src/PlusImageProcessing",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusUsSimulator",
+		"C:/Project/PlusB-bin/PlusLib-bin/src/PlusUsSimulator",
+		"C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/Tools",
+		"C:/Project/PlusB-bin/itk-int/include/ITK-4.12",
+		"C:/Project/PlusB-bin/vtk-int/include/vtk-8.2",
+		"C:/Project/PlusB-bin/OpenIGTLinkIO/Converter",
+		"C:/Project/PlusB-bin/OpenIGTLinkIO-bin/Converter",
+		"C:/Project/PlusB-bin/OpenIGTLink-bin",
+		"C:/Project/PlusB-bin/OpenIGTLink/Source",
+		"C:/Project/PlusB-bin/OpenIGTLink-bin/Source",
+		"C:/Project/PlusB-bin/OpenIGTLink/Source/igtlutil",
+		"C:/Project/PlusB-bin/OpenIGTLink-bin/Source/igtlutil"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/Qt5.7.1/5.7/msvc2015_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/Qt5.7.1/5.7/msvc2015_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Project/PlusB-bin/PlusLib-bin/src/PlusVolumeReconstruction/CMakeFiles/CompareVolumes_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/Tools/CompareVolumes.cxx",
+			"MU"
+		],
+		[
+			"C:/Project/PlusB-bin/PlusLib/src/PlusVolumeReconstruction/Tools/vtkPlusCompareVolumes.cxx",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

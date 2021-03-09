@@ -1,0 +1,574 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendArcLength.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendSelection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkArrayCalculator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAssignAttribute.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAttributeDataToFieldDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkBinCellDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCellDataToPointData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCleanPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkClipPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCompositeDataProbeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkConnectivityFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContourFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContourGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContourHelper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContour3DLinearGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataObjectGenerator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataObjectToDataSetFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataSetEdgeSubdivisionCriterion.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataSetToDataObjectFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDecimatePolylineFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDecimatePro.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDelaunay2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDelaunay3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkElevationFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkExecutionTimer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFeatureEdges.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFieldDataToAttributeDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFlyingEdges2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFlyingEdges3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFlyingEdgesPlaneCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkGlyph2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkGlyph3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkHedgeHog.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkHull.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkIdFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMarchingCubes.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMarchingSquares.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMaskFields.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMaskPoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMaskPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMassProperties.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMergeDataObjectFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMergeFields.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMergeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMoleculeAppend.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMultiObjectMassProperties.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPlaneCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPointDataToCellData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPolyDataConnectivityFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPolyDataNormals.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkProbeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkQuadricClustering.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkQuadricDecimation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkRearrangeFields.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkRemoveDuplicatePolys.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkResampleToImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkResampleWithDataSet.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkReverseSense.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSimpleElevationFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSmoothPolyDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSphereTreeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStaticCleanPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStripper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStructuredGridOutlineFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSynchronizedTemplates2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSynchronizedTemplates3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSynchronizedTemplatesCutter3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTensorGlyph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkThreshold.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkThresholdPoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTransposeTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTriangleFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTriangleMeshPointNormals.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTubeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkUnstructuredGridQuadricDecimation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkVectorDot.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkVectorNorm.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkVoronoi2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkWindowedSincPolyDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCompositeCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkGridSynchronizedTemplates3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkRectilinearSynchronizedTemplates.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkEdgeSubdivisionCriterion.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStreamingTessellator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkImplicitPolyDataDistance.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStreamerBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCenterOfMass.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkImageAppend.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStructuredGridAppend.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendCompositeDataLeaves.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendArcLength.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendSelection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkArrayCalculator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAssignAttribute.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAttributeDataToFieldDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkBinCellDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCellDataToPointData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCleanPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkClipPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCompositeDataProbeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkConnectivityFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContourFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContourGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContourHelper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkContour3DLinearGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataObjectGenerator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataObjectToDataSetFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataSetEdgeSubdivisionCriterion.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDataSetToDataObjectFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDecimatePolylineFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDecimatePro.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDelaunay2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkDelaunay3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkElevationFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkExecutionTimer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFeatureEdges.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFieldDataToAttributeDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFlyingEdges2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFlyingEdges3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkFlyingEdgesPlaneCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkGlyph2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkGlyph3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkHedgeHog.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkHull.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkIdFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMarchingCubes.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMarchingSquares.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMaskFields.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMaskPoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMaskPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMassProperties.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMergeDataObjectFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMergeFields.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMergeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMoleculeAppend.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkMultiObjectMassProperties.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPlaneCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPointDataToCellData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPolyDataConnectivityFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkPolyDataNormals.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkProbeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkQuadricClustering.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkQuadricDecimation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkRearrangeFields.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkRemoveDuplicatePolys.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkResampleToImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkResampleWithDataSet.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkReverseSense.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSimpleElevationFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSmoothPolyDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSphereTreeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStaticCleanPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStripper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStructuredGridOutlineFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSynchronizedTemplates2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSynchronizedTemplates3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkSynchronizedTemplatesCutter3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTensorGlyph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkThreshold.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkThresholdPoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTransposeTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTriangleFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTriangleMeshPointNormals.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkTubeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkUnstructuredGridQuadricDecimation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkVectorDot.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkVectorNorm.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkVoronoi2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkWindowedSincPolyDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCompositeCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkGridSynchronizedTemplates3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkRectilinearSynchronizedTemplates.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkEdgeSubdivisionCriterion.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStreamingTessellator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkImplicitPolyDataDistance.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStreamerBase.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkCenterOfMass.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkImageAppend.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkStructuredGridAppend.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Core/vtkAppendCompositeDataLeaves.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Core/vtkFiltersCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersCore"
+		],
+		"name" : "vtkFiltersCore"
+	}
+}

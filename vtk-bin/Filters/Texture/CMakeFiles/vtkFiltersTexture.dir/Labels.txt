@@ -1,0 +1,20 @@
+# Target labels
+ vtkFiltersTexture
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTextureMapToCylinder.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTextureMapToPlane.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTextureMapToSphere.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkImplicitTextureCoords.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkThresholdTextureCoords.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTransformTextureCoords.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTriangularTCoords.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkScalarsToTextureFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTextureMapToCylinder.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTextureMapToPlane.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTextureMapToSphere.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkImplicitTextureCoords.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkThresholdTextureCoords.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTransformTextureCoords.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkTriangularTCoords.h
+C:/Project/PlusB-bin/vtk/Filters/Texture/vtkScalarsToTextureFilter.h
+C:/Project/PlusB-bin/vtk-bin/Filters/Texture/vtkFiltersTextureModule.h

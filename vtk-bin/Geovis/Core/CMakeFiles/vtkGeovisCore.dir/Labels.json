@@ -1,0 +1,178 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAdaptiveArcs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAlignedImageRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAlignedImageSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoArcs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAssignCoordinates.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoFileImageSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoFileTerrainSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoGlobeSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoGraticule.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoImageNode.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoProjectionSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoRandomGraphSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoSampleArcs.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoSphereTransform.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTerrain.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTerrain2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTerrainNode.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTreeNode.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTreeNodeCache.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGlobeSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkCompassRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkCompassWidget.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoProjection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTransform.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAdaptiveArcs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAlignedImageRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAlignedImageSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoArcs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoAssignCoordinates.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoFileImageSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoFileTerrainSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoGlobeSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoGraticule.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoImageNode.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoInteractorStyle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoProjectionSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoRandomGraphSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoSampleArcs.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoSphereTransform.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTerrain.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTerrain2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTerrainNode.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTreeNode.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTreeNodeCache.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGlobeSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkCompassRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkCompassWidget.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoProjection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Geovis/Core/vtkGeoTransform.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Geovis/Core/vtkGeovisCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkGeovisCore"
+		],
+		"name" : "vtkGeovisCore"
+	}
+}

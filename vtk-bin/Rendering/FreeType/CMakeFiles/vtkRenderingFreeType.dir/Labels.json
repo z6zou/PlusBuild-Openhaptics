@@ -1,0 +1,100 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeStringToImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeTools.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextUtilities.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkTextRendererStringToImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkScaledTextActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkVectorText.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial_bold.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial_bold_italic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial_italic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier_bold.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier_bold_italic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier_italic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times_bold.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times_bold_italic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times_italic.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeStringToImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeTools.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextUtilities.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkTextRendererStringToImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkScaledTextActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkVectorText.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/FreeType/vtkRenderingFreeTypeModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingFreeType"
+		],
+		"name" : "vtkRenderingFreeType"
+	}
+}

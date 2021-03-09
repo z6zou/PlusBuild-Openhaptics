@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOAsynchronous
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Asynchronous/vtkThreadedImageWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Asynchronous/vtkThreadedImageWriter.h
+C:/Project/PlusB-bin/vtk-bin/IO/Asynchronous/vtkIOAsynchronousModule.h

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/itk-module.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itk_zlib.h.in
+C:/Project/PlusB-bin/itk/Utilities/Doxygen/Module.dox.in

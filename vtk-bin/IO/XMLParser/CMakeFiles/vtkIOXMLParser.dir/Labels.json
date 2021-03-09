@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLDataParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLUtilities.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLDataParser.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLParser.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/XMLParser/vtkXMLUtilities.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/XMLParser/vtkIOXMLParserModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOXMLParser"
+		],
+		"name" : "vtkIOXMLParser"
+	}
+}

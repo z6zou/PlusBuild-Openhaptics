@@ -1,0 +1,12 @@
+set(ITKDenoising_LOADED 1)
+set(ITKDenoising_ENABLE_SHARED "0")
+set(ITKDenoising_DEPENDS "ITKIOImageBase;ITKImageAdaptors;ITKImageGrid;ITKImageStatistics;ITKStatistics")
+set(ITKDenoising_PUBLIC_DEPENDS "")
+set(ITKDenoising_TRANSITIVE_DEPENDS "ITKIOImageBase;ITKImageAdaptors;ITKImageGrid;ITKImageStatistics;ITKStatistics")
+set(ITKDenoising_PRIVATE_DEPENDS "")
+set(ITKDenoising_LIBRARIES "ITKIOImageBase;ITKCommon;ITKStatistics;ITKTransform;ITKSpatialObjects")
+set(ITKDenoising_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/Filtering/Denoising/include")
+set(ITKDenoising_LIBRARY_DIRS "")
+set(ITKDenoising_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKDenoising_TARGETS_FILE "")
+

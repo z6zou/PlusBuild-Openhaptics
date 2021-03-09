@@ -1,0 +1,5 @@
+# Target labels
+ ITKIONIFTI
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/NIFTI/src/itkNiftiImageIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/NIFTI/src/itkNiftiImageIO.cxx

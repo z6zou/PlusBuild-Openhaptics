@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/ThirdParty/zlib/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/ThirdParty/zlib/module.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/zlib/vtk_zlib.h.in

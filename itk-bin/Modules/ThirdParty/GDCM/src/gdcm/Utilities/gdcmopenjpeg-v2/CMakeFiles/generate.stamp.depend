@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeBackwardCompatibilityC.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindX11.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/TestBigEndian.cmake
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckIncludeFiles/CMAKE_HAVE_SYS_PRCTL_H.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_CHAR.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_DOUBLE.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_FLOAT.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_INT.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_LONG.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_SHORT.c
+C:/Project/PlusB-bin/itk-bin/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_VOID_P.c
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmopenjpeg-v2/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmopenjpeg-v2/openjpeg_mangle.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmopenjpeg-v2/opj_configure.h.in

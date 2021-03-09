@@ -1,0 +1,23 @@
+# Target labels
+ vtkIOMINC
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageAttributes.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageReader.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectReader.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointReader.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformReader.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINC.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageAttributes.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageReader.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMINCImageWriter.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectReader.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNIObjectWriter.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointReader.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITagPointWriter.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformReader.h
+C:/Project/PlusB-bin/vtk/IO/MINC/vtkMNITransformWriter.h
+C:/Project/PlusB-bin/vtk-bin/IO/MINC/vtkIOMINCModule.h

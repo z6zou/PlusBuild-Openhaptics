@@ -1,0 +1,100 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataSetWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataObjectWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPImageDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPPolyDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPRectilinearGridWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredGridWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPTableWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataSetWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataObjectWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPImageDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPPolyDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPRectilinearGridWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPStructuredGridWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPTableWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/ParallelXML/vtkIOParallelXMLModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOParallelXML"
+		],
+		"name" : "vtkIOParallelXML"
+	}
+}

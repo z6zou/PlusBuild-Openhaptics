@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/PLY/vtkPLY.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/PLY/vtkPLYReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/PLY/vtkPLYWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/PLY/vtkPLY.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/PLY/vtkPLYReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/PLY/vtkPLYWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/PLY/vtkIOPLYModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOPLY"
+		],
+		"name" : "vtkIOPLY"
+	}
+}

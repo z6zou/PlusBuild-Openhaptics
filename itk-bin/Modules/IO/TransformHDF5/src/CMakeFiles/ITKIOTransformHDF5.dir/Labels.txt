@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOTransformHDF5
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/TransformHDF5/src/itkHDF5TransformIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/TransformHDF5/src/itkHDF5TransformIOFactory.cxx

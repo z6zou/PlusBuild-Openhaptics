@@ -1,0 +1,154 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkCompositeDataGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkHierarchicalDataSetGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkImageDataGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkImageDataToUniformGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkLinearToQuadraticCellsFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkProjectSphereFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkRectilinearGridGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredPointsGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkUnstructuredGridGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkDataSetSurfaceFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkDataSetRegionSurfaceFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkAbstractGridConnectivity.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkDataSetGhostGenerator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkRectilinearGridPartitioner.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredAMRNeighbor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredAMRGridConnectivity.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridConnectivity.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridGhostDataGenerator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridPartitioner.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredNeighbor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkUniformGridGhostDataGenerator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkCompositeDataGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkHierarchicalDataSetGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkImageDataGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkImageDataToUniformGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkLinearToQuadraticCellsFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkProjectSphereFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkRectilinearGridGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredPointsGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkUnstructuredGridGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkDataSetSurfaceFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkDataSetRegionSurfaceFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkAbstractGridConnectivity.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkDataSetGhostGenerator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkRectilinearGridPartitioner.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredAMRNeighbor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredAMRGridConnectivity.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridConnectivity.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridGhostDataGenerator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredGridPartitioner.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkStructuredNeighbor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Geometry/vtkUniformGridGhostDataGenerator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Geometry/vtkFiltersGeometryModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersGeometry"
+		],
+		"name" : "vtkFiltersGeometry"
+	}
+}

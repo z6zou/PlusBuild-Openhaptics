@@ -1,0 +1,12 @@
+set(ITKTIFF_LOADED 1)
+set(ITKTIFF_ENABLE_SHARED "0")
+set(ITKTIFF_DEPENDS "ITKJPEG;ITKKWIML;ITKZLIB")
+set(ITKTIFF_PUBLIC_DEPENDS "ITKJPEG;ITKKWIML;ITKZLIB")
+set(ITKTIFF_TRANSITIVE_DEPENDS "ITKJPEG;ITKKWIML;ITKZLIB")
+set(ITKTIFF_PRIVATE_DEPENDS "")
+set(ITKTIFF_LIBRARIES "itktiff")
+set(ITKTIFF_INCLUDE_DIRS "C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/TIFF/src;C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/TIFF/src/itktiff;C:/Project/PlusB-bin/itk/Modules/ThirdParty/TIFF/src")
+set(ITKTIFF_LIBRARY_DIRS "")
+set(ITKTIFF_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKTIFF_TARGETS_FILE "")
+

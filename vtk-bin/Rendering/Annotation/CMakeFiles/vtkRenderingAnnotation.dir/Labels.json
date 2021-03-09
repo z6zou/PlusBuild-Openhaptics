@@ -1,0 +1,157 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAnnotatedCubeActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkArcPlotter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxesActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxisActor2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxisActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxisFollower.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkBarChartActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCaptionActor2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkConvexHull2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCornerAnnotation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCubeAxesActor2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCubeAxesActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkGraphAnnotationLayersFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkLeaderActor2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkLegendBoxActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkLegendScaleActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkParallelCoordinatesActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkPieChartActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkPolarAxesActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkProp3DAxisFollower.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkScalarBarActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkSpiderPlotActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkXYPlotActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkScalarBarActorInternal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAnnotatedCubeActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkArcPlotter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxesActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxisActor2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxisActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkAxisFollower.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkBarChartActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCaptionActor2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkConvexHull2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCornerAnnotation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCubeAxesActor2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkCubeAxesActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkGraphAnnotationLayersFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkLeaderActor2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkLegendBoxActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkLegendScaleActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkParallelCoordinatesActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkPieChartActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkPolarAxesActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkProp3DAxisFollower.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkScalarBarActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkSpiderPlotActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Annotation/vtkXYPlotActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/Annotation/vtkRenderingAnnotationModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingAnnotation"
+		],
+		"name" : "vtkRenderingAnnotation"
+	}
+}

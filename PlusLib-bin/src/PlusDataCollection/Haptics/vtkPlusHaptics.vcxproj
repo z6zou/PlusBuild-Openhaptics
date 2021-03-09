@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{632C0833-267C-3C3D-BC47-FA776842719C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkPlusHaptics</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkPlusHaptics.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkPlusHaptics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkPlusHaptics.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkPlusHaptics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkPlusHaptics.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkPlusHaptics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkPlusHaptics.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkPlusHaptics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_Debug;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Debug";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Debug\";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_Debug;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_Debug;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target vtkPlusHaptics</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/vtkPlusHaptics_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkPlusHaptics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkPlusHaptics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_Release;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Release";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Release\";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_Release;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_Release;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target vtkPlusHaptics</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/vtkPlusHaptics_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkPlusHaptics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkPlusHaptics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_MinSizeRel;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="MinSizeRel";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"MinSizeRel\";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_MinSizeRel;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_MinSizeRel;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target vtkPlusHaptics</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/vtkPlusHaptics_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkPlusHaptics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkPlusHaptics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_RelWithDebInfo;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="RelWithDebInfo";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"RelWithDebInfo\";vtkPlusHaptics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_RelWithDebInfo;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\include_RelWithDebInfo;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\xio;C:\Project\PlusB-bin\PlusLib\src\PlusCommon;C:\Project\PlusB-bin\PlusLib-bin;C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon;C:\Project\PlusB-bin\PlusLib\src\PlusCommon\IO;C:\Project\PlusB-bin\PlusLib\src\PlusRendering;C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering;C:\Project\PlusB-bin\PlusLib\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink;C:\Project\PlusB-bin\PlusLib\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing;C:\Project\PlusB-bin\PlusLib\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator;C:\Project\PlusB-bin\PlusLib\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction;C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target vtkPlusHaptics</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/vtkPlusHaptics_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkPlusHaptics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkPlusHaptics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Haptics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Haptics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Haptics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/PlusDataCollection/Haptics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/PlusDataCollection/Haptics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\PlusLib\CMake\MSVCVersion.rc.in;C:\Project\PlusB-bin\PlusLib\src\PlusExport.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics_autogen\mocs_compilation.cpp" />
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusForceFeedback.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusHapticForce.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusImplicitSplineForce.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusPolydataForce.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusForceFeedback.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusHapticForce.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusImplicitSplineForce.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\Haptics\vtkPlusPolydataForce.h" />
+    <ResourceCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHapticsMSVCVersion.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\ZERO_CHECK.vcxproj">
+      <Project>{0B8BD3DE-788D-3D2A-A7B7-E8263F7282F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

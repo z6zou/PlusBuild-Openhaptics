@@ -1,0 +1,4 @@
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/vtkAddon.dir
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/inner-build.dir
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/IGSIO-bin/CMakeFiles/ZERO_CHECK.dir

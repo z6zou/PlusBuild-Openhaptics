@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/PlusLibData"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/PlusLibData.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/PlusLibData-complete.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-install.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-download.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-update.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-patch.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-configure.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/d960ef3f2b966df089c4e28bba1e81ac/PlusLibData-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PlusLibData"
+		],
+		"name" : "PlusLibData"
+	}
+}

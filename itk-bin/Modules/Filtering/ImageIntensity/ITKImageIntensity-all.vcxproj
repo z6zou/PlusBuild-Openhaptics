@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0ABA39E5-98A7-3B41-867C-E25A83027286}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ITKImageIntensity-all</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk\Modules\Core\ImageAdaptors\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Core\ImageFunction\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageGrid\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageCompose\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\MetaIO\src\MetaIO\src;C:\Project\PlusB-bin\itk\Modules\Core\SpatialObjects\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageStatistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\Path\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageIntensity/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageIntensity/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageIntensity\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageIntensity/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageIntensity/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageIntensity\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageIntensity/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageIntensity/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageIntensity\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/ImageIntensity/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/ImageIntensity/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageAdaptors.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageCompose.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFunction.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageGrid.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKMetaIO.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKPath.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKSpatialObjects.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKZLIB.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\ImageIntensity\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAbsImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAcosImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAdaptImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAddImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAndImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAsinImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAtan2ImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkAtanImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkBinaryMagnitudeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkBoundedReciprocalImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkClampImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkClampImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkComplexToImaginaryImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkComplexToModulusImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkComplexToPhaseImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkComplexToRealImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkConstrainedValueAdditionImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkConstrainedValueDifferenceImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkCosImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkDivideImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkDivideOrZeroOutImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkEdgePotentialImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkExpImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkExpNegativeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkHistogramMatchingImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkHistogramMatchingImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkIntensityWindowingImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkIntensityWindowingImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkInvertIntensityImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkInvertIntensityImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkLog10ImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkLogImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkLogicOpsFunctors.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMagnitudeAndPhaseToComplexImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMaskImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMaskNegatedImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMatrixIndexSelectionImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMaximumImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMinimumImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkModulusImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkModulusImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkMultiplyImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNaryAddImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNaryFunctorImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNaryFunctorImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNaryMaximumImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNormalizeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNormalizeImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNormalizeToConstantImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNormalizeToConstantImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkNotImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkOrImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkPolylineMask2DImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkPolylineMask2DImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkPolylineMaskImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkPolylineMaskImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkPowImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkRGBToLuminanceImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkRescaleIntensityImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkRescaleIntensityImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkRoundImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkShiftScaleImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkShiftScaleImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkSigmoidImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkSinImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkSqrtImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkSquareImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkSubtractImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkSymmetricEigenAnalysisImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkTanImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkTernaryAddImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkTernaryMagnitudeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkTernaryMagnitudeSquaredImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkTernaryOperatorImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkVectorExpandImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkVectorExpandImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkVectorIndexSelectionCastImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkVectorMagnitudeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkVectorRescaleIntensityImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkVectorRescaleIntensityImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkWeightedAddImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\ImageIntensity\include\itkXorImageFilter.h">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

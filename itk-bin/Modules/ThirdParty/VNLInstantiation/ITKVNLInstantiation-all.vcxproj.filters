@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_c_vector+char-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_c_vector+longlong-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_c_vector+short-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_c_vector+ulonglong-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_c_vector+ushort-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_fft_base+double.3-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_fft_base+double.4-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_fft_base+float.3-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_fft_base+float.4-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix+char-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix+longlong-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix+short-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix+ulonglong-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix+ushort-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix_fixed+double.3.12-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix_fixed_ref+double.2.2-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix_fixed_ref+double.2.3-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix_fixed_ref+double.3.12-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix_fixed_ref+double.4.3-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_matrix_fixed_ref+double.4.4-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_vector+char-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_vector+longlong-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_vector+short-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_vector+ulonglong-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\src\vnl_vector+ushort-.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include\vnl_algo_export_override.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include\vnl_complex_traits+char-.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include\vnl_export_override.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

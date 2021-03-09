@@ -1,0 +1,15 @@
+# Target labels
+ vtkIOImport
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Import/vtk3DSImporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Import/vtkImporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Import/vtkVRMLImporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporter.cxx
+C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporterInternals.cxx
+C:/Project/PlusB-bin/vtk/IO/Import/vtk3DS.h
+C:/Project/PlusB-bin/vtk/IO/Import/vtk3DSImporter.h
+C:/Project/PlusB-bin/vtk/IO/Import/vtkImporter.h
+C:/Project/PlusB-bin/vtk/IO/Import/vtkVRMLImporter.h
+C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporter.h
+C:/Project/PlusB-bin/vtk/IO/Import/vtkOBJImporterInternals.h
+C:/Project/PlusB-bin/vtk-bin/IO/Import/vtkIOImportModule.h

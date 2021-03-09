@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jsoncpp/vtkjsoncpp/jsoncpp.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jsoncpp/vtkjsoncpp/json/json-forwards.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/jsoncpp/vtkjsoncpp/json/json.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/ThirdParty/jsoncpp/vtkjsoncpp/json/vtkjsoncpp_config.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkjsoncpp"
+		],
+		"name" : "vtkjsoncpp"
+	}
+}

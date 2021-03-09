@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/adler32.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/compress.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/crc32.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/deflate.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/gzio.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/inffast.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/inflate.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/inftrees.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/trees.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/uncompr.c"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/ZLIB/src/itkzlib/zutil.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKZLIB"
+		],
+		"name" : "itkzlib"
+	}
+}

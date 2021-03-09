@@ -1,0 +1,116 @@
+﻿  Creating directories for 'PlusApp'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'PlusApp'
+  Cloning into 'PlusApp'...
+  Switched to a new branch 'Plus-2.8'
+  Branch 'Plus-2.8' set up to track remote branch 'Plus-2.8' from 'origin'.
+  Performing update step for 'PlusApp'
+  No patch step for 'PlusApp'
+  Performing configure step for 'PlusApp'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- The C compiler identification is MSVC 19.0.24245.0
+  -- The CXX compiler identification is MSVC 19.0.24245.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- PlusLib use file triggered. In the future, consider linking directly to targets provided by PlusLibTargets.cmake.
+  -- PlusApp version: 2.8.0
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.29.2.windows.1") 
+  -- Current git hash is d56ae29a906bcfbf061a29d250fbb668fb6f84e6
+  CMake Warning at CPackConfig.cmake:90 (MESSAGE):
+    Unable to set VTK_DIR for package generation!
+  Call Stack (most recent call first):
+    CMakeLists.txt:196 (INCLUDE)
+  
+  
+  CMake Warning at CPackConfig.cmake:97 (MESSAGE):
+    Unable to set ITK_DIR for package generation!
+  Call Stack (most recent call first):
+    CMakeLists.txt:196 (INCLUDE)
+  
+  
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      ITK_BIN_DIR
+      PLUSAPP_TEST_GUI
+      VTK_BIN_DIR
+  
+  
+  -- Build files have been written to: C:/Project/PlusB-bin/PlusApp-bin
+  Performing build step for 'PlusApp'
+  Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/DiagnosticTools/CMakeLists.txt
+    mocs_compilation.cpp
+    DiagDataCollection.cxx
+    Generating Code...
+    DiagDataCollection.vcxproj -> C:\Project\PlusB-bin\bin\Release\DiagDataCollection.exe
+    Automatic RCC for PlusServerLauncher.qrc
+    Automatic RCC for ../../PlusLib/src/PlusWidgets/PlusWidgets.qrc
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/PlusServerLauncher/CMakeLists.txt
+    mocs_compilation.cpp
+    PlusServerLauncherMain.cxx
+    PlusServerLauncherMainWindow.cxx
+    qrc_PlusServerLauncher.cpp
+    qrc_PlusWidgets.cpp
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Release/PlusServerLauncher.lib and object C:/Project/PlusB-bin/lib/Release/PlusServerLauncher.exp
+    PlusServerLauncher.vcxproj -> C:\Project\PlusB-bin\bin\Release\PlusServerLauncher.exe
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/PointSetExtractor/CMakeLists.txt
+    mocs_compilation.cpp
+    PointSetExtractor.cxx
+    Generating Code...
+    PointSetExtractor.vcxproj -> C:\Project\PlusB-bin\bin\Release\PointSetExtractor.exe
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/fCal/Testing/CMakeLists.txt
+    mocs_compilation.cpp
+    SegmentationParameterDialogTest.cxx
+    Generating Code...
+    SegmentationParameterDialogTest.vcxproj -> C:\Project\PlusB-bin\bin\Release\SegmentationParameterDialogTest.exe
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/SpatialSensorFusion/CMakeLists.txt
+    mocs_compilation.cpp
+    SpatialSensorFusion.cxx
+    Generating Code...
+    SpatialSensorFusion.vcxproj -> C:\Project\PlusB-bin\bin\Release\SpatialSensorFusion.exe
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/DiagnosticTools/CMakeLists.txt
+    mocs_compilation.cpp
+    TrackingDataServer.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Release/TrackingDataServer.lib and object C:/Project/PlusB-bin/lib/Release/TrackingDataServer.exp
+    TrackingDataServer.vcxproj -> C:\Project\PlusB-bin\bin\Release\TrackingDataServer.exe
+    Automatic RCC for fCal.qrc
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/fCal/CMakeLists.txt
+    mocs_compilation.cpp
+    fCalMain.cxx
+    fCalMainWindow.cxx
+    QPlusSegmentationParameterDialog.cxx
+    vtkPlusVisualizationController.cxx
+    vtkPlusDisplayableObject.cxx
+    vtkPlusImageVisualizer.cxx
+    vtkPlus3DObjectVisualizer.cxx
+    PlusCaptureControlWidget.cxx
+    QPlusChannelAction.cxx
+    QConfigurationToolbox.cxx
+    QCapturingToolbox.cxx
+    QSpatialCalibrationToolbox.cxx
+    QTemporalCalibrationToolbox.cxx
+    QStylusCalibrationToolbox.cxx
+    QPhantomRegistrationToolbox.cxx
+    QVolumeReconstructionToolbox.cxx
+    qrc_fCal.cpp
+    Generating Code...
+    fCal.vcxproj -> C:\Project\PlusB-bin\bin\Release\fCal.exe
+    Building Custom Rule C:/Project/PlusB-bin/PlusApp/CMakeLists.txt
+  No install step for 'PlusApp'
+  Completed 'PlusApp'

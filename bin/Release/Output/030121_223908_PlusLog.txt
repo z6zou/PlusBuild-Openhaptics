@@ -1,0 +1,6 @@
+time|level|timeoffset|message|location
+030121_223908.292|INFO|000.001000| System start timestamp: 33732| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusAccurateTimer.cxx(51)
+030121_223908.296|INFO|000.004000| Software version: Plus-2.8.0.62873a16 - Win64| in vtkPlusLogger(188)
+030121_223908.296|INFO|000.004000| Logging at level 3 (INFO) to file: C:/Project/PlusB-bin/bin/Release/Output/030121_223908_PlusLog.txt| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(81)
+030121_223908.296|ERROR|000.004000| Reading device set configuration file failed: C:/Project/PlusB-bin/PlusLibData/ConfigFiles/.slicer.xml does not exist in the current directory or in C:/Project/PlusB-bin/PlusLibData/ConfigFiles| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(233)
+030121_223908.296|ERROR|000.004000| Datacollector failed to read configuration| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(87)

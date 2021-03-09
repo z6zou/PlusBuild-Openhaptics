@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformHDF5/src/itkHDF5TransformIO.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformHDF5/src/itkHDF5TransformIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOTransformHDF5"
+		],
+		"name" : "ITKIOTransformHDF5"
+	}
+}

@@ -1,0 +1,4 @@
+# Target labels
+ ITKIOCSV
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/CSV/src/itkCSVFileReaderBase.cxx

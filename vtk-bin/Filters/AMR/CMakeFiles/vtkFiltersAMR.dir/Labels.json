@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRCutPlane.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRGaussianPulseSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRResampleFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRSliceFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRToMultiBlockFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkImageToAMR.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkParallelAMRUtilities.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRCutPlane.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRGaussianPulseSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRResampleFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRSliceFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkAMRToMultiBlockFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkImageToAMR.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/AMR/vtkParallelAMRUtilities.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/AMR/vtkFiltersAMRModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersAMR"
+		],
+		"name" : "vtkFiltersAMR"
+	}
+}

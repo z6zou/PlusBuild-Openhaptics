@@ -1,0 +1,46 @@
+# Target labels
+ vtklibxml2
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/DOCBparser.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/HTMLparser.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/HTMLtree.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/SAX.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/SAX2.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/c14n.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/catalog.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/chvalid.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/debugXML.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/dict.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/encoding.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/entities.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/error.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/globals.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/hash.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/legacy.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/list.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/nanoftp.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/nanohttp.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/parser.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/parserInternals.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/pattern.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/relaxng.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/schematron.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/threads.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/tree.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/uri.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/valid.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xinclude.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xlink.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlIO.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlmemory.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlmodule.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlreader.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlregexp.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlsave.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlschemas.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlschemastypes.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlstring.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlunicode.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xmlwriter.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xpath.c
+C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/xpointer.c

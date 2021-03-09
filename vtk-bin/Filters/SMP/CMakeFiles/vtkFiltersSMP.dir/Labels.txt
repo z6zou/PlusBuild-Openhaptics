@@ -1,0 +1,20 @@
+# Target labels
+ vtkFiltersSMP
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGrid.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePoints.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePolyDataHelper.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGridManyPieces.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplates3D.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplatesCutter3D.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPTransform.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPWarpVector.cxx
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGrid.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePoints.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPMergePolyDataHelper.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPContourGridManyPieces.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplates3D.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkThreadedSynchronizedTemplatesCutter3D.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPTransform.h
+C:/Project/PlusB-bin/vtk/Filters/SMP/vtkSMPWarpVector.h
+C:/Project/PlusB-bin/vtk-bin/Filters/SMP/vtkFiltersSMPModule.h

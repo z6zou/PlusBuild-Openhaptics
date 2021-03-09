@@ -1,0 +1,94 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtAnnotationView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtListView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtRecordView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtTableRepresentation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtTableView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtTreeView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtView.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtAnnotationView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtListView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtRecordView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTableView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTreeView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtView.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtAnnotationView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtListView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtRecordView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtTableRepresentation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtTableView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtTreeView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Views/Qt/vtkQtView.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Views/Qt/vtkViewsQtModule.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/51938103e8c2e08df5018a372cd7f8bf/moc_vtkQtAnnotationView.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/51938103e8c2e08df5018a372cd7f8bf/moc_vtkQtListView.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/51938103e8c2e08df5018a372cd7f8bf/moc_vtkQtRecordView.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/51938103e8c2e08df5018a372cd7f8bf/moc_vtkQtTableView.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/51938103e8c2e08df5018a372cd7f8bf/moc_vtkQtTreeView.cpp.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/CMakeFiles/51938103e8c2e08df5018a372cd7f8bf/moc_vtkQtView.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkViewsQt"
+		],
+		"name" : "vtkViewsQt"
+	}
+}

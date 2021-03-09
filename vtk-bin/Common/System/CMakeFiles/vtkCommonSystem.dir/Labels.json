@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkClientSocket.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkDirectory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkServerSocket.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkSocket.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkSocketCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkThreadMessager.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkTimerLog.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkClientSocket.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkDirectory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkServerSocket.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkSocket.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkSocketCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkThreadMessager.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Common/System/vtkTimerLog.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Common/System/vtkCommonSystemModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkCommonSystem"
+		],
+		"name" : "vtkCommonSystem"
+	}
+}

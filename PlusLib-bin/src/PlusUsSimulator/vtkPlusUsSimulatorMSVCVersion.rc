@@ -1,0 +1,36 @@
+#include <winresrc.h>
+
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION 2, 8, 0, 0
+  PRODUCTVERSION 2, 8, 0, 0
+  FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifndef NDEBUG
+  FILEFLAGS 0
+#else
+  FILEFLAGS VS_FF_DEBUG
+#endif
+  FILEOS VOS_NT_WINDOWS32
+#ifdef vtkPlusUsSimulator_EXPORTS
+  FILETYPE VFT_DLL
+#else
+  FILETYPE VFT_APP
+#endif
+  FILESUBTYPE VFT2_UNKNOWN
+  BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+      BLOCK "04090000"
+      BEGIN
+        VALUE "FileDescription", "Library containing code for ultrasound simulation. Part of the Plus toolkit."
+        VALUE "FileVersion", "2.8.0.62873a16c3c0b326648e51f0665c2804d1b97bd8"
+        VALUE "InternalName", "vtkPlusUsSimulator"
+        VALUE "ProductName", "vtkPlusUsSimulator"
+        VALUE "ProductVersion", "2.8.0.62873a16c3c0b326648e51f0665c2804d1b97bd8"
+        VALUE "LegalCopyright", "https://github.com/PlusToolkit/PlusLib/blob/master/src/License.txt"
+      END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+      VALUE "Translation", 0x409, 1252
+    END
+  END

@@ -1,0 +1,226 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkArcSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkArrowSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkButtonSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkCellTypeSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkConeSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkCubeSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkCylinderSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkDiskSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkEllipseArcSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkEllipticalButtonSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkFrustumSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkGlyphSource2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkHyperTreeGridSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkLineSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkOutlineCornerFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkOutlineCornerSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkOutlineSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkParametricFunctionSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPlaneSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPlatonicSolidSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPointSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPolyLineSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkProgrammableDataObjectSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkProgrammableSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkRandomHyperTreeGridSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkRectangularButtonSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkRegularPolygonSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkSelectionSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkSphereSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkSuperquadricSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkTessellatedBoxSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkTextSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkTexturedSphereSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkGraphToPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkDiagonalMatrixSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkArcSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkArrowSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkButtonSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkCellTypeSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkConeSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkCubeSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkCylinderSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkDiskSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkEllipseArcSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkEllipticalButtonSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkFrustumSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkGlyphSource2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkHyperTreeGridSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkLineSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkOutlineCornerFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkOutlineCornerSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkOutlineSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkParametricFunctionSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPlaneSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPlatonicSolidSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPointSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkPolyLineSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkProgrammableDataObjectSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkProgrammableSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkRandomHyperTreeGridSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkRectangularButtonSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkRegularPolygonSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkSelectionSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkSphereSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkSuperquadricSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkTessellatedBoxSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkTextSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkTexturedSphereSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkGraphToPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Sources/vtkDiagonalMatrixSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Sources/vtkFiltersSourcesModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersSources"
+		],
+		"name" : "vtkFiltersSources"
+	}
+}

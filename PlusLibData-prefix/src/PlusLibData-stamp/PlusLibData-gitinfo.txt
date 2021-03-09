@@ -1,0 +1,3 @@
+repository='https://github.com/PlusToolkit/PlusLibData.git'
+module=''
+tag='origin'

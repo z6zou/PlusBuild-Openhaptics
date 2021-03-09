@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/IGSIO-bin/vtkAddon-bin/vtkAddonConfig.cmake
+C:/Project/PlusB-bin/IGSIO-bin/vtkAddon-bin/vtkAddonTargets.cmake
+C:/Project/PlusB-bin/IGSIO/Source/Codecs/CMakeLists.txt

@@ -1,0 +1,20 @@
+# Target labels
+ vtkImagingMath
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDivergence.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDotProduct.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogarithmicScale.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogic.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMagnitude.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMaskBits.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMathematics.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageWeightedSum.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDivergence.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageDotProduct.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogarithmicScale.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageLogic.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMagnitude.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMaskBits.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageMathematics.h
+C:/Project/PlusB-bin/vtk/Imaging/Math/vtkImageWeightedSum.h
+C:/Project/PlusB-bin/vtk-bin/Imaging/Math/vtkImagingMathModule.h

@@ -1,0 +1,42 @@
+
+#ifndef VTKIGSIOCOMMON_EXPORT_H
+#define VTKIGSIOCOMMON_EXPORT_H
+
+#ifdef VTKIGSIOCOMMON_STATIC_DEFINE
+#  define VTKIGSIOCOMMON_EXPORT
+#  define VTKIGSIOCOMMON_NO_EXPORT
+#else
+#  ifndef VTKIGSIOCOMMON_EXPORT
+#    ifdef vtkIGSIOCommon_EXPORTS
+        /* We are building this library */
+#      define VTKIGSIOCOMMON_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define VTKIGSIOCOMMON_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef VTKIGSIOCOMMON_NO_EXPORT
+#    define VTKIGSIOCOMMON_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef VTKIGSIOCOMMON_DEPRECATED
+#  define VTKIGSIOCOMMON_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef VTKIGSIOCOMMON_DEPRECATED_EXPORT
+#  define VTKIGSIOCOMMON_DEPRECATED_EXPORT VTKIGSIOCOMMON_EXPORT VTKIGSIOCOMMON_DEPRECATED
+#endif
+
+#ifndef VTKIGSIOCOMMON_DEPRECATED_NO_EXPORT
+#  define VTKIGSIOCOMMON_DEPRECATED_NO_EXPORT VTKIGSIOCOMMON_NO_EXPORT VTKIGSIOCOMMON_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef VTKIGSIOCOMMON_NO_DEPRECATED
+#    define VTKIGSIOCOMMON_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* VTKIGSIOCOMMON_EXPORT_H */

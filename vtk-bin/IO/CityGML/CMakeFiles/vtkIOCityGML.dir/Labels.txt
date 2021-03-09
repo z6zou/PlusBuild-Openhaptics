@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOCityGML
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/CityGML/vtkCityGMLReader.cxx
+C:/Project/PlusB-bin/vtk/IO/CityGML/vtkCityGMLReader.h
+C:/Project/PlusB-bin/vtk-bin/IO/CityGML/vtkIOCityGMLModule.h

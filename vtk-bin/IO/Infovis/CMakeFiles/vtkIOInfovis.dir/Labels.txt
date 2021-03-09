@@ -1,0 +1,36 @@
+# Target labels
+ vtkIOInfovis
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkBiomTableReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkChacoGraphReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDelimitedTextReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkFixedWidthTextReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkISIReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkMultiNewickTreeReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkRISReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkTulipReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXGMLReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXMLTreeReader.cxx
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkBiomTableReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkChacoGraphReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDelimitedTextReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkDIMACSGraphWriter.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkFixedWidthTextReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkISIReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkMultiNewickTreeReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkNewickTreeWriter.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkPhyloXMLTreeWriter.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkRISReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkTulipReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXGMLReader.h
+C:/Project/PlusB-bin/vtk/IO/Infovis/vtkXMLTreeReader.h
+C:/Project/PlusB-bin/vtk-bin/IO/Infovis/vtkIOInfovisModule.h

@@ -1,0 +1,195 @@
+﻿  Creating directories for 'IGSIO'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'IGSIO'
+  Cloning into 'IGSIO'...
+  Already on 'master'
+  Your branch is up to date with 'origin/master'.
+  Performing update step for 'IGSIO'
+  No patch step for 'IGSIO'
+  Performing configure step for 'IGSIO'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- The C compiler identification is MSVC 19.0.24245.0
+  -- The CXX compiler identification is MSVC 19.0.24245.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      EXECUTABLE_OUTPUT_PATH
+  
+  
+  -- Build files have been written to: C:/Project/PlusB-bin/IGSIO-bin
+  Performing build step for 'IGSIO'
+  Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Creating directories for 'vtkAddon'
+    Building Custom Rule C:/Project/PlusB-bin/IGSIO/CMakeLists.txt
+    Performing download step (git clone) for 'vtkAddon'
+    Cloning into 'vtkAddon'...
+    Already on 'master'
+    Your branch is up to date with 'origin/master'.
+    Performing update step for 'vtkAddon'
+    No patch step for 'vtkAddon'
+    Performing configure step for 'vtkAddon'
+    -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+    -- The CXX compiler identification is MSVC 19.0.24245.0
+    -- The C compiler identification is MSVC 19.0.24245.0
+    -- Detecting CXX compiler ABI info
+    -- Detecting CXX compiler ABI info - done
+    -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+    -- Detecting CXX compile features
+    -- Detecting CXX compile features - done
+    -- Detecting C compiler ABI info
+    -- Detecting C compiler ABI info - done
+    -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+    -- Detecting C compile features
+    -- Detecting C compile features - done
+    -- Found OpenGL: opengl32   
+    -- Configuring done
+    -- Generating done
+CUSTOMBUILD : CMake warning : [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+    -- Build files have been written to: C:/Project/PlusB-bin/IGSIO-bin/vtkAddon-bin
+      Manually-specified variables were not used by the project:
+    
+        EXECUTABLE_OUTPUT_PATH
+    
+    
+    Performing build step for 'vtkAddon'
+    Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+    Copyright (C) Microsoft Corporation. All rights reserved.
+    
+      Checking Build System
+      Building Custom Rule C:/Project/PlusB-bin/IGSIO-bin/vtkAddon/CMakeLists.txt
+      vtkAddonTestingUtilities.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkErrorSink.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkTestingOutputWindow.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkOrientedBSplineTransform.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkOrientedGridTransform.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkPersonInformation.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkAddonMathUtilities.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(17): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkStreamingVolumeCodec.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkStreamingVolumeFrame.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkStreamingVolumeCodecFactory.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkRawRGBVolumeCodec.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkOpenGLTextureImage.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      vtkOpenGLShaderComputation.cxx
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(303): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon-bin\vtkAddon.vcxproj] [C:\Project\PlusB-bin\IGSIO-bin\vtkAddon.vcxproj]
+      Generating Code...
+         Creating library C:/Project/PlusB-bin/lib/Release/vtkAddon.lib and object C:/Project/PlusB-bin/lib/Release/vtkAddon.exp
+      vtkAddon.vcxproj -> C:\Project\PlusB-bin\bin\Release\vtkAddon.dll
+      Building Custom Rule C:/Project/PlusB-bin/IGSIO-bin/vtkAddon/CMakeLists.txt
+    No install step for 'vtkAddon'
+    Completed 'vtkAddon'
+    Creating directories for 'inner-build'
+    Building Custom Rule C:/Project/PlusB-bin/IGSIO/CMakeLists.txt
+    No download step for 'inner-build'
+    No update step for 'inner-build'
+    No patch step for 'inner-build'
+    Performing configure step for 'inner-build'
+    -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+    -- The C compiler identification is MSVC 19.0.24245.0
+    -- The CXX compiler identification is MSVC 19.0.24245.0
+    -- Detecting C compiler ABI info
+    -- Detecting C compiler ABI info - done
+    -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+    -- Detecting C compile features
+    -- Detecting C compile features - done
+    -- Detecting CXX compiler ABI info
+    -- Detecting CXX compiler ABI info - done
+    -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+    -- Detecting CXX compile features
+    -- Detecting CXX compile features - done
+    -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+    -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Failed
+    -- Performing Test COMPILER_HAS_DEPRECATED
+    -- Performing Test COMPILER_HAS_DEPRECATED - Success
+    -- Configuring done
+    -- Generating done
+CUSTOMBUILD : CMake warning : [C:\Project\PlusB-bin\IGSIO-bin\inner-build.vcxproj]
+      Manually-specified variables were not used by the project:
+    
+        BUILDNAME
+        CMAKE_BUILD_TYPE
+        Slicer_DIR
+        libwebm_DIR
+    
+    
+    -- Build files have been written to: C:/Project/PlusB-bin/IGSIO-bin/inner-build
+    Performing build step for 'inner-build'
+    Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+    Copyright (C) Microsoft Corporation. All rights reserved.
+    
+      Checking Build System
+      Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/IGSIOCommon/CMakeLists.txt
+      igsioCommon.cxx
+      vtkIGSIOLogger.cxx
+      igsioMath.cxx
+      vtkIGSIOAccurateTimer.cxx
+      igsioVideoFrame.cxx
+      igsioTrackedFrame.cxx
+      vtkIGSIOFrameConverter.cxx
+      vtkIGSIOTrackedFrameList.cxx
+      vtkIGSIOTransformRepository.cxx
+      vtkIGSIORecursiveCriticalSection.cxx
+      Generating Code...
+         Creating library C:/Project/PlusB-bin/lib/Release/vtkIGSIOCommon.lib and object C:/Project/PlusB-bin/lib/Release/vtkIGSIOCommon.exp
+      vtkIGSIOCommon.vcxproj -> C:\Project\PlusB-bin\bin\Release\vtkIGSIOCommon.dll
+      Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/SequenceIO/CMakeLists.txt
+      vtkIGSIOSequenceIO.cxx
+      vtkIGSIOSequenceIOBase.cxx
+      vtkIGSIOMetaImageSequenceIO.cxx
+      vtkIGSIONrrdSequenceIO.cxx
+      Generating Code...
+         Creating library C:/Project/PlusB-bin/lib/Release/vtkSequenceIO.lib and object C:/Project/PlusB-bin/lib/Release/vtkSequenceIO.exp
+      vtkSequenceIO.vcxproj -> C:\Project\PlusB-bin\bin\Release\vtkSequenceIO.dll
+      Building Custom Rule C:/Project/PlusB-bin/IGSIO/Source/VolumeReconstruction/CMakeLists.txt
+      vtkIGSIOPasteSliceIntoVolume.cxx
+      vtkIGSIOVolumeReconstructor.cxx
+      vtkIGSIOFillHolesInVolume.cxx
+      vtkIGSIOFanAngleDetectorAlgo.cxx
+      Generating Code...
+         Creating library C:/Project/PlusB-bin/lib/Release/vtkVolumeReconstruction.lib and object C:/Project/PlusB-bin/lib/Release/vtkVolumeReconstruction.exp
+      vtkVolumeReconstruction.vcxproj -> C:\Project\PlusB-bin\bin\Release\vtkVolumeReconstruction.dll
+      Building Custom Rule C:/Project/PlusB-bin/IGSIO/CMakeLists.txt
+    No install step for 'inner-build'
+    Completed 'inner-build'
+    Building Custom Rule C:/Project/PlusB-bin/IGSIO/CMakeLists.txt
+  No install step for 'IGSIO'
+  Completed 'IGSIO'

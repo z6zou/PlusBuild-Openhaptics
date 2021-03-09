@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk-bin/lib/cmake/ITK-4.12/Modules/ITKZLIB.cmake
+C:/Project/PlusB-bin/itk/CMake/ITKModuleInfo.cmake.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/HDF5/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/HDF5/itk-module.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/HDF5/src/itk_H5Cpp.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/HDF5/src/itk_hdf5.h.in
+C:/Project/PlusB-bin/itk/Utilities/Doxygen/Module.dox.in

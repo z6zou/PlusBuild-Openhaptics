@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Topology/vtkFiberSurface.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Topology/vtkFiberSurface.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Topology/vtkFiltersTopologyModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersTopology"
+		],
+		"name" : "vtkFiltersTopology"
+	}
+}

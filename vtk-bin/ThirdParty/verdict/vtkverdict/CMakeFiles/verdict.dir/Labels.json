@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_EdgeMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_GaussIntegration.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_HexMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_KnifeMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_PyramidMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_QuadMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_TetMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_TriMetric.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/VerdictVector.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/verdict/vtkverdict/V_WedgeMetric.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkverdict"
+		],
+		"name" : "verdict"
+	}
+}

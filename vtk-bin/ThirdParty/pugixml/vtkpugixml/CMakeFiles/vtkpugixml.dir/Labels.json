@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/pugixml/vtkpugixml/src/pugixml.cpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/pugixml/vtkpugixml/src/pugixml.hpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/ThirdParty/pugixml/vtkpugixml/pugiconfig.hpp"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/ThirdParty/pugixml/vtkpugixml/src/vtk_pugixml_mangle.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkpugixml"
+		],
+		"name" : "vtkpugixml"
+	}
+}

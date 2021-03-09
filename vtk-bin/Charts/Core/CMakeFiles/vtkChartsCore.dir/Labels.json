@@ -1,0 +1,280 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkAxis.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkAxisExtended.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkCategoryLegend.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChart.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartBox.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartHistogram2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartLegend.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartMatrix.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartParallelCoordinates.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartPie.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartXY.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartXYZ.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkColorLegend.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkColorTransferControlPointsItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkColorTransferFunctionItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkCompositeControlPointsItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkCompositeTransferFunctionItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkContextArea.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkContextPolygon.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkControlPointsItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkInteractiveArea.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkLookupTableItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPiecewiseControlPointsItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPiecewiseFunctionItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPiecewisePointHandleItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlot.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlot3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotArea.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotBag.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotBar.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotBox.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotFunctionalBag.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotHistogram2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotLine.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotLine3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotParallelCoordinates.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotPie.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotPoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotPoints3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotStacked.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotSurface.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkScalarsToColorsItem.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkScatterPlotMatrix.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkAxis.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkAxisExtended.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkCategoryLegend.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChart.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartBox.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartHistogram2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartLegend.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartMatrix.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartParallelCoordinates.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartPie.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartXY.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkChartXYZ.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkColorLegend.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkColorTransferControlPointsItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkColorTransferFunctionItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkCompositeControlPointsItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkCompositeTransferFunctionItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkContextArea.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkContextPolygon.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkControlPointsItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkInteractiveArea.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkLookupTableItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPiecewiseControlPointsItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPiecewiseFunctionItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPiecewisePointHandleItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlot.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlot3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotArea.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotBag.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotBar.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotBox.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotFunctionalBag.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotHistogram2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotLine.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotLine3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotParallelCoordinates.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotPie.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotPoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotPoints3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotStacked.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkPlotSurface.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkScalarsToColorsItem.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Charts/Core/vtkScatterPlotMatrix.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Charts/Core/vtkChartsCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkChartsCore"
+		],
+		"name" : "vtkChartsCore"
+	}
+}

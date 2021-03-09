@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMBuffer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMFile.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMParser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMAppHelper.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKDICOMParser"
+		],
+		"name" : "ITKDICOMParser"
+	}
+}

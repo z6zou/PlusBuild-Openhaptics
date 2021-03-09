@@ -1,0 +1,70 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericClip.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericContourFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericCutter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericDataSetTessellator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGeometryFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGlyph3DFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericOutlineFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericProbeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericStreamTracer.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericClip.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericContourFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericCutter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericDataSetTessellator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGeometryFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGlyph3DFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericOutlineFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericProbeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericStreamTracer.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Generic/vtkFiltersGenericModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersGeneric"
+		],
+		"name" : "vtkFiltersGeneric"
+	}
+}

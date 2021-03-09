@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A705ED78-6956-3442-9A32-30BE071E0CA5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkCommonCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkCommonCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkCommonCore-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkCommonCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkCommonCore-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkCommonCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkCommonCore-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkCommonCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkCommonCore-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtksys-8.2D.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkCommonCore-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkCommonCore-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkCommonCore-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkCommonCore-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkCommonCore-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkCommonCore-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkCommonCore-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkCommonCore-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\c6c143011d279c31dba42f05c5c45395\vtkUnicodeCaseFoldData.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/Project/PlusB-bin/vtk/Common/Core -Dbinary_dir=C:/Project/PlusB-bin/vtk-bin/Common/Core -P C:/Project/PlusB-bin/vtk/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Common\Core\CaseFolding.txt;C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/Project/PlusB-bin/vtk/Common/Core -Dbinary_dir=C:/Project/PlusB-bin/vtk-bin/Common/Core -P C:/Project/PlusB-bin/vtk/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Common\Core\CaseFolding.txt;C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/Project/PlusB-bin/vtk/Common/Core -Dbinary_dir=C:/Project/PlusB-bin/vtk-bin/Common/Core -P C:/Project/PlusB-bin/vtk/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Common\Core\CaseFolding.txt;C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/Project/PlusB-bin/vtk/Common/Core -Dbinary_dir=C:/Project/PlusB-bin/vtk-bin/Common/Core -P C:/Project/PlusB-bin/vtk/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Common\Core\CaseFolding.txt;C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\Common\Core\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestEndianess.c.in;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkAtomic.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\module.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayDispatchArrayList.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateArrayDispatchArrayList.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateTypeListMacros.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkMathConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkSMPSelection.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTestBuiltins.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkToolkits.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeArrays.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeListMacros.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.cxx.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkVersionMacros.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestEndianess.c.in;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkAtomic.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\module.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayDispatchArrayList.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateArrayDispatchArrayList.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateTypeListMacros.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkMathConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkSMPSelection.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTestBuiltins.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkToolkits.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeArrays.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeListMacros.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.cxx.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkVersionMacros.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestEndianess.c.in;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkAtomic.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\module.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayDispatchArrayList.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateArrayDispatchArrayList.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateTypeListMacros.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkMathConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkSMPSelection.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTestBuiltins.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkToolkits.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeArrays.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeListMacros.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.cxx.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkVersionMacros.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Common/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\TestEndianess.c.in;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkAtomic.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;C:\Project\PlusB-bin\vtk\Common\Core\module.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayDispatchArrayList.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateArrayDispatchArrayList.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkCreateTypeListMacros.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkMathConfigure.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkSMPSelection.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTestBuiltins.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkToolkits.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeArrays.cmake;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeListMacros.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.cxx.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.h.in;C:\Project\PlusB-bin\vtk\Common\Core\vtkVersionMacros.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAOSDataArrayTemplate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAbstractArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAnimationCue.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayCoordinates.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayExtents.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayExtentsList.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIterator.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIteratorTemplate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIteratorTemplateInstantiate.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayRange.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArraySort.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayWeights.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBitArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBitArrayIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBoxMuellerRandomSequence.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBreakPoint.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkByteSwap.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCallbackCommand.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCharArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCollectionIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCommand.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCommonInformationKeyManager.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkConditionVariable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCriticalSection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArray.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayCollectionIterator.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayPrivate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArraySelection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDebugLeaks.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDebugLeaksManager.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDenseArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDoubleArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDynamicLoader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkEventForwarderCommand.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkFileOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatingPointExceptions.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGarbageCollector.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGarbageCollectorManager.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGaussianRandomSequence.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGenericDataArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIdList.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIdListCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIdTypeArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIndent.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationDataObjectKey.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationDoubleKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationDoubleVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIdTypeKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationInformationKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationInformationVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIntegerKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIntegerPointerKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIntegerVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIterator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationKeyLookup.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationKeyVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationObjectBaseKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationObjectBaseVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationRequestKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationStringKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationStringVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationUnsignedLongKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationVariantKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationVariantVectorKey.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationVector.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIntArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLargeInteger.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLongArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLongLongArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLookupTable.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMappedDataArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMath.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMersenneTwister.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMinimalStandardRandomSequence.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMultiThreader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMutexLock.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOStrStreamWrapper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOStreamWrapper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObjectBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObjectFactory.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObjectFactoryCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOldStyleCallbackCommand.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOverrideInformation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOverrideInformationCollection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkPoints.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkPoints2D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkPriorityQueue.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkRandomPool.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkRandomSequence.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkReferenceCount.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSOADataArrayTemplate.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSOADataArrayTemplateInstantiate.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkScalarsToColors.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkShortArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSignedCharArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSimpleCriticalSection.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSmartPointerBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSortDataArray.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSparseArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkStdString.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkStringArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkStringOutputWindow.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSystemIncludes.h" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTimePointUtility.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTimeStamp.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkType.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedDataArray.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeString.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeStringArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedCharArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedIntArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedLongArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedLongLongArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedShortArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariant.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariantArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVersion.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVoidArray.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWeakPointerBase.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWeakReference.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWindow.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWrappingHints.h" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkXMLFileOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkSMPTools.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\SMP\Sequential\vtkAtomic.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkConfigure.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkMathConfigure.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkVersionMacros.h" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWin32OutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWin32OutputWindowProcessEncoded.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWin32ProcessOutputWindow.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt8Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt16Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt32Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt64Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt8Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt16Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt32Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt64Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeFloat32Array.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeFloat64Array.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkABI.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayDispatch.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayDispatch.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayInterpolate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayInterpolate.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIteratorIncludes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIteratorTemplateImplicit.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayPrint.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayPrint.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAssume.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAtomicTypeConcepts.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAtomicTypes.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAutoInit.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBuffer.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayAccessor.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayIteratorMacro.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGenericDataArrayLookupHelper.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIOStream.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIOStreamFwd.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationInternals.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMappedDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMathUtilities.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMersenneTwister.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkNew.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSetGet.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSmartPointer.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTemplateAliasMacro.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTestDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeList.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeList.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypeTraits.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedDataArrayIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariantCast.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariantCreate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariantExtract.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariantInlineOperators.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWeakPointer.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWeakReference.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWin32Header.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWindows.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkAtomic.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkSMPThreadLocal.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkSMPToolsInternal.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSMPTools.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSMPThreadLocalObject.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkArrayDispatchArrayList.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkToolkits.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeListMacros.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAOSDataArrayTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAbstractArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkAnimationCue.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayCoordinates.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayExtents.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayExtentsList.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayIteratorTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayRange.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArraySort.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkArrayWeights.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBitArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBitArrayIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBoxMuellerRandomSequence.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkBreakPoint.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkByteSwap.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCallbackCommand.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCharArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCollectionIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCommand.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCommonInformationKeyManager.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkConditionVariable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkCriticalSection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArrayCollectionIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDataArraySelection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDebugLeaks.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDebugLeaksManager.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDenseArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDoubleArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkDynamicLoader.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkEventForwarderCommand.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkFileOutputWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkFloatingPointExceptions.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGarbageCollector.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGarbageCollectorManager.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGaussianRandomSequence.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkGenericDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIdList.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIdListCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIdTypeArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIndent.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformation.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationDataObjectKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationDoubleKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationDoubleVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIdTypeKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationInformationKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationInformationVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIntegerKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIntegerPointerKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIntegerVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationIterator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationKeyLookup.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationKeyVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationObjectBaseKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationObjectBaseVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationRequestKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationStringKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationStringVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationUnsignedLongKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationVariantKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationVariantVectorKey.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkInformationVector.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkIntArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLargeInteger.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLongArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLongLongArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkLookupTable.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMath.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMinimalStandardRandomSequence.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMultiThreader.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkMutexLock.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOStrStreamWrapper.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOStreamWrapper.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObject.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObjectBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObjectFactory.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkObjectFactoryCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOldStyleCallbackCommand.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOutputWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOverrideInformation.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkOverrideInformationCollection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkPoints.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkPoints2D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkPriorityQueue.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkRandomPool.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkRandomSequence.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkReferenceCount.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSOADataArrayTemplate.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkScalarsToColors.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkShortArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSignedCharArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSimpleCriticalSection.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSmartPointerBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSortDataArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkSparseArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkStdString.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkStringArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkStringOutputWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTimePointUtility.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTimeStamp.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkTypedArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeString.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnicodeStringArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedCharArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedIntArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedLongArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedLongLongArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkUnsignedShortArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariant.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVariantArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVersion.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkVoidArray.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWeakPointerBase.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkXMLFileOutputWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWin32OutputWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Common\Core\vtkWin32ProcessOutputWindow.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt8Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt16Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt32Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeInt64Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt8Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt16Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt32Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeUInt64Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeFloat32Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkTypeFloat64Array.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkCommonCoreModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{1D6657F1-C494-32A7-BAF0-70BB6AA5375B}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

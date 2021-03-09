@@ -1,0 +1,32 @@
+# Target labels
+ vtkRenderingFreeType
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeStringToImage.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeTools.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextUtilities.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkTextRendererStringToImage.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkScaledTextActor.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkVectorText.cxx
+C:/Project/PlusB-bin/vtk-bin/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial_bold.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial_bold_italic.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_arial_italic.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier_bold.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier_bold_italic.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_courier_italic.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times_bold.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times_bold_italic.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/fonts/face_times_italic.cxx
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeStringToImage.h
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkFreeTypeTools.h
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkMathTextUtilities.h
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkTextRendererStringToImage.h
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkScaledTextActor.h
+C:/Project/PlusB-bin/vtk/Rendering/FreeType/vtkVectorText.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/FreeType/vtkRenderingFreeTypeModule.h

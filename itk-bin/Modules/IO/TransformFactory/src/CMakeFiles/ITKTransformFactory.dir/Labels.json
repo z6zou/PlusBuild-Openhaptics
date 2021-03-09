@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformFactory/src/itkTransformFactoryBase.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterFloatParameters.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterDoubleParameters.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKTransformFactory"
+		],
+		"name" : "ITKTransformFactory"
+	}
+}

@@ -1,0 +1,12 @@
+set(ITKImageFilterBase_LOADED 1)
+set(ITKImageFilterBase_ENABLE_SHARED "0")
+set(ITKImageFilterBase_DEPENDS "ITKCommon")
+set(ITKImageFilterBase_PUBLIC_DEPENDS "")
+set(ITKImageFilterBase_TRANSITIVE_DEPENDS "ITKCommon")
+set(ITKImageFilterBase_PRIVATE_DEPENDS "")
+set(ITKImageFilterBase_LIBRARIES "ITKCommon")
+set(ITKImageFilterBase_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/Filtering/ImageFilterBase/include")
+set(ITKImageFilterBase_LIBRARY_DIRS "")
+set(ITKImageFilterBase_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKImageFilterBase_TARGETS_FILE "")
+

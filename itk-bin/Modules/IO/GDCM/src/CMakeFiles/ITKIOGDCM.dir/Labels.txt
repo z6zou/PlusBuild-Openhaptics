@@ -1,0 +1,6 @@
+# Target labels
+ ITKIOGDCM
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/GDCM/src/itkGDCMImageIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/GDCM/src/itkGDCMImageIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/GDCM/src/itkGDCMSeriesFileNames.cxx

@@ -1,0 +1,92 @@
+﻿  Creating directories for 'OpenIGTLinkIO'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'OpenIGTLinkIO'
+  Cloning into 'OpenIGTLinkIO'...
+  Already on 'master'
+  Your branch is up to date with 'origin/master'.
+  Performing update step for 'OpenIGTLinkIO'
+  No patch step for 'OpenIGTLinkIO'
+  Performing configure step for 'OpenIGTLinkIO'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- The C compiler identification is MSVC 19.0.24245.0
+  -- The CXX compiler identification is MSVC 19.0.24245.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+  -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Failed
+  -- Performing Test COMPILER_HAS_DEPRECATED
+  -- Performing Test COMPILER_HAS_DEPRECATED - Success
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      BUILD_EXAMPLES
+  
+  
+  -- Build files have been written to: C:/Project/PlusB-bin/OpenIGTLinkIO-bin
+  Performing build step for 'OpenIGTLinkIO'
+  Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Converter/CMakeLists.txt
+    igtlioBaseConverter.cxx
+    igtlioCommandConverter.cxx
+    igtlioConverterUtilities.cxx
+    igtlioImageConverter.cxx
+    igtlioImageMetaConverter.cxx
+    igtlioLabelMetaConverter.cxx
+    igtlioPolyDataConverter.cxx
+    igtlioPointConverter.cxx
+    igtlioStatusConverter.cxx
+    igtlioStringConverter.cxx
+    igtlioTransformConverter.cxx
+    igtlioTrackingDataConverter.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Release/igtlioConverter.lib and object C:/Project/PlusB-bin/lib/Release/igtlioConverter.exp
+    igtlioConverter.vcxproj -> C:\Project\PlusB-bin\bin\Release\igtlioConverter.dll
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Devices/CMakeLists.txt
+    igtlioDevice.cxx
+    igtlioImageDevice.cxx
+    igtlioImageMetaDevice.cxx
+    igtlioLabelMetaDevice.cxx
+    igtlioPointDevice.cxx
+    igtlioPolyDataDevice.cxx
+    igtlioStatusDevice.cxx
+    igtlioStringDevice.cxx
+    igtlioTransformDevice.cxx
+    igtlioTrackingDataDevice.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Release/igtlioDevices.lib and object C:/Project/PlusB-bin/lib/Release/igtlioDevices.exp
+    igtlioDevices.vcxproj -> C:\Project\PlusB-bin\bin\Release\igtlioDevices.dll
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Logic/CMakeLists.txt
+    igtlioUtilities.cxx
+    igtlioObject.cxx
+    igtlioDeviceFactory.cxx
+    igtlioCircularBuffer.cxx
+    igtlioCircularSectionBuffer.cxx
+    igtlioConnector.cxx
+    igtlioSession.cxx
+    igtlioLogic.cxx
+    igtlioCommand.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Release/igtlioLogic.lib and object C:/Project/PlusB-bin/lib/Release/igtlioLogic.exp
+    igtlioLogic.vcxproj -> C:\Project\PlusB-bin\bin\Release\igtlioLogic.dll
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Tools/CMakeLists.txt
+    igtlioTranslator.cxx
+    igtlioCommandMessageCodec.cxx
+    Generating Code...
+       Creating library C:/Project/PlusB-bin/lib/Release/igtlioTools.lib and object C:/Project/PlusB-bin/lib/Release/igtlioTools.exp
+    igtlioTools.vcxproj -> C:\Project\PlusB-bin\bin\Release\igtlioTools.dll
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/CMakeLists.txt
+  No install step for 'OpenIGTLinkIO'
+  Completed 'OpenIGTLinkIO'

@@ -1,0 +1,34 @@
+# Target labels
+ ITKGDCM
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmVersion.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmRegion.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmBoxRegion.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmEvent.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmDataEvent.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmProgressEvent.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmFileNameEvent.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmCommand.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmMD5.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmBase64.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmSHA1.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmDummyValueGenerator.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmCryptographicMessageSyntax.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmCryptoFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmASN1.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmObject.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmSubject.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmDirectory.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmTerminal.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmString.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmFilename.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmFilenameGenerator.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmSwapCode.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmSystem.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmTrace.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmException.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmDeflateStream.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmByteSwap.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmUnpacker12Bits.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmCAPICryptographicMessageSyntax.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/Common/gdcmCAPICryptoFactory.cxx

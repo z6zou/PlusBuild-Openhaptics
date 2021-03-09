@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/vcl/CMakeLists.txt
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_config_compiler.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_config_headers.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_config_manual.h.in
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_where_root_dir.h.in

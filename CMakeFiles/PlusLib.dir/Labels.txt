@@ -1,0 +1,13 @@
+# Target labels
+ PlusLib
+# Source files and their labels
+C:/Project/PlusB-bin/CMakeFiles/PlusLib
+C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/PlusLib.rule
+C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/PlusLib-complete.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-install.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-mkdir.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-download.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-update.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-patch.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-configure.rule
+C:/Project/PlusB-bin/CMakeFiles/08a2b2fe461c6483677301e44bd37742/PlusLib-build.rule

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF464D15-8FBD-348E-83DB-F4B9EF80632A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>igtlioLogic</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">igtlioLogic.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">igtlioLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">igtlioLogic.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">igtlioLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">igtlioLogic.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">igtlioLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">igtlioLogic.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">igtlioLogic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\igtlioDevices.lib;C:\Project\PlusB-bin\lib\Debug\igtlioConverter.lib;C:\Project\PlusB-bin\lib\Debug\OpenIGTLink.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/igtlioLogic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/igtlioLogic.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\igtlioDevices.lib;C:\Project\PlusB-bin\lib\Release\igtlioConverter.lib;C:\Project\PlusB-bin\lib\Release\OpenIGTLink.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/igtlioLogic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/igtlioLogic.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\igtlioDevices.lib;C:\Project\PlusB-bin\lib\MinSizeRel\igtlioConverter.lib;C:\Project\PlusB-bin\lib\MinSizeRel\OpenIGTLink.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/igtlioLogic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/igtlioLogic.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";igtlioLogic_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\OpenIGTLinkIO\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic;C:\Project\PlusB-bin\OpenIGTLinkIO\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices;C:\Project\PlusB-bin\OpenIGTLinkIO\Converter;C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\OpenIGTLink-bin;C:\Project\PlusB-bin\OpenIGTLink\Source;C:\Project\PlusB-bin\OpenIGTLink-bin\Source;C:\Project\PlusB-bin\OpenIGTLink\Source\igtlutil;C:\Project\PlusB-bin\OpenIGTLink-bin\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\igtlioDevices.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\igtlioConverter.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\OpenIGTLink.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkIOImage-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkDICOMParser-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkpng-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtktiff-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkzlib-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkjpeg-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkImagingMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\vtk-int\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/igtlioLogic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/igtlioLogic.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLinkIO -BC:/Project/PlusB-bin/OpenIGTLinkIO-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLinkIO-bin/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\UseVTK.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLinkIO -BC:/Project/PlusB-bin/OpenIGTLinkIO-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLinkIO-bin/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\UseVTK.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLinkIO -BC:/Project/PlusB-bin/OpenIGTLinkIO-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLinkIO-bin/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\UseVTK.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/OpenIGTLinkIO/Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/OpenIGTLinkIO -BC:/Project/PlusB-bin/OpenIGTLinkIO-bin --check-stamp-file C:/Project/PlusB-bin/OpenIGTLinkIO-bin/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\exportheader.cmake.in;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\UseVTK.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Project\PlusB-bin\vtk-int\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Logic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioUtilities.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioObject.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioDeviceFactory.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioCircularBuffer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioCircularSectionBuffer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioConnector.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioSession.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioLogic.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\OpenIGTLinkIO\Logic\igtlioCommand.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\OpenIGTLinkIO-bin\ZERO_CHECK.vcxproj">
+      <Project>{B99E5D30-66A4-3EAF-BF33-BFFD1A70FD4E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Converter\igtlioConverter.vcxproj">
+      <Project>{675F0377-659A-3A01-B85F-06B21A2E4511}</Project>
+      <Name>igtlioConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\OpenIGTLinkIO-bin\Devices\igtlioDevices.vcxproj">
+      <Project>{CA1FF60E-382E-371D-BC89-7CF9485DFC4B}</Project>
+      <Name>igtlioDevices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

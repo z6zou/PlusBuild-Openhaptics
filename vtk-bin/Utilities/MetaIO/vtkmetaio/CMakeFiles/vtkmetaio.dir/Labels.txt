@@ -1,0 +1,36 @@
+# Target labels
+ vtkMetaIO
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaTypes.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaUtils.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaArrow.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaBlob.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaCommand.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaCommand.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaContour.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaContour.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaDTITube.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaEllipse.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaGroup.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaGaussian.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaImage.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaImageUtils.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaLandmark.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaLine.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaMesh.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaMesh.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaObject.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaOutput.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaOutput.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaScene.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaSurface.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaTube.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaVesselTube.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaTransform.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaTubeGraph.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaForm.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaForm.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaArray.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaArray.cxx
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaFEMObject.h
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/vtkmetaio/metaFEMObject.cxx

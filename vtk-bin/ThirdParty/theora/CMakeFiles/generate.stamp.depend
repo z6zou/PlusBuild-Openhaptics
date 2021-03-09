@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkogg.cmake
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/module.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/theora/vtk_theora.h.in

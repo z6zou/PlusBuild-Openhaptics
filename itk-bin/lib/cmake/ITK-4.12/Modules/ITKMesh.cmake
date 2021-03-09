@@ -1,0 +1,12 @@
+set(ITKMesh_LOADED 1)
+set(ITKMesh_ENABLE_SHARED "1")
+set(ITKMesh_DEPENDS "ITKTransform")
+set(ITKMesh_PUBLIC_DEPENDS "")
+set(ITKMesh_TRANSITIVE_DEPENDS "")
+set(ITKMesh_PRIVATE_DEPENDS "ITKTransform")
+set(ITKMesh_LIBRARIES "ITKMesh")
+set(ITKMesh_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/Core/Mesh/include")
+set(ITKMesh_LIBRARY_DIRS "")
+set(ITKMesh_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKMesh_TARGETS_FILE "")
+

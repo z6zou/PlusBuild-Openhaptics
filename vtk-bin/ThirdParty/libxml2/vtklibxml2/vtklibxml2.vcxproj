@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D31A3F4A-D71D-3484-B5EE-D982926DF0A6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtklibxml2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtklibxml2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtklibxml2-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtklibxml2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtklibxml2-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtklibxml2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtklibxml2-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtklibxml2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtklibxml2-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="Debug";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"Debug\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkzlib-8.2D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtklibxml2-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtklibxml2-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="Release";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"Release\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtklibxml2-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtklibxml2-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="MinSizeRel";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"MinSizeRel\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtklibxml2-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtklibxml2-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="RelWithDebInfo";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"RelWithDebInfo\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtklibxml2-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtklibxml2-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/libxml2/vtklibxml2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ANSIDECL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_CTYPE_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DIRENT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FLOAT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FP_CLASS_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_IEEEFP_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_MATH_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NDIR_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_RESOLV_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SIGNAL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_MMAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIMEB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_TIME_H.c;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/libxml2/vtklibxml2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ANSIDECL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_CTYPE_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DIRENT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FLOAT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FP_CLASS_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_IEEEFP_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_MATH_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NDIR_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_RESOLV_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SIGNAL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_MMAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIMEB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_TIME_H.c;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/libxml2/vtklibxml2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ANSIDECL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_CTYPE_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DIRENT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FLOAT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FP_CLASS_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_IEEEFP_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_MATH_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NDIR_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_RESOLV_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SIGNAL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_MMAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIMEB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_TIME_H.c;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/ThirdParty/libxml2/vtklibxml2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ANSIDECL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_CTYPE_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DIRENT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_DL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FLOAT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_FP_CLASS_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_IEEEFP_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_MATH_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NDIR_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_RESOLV_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SIGNAL_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_MMAN_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIMEB_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Project\PlusB-bin\vtk-bin\CMakeFiles\CheckIncludeFiles\HAVE_TIME_H.c;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\DOCBparser.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\HTMLparser.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\HTMLtree.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\SAX.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\SAX2.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\c14n.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\catalog.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\chvalid.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\debugXML.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\dict.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\encoding.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\entities.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\error.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\globals.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\hash.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\legacy.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\list.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\nanoftp.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\nanohttp.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\parser.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\parserInternals.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\pattern.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\relaxng.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\schematron.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\threads.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\tree.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\uri.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\valid.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xinclude.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xlink.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlIO.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlmemory.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlmodule.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlreader.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlregexp.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlsave.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlschemas.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlschemastypes.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlstring.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlunicode.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xmlwriter.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xpath.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\ThirdParty\libxml2\vtklibxml2\xpointer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib\vtkzlib\vtkzlib.vcxproj">
+      <Project>{31D23C99-78EE-3720-AC3C-837DDAAB4783}</Project>
+      <Name>vtkzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOVeraOut
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/VeraOut/vtkVeraOutReader.cxx
+C:/Project/PlusB-bin/vtk/IO/VeraOut/vtkVeraOutReader.h
+C:/Project/PlusB-bin/vtk-bin/IO/VeraOut/vtkIOVeraOutModule.h

@@ -1,0 +1,176 @@
+﻿  Creating directories for 'OpenIGTLink'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'OpenIGTLink'
+  Cloning into 'OpenIGTLink'...
+  Your branch is up to date with 'origin/master'.
+  Already on 'master'
+  Performing update step for 'OpenIGTLink'
+  No patch step for 'OpenIGTLink'
+  Performing configure step for 'OpenIGTLink'
+  -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+  -- The C compiler identification is MSVC 19.0.24245.0
+  -- The CXX compiler identification is MSVC 19.0.24245.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  CMake Deprecation Warning at CMakeLists.txt:3 (CMAKE_MINIMUM_REQUIRED):
+    Compatibility with CMake < 2.8.12 will be removed from a future version of
+    CMake.
+  
+    Update the VERSION argument <min> value or use a ...<max> suffix to tell
+    CMake that the project does not need compatibility with older versions.
+  
+  
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Looking for getsockname in socket
+  -- Looking for getsockname in socket - not found
+  -- Checking for getsockname with socklen_t
+  -- Checking for getsockname with socklen_t -- no
+  -- Looking for strnlen
+  -- Looking for strnlen - found
+  -- Looking for SO_REUSEADDR
+  -- Looking for SO_REUSEADDR - not found
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of int
+  -- Check size of int - done
+  -- Check size of long
+  -- Check size of long - done
+  -- Check size of void*
+  -- Check size of void* - done
+  -- Check size of char
+  -- Check size of char - done
+  -- Check size of short
+  -- Check size of short - done
+  -- Check size of float
+  -- Check size of float - done
+  -- Check size of double
+  -- Check size of double - done
+  -- Check size of long long
+  -- Check size of long long - done
+  -- Check size of __int64
+  -- Check size of __int64 - done
+  -- Check size of int64_t
+  -- Check size of int64_t - done
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+  -- Build files have been written to: C:/Project/PlusB-bin/OpenIGTLink-bin
+    Manually-specified variables were not used by the project:
+  
+      OpenIGTLink_PROTOCOL_VERSION_2
+  
+  
+  Performing build step for 'OpenIGTLink'
+  Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/Source/CMakeLists.txt
+    igtl_header.c
+    igtl_image.c
+    igtl_transform.c
+    igtl_status.c
+    igtl_util.c
+    igtl_position.c
+    igtl_capability.c
+    igtl_colortable.c
+    igtl_imgmeta.c
+    igtl_lbmeta.c
+    igtl_point.c
+    igtl_tdata.c
+    igtl_qtdata.c
+    igtl_trajectory.c
+    igtl_unit.c
+    igtl_sensor.c
+    igtl_string.c
+    igtl_ndarray.c
+    igtl_bind.c
+    igtl_qtrans.c
+    igtl_polydata.c
+    igtl_command.c
+    igtl_query.c
+    igtlClientSocket.cxx
+    igtlCapabilityMessage.cxx
+    igtlConditionVariable.cxx
+    igtlFastMutexLock.cxx
+    igtlImageMessage.cxx
+    igtlImageMessage2.cxx
+    igtlLightObject.cxx
+    igtlMath.cxx
+    igtlMessageBase.cxx
+    igtlMessageFactory.cxx
+    igtlMultiThreader.cxx
+    igtlMutexLock.cxx
+    igtlOSUtil.cxx
+    igtlObject.cxx
+    igtlObjectFactoryBase.cxx
+    igtlPositionMessage.cxx
+    igtlServerSocket.cxx
+    igtlSessionManager.cxx
+    igtlSimpleFastMutexLock.cxx
+    igtlSocket.cxx
+    igtlStatusMessage.cxx
+    igtlTimeStamp.cxx
+    igtlTransformMessage.cxx
+    igtlColorTableMessage.cxx
+    igtlImageMetaMessage.cxx
+    igtlLabelMetaMessage.cxx
+    igtlPointMessage.cxx
+    igtlTrackingDataMessage.cxx
+    igtlPolyDataMessage.cxx
+    igtlQuaternionTrackingDataMessage.cxx
+    igtlTrajectoryMessage.cxx
+    igtlStringMessage.cxx
+    igtlUnit.cxx
+    igtlSensorMessage.cxx
+    igtlBindMessage.cxx
+    igtlNDArrayMessage.cxx
+    igtlCommandMessage.cxx
+    igtlQueryMessage.cxx
+    igtlMessageRTPWrapper.cxx
+    igtlGeneralSocket.cxx
+    igtlUDPClientSocket.cxx
+    igtlUDPServerSocket.cxx
+       Creating library C:/Project/PlusB-bin/lib/Release/OpenIGTLink.lib and object C:/Project/PlusB-bin/lib/Release/OpenIGTLink.exp
+    OpenIGTLink.vcxproj -> C:\Project\PlusB-bin\bin\Release\OpenIGTLink.dll
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/Source/igtlutil/CMakeLists.txt
+    igtl_header.c
+    igtl_image.c
+    igtl_position.c
+    igtl_transform.c
+    igtl_util.c
+    igtl_capability.c
+    igtl_colortable.c
+    igtl_imgmeta.c
+    igtl_lbmeta.c
+    igtl_point.c
+    igtl_tdata.c
+    igtl_qtdata.c
+    igtl_trajectory.c
+    igtl_unit.c
+    igtl_sensor.c
+    igtl_string.c
+    igtl_ndarray.c
+    igtl_bind.c
+    igtl_qtrans.c
+    igtl_polydata.c
+    igtl_command.c
+       Creating library C:/Project/PlusB-bin/lib/Release/igtlutil.lib and object C:/Project/PlusB-bin/lib/Release/igtlutil.exp
+    igtlutil.vcxproj -> C:\Project\PlusB-bin\bin\Release\igtlutil.dll
+    Building Custom Rule C:/Project/PlusB-bin/OpenIGTLink/CMakeLists.txt
+  No install step for 'OpenIGTLink'
+  Completed 'OpenIGTLink'

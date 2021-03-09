@@ -1,0 +1,12 @@
+set(ITKDisplacementField_LOADED 1)
+set(ITKDisplacementField_ENABLE_SHARED "0")
+set(ITKDisplacementField_DEPENDS "ITKImageGrid;ITKImageIntensity")
+set(ITKDisplacementField_PUBLIC_DEPENDS "")
+set(ITKDisplacementField_TRANSITIVE_DEPENDS "ITKImageGrid;ITKImageIntensity")
+set(ITKDisplacementField_PRIVATE_DEPENDS "")
+set(ITKDisplacementField_LIBRARIES "ITKCommon;ITKStatistics;ITKTransform;ITKSpatialObjects;ITKPath")
+set(ITKDisplacementField_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/Filtering/DisplacementField/include")
+set(ITKDisplacementField_LIBRARY_DIRS "")
+set(ITKDisplacementField_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKDisplacementField_TARGETS_FILE "")
+

@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellQuality.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellSizeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMatrixMathFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMeshQuality.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellQuality.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellSizeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMatrixMathFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMeshQuality.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Verdict/vtkFiltersVerdictModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersVerdict"
+		],
+		"name" : "vtkFiltersVerdict"
+	}
+}

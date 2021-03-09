@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Bridge/VTK/src/itkVTKImageExportBase.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVTK"
+		],
+		"name" : "ITKVTK"
+	}
+}

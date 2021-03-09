@@ -1,0 +1,7 @@
+# Target labels
+ ITKVideoIO
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Video/IO/src/itkFileListVideoIO.cxx
+C:/Project/PlusB-bin/itk/Modules/Video/IO/src/itkFileListVideoIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/Video/IO/src/itkVideoIOBase.cxx
+C:/Project/PlusB-bin/itk/Modules/Video/IO/src/itkVideoIOFactory.cxx

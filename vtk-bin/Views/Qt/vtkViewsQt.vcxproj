@@ -1,0 +1,865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD16602E-13EF-3A7F-A3D0-0A19F6485B86}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkViewsQt</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkViewsQt.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkViewsQt-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkViewsQt.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkViewsQt-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkViewsQt.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkViewsQt-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkViewsQt.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkViewsQt-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkGUISupportQt-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkViewsInfovis-8.2D.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgetsd.lib;C:\Project\PlusB-bin\lib\Debug\vtkRenderingOpenGL2-8.2D.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgetsd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Guid.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Cored.lib;C:\Project\PlusB-bin\lib\Debug\vtkViewsCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkInteractionWidgets-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkInteractionStyle-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkRenderingContext2D-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkInfovisCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersExtraction-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkRenderingCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersSources-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersGeneral-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonExecutionModel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonDataModel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonTransforms-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMisc-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMath-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonSystem-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonCore-8.2D.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Guid.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkViewsQt-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkViewsQt-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkViewsInfovis-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Project\PlusB-bin\lib\Release\vtkRenderingOpenGL2-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;C:\Project\PlusB-bin\lib\Release\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonCore-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkViewsQt-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkViewsQt-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkViewsInfovis-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkRenderingOpenGL2-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonCore-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkViewsQt-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkViewsQt-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";vtkViewsQt_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Views\Qt;C:\Project\PlusB-bin\vtk\Views\Qt;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt;C:\Project\PlusB-bin\vtk\GUISupport\Qt;C:\Project\PlusB-bin\vtk-bin\Interaction\Style;C:\Project\PlusB-bin\vtk\Interaction\Style;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk\Rendering\OpenGL2;C:\Project\PlusB-bin\vtk-bin\ThirdParty\glew;C:\Project\PlusB-bin\vtk\ThirdParty\glew;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Views\Core;C:\Project\PlusB-bin\vtk\Views\Core;C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets;C:\Project\PlusB-bin\vtk\Interaction\Widgets;C:\Project\PlusB-bin\vtk-bin\Filters\Hybrid;C:\Project\PlusB-bin\vtk\Filters\Hybrid;C:\Project\PlusB-bin\vtk-bin\Imaging\Sources;C:\Project\PlusB-bin\vtk\Imaging\Sources;C:\Project\PlusB-bin\vtk-bin\Filters\Modeling;C:\Project\PlusB-bin\vtk\Filters\Modeling;C:\Project\PlusB-bin\vtk-bin\Imaging\Color;C:\Project\PlusB-bin\vtk\Imaging\Color;C:\Project\PlusB-bin\vtk-bin\Imaging\General;C:\Project\PlusB-bin\vtk\Imaging\General;C:\Project\PlusB-bin\vtk-bin\Imaging\Hybrid;C:\Project\PlusB-bin\vtk\Imaging\Hybrid;C:\Project\PlusB-bin\vtk-bin\IO\Image;C:\Project\PlusB-bin\vtk\IO\Image;C:\Project\PlusB-bin\vtk-bin\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk\Utilities\DICOMParser;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO\vtkmetaio;C:\Project\PlusB-bin\vtk-bin\Utilities\MetaIO;C:\Project\PlusB-bin\vtk\Utilities\MetaIO;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg\vtkjpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk\ThirdParty\jpeg;C:\Project\PlusB-bin\vtk-bin\ThirdParty\png;C:\Project\PlusB-bin\vtk\ThirdParty\png;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff\vtktiff\libtiff;C:\Project\PlusB-bin\vtk-bin\ThirdParty\tiff;C:\Project\PlusB-bin\vtk\ThirdParty\tiff;C:\Project\PlusB-bin\vtk-bin\Rendering\Annotation;C:\Project\PlusB-bin\vtk\Rendering\Annotation;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\Rendering\Volume;C:\Project\PlusB-bin\vtk\Rendering\Volume;C:\Project\PlusB-bin\vtk-bin\IO\XML;C:\Project\PlusB-bin\vtk\IO\XML;C:\Project\PlusB-bin\vtk-bin\IO\Core;C:\Project\PlusB-bin\vtk\IO\Core;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion\vtkdoubleconversion;C:\Project\PlusB-bin\vtk-bin\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\doubleconversion;C:\Project\PlusB-bin\vtk\ThirdParty\lz4\vtklz4\lib;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4\vtklz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lz4;C:\Project\PlusB-bin\vtk\ThirdParty\lz4;C:\Project\PlusB-bin\vtk-bin\ThirdParty\lzma;C:\Project\PlusB-bin\vtk\ThirdParty\lzma;C:\Project\PlusB-bin\vtk-bin\IO\XMLParser;C:\Project\PlusB-bin\vtk\IO\XMLParser;C:\Project\PlusB-bin\vtk-bin\ThirdParty\expat;C:\Project\PlusB-bin\vtk\ThirdParty\expat;C:\Project\PlusB-bin\vtk-bin\Views\Infovis;C:\Project\PlusB-bin\vtk\Views\Infovis;C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Filters\Imaging;C:\Project\PlusB-bin\vtk\Filters\Imaging;C:\Project\PlusB-bin\vtk-bin\Infovis\Layout;C:\Project\PlusB-bin\vtk\Infovis\Layout;C:\Project\PlusB-bin\vtk-bin\Rendering\Label;C:\Project\PlusB-bin\vtk\Rendering\Label;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015_64\.\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkGUISupportQt-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkViewsInfovis-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkRenderingOpenGL2-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkViewsCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkInteractionWidgets-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkInteractionStyle-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersExtraction-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersSources-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonCore-8.2.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkViewsQt-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkViewsQt-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\51938103e8c2e08df5018a372cd7f8bf\moc_vtkQtAnnotationView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_vtkQtAnnotationView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtAnnotationView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtAnnotationView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtAnnotationView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_vtkQtAnnotationView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtAnnotationView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtAnnotationView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtAnnotationView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_vtkQtAnnotationView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtAnnotationView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtAnnotationView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtAnnotationView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_vtkQtAnnotationView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtAnnotationView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtAnnotationView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtAnnotationView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\51938103e8c2e08df5018a372cd7f8bf\moc_vtkQtListView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_vtkQtListView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtListView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtListView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtListView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_vtkQtListView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtListView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtListView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtListView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_vtkQtListView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtListView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtListView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtListView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_vtkQtListView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtListView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtListView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtListView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\51938103e8c2e08df5018a372cd7f8bf\moc_vtkQtRecordView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_vtkQtRecordView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtRecordView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtRecordView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtRecordView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_vtkQtRecordView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtRecordView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtRecordView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtRecordView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_vtkQtRecordView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtRecordView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtRecordView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtRecordView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_vtkQtRecordView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtRecordView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtRecordView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtRecordView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\51938103e8c2e08df5018a372cd7f8bf\moc_vtkQtTableView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_vtkQtTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_vtkQtTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_vtkQtTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_vtkQtTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\51938103e8c2e08df5018a372cd7f8bf\moc_vtkQtTreeView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_vtkQtTreeView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTreeView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTreeView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTreeView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_vtkQtTreeView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTreeView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTreeView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTreeView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_vtkQtTreeView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTreeView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTreeView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTreeView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_vtkQtTreeView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtTreeView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTreeView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTreeView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk-bin\CMakeFiles\51938103e8c2e08df5018a372cd7f8bf\moc_vtkQtView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating moc_vtkQtView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating moc_vtkQtView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating moc_vtkQtView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating moc_vtkQtView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Project\PlusB-bin\vtk-bin\Views\Qt
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Qt5.7.1\5.7\msvc2015_64\bin\moc.exe @C:/Project/PlusB-bin/vtk-bin/Views/Qt/moc_vtkQtView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\Views\Qt\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Views/Qt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Views/Qt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkChartsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkDICOMParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkGUISupportQt.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOImage.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisLayout.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionWidgets.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkMetaIO.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingAnnotation.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingLabel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingVolume.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsInfovis.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkjpeg.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkpng.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtktiff.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkQt.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Views\Qt\module.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Views/Qt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Views/Qt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkChartsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkDICOMParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkGUISupportQt.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOImage.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisLayout.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionWidgets.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkMetaIO.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingAnnotation.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingLabel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingVolume.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsInfovis.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkjpeg.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkpng.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtktiff.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkQt.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Views\Qt\module.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Views/Qt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Views/Qt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkChartsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkDICOMParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkGUISupportQt.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOImage.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisLayout.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionWidgets.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkMetaIO.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingAnnotation.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingLabel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingVolume.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsInfovis.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkjpeg.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkpng.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtktiff.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkQt.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Views\Qt\module.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Views/Qt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Views/Qt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkChartsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkDICOMParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersImaging.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkGUISupportQt.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOImage.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingHybrid.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisLayout.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInteractionWidgets.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkMetaIO.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingAnnotation.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingLabel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingVolume.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkViewsInfovis.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkjpeg.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkpng.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtktiff.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkQt.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Views\Qt\module.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.7.1\5.7\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Views\Qt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtAnnotationView.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtListView.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtRecordView.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableRepresentation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableView.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTreeView.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtView.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtAnnotationView.cpp" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtListView.cpp" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtRecordView.cpp" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTableView.cpp" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtTreeView.cpp" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\moc_vtkQtView.cpp" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtAnnotationView.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtListView.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtRecordView.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableRepresentation.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTableView.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtTreeView.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Views\Qt\vtkQtView.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Views\Qt\vtkViewsQtModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{A705ED78-6956-3442-9A32-30BE071E0CA5}</Project>
+      <Name>vtkCommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{54969D3B-BA18-35D3-9C02-D82E8C65FABA}</Project>
+      <Name>vtkCommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{82C6FF31-F53B-3EB0-A391-1E2BE6237D28}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{127ADF66-2F79-3992-A6F4-44EC49CB4124}</Project>
+      <Name>vtkCommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{DBFD1BF2-33B9-32B9-9FA7-9B91A03D8A4A}</Project>
+      <Name>vtkCommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{7A1BBBF1-8E8A-349A-8F22-69192121D3CB}</Project>
+      <Name>vtkCommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{BA4BB5B1-CB84-3CA7-B749-DECD1D281249}</Project>
+      <Name>vtkCommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{B5478572-EA27-3CF7-AE05-8AA30061D6FD}</Project>
+      <Name>vtkFiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Extraction\vtkFiltersExtraction.vcxproj">
+      <Project>{ECC328E3-FB84-32A3-A713-78421F726377}</Project>
+      <Name>vtkFiltersExtraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\General\vtkFiltersGeneral.vcxproj">
+      <Project>{35662F51-D349-334E-843C-AA288350F653}</Project>
+      <Name>vtkFiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Sources\vtkFiltersSources.vcxproj">
+      <Project>{3B94592D-9011-387F-8834-AD779E0C3D1B}</Project>
+      <Name>vtkFiltersSources</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\GUISupport\Qt\vtkGUISupportQt.vcxproj">
+      <Project>{7A1F3885-7C10-3BEB-90D8-E4C67A282CDC}</Project>
+      <Name>vtkGUISupportQt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Infovis\Core\vtkInfovisCore.vcxproj">
+      <Project>{4F037761-F9C5-3CED-96C2-5CCC678C68F1}</Project>
+      <Name>vtkInfovisCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Interaction\Style\vtkInteractionStyle.vcxproj">
+      <Project>{8252973C-B220-34D7-8950-BE828DF8FE0C}</Project>
+      <Name>vtkInteractionStyle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Interaction\Widgets\vtkInteractionWidgets.vcxproj">
+      <Project>{97105A25-0E27-3FAC-8861-D7E7E1699F2C}</Project>
+      <Name>vtkInteractionWidgets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D\vtkRenderingContext2D.vcxproj">
+      <Project>{C4FA08CC-DCFC-3339-A4AB-F3AA58C581B7}</Project>
+      <Name>vtkRenderingContext2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Rendering\Core\vtkRenderingCore.vcxproj">
+      <Project>{AE0330DB-BF8D-3061-9B4A-1CF8F753108B}</Project>
+      <Name>vtkRenderingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Rendering\OpenGL2\vtkRenderingOpenGL2.vcxproj">
+      <Project>{225896FD-B4BD-3C18-9723-3D7F3B9F9201}</Project>
+      <Name>vtkRenderingOpenGL2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Views\Core\vtkViewsCore.vcxproj">
+      <Project>{FE982ED2-F017-3494-8D15-66AA8BD2FE8A}</Project>
+      <Name>vtkViewsCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Views\Infovis\vtkViewsInfovis.vcxproj">
+      <Project>{0093344C-F9E4-33A2-B4D5-CFBB6460CB21}</Project>
+      <Name>vtkViewsInfovis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

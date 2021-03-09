@@ -1,0 +1,10 @@
+# Target labels
+ vtkogg
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/vtkogg/src/bitwise.c
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/vtkogg/src/framing.c
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/ogg/vtkogg/include/ogg/config_types.h
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/vtkogg/include/ogg/ogg.h
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/vtkogg/include/ogg/os_types.h
+C:/Project/PlusB-bin/vtk/ThirdParty/ogg/vtkogg/include/ogg/vtk_ogg_mangle.h
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/ogg/vtkogg/include/ogg/vtkogg_export.h

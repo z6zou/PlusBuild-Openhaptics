@@ -1,0 +1,4 @@
+# Target labels
+ ITKVTK
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Bridge/VTK/src/itkVTKImageExportBase.cxx

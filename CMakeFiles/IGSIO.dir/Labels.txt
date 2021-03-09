@@ -1,0 +1,13 @@
+# Target labels
+ IGSIO
+# Source files and their labels
+C:/Project/PlusB-bin/CMakeFiles/IGSIO
+C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/IGSIO.rule
+C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/IGSIO-complete.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-install.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-mkdir.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-download.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-update.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-patch.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-configure.rule
+C:/Project/PlusB-bin/CMakeFiles/4fe85f2d2fad1e1d5100e6d0ee8455ff/IGSIO-build.rule

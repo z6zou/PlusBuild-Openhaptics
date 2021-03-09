@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Movie/vtkGenericMovieWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Movie/vtkOggTheoraWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Movie/vtkAVIWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Movie/vtkIOMovieConfigure.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Movie/vtkGenericMovieWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Movie/vtkOggTheoraWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Movie/vtkAVIWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Movie/vtkIOMovieModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOMovie"
+		],
+		"name" : "vtkIOMovie"
+	}
+}

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88DC406D-FE6E-3E0C-9AC2-9189ABBA7AE3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusLib\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\PlusLib\BuildAndTest.bat.in;C:\Project\PlusB-bin\PlusLib\CMake\PlusLibMacros.cmake;C:\Project\PlusB-bin\PlusLib\CTestConfig.cmake;C:\Project\PlusB-bin\PlusLib\CreateApiReference.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\PlusLib\BuildAndTest.bat.in;C:\Project\PlusB-bin\PlusLib\CMake\PlusLibMacros.cmake;C:\Project\PlusB-bin\PlusLib\CTestConfig.cmake;C:\Project\PlusB-bin\PlusLib\CreateApiReference.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\PlusLib\BuildAndTest.bat.in;C:\Project\PlusB-bin\PlusLib\CMake\PlusLibMacros.cmake;C:\Project\PlusB-bin\PlusLib\CTestConfig.cmake;C:\Project\PlusB-bin\PlusLib\CreateApiReference.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeCXXCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\feature_tests.cxx;C:\Project\PlusB-bin\PlusLib\BuildAndTest.bat.in;C:\Project\PlusB-bin\PlusLib\CMake\PlusLibMacros.cmake;C:\Project\PlusB-bin\PlusLib\CTestConfig.cmake;C:\Project\PlusB-bin\PlusLib\CreateApiReference.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\ZERO_CHECK.vcxproj">
+      <Project>{0B8BD3DE-788D-3D2A-A7B7-E8263F7282F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\Testing\AccurateTimerTest.vcxproj">
+      <Project>{D820D969-EA9E-3F69-B378-6B825561E638}</Project>
+      <Name>AccurateTimerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\BrainLabTrackerSim.vcxproj">
+      <Project>{35D9284F-96EA-37A7-B66F-3CCB663A5888}</Project>
+      <Name>BrainLabTrackerSim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction\CompareVolumes.vcxproj">
+      <Project>{938CE5D3-9854-35FE-BD2A-8EAEF6F25434}</Project>
+      <Name>CompareVolumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\ConvertFcsvToXml.vcxproj">
+      <Project>{75F1EBC2-EF3D-37EF-AB4F-605620AE3F3D}</Project>
+      <Name>ConvertFcsvToXml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\ConvertXmlToFcsv.vcxproj">
+      <Project>{A9A42AF4-E4A4-382F-BC50-C002703B8A18}</Project>
+      <Name>ConvertXmlToFcsv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction\CreateSliceModels.vcxproj">
+      <Project>{6D80ED8E-BB22-3275-8DD1-057E482C9372}</Project>
+      <Name>CreateSliceModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction\DrawClipRegion.vcxproj">
+      <Project>{4FEAB7CF-6AA3-3449-9B54-EB4EE599977A}</Project>
+      <Name>DrawClipRegion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\DrawScanLines.vcxproj">
+      <Project>{576538AB-B069-3A05-950E-CA3B0FDC0643}</Project>
+      <Name>DrawScanLines</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\EditSequenceFile.vcxproj">
+      <Project>{F0646EC1-11C8-3801-8B4C-3E72B0A3F67F}</Project>
+      <Name>EditSequenceFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\EnhanceUsTrpSequence.vcxproj">
+      <Project>{E4187657-8782-34DA-90C9-A5212E0A30C7}</Project>
+      <Name>EnhanceUsTrpSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\ExtractScanLines.vcxproj">
+      <Project>{C1389A9D-D4F5-326D-B3B5-E16BC5709BAB}</Project>
+      <Name>ExtractScanLines</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering\ModelRenderer.vcxproj">
+      <Project>{E7F06404-2813-304E-A9AD-32D3F7158767}</Project>
+      <Name>ModelRenderer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\PatternLocTest.vcxproj">
+      <Project>{221E9E1D-5BEA-3AD2-9132-2FC4B97FEBDD}</Project>
+      <Name>PatternLocTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\Testing\PlusCommonTest.vcxproj">
+      <Project>{2CB331E6-8AED-3C83-A1B0-25DAF35AE68A}</Project>
+      <Name>PlusCommonTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\Testing\PlusMathTest.vcxproj">
+      <Project>{FCCE0C2B-8BDC-32A7-BC90-2CA4DC732230}</Project>
+      <Name>PlusMathTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusServer\PlusServer.vcxproj">
+      <Project>{789756FF-E9C2-3E3C-B9EB-6E8DAE749CCB}</Project>
+      <Name>PlusServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusServer\PlusServerRemoteControl.vcxproj">
+      <Project>{25A209C7-3D88-3F5F-B0E2-331CD46D9C7C}</Project>
+      <Name>PlusServerRemoteControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\PlusVersion.vcxproj">
+      <Project>{99188582-9EC3-36D5-8CB9-E3BAE5572AA1}</Project>
+      <Name>PlusVersion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusWidgets\PlusWidgets.vcxproj">
+      <Project>{39D765A3-E141-3605-9FD4-D200936B2C91}</Project>
+      <Name>PlusWidgets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\ProbeCalibration.vcxproj">
+      <Project>{51560088-D7AF-3DDE-9BE2-02CCB4D373D6}</Project>
+      <Name>ProbeCalibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\ReplayRecordedDataTest.vcxproj">
+      <Project>{1EA17C84-0345-3570-9799-A1648C330DFA}</Project>
+      <Name>ReplayRecordedDataTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\RfProcessor.vcxproj">
+      <Project>{29317BAC-DC03-3B4C-85F1-5AE73AC84484}</Project>
+      <Name>RfProcessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\ScanConvert.vcxproj">
+      <Project>{6AEF17E1-53FD-39AE-A76B-1F934E4B8B7B}</Project>
+      <Name>ScanConvert</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\TemporalCalibration.vcxproj">
+      <Project>{886C2D24-B083-33DA-A86D-0AFF9313F7C2}</Project>
+      <Name>TemporalCalibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\TimestampFilteringTest.vcxproj">
+      <Project>{E74CB8AE-6A65-3CD7-BFF6-CDC15C31CA44}</Project>
+      <Name>TimestampFilteringTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusWidgets\Testing\ToolStateDisplayWidgetTest.vcxproj">
+      <Project>{6CFE4155-FCB2-3CD3-BB07-C3D73435EA09}</Project>
+      <Name>ToolStateDisplayWidgetTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\TrackingTest.vcxproj">
+      <Project>{6F1B09EF-EB87-34BC-89FF-87225EC19AA4}</Project>
+      <Name>TrackingTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\TransformInterpolationTest.vcxproj">
+      <Project>{BFE4707B-9F74-32B1-967C-2CE0BC96516A}</Project>
+      <Name>TransformInterpolationTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\ViewSequenceFile.vcxproj">
+      <Project>{D691CE8C-0017-3313-9C4E-76B97BC26BF4}</Project>
+      <Name>ViewSequenceFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction\VolumeReconstructor.vcxproj">
+      <Project>{78F0D408-56A4-36EE-BB9E-8DEDE57FE91F}</Project>
+      <Name>VolumeReconstructor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation.vcxproj">
+      <Project>{AA2C545C-08BC-3B24-A25A-694B956B6AB9}</Project>
+      <Name>planeEstimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\sphereEstimation.vcxproj">
+      <Project>{5B3197C8-911E-3619-8A31-A5CD9FC92ACB}</Project>
+      <Name>sphereEstimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtk3DDataCollectorTest1.vcxproj">
+      <Project>{7655EB52-E439-3F95-AB21-9F0F49926ACA}</Project>
+      <Name>vtk3DDataCollectorTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkCenterOfRotationCalibAlgoTest.vcxproj">
+      <Project>{67E976F7-55A3-3543-B154-03523391D5FE}</Project>
+      <Name>vtkCenterOfRotationCalibAlgoTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorFileTest.vcxproj">
+      <Project>{521AD6E6-FC7F-37F9-AA89-63289701B491}</Project>
+      <Name>vtkDataCollectorFileTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorTest1.vcxproj">
+      <Project>{308165C3-8391-3D0B-AFE9-E01A21BC53FA}</Project>
+      <Name>vtkDataCollectorTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorTest2.vcxproj">
+      <Project>{250DAE7C-13BB-390F-9EFA-6D52A2D6D9CE}</Project>
+      <Name>vtkDataCollectorTest2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkDataCollectorVideoAcqTest.vcxproj">
+      <Project>{D82E6450-B412-36F8-B5F1-95F20BEA330B}</Project>
+      <Name>vtkDataCollectorVideoAcqTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkFcsvReaderTest1.vcxproj">
+      <Project>{09F16243-66F0-3144-9AFA-436AFE2E6E91}</Project>
+      <Name>vtkFcsvReaderTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkFcsvWriterTest1.vcxproj">
+      <Project>{40378ED9-EA8A-3B74-A352-C8BB970E3B20}</Project>
+      <Name>vtkFcsvWriterTest1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkFreehandCalibrationStatisticalEvaluation.vcxproj">
+      <Project>{BA2E8067-81CF-3E49-995F-DEF0E6EDE1AF}</Project>
+      <Name>vtkFreehandCalibrationStatisticalEvaluation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkLineSegmentationAlgoTest.vcxproj">
+      <Project>{B1971E7A-0ED9-3DC3-B91F-F749EF0A8367}</Project>
+      <Name>vtkLineSegmentationAlgoTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkMetaImageSequenceIOTest.vcxproj">
+      <Project>{752C0E2D-5F15-38B2-95CC-C125EB54EB44}</Project>
+      <Name>vtkMetaImageSequenceIOTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkOpenHapticsDeviceTest.vcxproj">
+      <Project>{57A9B1FA-3548-30D6-892D-9A14142484ED}</Project>
+      <Name>vtkOpenHapticsDeviceTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkOpenIGTLinkTrackerTest.vcxproj">
+      <Project>{1275D681-2B72-3265-85E1-7FF3A2E660D6}</Project>
+      <Name>vtkOpenIGTLinkTrackerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkPhantomRegistrationLandmarkDetectionTest.vcxproj">
+      <Project>{7821FD18-C0A5-3C1C-8DCA-AF3ECE44CE85}</Project>
+      <Name>vtkPhantomRegistrationLandmarkDetectionTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkPhantomRegistrationTest.vcxproj">
+      <Project>{3555FB31-7FBB-30D3-B350-53FAED195F2A}</Project>
+      <Name>vtkPhantomRegistrationTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\vtkPlusCalibration.vcxproj">
+      <Project>{97121D03-9B0B-3090-8A55-F08FAE38B526}</Project>
+      <Name>vtkPlusCalibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\vtkPlusCommon.vcxproj">
+      <Project>{16B4F29C-A99B-3304-94AA-E0350FEB52BC}</Project>
+      <Name>vtkPlusCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\vtkPlusDataCollection.vcxproj">
+      <Project>{6D1A96D1-966B-36E3-921C-7B031F30FDE3}</Project>
+      <Name>vtkPlusDataCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Testing\vtkPlusDeviceFactoryTest.vcxproj">
+      <Project>{15DBAAED-3D24-3695-8B0F-53A2D4C8F889}</Project>
+      <Name>vtkPlusDeviceFactoryTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusDataCollection\Haptics\vtkPlusHaptics.vcxproj">
+      <Project>{632C0833-267C-3C3D-BC47-FA776842719C}</Project>
+      <Name>vtkPlusHaptics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\vtkPlusImageProcessing.vcxproj">
+      <Project>{2CDE2D3A-2F03-3ED7-85E8-F82CA47F849A}</Project>
+      <Name>vtkPlusImageProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\Testing\vtkPlusLoggerTest.vcxproj">
+      <Project>{A2ACF563-A51F-3528-8A3A-20C1D07ACEA5}</Project>
+      <Name>vtkPlusLoggerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusOpenIGTLink\vtkPlusOpenIGTLink.vcxproj">
+      <Project>{8A124930-215B-3595-9A7C-33F43C97AFCC}</Project>
+      <Name>vtkPlusOpenIGTLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusRendering\vtkPlusRendering.vcxproj">
+      <Project>{FEDA3B30-A866-3F1D-B8F4-438F86AD4ADF}</Project>
+      <Name>vtkPlusRendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusServer\vtkPlusServer.vcxproj">
+      <Project>{6ABAE3EA-139A-3E00-B377-66D5328E7A5D}</Project>
+      <Name>vtkPlusServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusServer\Testing\vtkPlusServerTest.vcxproj">
+      <Project>{3A8A1628-F6E9-3412-9089-BD4D5A467683}</Project>
+      <Name>vtkPlusServerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusImageProcessing\Testing\vtkPlusTransverseProcessEnhancerTest.vcxproj">
+      <Project>{BABEC168-EF4D-3FBC-A7BC-C6613298CE8E}</Project>
+      <Name>vtkPlusTransverseProcessEnhancerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator\vtkPlusUsSimulator.vcxproj">
+      <Project>{09561D42-977C-3FFD-BBFD-233F59DC935D}</Project>
+      <Name>vtkPlusUsSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusUsSimulator\Testing\vtkPlusUsSimulatorTest.vcxproj">
+      <Project>{62D561E9-227F-3D84-801B-086BE87CFEFC}</Project>
+      <Name>vtkPlusUsSimulatorTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusVolumeReconstruction\vtkPlusVolumeReconstruction.vcxproj">
+      <Project>{423A75F6-6A36-329B-AFC8-90E0D9D13416}</Project>
+      <Name>vtkPlusVolumeReconstruction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkSegmentedWiresPositionsTest.vcxproj">
+      <Project>{01C42146-CBC1-370C-AF0D-29836E93FEB6}</Project>
+      <Name>vtkSegmentedWiresPositionsTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkSpacingCalibAlgoTest.vcxproj">
+      <Project>{0198C74B-08C2-36FD-B014-4C5CF69967B9}</Project>
+      <Name>vtkSpacingCalibAlgoTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCalibration\Testing\vtkStylusCalibrationTest.vcxproj">
+      <Project>{5E2D6664-F12F-34F3-8AE6-5EE9F00CF5C5}</Project>
+      <Name>vtkStylusCalibrationTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\PlusCommon\Testing\vtkTransformRepositoryTest.vcxproj">
+      <Project>{D38E9320-C096-3A64-9102-331C1DB8970D}</Project>
+      <Name>vtkTransformRepositoryTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\xio\vtkxio.vcxproj">
+      <Project>{420401EC-744D-34AE-8550-F6A34507503A}</Project>
+      <Name>vtkxio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

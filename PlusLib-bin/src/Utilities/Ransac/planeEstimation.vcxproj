@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA2C545C-08BC-3B24-A25A-694B956B6AB9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>planeEstimation</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">planeEstimation.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">planeEstimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">planeEstimation.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">planeEstimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">planeEstimation.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">planeEstimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">planeEstimation.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">planeEstimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_Debug;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_Debug;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_Debug;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target planeEstimation</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/planeEstimation_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\itk-int\lib\ITKCommon-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\itk-int\lib\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvcl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itknetlib-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkv3p_netlib-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/planeEstimation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/planeEstimation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_Release;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_Release;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_Release;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target planeEstimation</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/planeEstimation_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\itk-int\lib\ITKCommon-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\itk-int\lib\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvcl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itknetlib-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkv3p_netlib-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/planeEstimation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/planeEstimation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_MinSizeRel;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_MinSizeRel;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_MinSizeRel;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target planeEstimation</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/planeEstimation_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\itk-int\lib\ITKCommon-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\itk-int\lib\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvcl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itknetlib-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkv3p_netlib-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/planeEstimation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/planeEstimation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_RelWithDebInfo;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Project/PlusB-bin/PlusLib-bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_RelWithDebInfo;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\include_RelWithDebInfo;C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\ITKIOFactoryRegistration;C:\Project\PlusB-bin\PlusLib-bin\src\ITKIOFactoryRegistration;C:\Project\PlusB-bin\vtk-int\include\vtk-8.2;C:\Project\PlusB-bin\PlusLib\src;C:\Project\PlusB-bin\PlusLib-bin\src;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac;C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Common;C:\Project\PlusB-bin\itk-int\include\ITK-4.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC and UIC for target planeEstimation</Message>
+      <Command>setlocal
+cd C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/planeEstimation_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\itk-int\lib\ITKCommon-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Project\PlusB-bin\itk-int\lib\ITKVNLInstantiation-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl_algo-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvnl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkvcl-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itknetlib-4.12.lib;C:\Project\PlusB-bin\itk-int\lib\itkv3p_netlib-4.12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Project/PlusB-bin/bin;C:/Project/PlusB-bin/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/planeEstimation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/planeEstimation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\UseITK.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\UseITK.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\UseITK.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/PlusLib/src/Utilities/Ransac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/PlusLib -BC:/Project/PlusB-bin/PlusLib-bin --check-stamp-file C:/Project/PlusB-bin/PlusLib-bin/src/Utilities/Ransac/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\UseITK.cmake;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Project\PlusB-bin\itk-int\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib-bin\src\Utilities\Ransac\planeEstimation_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\RANSAC.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\RANSAC.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\ParametersEstimator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\ParametersEstimator.txx" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\PlaneParametersEstimator.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\PlaneParametersEstimator.txx" />
+    <ClCompile Include="C:\Project\PlusB-bin\PlusLib\src\Utilities\Ransac\Examples\planeEstimation.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\PlusLib-bin\ZERO_CHECK.vcxproj">
+      <Project>{0B8BD3DE-788D-3D2A-A7B7-E8263F7282F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

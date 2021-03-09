@@ -1,0 +1,18 @@
+# Target labels
+ vtkImagingStencil
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencil.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencilToImage.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageToImageStencil.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImplicitFunctionToImageStencil.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkLassoStencilSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkPolyDataToImageStencil.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkROIStencilSource.cxx
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencil.h
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageStencilToImage.h
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImageToImageStencil.h
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkLassoStencilSource.h
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkPolyDataToImageStencil.h
+C:/Project/PlusB-bin/vtk/Imaging/Stencil/vtkROIStencilSource.h
+C:/Project/PlusB-bin/vtk-bin/Imaging/Stencil/vtkImagingStencilModule.h

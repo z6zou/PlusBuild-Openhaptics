@@ -1,0 +1,23 @@
+# Target labels
+ vtkpng
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/png.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngerror.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngget.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngmem.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngpread.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngread.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngrio.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngrtran.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngrutil.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngset.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngtrans.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngwio.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngwrite.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngwtran.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngwutil.c
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/png.h
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pngconf.h
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/pnglibconf.h
+C:/Project/PlusB-bin/vtk/ThirdParty/png/vtkpng/vtk_png_mangle.h
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/png/vtkpng/vtkpngConfig.h

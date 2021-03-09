@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkNonLinearOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkMultipleValuedCostFunction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkSingleValuedCostFunction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkConjugateGradientOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkRegularStepGradientDescentOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkLBFGSOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkExhaustiveOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkLevenbergMarquardtOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkSingleValuedNonLinearVnlOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkQuaternionRigidTransformGradientDescentOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkSPSAOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkSingleValuedVnlCostFunctionAdaptor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkMultipleValuedNonLinearVnlOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkPowellOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkVersorRigid3DTransformOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkVersorTransformOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkOnePlusOneEvolutionaryOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkMultipleValuedNonLinearOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkLBFGSBOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkCumulativeGaussianOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkAmoebaOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkCumulativeGaussianCostFunction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkFRPROptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkGradientDescentOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkSingleValuedNonLinearOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkRegularStepGradientDescentBaseOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkMultipleValuedVnlCostFunctionAdaptor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkParticleSwarmOptimizerBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkParticleSwarmOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\itkInitializationBiasedParticleSwarmOptimizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Numerics\Optimizers\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

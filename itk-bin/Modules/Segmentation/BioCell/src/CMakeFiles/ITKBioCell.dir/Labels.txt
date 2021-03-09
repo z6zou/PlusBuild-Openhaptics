@@ -1,0 +1,8 @@
+# Target labels
+ ITKBioCell
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioGenome.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioGene.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioGeneNetwork.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioCellBase.cxx
+C:/Project/PlusB-bin/itk/Modules/Segmentation/BioCell/src/itkBioCellularAggregateBase.cxx

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1BC3647E-2DD9-3D99-9E7A-5CB04C21E7C1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ITKLabelMap-all</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWIML\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\vcl;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\VNL\src\vxl\core;C:\Project\PlusB-bin\itk\Modules\ThirdParty\VNLInstantiation\include;C:\Project\PlusB-bin\itk-bin\Modules\Core\Common;C:\Project\PlusB-bin\itk\Modules\Core\Common\include;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Netlib;C:\Project\PlusB-bin\itk\Modules\Numerics\Statistics\include;C:\Project\PlusB-bin\itk\Modules\Filtering\ImageFilterBase\include;C:\Project\PlusB-bin\itk\Modules\Core\Transform\include;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/LabelMap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\CMake\exportheader.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/LabelMap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\CMake\exportheader.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/LabelMap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\CMake\exportheader.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/Filtering/LabelMap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKCommon.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKImageFilterBase.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWIML.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKKWSys.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKNetlib.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKStatistics.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKTransform.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNL.cmake;C:\Project\PlusB-bin\itk-bin\lib\cmake\ITK-4.12\Modules\ITKVNLInstantiation.cmake;C:\Project\PlusB-bin\itk\CMake\ITKModuleInfo.cmake.in;C:\Project\PlusB-bin\itk\CMake\exportheader.cmake.in;C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\itk-module.cmake;C:\Project\PlusB-bin\itk\Utilities\Doxygen\Module.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\src\itkGeometryUtilities.cxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAggregateLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAggregateLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeKeepNObjectsLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeKeepNObjectsLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeLabelObject.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeOpeningLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeOpeningLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributePositionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributePositionLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeRelabelLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeRelabelLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeSelectionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeSelectionLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeUniqueLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAttributeUniqueLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAutoCropLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkAutoCropLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryFillholeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryFillholeImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryGrindPeakImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryGrindPeakImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryImageToLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryImageToLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryImageToShapeLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryImageToShapeLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryImageToStatisticsLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryImageToStatisticsLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryNotImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByDilationImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByDilationImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByErosionImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByErosionImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryReconstructionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryReconstructionLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryShapeKeepNObjectsImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryShapeKeepNObjectsImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryShapeOpeningImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryShapeOpeningImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryStatisticsKeepNObjectsImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryStatisticsKeepNObjectsImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryStatisticsOpeningImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkBinaryStatisticsOpeningImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkChangeLabelLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkChangeLabelLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkChangeRegionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkChangeRegionLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkConvertLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkConvertLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkCropLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkCropLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkGeometryUtilities.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkInPlaceLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkInPlaceLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelImageToLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelImageToLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelImageToShapeLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelImageToShapeLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelImageToStatisticsLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelImageToStatisticsLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMap.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMap.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapMaskImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapMaskImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapToAttributeImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapToAttributeImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapToBinaryImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapToBinaryImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapToLabelImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapToLabelImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelMapUtilities.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelObject.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelObject.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelObjectAccessors.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelObjectLine.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelObjectLine.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelObjectLineComparator.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelSelectionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelShapeKeepNObjectsImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelShapeKeepNObjectsImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelShapeOpeningImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelShapeOpeningImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelStatisticsKeepNObjectsImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelStatisticsKeepNObjectsImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelStatisticsOpeningImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelStatisticsOpeningImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkLabelUniqueLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkMergeLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkMergeLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkObjectByObjectLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkObjectByObjectLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkPadLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkPadLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkRegionFromReferenceLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkRegionFromReferenceLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkRelabelLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeKeepNObjectsLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeKeepNObjectsLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeLabelObject.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeLabelObjectAccessors.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeOpeningLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeOpeningLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapePositionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapePositionLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeRelabelImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeRelabelImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeRelabelLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeRelabelLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeUniqueLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShapeUniqueLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShiftScaleLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkShiftScaleLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsKeepNObjectsLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsKeepNObjectsLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsLabelObject.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsLabelObjectAccessors.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsOpeningLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsOpeningLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsPositionLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsPositionLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsRelabelImageFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsRelabelImageFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsRelabelLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsRelabelLabelMapFilter.hxx">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsUniqueLabelMapFilter.h">
+    </None>
+    <None Include="C:\Project\PlusB-bin\itk\Modules\Filtering\LabelMap\include\itkStatisticsUniqueLabelMapFilter.hxx">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\Filtering\LabelMap\src\ITKLabelMap.vcxproj">
+      <Project>{7E0BC2C0-1FE2-374C-A54D-DAF655B26981}</Project>
+      <Name>ITKLabelMap</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

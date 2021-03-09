@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/ThirdParty/sqlite/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/ThirdParty/sqlite/module.cmake
+C:/Project/PlusB-bin/vtk/ThirdParty/sqlite/vtk_sqlite.h.in

@@ -1,0 +1,14 @@
+# Target labels
+ vtkRenderingQt
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQImageToImageSource.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtInitialization.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtLabelRenderStrategy.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtStringToImage.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtTreeRingLabelMapper.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQImageToImageSource.h
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtInitialization.h
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtLabelRenderStrategy.h
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtStringToImage.h
+C:/Project/PlusB-bin/vtk/Rendering/Qt/vtkQtTreeRingLabelMapper.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/Qt/vtkRenderingQtModule.h

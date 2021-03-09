@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\0d508f3a80d841ea1c01f589a5786479\itk-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\e06f7cc6f0034d655c2e7bfd889ac92d\itk-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\CMakeFiles\a84f51d16c6c875de36b0ed18553db04\itk.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusBuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\CMakeFiles\itk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{961EA806-C879-3167-B264-CB46DA3E06C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

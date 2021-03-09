@@ -1,0 +1,118 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkAutoCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkBivariateLinearTableThreshold.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkComputeQuartiles.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkContingencyStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkDescriptiveStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkHighestDensityRegionsStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkExtractFunctionalBagPlot.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkMultiCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkOrderStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkPCAStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStatisticsAlgorithm.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStrahlerMetric.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStreamingStatistics.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkAutoCorrelativeStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkBivariateLinearTableThreshold.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkComputeQuartiles.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkContingencyStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkCorrelativeStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkDescriptiveStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkHighestDensityRegionsStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkExtractFunctionalBagPlot.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansDistanceFunctor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkKMeansStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkMultiCorrelativeStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkOrderStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkPCAStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStatisticsAlgorithm.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStrahlerMetric.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Statistics/vtkStreamingStatistics.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Statistics/vtkFiltersStatisticsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersStatistics"
+		],
+		"name" : "vtkFiltersStatistics"
+	}
+}

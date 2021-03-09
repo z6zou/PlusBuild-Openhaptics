@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5checksum.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5dbg.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5system.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5timer.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5trace.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5A.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Abtree2.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Adense.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Adeprec.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Aint.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Atest.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5AC.c">
+      <Filter>H5AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2cache.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2dbg.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2hdr.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2int.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2stat.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2test.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Bcache.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Bdbg.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5D.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dcompact.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dbtree.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dchunk.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dcontig.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ddbg.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ddeprec.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Defl.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dfill.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dint.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dio.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dlayout.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dmpio.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Doh.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dscatgath.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dselect.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dtest.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5E.c">
+      <Filter>H5E</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Edeprec.c">
+      <Filter>H5E</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Eint.c">
+      <Filter>H5E</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5F.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fint.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Faccum.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fcwfs.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fdbg.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fefc.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ffake.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fio.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fmount.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fmpi.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fquery.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fsfile.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fsuper.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fsuper_cache.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ftest.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FD.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDcore.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDdirect.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDfamily.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDint.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDlog.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDmpi.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDmpio.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDmulti.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDsec2.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDspace.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDstdio.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FS.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FScache.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FSdbg.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FSsection.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FSstat.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FStest.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5G.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gbtree2.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gcache.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gcompact.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gdense.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gdeprec.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gent.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gint.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Glink.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gloc.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gname.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gnode.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gobj.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Goh.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Groot.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gstab.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gtest.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gtraverse.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HF.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFbtree2.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFcache.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFdbg.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFdblock.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFdtable.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFhdr.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFhuge.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFiblock.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFiter.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFman.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFsection.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFspace.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFstat.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFtest.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFtiny.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HG.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HGcache.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HGdbg.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HGquery.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HL.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HLcache.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HLdbg.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HLint.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MF.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MFaggr.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MFdbg.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MFsection.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MP.c">
+      <Filter>H5MP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MPtest.c">
+      <Filter>H5MP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5O.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oainfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oalloc.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oattr.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oattribute.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Obogus.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Obtreek.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ocache.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ochunk.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ocont.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ocopy.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Odbg.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Odrvinfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Odtype.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oefl.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ofill.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oginfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Olayout.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Olinfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Olink.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Omessage.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Omtime.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oname.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Onull.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Opline.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Orefcount.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Osdspace.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oshared.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oshmesg.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ostab.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Otest.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ounknown.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5P.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pacpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pdapl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pdcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pdeprec.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pdxpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pfapl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pfcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pfmpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pgcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pint.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Plapl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Plcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pocpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pocpypl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pstrcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ptest.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5PL.c">
+      <Filter>H5PL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5R.c">
+      <Filter>H5R</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Rdeprec.c">
+      <Filter>H5R</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5RC.c">
+      <Filter>H5RC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5RS.c">
+      <Filter>H5RS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5S.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Sall.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Sdbg.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Shyper.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Smpio.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Snone.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Spoint.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Sselect.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Stest.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SM.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SMbtree2.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SMcache.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SMmessage.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SMtest.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5T.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tarray.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tbit.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tcommit.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tcompound.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tconv.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tcset.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tdbg.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tdeprec.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tenum.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tfields.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tfixed.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tfloat.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tnative.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Toffset.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Toh.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Topaque.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Torder.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tpad.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tprecis.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tstrpad.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tvisit.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tvlen.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Z.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zdeflate.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zfletcher32.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Znbit.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zscaleoffset.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zshuffle.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zszip.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ztrans.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5C.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5CS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5I.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Itest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5L.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Lexternal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5ST.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5TS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5VM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5WB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDwindows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\H5Tinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\H5lib_settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\H5Edefin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\H5version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\HDF5\src\itkhdf5\H5overflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\hdf5.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5api_adpt.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5public.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5version.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5overflow.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Apkg.h">
+      <Filter>H5A</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Apublic.h">
+      <Filter>H5A</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5ACpkg.h">
+      <Filter>H5AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5ACpublic.h">
+      <Filter>H5AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2pkg.h">
+      <Filter>H5B</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2public.h">
+      <Filter>H5B</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Bpkg.h">
+      <Filter>H5B</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Bpublic.h">
+      <Filter>H5B</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dpkg.h">
+      <Filter>H5D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dpublic.h">
+      <Filter>H5D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Edefin.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Einit.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Epkg.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Epubgen.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Epublic.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Eterm.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fpkg.h">
+      <Filter>H5F</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fpublic.h">
+      <Filter>H5F</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDcore.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDdirect.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDfamily.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDlog.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDmpi.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDmpio.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDmulti.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDpkg.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDpublic.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDsec2.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDstdio.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FSpkg.h">
+      <Filter>H5FS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FSpublic.h">
+      <Filter>H5FS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gpkg.h">
+      <Filter>H5G</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gpublic.h">
+      <Filter>H5G</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFpkg.h">
+      <Filter>H5HF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFpublic.h">
+      <Filter>H5HF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HGpkg.h">
+      <Filter>H5HG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HGpublic.h">
+      <Filter>H5HG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HLpkg.h">
+      <Filter>H5HL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HLpublic.h">
+      <Filter>H5HL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MPpkg.h">
+      <Filter>H5MP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Opkg.h">
+      <Filter>H5O</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Opublic.h">
+      <Filter>H5O</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oshared.h">
+      <Filter>H5O</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ppkg.h">
+      <Filter>H5P</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ppublic.h">
+      <Filter>H5P</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5PLextern.h">
+      <Filter>H5PL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5PLpublic.h">
+      <Filter>H5PL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Rpkg.h">
+      <Filter>H5R</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Rpublic.h">
+      <Filter>H5R</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Spkg.h">
+      <Filter>H5S</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Spublic.h">
+      <Filter>H5S</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SMpkg.h">
+      <Filter>H5SM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tpkg.h">
+      <Filter>H5T</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tpublic.h">
+      <Filter>H5T</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zpkg.h">
+      <Filter>H5Z</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zpublic.h">
+      <Filter>H5Z</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Cpkg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Cpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ipkg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Ipublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Lpkg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Lpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MMpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDwindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Aprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5ACprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5B2private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Bprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5CSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Dprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Eprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FDprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Fprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FOprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MFprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MMprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Cprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5FSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Gprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HFprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HGprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5HPprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Iprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Lprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5MPprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Oprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Pprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5PLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5RCprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Rprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5RSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5SMprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Sprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5STprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Tprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5TSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5VMprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5WBprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5Zprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\H5win32defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk-bin\CMakeFiles\f0a30ae66947d9dff232da0db15e7e33\H5Tinit.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk-bin\CMakeFiles\f0a30ae66947d9dff232da0db15e7e33\H5lib_settings.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\HDF5\src\itkhdf5\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F489CD0-C854-3459-9B92-0847F43DC39A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5">
+      <UniqueIdentifier>{A5F93D83-376D-3ACF-9535-131881E961CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5A">
+      <UniqueIdentifier>{06053446-FE90-3FC1-8178-1F5F0E601283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5AC">
+      <UniqueIdentifier>{F27237A5-D0CF-35C2-BA34-F6D38C3DA2C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5B">
+      <UniqueIdentifier>{04044164-4AF3-38F8-AA1C-FE2800813EA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5D">
+      <UniqueIdentifier>{6A61095A-FF4B-3AFB-87B2-74AC91890CD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5E">
+      <UniqueIdentifier>{A6EBBFBE-CC60-33F9-A414-2D3C1DFBF62F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5F">
+      <UniqueIdentifier>{29AACB20-061E-3822-9822-DAF19968E449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FD">
+      <UniqueIdentifier>{AC5E6D26-32E4-3CE2-976B-F414C2C8B22D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FS">
+      <UniqueIdentifier>{849DF1A6-9743-3F52-BBC4-9EE93598F4F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5G">
+      <UniqueIdentifier>{68C90F13-2417-3481-8835-F189B34DF17A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HF">
+      <UniqueIdentifier>{64ED891F-B1F5-33A4-ADB8-E073334532F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HG">
+      <UniqueIdentifier>{57957E95-B3B6-35A1-A411-CE5F27B76253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HL">
+      <UniqueIdentifier>{F2FF426E-8691-3E98-B68A-AC3FF39B68B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5MF">
+      <UniqueIdentifier>{E3E6ACAF-92FD-3858-ADEA-734EF7E67157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5MP">
+      <UniqueIdentifier>{E1D89BBB-FC40-322A-AAE8-EC4309D13883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5O">
+      <UniqueIdentifier>{FE0D1DB6-2081-36B6-9C71-22C7E0E3542E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5P">
+      <UniqueIdentifier>{CF1FA4E2-BEE8-3D37-8763-A1A6092213AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5PL">
+      <UniqueIdentifier>{4F3433A5-BE7D-3A21-9F10-3A46D4523B6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5R">
+      <UniqueIdentifier>{74CFC857-1DFF-3A48-986B-5AD17160E6EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5RC">
+      <UniqueIdentifier>{FDCD6CA1-8018-3AC3-85AF-378855069DA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5RS">
+      <UniqueIdentifier>{3528D693-B6F6-338A-A37F-03C9608CA212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5S">
+      <UniqueIdentifier>{8D72E921-CF81-3697-B171-5748897EDA66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5SM">
+      <UniqueIdentifier>{7A24A68F-EF6E-3DA0-B190-D2D94F581B25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5T">
+      <UniqueIdentifier>{82E8496C-1338-30CF-8062-2B56306B7FF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5Z">
+      <UniqueIdentifier>{A277AB14-05FC-30C1-B4B2-F5D750B98677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F958006F-841E-3F77-A7B5-2A4B9AA13527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2AC2F65C-EFAE-3450-8BC4-C94EAB5A88FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/PlusLib/CMake/MSVCVersion.rc.in
+C:/Project/PlusB-bin/PlusLib/src/PlusExport.h.in
+C:/Project/PlusB-bin/PlusLib/src/PlusWidgets/CMakeLists.txt
+C:/Project/PlusB-bin/PlusLib/src/PlusWidgets/PlusWidgets.qrc

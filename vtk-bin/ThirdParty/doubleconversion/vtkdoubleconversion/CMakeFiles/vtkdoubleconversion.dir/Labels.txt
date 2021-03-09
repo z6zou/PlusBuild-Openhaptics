@@ -1,0 +1,20 @@
+# Target labels
+ vtkdoubleconversion
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum-dtoa.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.cc
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/ieee.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.h
+C:/Project/PlusB-bin/vtk/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/utils.h

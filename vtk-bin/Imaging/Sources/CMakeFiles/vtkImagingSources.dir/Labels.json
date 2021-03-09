@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageCanvasSource2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageEllipsoidSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGaussianSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGridSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageMandelbrotSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageNoiseSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageSinusoidSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageCanvasSource2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageEllipsoidSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGaussianSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageGridSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageMandelbrotSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageNoiseSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Imaging/Sources/vtkImageSinusoidSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Imaging/Sources/vtkImagingSourcesModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingSources"
+		],
+		"name" : "vtkImagingSources"
+	}
+}

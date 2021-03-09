@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\OpenIGTLinkIO-bin\CMakeFiles\34f288d8e9165fe6028ff91a7738e90b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76EF21AD-8CEE-3844-8F7A-A7740A7981FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

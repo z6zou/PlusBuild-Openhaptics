@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/VeraOut/vtkVeraOutReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/VeraOut/vtkVeraOutReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/VeraOut/vtkIOVeraOutModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOVeraOut"
+		],
+		"name" : "vtkIOVeraOut"
+	}
+}

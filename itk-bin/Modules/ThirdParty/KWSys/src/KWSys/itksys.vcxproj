@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6124A39-02D4-35C2-9A3C-2655D555A492}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>itksys</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">itksys.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">itksys-4.12D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">itksys.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">itksys-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">itksys.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">itksys-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">itksys.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">itksys-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\CheckIncludeFiles\KWSYS_SYS_HAS_IFADDRS_H.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\CheckIncludeFiles\KWSYS_SYS_HAS_IFADDRS_H.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\CheckIncludeFiles\KWSYS_SYS_HAS_IFADDRS_H.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Project\PlusB-bin\itk-bin\CMakeFiles\CheckIncludeFiles\KWSYS_SYS_HAS_IFADDRS_H.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\ProcessWin32.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Base64.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\EncodingC.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\MD5.c" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\System.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Configure.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\SharedForward.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Process.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Base64.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Encoding.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\MD5.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\System.h" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Directory.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Directory.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\DynamicLoader.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\EncodingCXX.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Encoding.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\Glob.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Glob.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\RegularExpression.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\SystemTools.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\CommandLineArguments.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\FStream.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\FStream.hxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\SystemInformation.hxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\Configure.hxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\String.hxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\hashtable.hxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\hash_fun.hxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\hash_map.hxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\KWSys\src\itksys\hash_set.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

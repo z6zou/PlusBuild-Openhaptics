@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindEXPAT.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindZLIB.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/CMake/InstallMacros.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/CMake/UseCopyright.cmake
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/CMakeLists.txt

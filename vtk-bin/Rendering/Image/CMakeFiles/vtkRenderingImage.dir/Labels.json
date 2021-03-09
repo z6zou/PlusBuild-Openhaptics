@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkDepthImageToPointCloud.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageResliceMapper.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageSliceCollection.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageStack.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkDepthImageToPointCloud.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageResliceMapper.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageSliceCollection.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Rendering/Image/vtkImageStack.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Rendering/Image/vtkRenderingImageModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingImage"
+		],
+		"name" : "vtkRenderingImage"
+	}
+}

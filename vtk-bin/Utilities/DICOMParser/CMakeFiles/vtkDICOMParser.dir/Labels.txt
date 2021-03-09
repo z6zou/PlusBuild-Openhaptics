@@ -1,0 +1,6 @@
+# Target labels
+ vtkDICOMParser
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Utilities/DICOMParser/DICOMFile.cxx
+C:/Project/PlusB-bin/vtk/Utilities/DICOMParser/DICOMParser.cxx
+C:/Project/PlusB-bin/vtk/Utilities/DICOMParser/DICOMAppHelper.cxx

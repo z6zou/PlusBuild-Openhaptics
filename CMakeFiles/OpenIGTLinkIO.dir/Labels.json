@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/OpenIGTLinkIO"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/OpenIGTLinkIO.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/OpenIGTLinkIO-complete.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-install.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-download.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-update.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-patch.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-configure.rule"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/CMakeFiles/9c6ddaf1ca6c6be443c4270ee6fe523b/OpenIGTLinkIO-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"OpenIGTLinkIO"
+		],
+		"name" : "OpenIGTLinkIO"
+	}
+}

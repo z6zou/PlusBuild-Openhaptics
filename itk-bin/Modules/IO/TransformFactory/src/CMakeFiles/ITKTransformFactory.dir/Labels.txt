@@ -1,0 +1,6 @@
+# Target labels
+ ITKTransformFactory
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/TransformFactory/src/itkTransformFactoryBase.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterFloatParameters.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterDoubleParameters.cxx

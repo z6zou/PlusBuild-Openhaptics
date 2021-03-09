@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonCore.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonDataModel.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonExecutionModel.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonMath.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonMisc.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonSystem.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkCommonTransforms.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkDICOMParser.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkMetaIO.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkjpeg.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkkwiml.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkpng.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtksys.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtktiff.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkutf8.cmake
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkzlib.cmake
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleHeaders.cmake.in
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/CMake/vtkexportheader.cmake.in
+C:/Project/PlusB-bin/vtk/IO/Image/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/IO/Image/module.cmake

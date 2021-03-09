@@ -1,0 +1,28 @@
+# Target labels
+ vtkIOSQL
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkDatabaseToTableReader.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQuery.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQueryToTable.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabase.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseSchema.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseTableSource.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLQuery.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToDatabaseWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteDatabase.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteQuery.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteToTableReader.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToSQLiteWriter.cxx
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkDatabaseToTableReader.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQuery.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkRowQueryToTable.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabase.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseSchema.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLDatabaseTableSource.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLQuery.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToDatabaseWriter.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteDatabase.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteQuery.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkSQLiteToTableReader.h
+C:/Project/PlusB-bin/vtk/IO/SQL/vtkTableToSQLiteWriter.h
+C:/Project/PlusB-bin/vtk-bin/IO/SQL/vtkIOSQLModule.h

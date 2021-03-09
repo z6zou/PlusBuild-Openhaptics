@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Nonunit/Review/src/itkBruker2DSEQImageIO.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Nonunit/Review/src/itkBruker2DSEQImageIOFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Nonunit/Review/src/itkJPEG2000ImageIO.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Nonunit/Review/src/itkJPEG2000ImageIOFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Nonunit/Review/src/itkVoxBoCUBImageIO.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/itk/Modules/Nonunit/Review/src/itkVoxBoCUBImageIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKReview"
+		],
+		"name" : "ITKReview"
+	}
+}

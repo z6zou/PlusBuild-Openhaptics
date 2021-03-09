@@ -1,0 +1,21 @@
+# Target labels
+ ITKIOMesh
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkMeshFileReaderException.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkMeshFileWriterException.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkBYUMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkBYUMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkGiftiMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkGiftiMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkMeshIOBase.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkOBJMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkOBJMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkOFFMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkOFFMeshIOFactory.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkVTKPolyDataMeshIO.cxx
+C:/Project/PlusB-bin/itk/Modules/IO/Mesh/src/itkVTKPolyDataMeshIOFactory.cxx

@@ -1,0 +1,12 @@
+set(ITKAnisotropicSmoothing_LOADED 1)
+set(ITKAnisotropicSmoothing_ENABLE_SHARED "0")
+set(ITKAnisotropicSmoothing_DEPENDS "ITKCurvatureFlow;ITKImageGrid")
+set(ITKAnisotropicSmoothing_PUBLIC_DEPENDS "")
+set(ITKAnisotropicSmoothing_TRANSITIVE_DEPENDS "ITKCurvatureFlow;ITKImageGrid")
+set(ITKAnisotropicSmoothing_PRIVATE_DEPENDS "")
+set(ITKAnisotropicSmoothing_LIBRARIES "ITKCommon;ITKStatistics;ITKTransform")
+set(ITKAnisotropicSmoothing_INCLUDE_DIRS "C:/Project/PlusB-bin/itk/Modules/Filtering/AnisotropicSmoothing/include")
+set(ITKAnisotropicSmoothing_LIBRARY_DIRS "")
+set(ITKAnisotropicSmoothing_RUNTIME_LIBRARY_DIRS "C:/Project/PlusB-bin/bin")
+set(ITKAnisotropicSmoothing_TARGETS_FILE "")
+

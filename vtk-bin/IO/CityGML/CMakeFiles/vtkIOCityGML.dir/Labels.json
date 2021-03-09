@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/CityGML/vtkCityGMLReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/CityGML/vtkCityGMLReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/CityGML/vtkIOCityGMLModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOCityGML"
+		],
+		"name" : "vtkIOCityGML"
+	}
+}

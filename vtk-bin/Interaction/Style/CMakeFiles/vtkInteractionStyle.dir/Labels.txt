@@ -1,0 +1,42 @@
+# Target labels
+ vtkInteractionStyle
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleDrawPolygon.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleFlight.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleImage.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickActor.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickCamera.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleMultiTouchCamera.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand2D.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand3D.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandPick.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandZoom.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTerrain.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballActor.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballCamera.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackball.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUnicam.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUser.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleSwitch.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkParallelCoordinatesInteractorStyle.cxx
+C:/Project/PlusB-bin/vtk-bin/Interaction/Style/vtkInteractionStyleObjectFactory.cxx
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleDrawPolygon.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleFlight.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleImage.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickActor.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickCamera.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleMultiTouchCamera.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand2D.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand3D.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandPick.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandZoom.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTerrain.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballActor.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballCamera.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackball.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUnicam.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUser.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleSwitch.h
+C:/Project/PlusB-bin/vtk/Interaction/Style/vtkParallelCoordinatesInteractorStyle.h
+C:/Project/PlusB-bin/vtk-bin/Interaction/Style/vtkInteractionStyleObjectFactory.h
+C:/Project/PlusB-bin/vtk-bin/Interaction/Style/vtkInteractionStyleModule.h

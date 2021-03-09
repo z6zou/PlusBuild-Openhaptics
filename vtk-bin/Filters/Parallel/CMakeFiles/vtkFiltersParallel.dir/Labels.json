@@ -1,0 +1,274 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkAggregateDataSetFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkAngularPeriodicFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCollectGraph.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCollectPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCollectTable.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCutMaterial.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkDuplicatePolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractCTHPart.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractPolyDataPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractUnstructuredGridPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractUserDefinedPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkIntegrateAttributes.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPassThroughFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPCellDataToPointData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPeriodicFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPExtractDataArraysOverTime.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPExtractSelectedArraysOverTime.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPieceRequestFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPieceScalars.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPipelineSize.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPKdTree.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPLinearExtrusionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPMaskPoints.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPOutlineCornerFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPOutlineFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPOutlineFilterInternals.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPPolyDataNormals.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPProbeFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPProjectSphereFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPReflectionFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPResampleFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkProcessIdScalars.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPSphereSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPYoungsMaterialInterface.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkRectilinearGridOutlineFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkRemoveGhosts.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitPolyDataPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitRectilinearGridPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitStructuredDataPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitStructuredGridPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitUnstructuredGridPiece.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkUnstructuredGridGhostCellsGenerator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPExtractArraysOverTime.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkAggregateDataSetFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkAngularPeriodicFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCollectGraph.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCollectPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCollectTable.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkCutMaterial.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkDuplicatePolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractCTHPart.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractPolyDataPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractUnstructuredGridPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkExtractUserDefinedPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkIntegrateAttributes.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPassThroughFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPCellDataToPointData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPeriodicFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPExtractDataArraysOverTime.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPExtractSelectedArraysOverTime.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPieceRequestFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPieceScalars.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPipelineSize.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPKdTree.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPLinearExtrusionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPMaskPoints.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPOutlineCornerFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPOutlineFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPOutlineFilterInternals.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPPolyDataNormals.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPProbeFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPProjectSphereFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPReflectionFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPResampleFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkProcessIdScalars.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPSphereSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPYoungsMaterialInterface.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkRectilinearGridOutlineFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkRemoveGhosts.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitPolyDataPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitRectilinearGridPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitStructuredDataPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitStructuredGridPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkTransmitUnstructuredGridPiece.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkUnstructuredGridGhostCellsGenerator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Parallel/vtkPExtractArraysOverTime.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Parallel/vtkFiltersParallelModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersParallel"
+		],
+		"name" : "vtkFiltersParallel"
+	}
+}

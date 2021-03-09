@@ -1,0 +1,166 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkAdaptiveDataSetSurfaceFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkBSplineTransform.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkDepthSortPolyData.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkDSPFilterDefinition.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkDSPFilterGroup.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkEarthSource.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkFacetReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkForceTime.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkGreedyTerrainDecimation.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkGridTransform.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkImageToPolyDataFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkImplicitModeller.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkPCAAnalysisFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkPolyDataSilhouette.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkProcrustesAlignmentFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkProjectedTerrainPath.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkRenderLargeImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalArrayOperatorFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalDataSetCache.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalFractal.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalInterpolator.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalShiftScale.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalSnapToTimeStep.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTransformToGrid.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkWeightedTransformFilter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkAdaptiveDataSetSurfaceFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkBSplineTransform.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkDepthSortPolyData.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkDSPFilterDefinition.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkDSPFilterGroup.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkEarthSource.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkFacetReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkForceTime.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkGreedyTerrainDecimation.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkGridTransform.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkImageToPolyDataFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkImplicitModeller.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkPCAAnalysisFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkPolyDataSilhouette.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkProcrustesAlignmentFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkProjectedTerrainPath.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkRenderLargeImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalArrayOperatorFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalDataSetCache.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalFractal.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalInterpolator.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalShiftScale.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTemporalSnapToTimeStep.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkTransformToGrid.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Filters/Hybrid/vtkWeightedTransformFilter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Filters/Hybrid/vtkFiltersHybridModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersHybrid"
+		],
+		"name" : "vtkFiltersHybrid"
+	}
+}

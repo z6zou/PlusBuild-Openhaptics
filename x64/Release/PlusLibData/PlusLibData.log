@@ -1,0 +1,12 @@
+﻿  Creating directories for 'PlusLibData'
+  Building Custom Rule C:/Project/PlusBuild/CMakeLists.txt
+  Performing download step (git clone) for 'PlusLibData'
+  Cloning into 'PlusLibData'...
+  Branch 'Plus-2.8' set up to track remote branch 'Plus-2.8' from 'origin'.
+  Switched to a new branch 'Plus-2.8'
+  Performing update step for 'PlusLibData'
+  No patch step for 'PlusLibData'
+  No configure step for 'PlusLibData'
+  No build step for 'PlusLibData'
+  No install step for 'PlusLibData'
+  Completed 'PlusLibData'

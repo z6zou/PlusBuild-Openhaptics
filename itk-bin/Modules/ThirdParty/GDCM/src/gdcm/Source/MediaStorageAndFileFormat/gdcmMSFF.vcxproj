@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A86465B9-6919-3196-85F2-7068091C4608}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>gdcmMSFF</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gdcmMSFF.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">itkgdcmMSFF-4.12D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gdcmMSFF.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">itkgdcmMSFF-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gdcmMSFF.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">itkgdcmMSFF-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gdcmMSFF.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">itkgdcmMSFF-4.12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\Expat\src\expat;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk\Modules\ThirdParty\ZLIB\src;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\Common;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition;C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2;C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/itk/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/itk -BC:/Project/PlusB-bin/itk-bin --check-stamp-file C:/Project/PlusB-bin/itk-bin/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFileStreamer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJSON.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFileChangeTransferSyntax.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmAnonymizer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFileAnonymizer.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmIconImageFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmIconImageGenerator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDICOMDIRGenerator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSpacing.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFileExplicitFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFileDerivation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageFragmentSplitter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmTagPath.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSimpleSubjectWatcher.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmAnonymizeEvent.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPixmap.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmBitmap.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmRescaler.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageToImageFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmBitmapToBitmapFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPixmapToPixmapFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageChangeTransferSyntax.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageApplyLookupTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFileDecompressLookupTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmOrientation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDataSetHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageChangePlanarConfiguration.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageChangePhotometricInterpretation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDirectionCosines.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSorter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSerieHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmIPPSorter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmApplicationEntity.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDICOMDIR.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSpectroscopy.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmEncapsulatedDocument.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSplitMosaicFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmFiducials.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmWaveform.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPersonName.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmIconImage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmUIDGenerator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmUUIDGenerator.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPrinter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDictPrinter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmXMLPrinter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmScanner.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmStrictScanner.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPixmapReader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageReader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPixmapWriter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageWriter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmStringFilter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmValidate.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDumper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImage.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageConverter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJPEG12Codec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmRLECodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPDFCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmAudioCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJPEG16Codec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJPEGLSCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJPEG8Codec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJPEGCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPVRGCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmKAKADUCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPNMCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPGXCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmRAWCodec.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmLookupTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmOverlay.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmCurve.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPhotometricInterpretation.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmPixelFormat.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSegmentedPaletteColorLookupTable.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmStreamImageReader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmImageRegionReader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmDirectoryHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSegment.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSurface.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmMeshPrimitive.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSegmentWriter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSurfaceWriter.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSegmentReader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSurfaceReader.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSurfaceHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmSegmentHelper.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat\gdcmJPEG2000Codec.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OPJ_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OPJ_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OPJ_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OPJ_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmrle\rle.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmrle\info.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\itk\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmrle\io.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\ZERO_CHECK.vcxproj">
+      <Project>{1482C3E6-6EDD-3E42-9DFF-B781B6B30596}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\Expat\src\expat\ITKEXPAT.vcxproj">
+      <Project>{633BE3AB-DCBB-355C-A252-7592AF8FC82B}</Project>
+      <Name>ITKEXPAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\Common\gdcmCommon.vcxproj">
+      <Project>{F156D2E9-6BDE-3CEF-86E2-FA1751C2CA2A}</Project>
+      <Name>gdcmCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary\gdcmDICT.vcxproj">
+      <Project>{6EF507FD-D545-3729-A9E8-A28D1311130F}</Project>
+      <Name>gdcmDICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition\gdcmDSED.vcxproj">
+      <Project>{DF0B4D03-B019-3716-99FB-E6984088DCE1}</Project>
+      <Name>gdcmDSED</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition\gdcmIOD.vcxproj">
+      <Project>{330935E3-255C-3A24-8C2C-63D06E6CF6C8}</Project>
+      <Name>gdcmIOD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmcharls\gdcmcharls.vcxproj">
+      <Project>{58DD4757-46E1-3B8F-B068-26F571E746D4}</Project>
+      <Name>gdcmcharls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\12\gdcmjpeg12.vcxproj">
+      <Project>{EACE3F76-5CC8-319F-ACFD-5267CC5701E8}</Project>
+      <Name>gdcmjpeg12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\16\gdcmjpeg16.vcxproj">
+      <Project>{744225A8-1882-3AC1-A750-3AFC64673598}</Project>
+      <Name>gdcmjpeg16</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmjpeg\8\gdcmjpeg8.vcxproj">
+      <Project>{5788668E-D341-3141-9DE4-6F007A1D8162}</Project>
+      <Name>gdcmjpeg8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\GDCM\src\gdcm\Utilities\gdcmopenjpeg-v2\libopenjpeg\gdcmopenjpeg.vcxproj">
+      <Project>{7187AC91-DE8D-3A64-8F22-7237FA58F615}</Project>
+      <Name>gdcmopenjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\itk-bin\Modules\ThirdParty\ZLIB\src\itkzlib\itkzlib.vcxproj">
+      <Project>{D420C9D2-8C71-3AE5-B572-90620285D6AB}</Project>
+      <Name>itkzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

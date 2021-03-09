@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Project/PlusB-bin/vtk-bin/lib/cmake/vtk-8.2/Modules/vtkzlib.cmake
+C:/Project/PlusB-bin/vtk/CMake/vtkModuleInfo.cmake.in
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/CMakeLists.txt
+C:/Project/PlusB-bin/vtk/Utilities/MetaIO/module.cmake

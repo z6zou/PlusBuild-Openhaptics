@@ -1,0 +1,12 @@
+# Target labels
+ vtkFiltersVerdict
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellQuality.cxx
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellSizeFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMatrixMathFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMeshQuality.cxx
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellQuality.h
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkCellSizeFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMatrixMathFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Verdict/vtkMeshQuality.h
+C:/Project/PlusB-bin/vtk-bin/Filters/Verdict/vtkFiltersVerdictModule.h

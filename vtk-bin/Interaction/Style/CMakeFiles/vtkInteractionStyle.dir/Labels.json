@@ -1,0 +1,130 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleDrawPolygon.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleFlight.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleImage.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleMultiTouchCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand2D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand3D.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandPick.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandZoom.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTerrain.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballActor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballCamera.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackball.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUnicam.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUser.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleSwitch.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkParallelCoordinatesInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Interaction/Style/vtkInteractionStyleObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleDrawPolygon.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleFlight.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleImage.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleJoystickCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleMultiTouchCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand2D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBand3D.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandPick.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleRubberBandZoom.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTerrain.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballActor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackballCamera.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleTrackball.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUnicam.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleUser.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkInteractorStyleSwitch.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/Interaction/Style/vtkParallelCoordinatesInteractorStyle.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Interaction/Style/vtkInteractionStyleObjectFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/Interaction/Style/vtkInteractionStyleModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInteractionStyle"
+		],
+		"name" : "vtkInteractionStyle"
+	}
+}

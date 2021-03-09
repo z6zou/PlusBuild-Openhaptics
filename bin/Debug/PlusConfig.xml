@@ -1,0 +1,8 @@
+<PlusConfig
+  LogLevel="3"
+  DeviceSetConfigurationDirectory="C:/Project/PlusB-bin/PlusLibData/ConfigFiles"
+  ImageDirectory="C:/Project/PlusB-bin/PlusLibData/TestImages"
+  ModelDirectory="C:/Project/PlusB-bin/PlusLibData/CADModels"
+  ScriptsDirectory="C:/Project/PlusB-bin/PlusLib/src/scripts"
+  >
+</PlusConfig>

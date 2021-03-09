@@ -1,0 +1,7 @@
+# Target labels
+ vtkjsoncpp
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/jsoncpp/vtkjsoncpp/jsoncpp.cpp
+C:/Project/PlusB-bin/vtk/ThirdParty/jsoncpp/vtkjsoncpp/json/json-forwards.h
+C:/Project/PlusB-bin/vtk/ThirdParty/jsoncpp/vtkjsoncpp/json/json.h
+C:/Project/PlusB-bin/vtk-bin/ThirdParty/jsoncpp/vtkjsoncpp/json/vtkjsoncpp_config.h

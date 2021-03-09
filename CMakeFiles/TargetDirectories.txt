@@ -1,0 +1,15 @@
+C:/Project/PlusB-bin/CMakeFiles/PlusLibData.dir
+C:/Project/PlusB-bin/CMakeFiles/vtk.dir
+C:/Project/PlusB-bin/CMakeFiles/itk.dir
+C:/Project/PlusB-bin/CMakeFiles/OpenIGTLinkIO.dir
+C:/Project/PlusB-bin/CMakeFiles/Experimental.dir
+C:/Project/PlusB-bin/CMakeFiles/OpenIGTLink.dir
+C:/Project/PlusB-bin/CMakeFiles/IGSIO.dir
+C:/Project/PlusB-bin/CMakeFiles/Continuous.dir
+C:/Project/PlusB-bin/CMakeFiles/Nightly.dir
+C:/Project/PlusB-bin/CMakeFiles/NightlyMemoryCheck.dir
+C:/Project/PlusB-bin/CMakeFiles/PlusLib.dir
+C:/Project/PlusB-bin/CMakeFiles/PlusApp.dir
+C:/Project/PlusB-bin/CMakeFiles/RUN_TESTS.dir
+C:/Project/PlusB-bin/CMakeFiles/ALL_BUILD.dir
+C:/Project/PlusB-bin/CMakeFiles/ZERO_CHECK.dir

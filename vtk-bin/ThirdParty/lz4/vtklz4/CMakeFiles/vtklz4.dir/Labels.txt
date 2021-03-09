@@ -1,0 +1,11 @@
+# Target labels
+ vtklz4
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4.c
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4hc.c
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4frame.c
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/xxhash.c
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4.h
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4hc.h
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4frame.h
+C:/Project/PlusB-bin/vtk/ThirdParty/lz4/vtklz4/lib/lz4frame_static.h

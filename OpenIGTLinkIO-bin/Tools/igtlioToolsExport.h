@@ -1,0 +1,42 @@
+
+#ifndef OPENIGTLINKIO_TOOLS_EXPORT_H
+#define OPENIGTLINKIO_TOOLS_EXPORT_H
+
+#ifdef IGTLIOTOOLS_STATIC_DEFINE
+#  define OPENIGTLINKIO_TOOLS_EXPORT
+#  define IGTLIOTOOLS_NO_EXPORT
+#else
+#  ifndef OPENIGTLINKIO_TOOLS_EXPORT
+#    ifdef igtlioTools_EXPORTS
+        /* We are building this library */
+#      define OPENIGTLINKIO_TOOLS_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define OPENIGTLINKIO_TOOLS_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef IGTLIOTOOLS_NO_EXPORT
+#    define IGTLIOTOOLS_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef IGTLIOTOOLS_DEPRECATED
+#  define IGTLIOTOOLS_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef IGTLIOTOOLS_DEPRECATED_EXPORT
+#  define IGTLIOTOOLS_DEPRECATED_EXPORT OPENIGTLINKIO_TOOLS_EXPORT IGTLIOTOOLS_DEPRECATED
+#endif
+
+#ifndef IGTLIOTOOLS_DEPRECATED_NO_EXPORT
+#  define IGTLIOTOOLS_DEPRECATED_NO_EXPORT IGTLIOTOOLS_NO_EXPORT IGTLIOTOOLS_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef IGTLIOTOOLS_NO_DEPRECATED
+#    define IGTLIOTOOLS_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* OPENIGTLINKIO_TOOLS_EXPORT_H */

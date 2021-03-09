@@ -1,0 +1,112 @@
+time|level|timeoffset|message|location
+022621_122424.093|INFO|000.001000| System start timestamp: 504| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusAccurateTimer.cxx(51)
+022621_122424.095|INFO|000.003000| Software version: Plus-2.8.0.62873a16 - Win64| in vtkPlusLogger(188)
+022621_122424.096|INFO|000.004000| Logging at level 4 (DEBUG) to file: C:/Project/PlusB-bin/bin/Release/Output/022621_122424_PlusLog.txt| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(81)
+022621_122424.098|DEBUG|000.005000| Device set configuration is read from file: PlusDeviceSet_Server_OpenHaptics_2_Devices.xml| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(245)
+022621_122424.098|DEBUG|000.005000| Device set configuration file contents: 
+ <PlusConfiguration version="2.1">
+   <DataCollection StartupDelaySec="1.0">
+     <DeviceSet Name="PlusServer: Open Haptics device tracking 2 Devices" Description="Broadcasting  device stylyus tracking data through OpenIGTLink." />
+     <Device Id="TrackerDeviceLeft" Type="OpenHaptics" AcquisitionRate="5" ToolReferenceFrame="BaseLeft" DeviceName="Left Device">
+       <DataSources>
+         <DataSource Type="Tool" Id="StylusLeft" PortName="Stylus" />
+         <DataSource Type="Tool" Id="ButtonsLeft" PortName="Buttons" />
+       </DataSources>
+       <OutputChannels>
+         <OutputChannel Id="NeedleStreamLeft">
+           <DataSource Id="StylusLeft" />
+           <DataSource Id="ButtonsLeft" />
+         </OutputChannel>
+       </OutputChannels>
+     </Device>
+     <Device Id="TrackerDeviceRight" Type="OpenHaptics" AcquisitionRate="5" ToolReferenceFrame="BaseRight" DeviceName="Right Device">
+       <DataSources>
+         <DataSource Type="Tool" Id="StylusRight" PortName="Stylus" />
+         <DataSource Type="Tool" Id="ButtonsRight" PortName="Buttons" />
+       </DataSources>
+       <OutputChannels>
+         <OutputChannel Id="NeedleStreamRight">
+           <DataSource Id="StylusRight" />
+           <DataSource Id="ButtonsRight" />
+         </OutputChannel>
+       </OutputChannels>
+     </Device>
+   </DataCollection>
+   <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18944" SendValidTransformsOnly="true" OutputChannelId="NeedleStreamLeft">
+     <DefaultClientInfo>
+       <MessageTypes>
+         <Message Type="TRANSFORM" />
+       </MessageTypes>
+       <TransformNames>
+         <Transform Name="StylusLeftToBaseLeft" />
+         <Transform Name="ButtonsLeftToBaseLeft" />
+       </TransformNames>
+     </DefaultClientInfo>
+   </PlusOpenIGTLinkServer>
+   <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18945" SendValidTransformsOnly="true" OutputChannelId="NeedleStreamRight">
+     <DefaultClientInfo>
+       <MessageTypes>
+         <Message Type="TRANSFORM" />
+       </MessageTypes>
+       <TransformNames>
+         <Transform Name="StylusRightToBaseRight" />
+         <Transform Name="ButtonsRightToBaseRight" />
+       </TransformNames>
+     </DefaultClientInfo>
+   </PlusOpenIGTLinkServer>
+ </PlusConfiguration>
+| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusConfig.cxx(248)
+022621_122424.098|DEBUG|000.005000| StartupDelaySec: 1.000000| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(89)
+022621_122424.098|DEBUG|000.006000| Buffer size is not defined in source element "StylusLeftToBaseLeft". Using default buffer size: 150| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.098|DEBUG|000.006000| AveragedItemsForFiltering is not defined in source element "StylusLeftToBaseLeft". Using default value: 20| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.099|DEBUG|000.007000| Buffer size is not defined in source element "ButtonsLeftToBaseLeft". Using default buffer size: 150| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.099|DEBUG|000.007000| AveragedItemsForFiltering is not defined in source element "ButtonsLeftToBaseLeft". Using default value: 20| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.100|DEBUG|000.008000| TrackerDeviceLeft: Local time offset was not defined in device configuration| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1053)
+022621_122424.100|DEBUG|000.008000| Buffer size is not defined in source element "StylusRightToBaseRight". Using default buffer size: 150| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.101|DEBUG|000.009000| AveragedItemsForFiltering is not defined in source element "StylusRightToBaseRight". Using default value: 20| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.101|DEBUG|000.009000| Buffer size is not defined in source element "ButtonsRightToBaseRight". Using default buffer size: 150| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(392)
+022621_122424.101|DEBUG|000.009000| AveragedItemsForFiltering is not defined in source element "ButtonsRightToBaseRight". Using default value: 20| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataSource.cxx(402)
+022621_122424.101|DEBUG|000.009000| TrackerDeviceRight: Local time offset was not defined in device configuration| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1053)
+022621_122424.101|INFO|000.009000| No force input has been provided| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+022621_122424.101|INFO|000.009000| No force input has been provided| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(154)
+022621_122424.102|INFO|000.010000| Server status: Reading configuration.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(92)
+022621_122424.102|DEBUG|000.010000| vtkPlusTransformRepository::ReadConfiguration: no CoordinateDefinitions element was found| in C:\Project\PlusB-bin\PlusLib\src\PlusCommon\vtkPlusTransformRepository.cxx(625)
+022621_122424.102|INFO|000.010000| Server status: Connecting to devices.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(103)
+022621_122424.102|DEBUG|000.010000| TrackerDeviceLeft: vtkPlusDevice::Connect: TrackerDeviceLeft| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1134)
+022621_122424.309|DEBUG|000.217000| Phantom initialized: Left Device| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(118)
+022621_122424.310|DEBUG|000.218000| TrackerDeviceRight: vtkPlusDevice::Connect: TrackerDeviceRight| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1134)
+022621_122424.514|DEBUG|000.422000| Phantom initialized: Right Device| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\OpenHaptics\vtkPlusOpenHapticsDevice.cxx(118)
+022621_122424.514|DEBUG|000.422000| No saved data source devices were found that use original timestamps, so synchronization of loop times is not performed| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(674)
+022621_122424.514|DEBUG|000.422000| TrackerDeviceLeft: vtkPlusDevice::StartRecording| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1183)
+022621_122424.516|DEBUG|000.423000| TrackerDeviceRight: vtkPlusDevice::StartRecording| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1183)
+022621_122424.516|DEBUG|000.423000| vtkPlusDataCollector::Start -- wait 1.000000 sec for buffer init...| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDataCollector.cxx(321)
+022621_122425.521|INFO|001.429000| Server status: Starting servers.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(116)
+022621_122425.521|DEBUG|001.429000| Initializing Plus OpenIGTLink server... | in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(131)
+022621_122425.526|INFO|001.434000| Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18944| in c:\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+022621_122425.572|DEBUG|001.480000| Data sent by default: IGTL version: 1Message types: TRANSFORM. TDATARequested: FALSE. LastTDATASentTimeStamp: -1. TDATAResolution: 0. . Transforms: StylusLeftToBaseLeft, ButtonsLeftToBaseLeft. Strings: (none). Images: (none)| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(190)
+022621_122425.572|DEBUG|001.480000| Initializing Plus OpenIGTLink server... | in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(131)
+022621_122425.575|INFO|001.482000| Plus OpenIGTLink server listening on IPs: 169.254.34.243, 192.168.2.144, 127.0.0.1 -- port 18945| in c:\project\plusb-bin\pluslib\src\plusserver\vtkPlusOpenIGTLinkServerWin32.cxx(81)
+022621_122425.623|DEBUG|001.531000| Data sent by default: IGTL version: 1Message types: TRANSFORM. TDATARequested: FALSE. LastTDATASentTimeStamp: -1. TDATAResolution: 0. . Transforms: StylusRightToBaseRight, ButtonsRightToBaseRight. Strings: (none). Images: (none)| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(190)
+022621_122425.623|INFO|001.531000| Server status: Server(s) are running.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(147)
+022621_122425.623|INFO|001.531000| Press Ctrl-C to quit.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(148)
+022621_122439.957|INFO|015.864000| Received new client connection (client 1 at 127.0.0.1:18944). Number of connected clients: 1| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(276)
+022621_122440.142|INFO|016.050000| OpenIGTLink broadcasting started. No data was available between 0-0.423sec, therefore no data were broadcasted during this time period.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(427)
+022621_122442.937|INFO|018.845000| Received new client connection (client 2 at 127.0.0.1:18945). Number of connected clients: 1| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(276)
+022621_122443.000|INFO|018.908000| OpenIGTLink broadcasting started. No data was available between 0-0.424sec, therefore no data were broadcasted during this time period.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(427)
+022621_122453.184|INFO|029.092000| Client disconnected - could not send TRANSFORM message to client (device name: StylusRightToBaseRight  Timestamp: 1614360292.684571).| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1038)
+022621_122453.189|INFO|029.097000| Client disconnected - could not send TRANSFORM message to client (device name: StylusLeftToBaseLeft  Timestamp: 1614360292.686986).| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1038)
+022621_122453.391|INFO|029.298000| Client disconnected (127.0.0.1:18945). Number of connected clients: 0| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1143)
+022621_122453.395|INFO|029.303000| Client disconnected (127.0.0.1:18944). Number of connected clients: 0| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(1143)
+022621_122454.043|DEBUG|029.951000| ConnectionReceiverThread stopped| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(212)
+022621_122454.043|INFO|029.951000| Plus OpenIGTLink server stopped.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(230)
+022621_122454.460|DEBUG|030.367000| ConnectionReceiverThread stopped| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(212)
+022621_122454.460|INFO|030.367000| Plus OpenIGTLink server stopped.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\vtkPlusOpenIGTLinkServer.cxx(230)
+022621_122454.460|INFO|030.367000| Shutdown successful.| in C:\Project\PlusB-bin\PlusLib\src\PlusServer\Tools\PlusServer.cxx(180)
+022621_122454.460|DEBUG|030.367000| TrackerDeviceLeft: vtkPlusDevice::Disconnect| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1159)
+022621_122454.460|DEBUG|030.367000| TrackerDeviceLeft: vtkPlusDevice::StopRecording| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1226)
+022621_122454.460|DEBUG|030.367000| TrackerDeviceLeft: Wait for internal update thread to terminate| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1239)
+022621_122454.560|DEBUG|030.468000| TrackerDeviceLeft: Internal update thread terminated| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1246)
+022621_122454.761|DEBUG|030.669000| TrackerDeviceRight: vtkPlusDevice::Disconnect| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1159)
+022621_122454.761|DEBUG|030.669000| TrackerDeviceRight: vtkPlusDevice::StopRecording| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1226)
+022621_122454.761|DEBUG|030.669000| TrackerDeviceRight: Wait for internal update thread to terminate| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1239)
+022621_122455.759|DEBUG|031.667000| TrackerDeviceRight: Internal update thread terminated| in C:\Project\PlusB-bin\PlusLib\src\PlusDataCollection\vtkPlusDevice.cxx(1246)

@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6BinaryReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6Reader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldBinaryReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightMasterServerReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkGenericEnSightReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6BinaryReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSight6Reader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldBinaryReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightGoldReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightMasterServerReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkEnSightReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/EnSight/vtkGenericEnSightReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/EnSight/vtkIOEnSightModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOEnSight"
+		],
+		"name" : "vtkIOEnSight"
+	}
+}

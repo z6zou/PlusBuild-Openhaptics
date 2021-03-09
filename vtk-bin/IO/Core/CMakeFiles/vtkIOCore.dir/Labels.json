@@ -1,0 +1,172 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkAbstractParticleWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkASCIITextCodec.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkBase64InputStream.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkBase64OutputStream.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkBase64Utilities.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkDataCompressor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkDelimitedTextWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkGlobFileNames.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkInputStream.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkJavaScriptDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkLZ4DataCompressor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkOutputStream.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkSortFileNames.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkTextCodec.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkTextCodecFactory.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkUTF16TextCodec.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkUTF8TextCodec.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkAbstractPolyDataReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkZLibDataCompressor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayDataReader.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayDataWriter.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkLZMADataCompressor.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkNumberToString.cxx"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkAbstractParticleWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkASCIITextCodec.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkBase64InputStream.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkBase64OutputStream.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkBase64Utilities.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkDataCompressor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkDelimitedTextWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkGlobFileNames.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkInputStream.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkJavaScriptDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkLZ4DataCompressor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkOutputStream.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkSortFileNames.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkTextCodec.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkTextCodecFactory.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkUTF16TextCodec.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkUTF8TextCodec.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkAbstractPolyDataReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkZLibDataCompressor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayDataReader.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkArrayDataWriter.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkLZMADataCompressor.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk/IO/Core/vtkNumberToString.h"
+		},
+		{
+			"file" : "C:/Project/PlusB-bin/vtk-bin/IO/Core/vtkIOCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOCore"
+		],
+		"name" : "vtkIOCore"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ OpenIGTLink
+# Source files and their labels
+C:/Project/PlusB-bin/CMakeFiles/OpenIGTLink
+C:/Project/PlusB-bin/CMakeFiles/a84f51d16c6c875de36b0ed18553db04/OpenIGTLink.rule
+C:/Project/PlusB-bin/CMakeFiles/e06f7cc6f0034d655c2e7bfd889ac92d/OpenIGTLink-complete.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-install.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-mkdir.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-download.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-update.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-patch.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-configure.rule
+C:/Project/PlusB-bin/CMakeFiles/d7e1221221b8c7c1daf5cfeea950c8a1/OpenIGTLink-build.rule

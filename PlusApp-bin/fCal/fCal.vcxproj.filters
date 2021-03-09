@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp-bin\fCal\fCal_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\fCalMain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\fCalMainWindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\QPlusSegmentationParameterDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlusVisualizationController.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlusDisplayableObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlusImageVisualizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlus3DObjectVisualizer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\PlusCaptureControlWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\QPlusChannelAction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QConfigurationToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QCapturingToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QSpatialCalibrationToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QTemporalCalibrationToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QStylusCalibrationToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QPhantomRegistrationToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QVolumeReconstructionToolbox.cxx">
+      <Filter>Toolboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\PlusB-bin\PlusApp-bin\fCal\fCal_autogen\EWIEGA46WW\qrc_fCal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\fCalMainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\QPlusSegmentationParameterDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlusVisualizationController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlusDisplayableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlusImageVisualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\vtkPlus3DObjectVisualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\PlusCaptureControlWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\QPlusChannelAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QAbstractToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QConfigurationToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QCapturingToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QSpatialCalibrationToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QTemporalCalibrationToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QStylusCalibrationToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QPhantomRegistrationToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QVolumeReconstructionToolbox.h">
+      <Filter>Toolboxes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusApp-bin\CMakeFiles\4fbbd1d686fc78cf52d034e41f4eda24\qrc_fCal.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\PlusB-bin\PlusApp\fCal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\fCalMainWindow.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QConfigurationToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QCapturingToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QSpatialCalibrationToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QTemporalCalibrationToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QStylusCalibrationToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QPhantomRegistrationToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\Toolboxes\QVolumeReconstructionToolbox.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\QPlusSegmentationParameterDialog.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\PlusCaptureControlWidget.ui">
+      <Filter>UI Files</Filter>
+    </None>
+    <None Include="C:\Project\PlusB-bin\PlusApp\fCal\fCal.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4A5DD7E0-9B62-3117-A4F7-0FC67C408560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A4188FBD-1933-3B14-B39A-CB0A4DF36886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{339AC517-3CC7-3F59-B1D1-C125E1CC1102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Toolboxes">
+      <UniqueIdentifier>{8FB1EAED-DD40-3152-8234-DC161617C65A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Files">
+      <UniqueIdentifier>{C49365E9-2815-3603-A7D5-6A3F72E0E9BC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

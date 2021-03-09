@@ -1,0 +1,30 @@
+# Target labels
+ vtkRenderingLabel
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledDataMapper.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledTreeMapDataMapper.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyAlgorithm.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyCompositeIterator.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchy.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyIterator.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacementMapper.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacer.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelRenderStrategy.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelSizeCalculator.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkFreeTypeLabelRenderStrategy.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkDynamic2DLabelMapper.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkPointSetToLabelHierarchy.cxx
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledDataMapper.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabeledTreeMapDataMapper.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyAlgorithm.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyCompositeIterator.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchy.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelHierarchyIterator.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacementMapper.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelPlacer.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelRenderStrategy.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkLabelSizeCalculator.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkFreeTypeLabelRenderStrategy.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkDynamic2DLabelMapper.h
+C:/Project/PlusB-bin/vtk/Rendering/Label/vtkPointSetToLabelHierarchy.h
+C:/Project/PlusB-bin/vtk-bin/Rendering/Label/vtkRenderingLabelModule.h

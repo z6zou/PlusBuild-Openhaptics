@@ -1,0 +1,8 @@
+# Target labels
+ ITKDICOMParser
+# Source files and their labels
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMSource.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMBuffer.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMFile.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMParser.cxx
+C:/Project/PlusB-bin/itk/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMAppHelper.cxx

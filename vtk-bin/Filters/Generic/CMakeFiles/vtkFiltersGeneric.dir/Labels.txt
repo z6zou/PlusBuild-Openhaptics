@@ -1,0 +1,22 @@
+# Target labels
+ vtkFiltersGeneric
+# Source files and their labels
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericClip.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericContourFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericCutter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericDataSetTessellator.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGeometryFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGlyph3DFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericOutlineFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericProbeFilter.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericStreamTracer.cxx
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericClip.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericContourFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericCutter.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericDataSetTessellator.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGeometryFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericGlyph3DFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericOutlineFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericProbeFilter.h
+C:/Project/PlusB-bin/vtk/Filters/Generic/vtkGenericStreamTracer.h
+C:/Project/PlusB-bin/vtk-bin/Filters/Generic/vtkFiltersGenericModule.h

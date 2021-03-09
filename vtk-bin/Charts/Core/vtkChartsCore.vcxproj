@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07FFEBB4-DC8C-337E-AED0-8B3642B10095}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkChartsCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkChartsCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkChartsCore-8.2D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkChartsCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkChartsCore-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkChartsCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkChartsCore-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkChartsCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkChartsCore-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Debug\vtkRenderingContext2D-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkInfovisCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkRenderingCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonColor-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersGeneral-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkFiltersCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonExecutionModel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonDataModel-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMisc-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonSystem-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonTransforms-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonMath-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtkCommonCore-8.2D.lib;C:\Project\PlusB-bin\lib\Debug\vtksys-8.2D.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Debug/vtkChartsCore-8.2D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Debug/vtkChartsCore-8.2D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\Release\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\lib\Release\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/Release/vtkChartsCore-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/Release/vtkChartsCore-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\MinSizeRel\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\lib\MinSizeRel\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/MinSizeRel/vtkChartsCore-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/MinSizeRel/vtkChartsCore-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkChartsCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\PlusB-bin\vtk-bin\Charts\Core;C:\Project\PlusB-bin\vtk\Charts\Core;C:\Project\PlusB-bin\vtk-bin\Common\Color;C:\Project\PlusB-bin\vtk\Common\Color;C:\Project\PlusB-bin\vtk-bin\Common\Core;C:\Project\PlusB-bin\vtk\Common\Core;C:\Project\PlusB-bin\vtk-bin\Utilities\KWIML;C:\Project\PlusB-bin\vtk\Utilities\KWIML;C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys;C:\Project\PlusB-bin\vtk\Utilities\KWSys;C:\Project\PlusB-bin\vtk-bin\ThirdParty\utf8;C:\Project\PlusB-bin\vtk\ThirdParty\utf8;C:\Project\PlusB-bin\vtk-bin\Common\DataModel;C:\Project\PlusB-bin\vtk\Common\DataModel;C:\Project\PlusB-bin\vtk-bin\Common\Math;C:\Project\PlusB-bin\vtk\Common\Math;C:\Project\PlusB-bin\vtk-bin\Common\Misc;C:\Project\PlusB-bin\vtk\Common\Misc;C:\Project\PlusB-bin\vtk-bin\Common\System;C:\Project\PlusB-bin\vtk\Common\System;C:\Project\PlusB-bin\vtk-bin\Common\Transforms;C:\Project\PlusB-bin\vtk\Common\Transforms;C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel;C:\Project\PlusB-bin\vtk\Common\ExecutionModel;C:\Project\PlusB-bin\vtk-bin\Filters\General;C:\Project\PlusB-bin\vtk\Filters\General;C:\Project\PlusB-bin\vtk-bin\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk\Common\ComputationalGeometry;C:\Project\PlusB-bin\vtk-bin\Filters\Core;C:\Project\PlusB-bin\vtk\Filters\Core;C:\Project\PlusB-bin\vtk-bin\Infovis\Core;C:\Project\PlusB-bin\vtk\Infovis\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Extraction;C:\Project\PlusB-bin\vtk\Filters\Extraction;C:\Project\PlusB-bin\vtk-bin\Filters\Statistics;C:\Project\PlusB-bin\vtk\Filters\Statistics;C:\Project\PlusB-bin\vtk-bin\Imaging\Fourier;C:\Project\PlusB-bin\vtk\Imaging\Fourier;C:\Project\PlusB-bin\vtk-bin\Imaging\Core;C:\Project\PlusB-bin\vtk\Imaging\Core;C:\Project\PlusB-bin\vtk-bin\ThirdParty\eigen;C:\Project\PlusB-bin\vtk\ThirdParty\eigen;C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D;C:\Project\PlusB-bin\vtk\Rendering\Context2D;C:\Project\PlusB-bin\vtk-bin\Rendering\Core;C:\Project\PlusB-bin\vtk\Rendering\Core;C:\Project\PlusB-bin\vtk-bin\Filters\Geometry;C:\Project\PlusB-bin\vtk\Filters\Geometry;C:\Project\PlusB-bin\vtk-bin\Filters\Sources;C:\Project\PlusB-bin\vtk\Filters\Sources;C:\Project\PlusB-bin\vtk-bin\Rendering\FreeType;C:\Project\PlusB-bin\vtk\Rendering\FreeType;C:\Project\PlusB-bin\vtk-bin\ThirdParty\freetype;C:\Project\PlusB-bin\vtk\ThirdParty\freetype;C:\Project\PlusB-bin\vtk-bin\ThirdParty\zlib;C:\Project\PlusB-bin\vtk\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkRenderingContext2D-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkInfovisCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkRenderingCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonColor-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersGeneral-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkFiltersCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonExecutionModel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonDataModel-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMisc-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonSystem-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonTransforms-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonMath-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtkCommonCore-8.2.lib;C:\Project\PlusB-bin\lib\RelWithDebInfo\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/PlusB-bin/lib/RelWithDebInfo/vtkChartsCore-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/PlusB-bin/bin/RelWithDebInfo/vtkChartsCore-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\PlusB-bin\vtk\Charts\Core\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Charts\Core\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\PlusB-bin\vtk-bin\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Charts\Core\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\PlusB-bin\vtk-bin\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Charts\Core\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Project\PlusB-bin\vtk-bin\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Project/PlusB-bin/vtk/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Project/PlusB-bin/vtk -BC:/Project/PlusB-bin/vtk-bin --check-stamp-file C:/Project/PlusB-bin/vtk-bin/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkInfovisCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingContext2D.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Project\PlusB-bin\vtk-bin\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Project\PlusB-bin\vtk\CMake\vtkModuleHeaders.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkModuleInfo.cmake.in;C:\Project\PlusB-bin\vtk\CMake\vtkexportheader.cmake.in;C:\Project\PlusB-bin\vtk\Charts\Core\module.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Project\PlusB-bin\vtk-bin\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkAxis.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkAxisExtended.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkCategoryLegend.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChart.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartBox.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartHistogram2D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartLegend.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartMatrix.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartParallelCoordinates.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartPie.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartXY.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartXYZ.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkColorLegend.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkColorTransferControlPointsItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkColorTransferFunctionItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkCompositeControlPointsItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkCompositeTransferFunctionItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkContextArea.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkContextPolygon.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkControlPointsItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkInteractiveArea.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkLookupTableItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPiecewiseControlPointsItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPiecewiseFunctionItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPiecewisePointHandleItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlot.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlot3D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotArea.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotBag.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotBar.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotBox.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotFunctionalBag.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotGrid.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotHistogram2D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotLine.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotLine3D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotParallelCoordinates.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotPie.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotPoints.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotPoints3D.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotStacked.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotSurface.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkScalarsToColorsItem.cxx" />
+    <ClCompile Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkScatterPlotMatrix.cxx" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkAxis.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkAxisExtended.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkCategoryLegend.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChart.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartBox.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartHistogram2D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartLegend.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartMatrix.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartParallelCoordinates.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartPie.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartXY.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkChartXYZ.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkColorLegend.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkColorTransferControlPointsItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkColorTransferFunctionItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkCompositeControlPointsItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkCompositeTransferFunctionItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkContextArea.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkContextPolygon.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkControlPointsItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkInteractiveArea.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkLookupTableItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPiecewiseControlPointsItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPiecewiseFunctionItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPiecewisePointHandleItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlot.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlot3D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotArea.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotBag.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotBar.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotBox.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotFunctionalBag.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotGrid.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotHistogram2D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotLine.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotLine3D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotParallelCoordinates.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotPie.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotPoints.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotPoints3D.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotStacked.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkPlotSurface.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkScalarsToColorsItem.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk\Charts\Core\vtkScatterPlotMatrix.h" />
+    <ClInclude Include="C:\Project\PlusB-bin\vtk-bin\Charts\Core\vtkChartsCoreModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\ZERO_CHECK.vcxproj">
+      <Project>{2B1F5105-69CC-3841-BDC7-E1ADD3DCBDC1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Color\vtkCommonColor.vcxproj">
+      <Project>{BE5E375F-B799-36C5-BF4C-2C34E6B7C935}</Project>
+      <Name>vtkCommonColor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{A705ED78-6956-3442-9A32-30BE071E0CA5}</Project>
+      <Name>vtkCommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{54969D3B-BA18-35D3-9C02-D82E8C65FABA}</Project>
+      <Name>vtkCommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{82C6FF31-F53B-3EB0-A391-1E2BE6237D28}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{127ADF66-2F79-3992-A6F4-44EC49CB4124}</Project>
+      <Name>vtkCommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{DBFD1BF2-33B9-32B9-9FA7-9B91A03D8A4A}</Project>
+      <Name>vtkCommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{7A1BBBF1-8E8A-349A-8F22-69192121D3CB}</Project>
+      <Name>vtkCommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{BA4BB5B1-CB84-3CA7-B749-DECD1D281249}</Project>
+      <Name>vtkCommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{B5478572-EA27-3CF7-AE05-8AA30061D6FD}</Project>
+      <Name>vtkFiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Filters\General\vtkFiltersGeneral.vcxproj">
+      <Project>{35662F51-D349-334E-843C-AA288350F653}</Project>
+      <Name>vtkFiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Infovis\Core\vtkInfovisCore.vcxproj">
+      <Project>{4F037761-F9C5-3CED-96C2-5CCC678C68F1}</Project>
+      <Name>vtkInfovisCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Rendering\Context2D\vtkRenderingContext2D.vcxproj">
+      <Project>{C4FA08CC-DCFC-3339-A4AB-F3AA58C581B7}</Project>
+      <Name>vtkRenderingContext2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Rendering\Core\vtkRenderingCore.vcxproj">
+      <Project>{AE0330DB-BF8D-3061-9B4A-1CF8F753108B}</Project>
+      <Name>vtkRenderingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Project\PlusB-bin\vtk-bin\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{1D6657F1-C494-32A7-BAF0-70BB6AA5375B}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
